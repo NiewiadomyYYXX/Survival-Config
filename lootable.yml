@@ -1,0 +1,5613 @@
+#lootable for Survival++ bundle by NiewiadomyYYXX
+#Default lootable by NiewiadomyYYXX
+#Ver. 6.0
+
+#             #
+# --Airdrop-- #
+#             #
+
+airdrop:
+  1:
+    item: "diamond pickaxe"
+    chance:
+      default: "3%"
+      vip: "6%"
+    name: "&ePickaxe"
+    enchant:
+      - "efficiency 6"
+      - "unbreaking 4"
+      - "fortune 4"
+    quantity:
+      min: "1"
+      max: "1"
+  2:
+    item: "diamond sword"
+    chance:
+      default: "3%"
+      vip: "6%"
+    name: "&eSalvage Sword"
+    enchant:
+      - "sharpness 6"
+      - "unbreaking 4"
+      - "looting 4"
+    quantity:
+      min: "1"
+      max: "1"
+  3:
+    item: "diamond axe"
+    chance:
+      default: "3%"
+      vip: "6%"
+    name: "&eHachet"
+    enchant:
+      - "efficiency 6"
+      - "unbreaking 4"
+      - "fortune 4"
+    quantity:
+      min: "1"
+      max: "1"
+  4:
+    item: "diamond shovel"
+    chance:
+      default: "3%"
+      vip: "6%"
+    name: "&ePaddle"
+    enchant:
+      - "efficiency 6"
+      - "unbreaking 4"
+      - "fortune 4"
+    quantity:
+      min: "1"
+      max: "1"
+  5:
+    item: "diamond axe"
+    chance:
+      default: "3%"
+      vip: "6%"
+    name: "&eTopor Dariusa"
+    enchant:
+      - "sharpness 7"
+      - "unbreaking 4"
+      - "fire aspect 4"
+    quantity:
+      min: "1"
+      max: "1"
+  6:
+    item: "bow"
+    chance:
+      default: "3%"
+      vip: "6%"
+    name: "&eLegacy Bow"
+    enchant:
+      - "power 6"
+      - "unbreaking 4"
+      - "infinity 1"
+    quantity:
+      min: "1"
+      max: "1"
+  7:
+    item: "diamond hoe"
+    chance:
+      default: "3%"
+      vip: "6%"
+    name: "&eSierp"
+    enchant:
+      - "efficiency 6"
+      - "unbreaking 4"
+      - "fortune 4"
+    quantity:
+      min: "1"
+      max: "1"
+  8:
+    item: "diamond helmet"
+    chance:
+      default: "3%"
+      vip: "6%"
+    name: "&eWilk"
+    enchant:
+      - "protection 5"
+      - "unbreaking 4"
+      - "aqua affinity 1"
+    quantity:
+      min: "1"
+      max: "1"
+  9:
+    item: "diamond chestplate"
+    chance:
+      default: "3%"
+      vip: "6%"
+    name: "&ePoncho"
+    enchant:
+      - "protection 5"
+      - "unbreaking 4"
+    quantity:
+      min: "1"
+      max: "1"
+  10:
+    item: "diamond leggings"
+    chance:
+      default: "3%"
+      vip: "6%"
+    name: "&ePants"
+    enchant:
+      - "protection 5"
+      - "unbreaking 4"
+    quantity:
+      min: "1"
+      max: "1"
+  11:
+    item: "diamond boots"
+    chance:
+      default: "3%"
+      vip: "6%"
+    name: "&eKapcie"
+    enchant:
+      - "protection 5"
+      - "unbreaking 4"
+      - "feather falling 4"
+    quantity:
+      min: "1"
+      max: "1"
+  12:
+    item: "paper"
+    chance:
+      default: "5%"
+      vip: "8%"
+    name: "&eCzek &f&l< 2500 >"
+    lore:
+      - ""
+      - "&fUzycie: &f&l<PPM>"
+    enchant:
+      - "lure 9"
+    quantity:
+      min: "1"
+      max: "1"
+  13:
+    item: "enchanted golden apple"
+    chance:
+      default: "4.5%"
+      vip: "7.5%"
+    quantity:
+      min: "1"
+      max: "1"
+  14:
+    item: "golden apple"
+    chance:
+      default: "8.5%"
+      vip: "12.5%"
+    quantity:
+      min: "5"
+      max: "15"
+  15:
+    item: "bread"
+    chance:
+      default: "10%"
+      vip: "20%"
+    quantity:
+      min: "8"
+      max: "16"
+  16:
+    item: "obsidian"
+    chance:
+      default: "10%"
+      vip: "20%"
+    quantity:
+      min: "16"
+      max: "128"
+  17:
+    item: "diamond"
+    chance:
+      default: "20%"
+      vip: "30%"
+    quantity:
+      min: "4"
+      max: "16"
+  18:
+    item: "iron ingot"
+    chance:
+      default: "40%"
+      vip: "55%"
+    quantity:
+      min: "2"
+      max: "64"
+  19:
+    item: "totem of undying"
+    chance:
+      default: "4%"
+      vip: "8%"
+    quantity:
+      min: "1"
+      max: "1"
+  20:
+    item: "red sandstone"
+    chance:
+      default: "5%"
+      vip: "10%"
+    name: "&l&eTool Cupboard"
+    quantity:
+      min: "1"
+      max: "1"
+  21:
+    item: "cooked beef"
+    chance:
+      default: "10%"
+      vip: "20%"
+    quantity:
+      min: "8"
+      max: "16"
+  22:
+    item: "ender pearl"
+    chance:
+      default: "5%"
+      vip: "10%"
+    quantity:
+      min: "4"
+      max: "12"
+  23:
+    item: "gunpowder"
+    chance:
+      default: "15%"
+      vip: "25%"
+    quantity:
+      min: "32"
+      max: "256"
+  24:
+    item: "redstone block"
+    chance:
+      default: "50%"
+      vip: "70%"
+    quantity:
+      min: "2"
+      max: "16"
+  25:
+    item: "lapis block"
+    chance:
+      default: "50%"
+      vip: "70%"
+    quantity:
+      min: "4"
+      max: "16"
+  26:
+    item: "red chiseled sandstone"
+    rad: "true"
+    chance:
+      default: "50%"
+      vip: "75%"
+    name: "&6Metal Wysokiej Jakosci"
+    quantity:
+      min: "1"
+      max: "3"
+  27:
+    item: "honey bottle"
+    rad: "true"
+    chance:
+      default: "60%"
+      vip: "80%"
+    name: "&6&lAntyRad &7< &f&l20 &7>"
+    lore:
+      - "&fSluzy do przebywania w strefie radiacji"
+      - ""
+      - "&fDlugosc Trwania: &f&l20 minut"
+    enchant:
+      - "lure 10"
+    quantity:
+      min: "1"
+      max: "2"
+  28:
+    item: "compass"
+    chance:
+      default: "15%"
+      vip: "20%"
+    name: "&e&lNadajnik GPS"
+    enchant:
+      - "lure 10"
+    quantity:
+      min: "1"
+      max: "1"
+  29:
+    item: "rabbit hide"
+    chance:
+      default: "15%"
+      vip: "25%"
+    name: "&dNerka"
+    enchant:
+      - "lure 10"
+    lore:
+      - "&fZagubiona nerka pewnego"
+      - "&flegendarnego zawodnika w F1."
+    quantity:
+      min: "1"
+      max: "2"
+  30:
+    item: "rabbit hide"
+    chance:
+      default: "15%"
+      vip: "25%"
+    name: "&dPaka Szlogow"
+    lore:
+      - "&fPaczka papierosów Marlboro to"
+      - "&fklasyczne opakowanie"
+      - "&fz czerwonym logo i nazwą"
+      - "&fmarki na białym tle."
+      - "&fIdealnie pasuje z coca-colą."
+    enchant:
+      - "lure 9"
+    quantity:
+      min: "1"
+      max: "2"
+  31:
+    item: "rabbit hide"
+    chance:
+      default: "15%"
+      vip: "25%"
+    name: "&dJoint"
+    lore:
+      - "&fJoint to forma papierosa"
+      - "&fskręconego z papieru i wypełnionego"
+      - "&fsuszem konopi indyjskich, która"
+      - "&fjest często używana w celach rekreacyjnych."
+    enchant:
+      - "lure 8"
+    quantity:
+      min: "1"
+      max: "2"
+  32:
+    item: "rabbit hide"
+    chance:
+      default: "15%"
+      vip: "25%"
+    name: "&dJabol"
+    lore:
+      - "&fJabol to slangowe określenie taniego"
+      - "&fwina o niskiej jakości zwykle"
+      - "&fotrzymywanego z niedojrzałych winogron."
+    enchant:
+      - "lure 7"
+    quantity:
+      min: "1"
+      max: "2"
+  33:
+    item: "jungle button"
+    chance:
+      default: "2%"
+      vip: "4%"
+    name: "&c&lC4"
+    lore:
+      - ""
+      - "&fSluzy do wysadzania baz"
+      - ""
+      - "&fUżycie: &f&l<LPM>"
+    quantity:
+      min: "1"
+      max: "2"
+  34:
+    item: "rabbit hide"
+    chance:
+      default: "15%"
+      vip: "25%"
+    name: "&dAegis"
+    lore:
+      - "&fEpapieros typu Box"
+      - "&fPizga niezła chmure oraz po płucach"
+    enchant:
+      - "lure 6"
+    quantity:
+      min: "1"
+      max: "2"
+  35:
+    item: "rabbit hide"
+    chance:
+      default: "15%"
+      vip: "25%"
+    name: "&dButelka Wody"
+    lore:
+      - "&fPół litra wody cristal  "
+      - "&fWoda służąca do napojenia się bądz"
+      - "&fZajebania przysaidu na nią "
+    enchant:
+      - "lure 5"
+    quantity:
+      min: "1"
+      max: "2"
+  36:
+    item: "cooked porkchop"
+    chance:
+      default: "10%"
+      vip: "20%"
+    quantity:
+      min: "8"
+      max: "16"
+  37:
+    item: "blaze rod"
+    chance:
+      default: "10%"
+      vip: "20%"
+    quantity:
+      min: "4"
+      max: "8"
+  38:
+    item: "golden carrot"
+    chance:
+      default: "10%"
+      vip: "20%"
+    quantity:
+      min: "8"
+      max: "16"
+  39:
+    item: "poisonous potato"
+    chance:
+      default: "5%"
+      vip: "10%"
+    quantity:
+      min: "1"
+      max: "3"
+  40:
+    item: "ghast tear"
+    chance:
+      default: "10%"
+      vip: "20%"
+    quantity:
+      min: "2"
+      max: "4"
+  41:
+    item: "cookie"
+    chance:
+      default: "10%"
+      vip: "20%"
+    quantity:
+      min: "8"
+      max: "16"
+  42:
+    item: "brick block"
+    chance:
+      default: "15%"
+      vip: "20%"
+    quantity:
+      min: "10"
+      max: "25"
+  43:
+    item: "oak log"
+    chance:
+      default: "20%"
+      vip: "30%"
+    quantity:
+      min: "8"
+      max: "64"
+  44:
+    item: "birch log"
+    chance:
+      default: "20%"
+      vip: "30%"
+    quantity:
+      min: "8"
+      max: "16"
+  45:
+    item: "jungle log"
+    chance:
+      default: "20%"
+      vip: "30%"
+    quantity:
+      min: "8"
+      max: "16"
+  46:
+    item: "acacia log"
+    chance:
+      default: "20%"
+      vip: "30%"
+    quantity:
+      min: "8"
+      max: "16"
+  47:
+    item: "spruce log"
+    chance:
+      default: "20%"
+      vip: "30%"
+    quantity:
+      min: "8"
+      max: "16"
+  48:
+    item: "gold ingot"
+    chance:
+      default: "40%"
+      vip: "50%"
+    quantity:
+      min: "12"
+      max: "48"
+  49:
+    item: "emerald"
+    chance:
+      default: "10%"
+      vip: "20%"
+    quantity:
+      min: "2"
+      max: "8"
+  50:
+    item: "coal"
+    chance:
+      default: "15%"
+      vip: "25%"
+    quantity:
+      min: "16"
+      max: "128"
+  51:
+    item: "apple"
+    chance:
+      default: "10%"
+      vip: "20%"
+    quantity:
+      min: "8"
+      max: "16"
+  52:
+    item: "dark oak log"
+    chance:
+      default: "20%"
+      vip: "30%"
+    quantity:
+      min: "8"
+      max: "16"
+  53:
+    item: "cherry log"
+    chance:
+      default: "20%"
+      vip: "30%"
+    quantity:
+      min: "8"
+      max: "16"
+  54:
+    item: "diamond pickaxe"
+    chance:
+      default: "20%"
+      vip: "30%"
+    quantity:
+      min: "1"
+      max: "1"
+  55:
+    item: "diamond sword"
+    chance:
+      default: "20%"
+      vip: "30%"
+    quantity:
+      min: "1"
+      max: "1"
+  56:
+    item: "diamond axe"
+    chance:
+      default: "20%"
+      vip: "30%"
+    quantity:
+      min: "1"
+      max: "1"
+  57:
+    item: "diamond shovel"
+    chance:
+      default: "20%"
+      vip: "30%"
+    quantity:
+      min: "1"
+      max: "1"
+  58:
+    item: "diamond helmet"
+    chance:
+      default: "20%"
+      vip: "30%"
+    quantity:
+      min: "1"
+      max: "1"
+  59:
+    item: "diamond chestplate"
+    chance:
+      default: "20%"
+      vip: "30%"
+    quantity:
+      min: "1"
+      max: "1"
+  60:
+    item: "diamond leggings"
+    chance:
+      default: "20%"
+      vip: "30%"
+    quantity:
+      min: "1"
+      max: "1"
+  61:
+    item: "diamond boots"
+    chance:
+      default: "20%"
+      vip: "30%"
+    quantity:
+      min: "1"
+      max: "1"
+  62:
+    item: "honey bottle"
+    chance:
+      default: "4%"
+      vip: "8%"
+    name: "&6&lAntyRad &7< &f&l5 &7>"
+    lore:
+      - "&fSluzy do przebywania w strefie radiacji"
+      - ""
+      - "&fDlugosc Trwania: &f&l5 minut"
+    enchant:
+      - "lure 8"
+    quantity:
+      min: "1"
+      max: "1"
+  63:
+    item: "honey bottle"
+    chance:
+      default: "2%"
+      vip: "4%"
+    name: "&6&lAntyRad &7< &f&l10 &7>"
+    lore:
+      - "&fSluzy do przebywania w strefie radiacji"
+      - ""
+      - "&fDlugosc Trwania: &f&l10 minut"
+    enchant:
+      - "lure 9"
+    quantity:
+      min: "1"
+      max: "1"
+  64:
+    item: "bow"
+    chance:
+      default: "1%"
+      vip: "2%"
+    name: "&f&lJan"
+    lore:
+      - "&fLegendarny złoty łuk papierza &fpol&caka"
+      - "&fNapewno jest warty sporą sumkę."
+    enchant:
+      - "power 2"
+    quantity:
+      min: "1"
+      max: "1"
+  65:
+    item: "rabbit foot"
+    chance:
+      default: "4%"
+      vip: "8%"
+    name: "&eMagnum .44"
+    ctd: "1"
+    lore:
+      - "&fAmunicja do &cRevolver'a"
+    quantity:
+      min: "12"
+      max: "24"
+  66:
+    item: "rabbit foot"
+    chance:
+      default: "2%"
+      vip: "4%"
+    name: "&e9x19mm Ammo"
+    ctd: "2"
+    lore:
+      - "&fAmunicja do &cCustomSMG"
+    quantity:
+      min: "20"
+      max: "32"
+  67:
+    item: "rabbit foot"
+    chance:
+      default: "2%"
+      vip: "4%"
+    name: "&e5.56 Ammo"
+    ctd: "3"
+    lore:
+      - "&fAmunicja do &cSar'a"
+    quantity:
+      min: "8"
+      max: "16"
+  68:
+    item: "honeycomb"
+    chance:
+      default: "10%"
+      vip: "30%"
+    quantity:
+      min: "2"
+      max: "8"
+
+#             #
+#  --Craft--  #
+#             #
+
+wb:
+  t3:
+    1:
+      item: "netherite helmet"
+      name: "&4&lBig Grin"
+      enchant:
+        - "protection 10"
+        - "unbreaking 10"
+        - "aqua affinity 1"
+        - "respiration 7"
+        - "fire protection 7"
+        - "projectile protection 7"
+        - "blast protection 7"
+        - "mending 1"
+      lore:
+        - ""
+        - "&cGuns Resistance: &420%"
+        - "&eRad Resistance: &65%"
+        - ""
+      amount: "1"
+      price:
+        gui:
+          - "&f25x &6Metal Wysokiej Jakosci"
+          - "&f80x Iron Block"
+          - "&f128x White Wool"
+          - "&f128x String"
+          - "&f384x Obsidian"
+          - "&f16x Diamond Block"
+          - "&e25 &6lvl XP"
+        xp: "25"
+        items:
+          1:
+            item: "iron block"
+            amount: "80"
+          2:
+            item: "white wool"
+            amount: "128"
+          3:
+            item: "string"
+            amount: "128"
+          4:
+            item: "obsidian"
+            amount: "384"
+          5:
+            item: "diamond block"
+            amount: "16"
+          6:
+            item: "red chiseled sandstone"
+            name: "&6Metal Wysokiej Jakosci"
+            amount: "25"
+    2:
+      item: "netherite chestplate"
+      name: "&4&lMetal Chestplate"
+      enchant:
+        - "protection 10"
+        - "unbreaking 10"
+        - "fire protection 7"
+        - "projectile protection 7"
+        - "blast protection 7"
+        - "mending 1"
+      amount: "1"
+      lore:
+        - ""
+        - "&cGuns Resistance: &430%"
+        - "&eRad Resistance: &610%"
+        - ""
+      price:
+        gui:
+          - "&f30x &6Metal Wysokiej Jakosci"
+          - "&f100x Iron Block"
+          - "&f128x White Wool"
+          - "&f128x String"
+          - "&f448x Obsidian"
+          - "&f20x Diamond Block"
+          - "&e25 &6lvl XP"
+        xp: "25"
+        items:
+          1:
+            item: "iron block"
+            amount: "100"
+          2:
+            item: "white wool"
+            amount: "128"
+          3:
+            item: "string"
+            amount: "128"
+          4:
+            item: "obsidian"
+            amount: "448"
+          5:
+            item: "diamond block"
+            amount: "20"
+          6:
+            item: "red chiseled sandstone"
+            name: "&6Metal Wysokiej Jakosci"
+            amount: "30"
+    3:
+      item: "netherite leggings"
+      name: "&4&lArmored Spodnie"
+      enchant:
+        - "protection 10"
+        - "unbreaking 10"
+        - "fire protection 7"
+        - "projectile protection 7"
+        - "blast protection 7"
+        - "mending 1"
+        - "Swift Sneak 7"
+      amount: "1"
+      lore:
+        - ""
+        - "&eRad Resistance: &650%"
+        - ""
+      price:
+        gui:
+          - "&f20x &6Metal Wysokiej Jakosci"
+          - "&f60x Iron Block"
+          - "&f128x White Wool"
+          - "&f128x String"
+          - "&f384x Obsidian"
+          - "&f25x Diamond Block"
+          - "&e25 &6lvl XP"
+        xp: "25"
+        items:
+          1:
+            item: "iron block"
+            amount: "60"
+          2:
+            item: "white wool"
+            amount: "128"
+          3:
+            item: "string"
+            amount: "128"
+          4:
+            item: "obsidian"
+            amount: "384"
+          5:
+            item: "diamond block"
+            amount: "25"
+          6:
+            item: "red chiseled sandstone"
+            name: "&6Metal Wysokiej Jakosci"
+            amount: "20"
+    4:
+      item: "netherite boots"
+      name: "&4&lButy"
+      enchant:
+        - "protection 10"
+        - "unbreaking 10"
+        - "mending 1"
+        - "feather falling 7"
+        - "depth strider 7"
+        - "fire protection 7"
+        - "projectile protection 7"
+        - "blast protection 7"
+        - "soul speed 7"
+      amount: "1"
+      lore:
+        - ""
+        - "&eRad Resistance: &635%"
+        - ""
+      price:
+        gui:
+          - "&f20x &6Metal Wysokiej Jakosci"
+          - "&f70x Iron Block"
+          - "&f128x White Wool"
+          - "&f128x String"
+          - "&f384x Obsidian"
+          - "&f25x Diamond Block"
+          - "&e25 &6lvl XP"
+        xp: "25"
+        items:
+          1:
+            item: "iron block"
+            amount: "70"
+          2:
+            item: "white wool"
+            amount: "128"
+          3:
+            item: "string"
+            amount: "128"
+          4:
+            item: "obsidian"
+            amount: "384"
+          5:
+            item: "diamond block"
+            amount: "25"
+          6:
+            item: "red chiseled sandstone"
+            name: "&6Metal Wysokiej Jakosci"
+            amount: "20"
+    5:
+      item: "netherite sword"
+      name: "&4&lTempered Sword"
+      enchant:
+        - "sharpness 10"
+        - "unbreaking 10"
+        - "fire aspect 7"
+        - "smite 10"
+        - "bane of arthropods 10"
+        - "sweeping edge 7"
+        - "looting 7"
+        - "mending 1"
+      amount: "1"
+      price:
+        gui:
+          - "&f20x &6Metal Wysokiej Jakosci"
+          - "&f1x Netherite Block"
+          - "&f60x Iron Block"
+          - "&f384x Blaze Powder"
+          - "&f384x Obsidian"
+          - "&f16x Diamond Block"
+          - "&e30 &6lvl XP"
+        xp: "30"
+        items:
+          1:
+            item: "iron block"
+            amount: "60"
+          2:
+            item: "obsidian"
+            amount: "384"
+          3:
+            item: "netherite block"
+            amount: "1"
+          4:
+            item: "blaze powder"
+            amount: "384"
+          5:
+            item: "diamond block"
+            amount: "16"
+          6:
+            item: "red chiseled sandstone"
+            name: "&6Metal Wysokiej Jakosci"
+            amount: "20"
+    6:
+      item: "netherite pickaxe"
+      name: "&4&lJackhammer"
+      enchant:
+        - "efficiency 10"
+        - "unbreaking 10"
+        - "fortune 7"
+        - "mending 1"
+      amount: "1"
+      price:
+        gui:
+          - "&f25x &6Metal Wysokiej Jakosci"
+          - "&f1x Netherite Block"
+          - "&f48x Iron Block"
+          - "&f256x Obsidian"
+          - "&f25x Diamond Block"
+          - "&e30 &6lvl XP"
+        xp: "30"
+        items:
+          1:
+            item: "iron block"
+            amount: "48"
+          2:
+            item: "obsidian"
+            amount: "256"
+          3:
+            item: "netherite block"
+            amount: "1"
+          4:
+            item: "diamond block"
+            amount: "25"
+          5:
+            item: "red chiseled sandstone"
+            name: "&6Metal Wysokiej Jakosci"
+            amount: "25"
+    7:
+      item: "iron horse armor"
+      name: "&4&lAlien Red"
+      ctd: "7"
+      amount: "1"
+      lore:
+        - "&fLegendarny karabin automatyczny z specjalnym malowaniem."
+      price:
+        gui:
+          - "&f30x &6Metal Wysokiej Jakosci"
+          - "&f128x Iron Block"
+          - "&f420x Oak Log"
+          - "&f256x Obsidian"
+          - "&f1x Netherite Block"
+          - "&e30 &6lvl XP"
+        xp: "30"
+        items:
+          1:
+            item: "iron block"
+            amount: "128"
+          2:
+            item: "oak log"
+            amount: "420"
+          3:
+            item: "netherite block"
+            amount: "1"
+          4:
+            item: "obsidian"
+            amount: "256"
+          5:
+            item: "red chiseled sandstone"
+            name: "&6Metal Wysokiej Jakosci"
+            amount: "30"
+    8:
+      item: "rabbit foot"
+      name: "&e7.62x39mm Ammo"
+      ctd: "4"
+      amount: "16"
+      lore:
+        - "&fAmunicja do &4&lAlien Red"
+      price:
+        gui:
+          - "&f6x Copper Block"
+          - "&f2x &6Metal Wysokiej Jakosci"
+          - "&f4x &eSiarki"
+          - "&f24x Gunpowder"
+        items:
+          1:
+            item: "copper block"
+            amount: "6"
+          2:
+            item: "gunpowder"
+            amount: "24"
+          3:
+            item: "smooth red sandstone"
+            name: "&eSiarka"
+            amount: "4"
+          4:
+            item: "red chiseled sandstone"
+            name: "&6Metal Wysokiej Jakosci"
+            amount: "2"
+    9:
+      item: "iron horse armor"
+      name: "&4&lL96"
+      ctd: "9"
+      amount: "1"
+      lore:
+        - "&fMust-have każdego roofcampera."
+      price:
+        gui:
+          - "&f45x &6Metal Wysokiej Jakosci"
+          - "&f128x Iron Block"
+          - "&f12x Diamond Block"
+          - "&f500x Obsidian"
+          - "&f1x Netherite Block"
+          - "&e45 &6lvl XP"
+        xp: "45"
+        items:
+          1:
+            item: "iron block"
+            amount: "128"
+          2:
+            item: "diamond block"
+            amount: "12"
+          3:
+            item: "netherite block"
+            amount: "1"
+          4:
+            item: "obsidian"
+            amount: "500"
+          5:
+            item: "red chiseled sandstone"
+            name: "&6Metal Wysokiej Jakosci"
+            amount: "45"
+    10:
+      item: "rabbit foot"
+      name: "&e.308 Ammo"
+      ctd: "5"
+      amount: "2"
+      lore:
+        - "&fAmunicja do &4&lL96"
+      price:
+        gui:
+          - "&f6x Copper Block"
+          - "&f2x &6Metal Wysokiej Jakosci"
+          - "&f4x &eSiarki"
+          - "&f24x Gunpowder"
+        items:
+          1:
+            item: "copper block"
+            amount: "6"
+          2:
+            item: "gunpowder"
+            amount: "24"
+          3:
+            item: "smooth red sandstone"
+            name: "&eSiarka"
+            amount: "4"
+          4:
+            item: "red chiseled sandstone"
+            name: "&6Metal Wysokiej Jakosci"
+            amount: "2"
+    11:
+      item: "honey bottle"
+      name: "&6&lAntyRad &7< &f&l20 &7>"
+      lore:
+        - "&fSluzy do przebywania w strefie radiacji"
+        - ""
+        - "&fDlugosc Trwania: &f&l20 minut"
+      enchant:
+        - "lure 10"
+      amount: "1"
+      price:
+        gui:
+          - "&f2x Ghast Tear"
+          - "&f4x Honeycomb"
+          - "&f5x Glowstone"
+          - "&f1x Glistering Melon Slice"
+        items:
+          1:
+            item: "ghast tear"
+            amount: "2"
+          2:
+            item: "honeycomb"
+            amount: "4"
+          3:
+            item: "glowstone"
+            amount: "5"
+          4:
+            item: "glistering melon slice"
+            amount: "1"
+    12:
+      item: "totem of undying"
+      name: "&5Zrzut Mutanta"
+      lore:
+        - "&fSluzy do wezwania &4Mutanta"
+        - ""
+        - "&fUzycie: &f&l<PPM>"
+      enchant:
+        - "lure 9"
+      amount: "1"
+      price:
+        gui:
+          - "&f18x Redstone Block"
+          - "&f18x Lapis Block"
+          - "&f5x &6Metal Wysokiej Jakosci"
+          - "&f4x Siarka"
+        items:
+          1:
+            item: "redstone block"
+            amount: "18"
+          2:
+            item: "lapis block"
+            amount: "18"
+          3:
+            item: "red chiseled sandstone"
+            name: "&6Metal Wysokiej Jakosci"
+            amount: "5"
+          4:
+            item: "smooth red sandstone"
+            name: "&eSiarka"
+            amount: "4"
+    13:
+      item: "jungle button"
+      name: "&c&lC4"
+      lore:
+        - ""
+        - "&fSluzy do wysadzania baz"
+        - ""
+        - "&fUżycie: &f&l<LPM>"
+      amount: "1"
+      price:
+        gui:
+          - "&f6x Gold block"
+          - "&f36x Gunpowder"
+          - "&f6x Slime Ball"
+          - "&e10x &eSiarka"
+        items:
+          1:
+            item: "gold block"
+            amount: "6"
+          2:
+            item: "gunpowder"
+            amount: "36"
+          3:
+            item: "slime ball"
+            amount: "6"
+          4:
+            item: "smooth red sandstone"
+            name: "&eSiarka"
+            amount: "10"
+    14:
+      item: "gold horse armor"
+      name: "&5&lTalizman JackaPlacka"
+      ctd: "4"
+      lore:
+        - "&eTyp: Tank"
+      amount: "1"
+      price:
+        gui:
+          - "&f6x Fragment talizmanu JackaPlacka"
+        items:
+          1:
+            item: "amethyst shard"
+            name: "&5&lFragment talizmanu JackaPlacka"
+            amount: "6"
+            ctd: "1"
+    15:
+      item: "gold horse armor"
+      name: "&5&lTalizman JackaPlacka"
+      ctd: "5"
+      lore:
+        - "&eTyp: Zyd"
+      amount: "1"
+      price:
+        gui:
+          - "&f6x Fragment talizmanu JackaPlacka"
+        items:
+          1:
+            item: "amethyst shard"
+            name: "&5&lFragment talizmanu JackaPlacka"
+            amount: "6"
+            ctd: "1"
+  t2:
+    1:
+      item: "diamond helmet"
+      name: "&eCoffe Can"
+      enchant:
+        - "protection 6"
+        - "unbreaking 4"
+        - "aqua affinity 1"
+        - "fire protection 4"
+        - "respiration 3"
+        - "mending 1"
+      lore:
+        - ""
+        - "&cGuns Resistance: &45%"
+        - ""
+      amount: "1"
+      price:
+        gui:
+          - "&f5x &6Metal Wysokiej Jakości"
+          - "&f8x Iron Block"
+          - "&f16x White Wool"
+          - "&f32x String"
+          - "&f32x Obsidian"
+          - "&f2x Diamond Block"
+          - "&e15 &6lvl XP"
+        xp: "15"
+        items:
+          1:
+            item: "iron block"
+            amount: "32"
+          2:
+            item: "white wool"
+            amount: "64"
+          3:
+            item: "string"
+            amount: "128"
+          4:
+            item: "obsidian"
+            amount: "32"
+          5:
+            item: "diamond block"
+            amount: "4"
+          6:
+            item: "red chiseled sandstone"
+            name: "&6Metal Wysokiej Jakosci"
+            amount: "5"
+    2:
+      item: "diamond chestplate"
+      name: "&eRoad Sign Vest"
+      enchant:
+        - "protection 6"
+        - "unbreaking 4"
+        - "fire protection 4"
+        - "mending 1"
+      amount: "1"
+      lore:
+        - ""
+        - "&cGuns Resistance: &48%"
+        - ""
+      price:
+        gui:
+          - "&f8x &6Metal Wysokiej Jakosci"
+          - "&f20x Iron Block"
+          - "&f24x White Wool"
+          - "&f50x String"
+          - "&f40x Obsidian"
+          - "&f2x Diamond Block"
+          - "&e15 &6lvl XP"
+        xp: "15"
+        items:
+          1:
+            item: "iron block"
+            amount: "40"
+          2:
+            item: "white wool"
+            amount: "48"
+          3:
+            item: "string"
+            amount: "100"
+          4:
+            item: "obsidian"
+            amount: "40"
+          5:
+            item: "diamond block"
+            amount: "2"
+          6:
+            item: "red chiseled sandstone"
+            name: "&6Metal Wysokiej Jakosci"
+            amount: "8"
+    3:
+      item: "diamond leggings"
+      name: "&eSpodnie ze Znaków"
+      enchant:
+        - "protection 6"
+        - "unbreaking 4"
+        - "mending 1"
+        - "fire protection 4"
+        - "swift sneak 3"
+      amount: "1"
+      lore:
+        - ""
+        - "&cGuns Resistance: &44%"
+        - ""
+      price:
+        gui:
+          - "&f6x &6Metal Wysokiej Jakosci"
+          - "&f15x Iron Block"
+          - "&f24x White Wool"
+          - "&f50x String"
+          - "&f32x Obsidian"
+          - "&f2x Diamond Block"
+          - "&e15 &6lvl XP"
+        xp: "15"
+        items:
+          1:
+            item: "iron block"
+            amount: "15"
+          2:
+            item: "white wool"
+            amount: "24"
+          3:
+            item: "string"
+            amount: "50"
+          4:
+            item: "obsidian"
+            amount: "32"
+          5:
+            item: "diamond block"
+            amount: "2"
+          6:
+            item: "red chiseled sandstone"
+            name: "&6Metal Wysokiej Jakosci"
+            amount: "6"
+    4:
+      item: "diamond boots"
+      name: "&eTrampki"
+      enchant:
+        - "protection 6"
+        - "unbreaking 4"
+        - "mending 1"
+        - "fire protection 4"
+        - "feather falling 6"
+        - "depth strider 4"
+      amount: "1"
+      lore:
+        - ""
+        - "&cGuns Resistance: &43%"
+        - ""
+      price:
+        gui:
+          - "&f4x &6Metal Wysokiej Jakosci"
+          - "&f15x Iron Block"
+          - "&f24x White Wool"
+          - "&f50x String"
+          - "&f32x Obsidian"
+          - "&f2x Diamond Block"
+          - "&e15 &6lvl XP"
+        xp: "15"
+        items:
+          1:
+            item: "iron block"
+            amount: "15"
+          2:
+            item: "white wool"
+            amount: "24"
+          3:
+            item: "string"
+            amount: "50"
+          4:
+            item: "obsidian"
+            amount: "32"
+          5:
+            item: "diamond block"
+            amount: "2"
+          6:
+            item: "red chiseled sandstone"
+            name: "&6Metal Wysokiej Jakosci"
+            amount: "4"
+    5:
+      item: "diamond sword"
+      name: "&eSalvage Cleaver"
+      enchant:
+        - "sharpness 7"
+        - "unbreaking 5"
+        - "looting 5"
+        - "mending 1"
+      amount: "1"
+      price:
+        gui:
+          - "&f8x &6Metal Wysokiej Jakosci"
+          - "&f24x Iron Block"
+          - "&f32x Oak Log"
+          - "&f3x Diamond Block"
+          - "&e15 &6lvl XP"
+        xp: "15"
+        items:
+          1:
+            item: "iron block"
+            amount: "24"
+          2:
+            item: "oak log"
+            amount: "32"
+          3:
+            item: "diamond block"
+            amount: "3"
+          4:
+            item: "red chiseled sandstone"
+            name: "&6Metal Wysokiej Jakosci"
+            amount: "8"
+    6:
+      item: "diamond pickaxe"
+      name: "&eIce Pick"
+      enchant:
+        - "efficiency 7"
+        - "unbreaking 5"
+        - "fortune 6"
+        - "mending 1"
+      amount: "1"
+      price:
+        gui:
+          - "&f8x &6Metal Wysokiej Jakosci"
+          - "&f24x Iron Block"
+          - "&f32x Oak Log"
+          - "&f3x Diamond Block"
+          - "&e15 &6lvl XP"
+        xp: "15"
+        items:
+          1:
+            item: "iron block"
+            amount: "24"
+          2:
+            item: "oak log"
+            amount: "32"
+          3:
+            item: "diamond block"
+            amount: "3"
+          4:
+            item: "red chiseled sandstone"
+            name: "&6Metal Wysokiej Jakosci"
+            amount: "8"
+    7:
+      item: "diamond axe"
+      name: "&eSalvage Axe"
+      enchant:
+        - "efficiency 7"
+        - "unbreaking 5"
+        - "fortune 5"
+        - "mending 1"
+      amount: "1"
+      price:
+        gui:
+          - "&f3x &6Metal Wysokiej Jakosci"
+          - "&f10x Iron Block"
+          - "&f32x Oak Log"
+          - "&f1x Diamond Block"
+          - "&e15 &6lvl XP"
+        xp: "15"
+        items:
+          1:
+            item: "iron block"
+            amount: "10"
+          2:
+            item: "oak log"
+            amount: "32"
+          3:
+            item: "diamond block"
+            amount: "1"
+          4:
+            item: "red chiseled sandstone"
+            name: "&6Metal Wysokiej Jakosci"
+            amount: "3"
+    8:
+      item: "diamond shovel"
+      name: "&eŁopata"
+      enchant:
+        - "efficiency 7"
+        - "unbreaking 5"
+        - "fortune 5"
+        - "mending 1"
+      amount: "1"
+      price:
+        gui:
+          - "&f3x &6Metal Wysokiej Jakosci"
+          - "&f10x Iron Block"
+          - "&f32x Oak Log"
+          - "&f1x Diamond Block"
+          - "&e15 &6lvl XP"
+        xp: "15"
+        items:
+          1:
+            item: "iron block"
+            amount: "10"
+          2:
+            item: "oak log"
+            amount: "32"
+          3:
+            item: "diamond block"
+            amount: "1"
+          4:
+            item: "red chiseled sandstone"
+            name: "&6Metal Wysokiej Jakosci"
+            amount: "3"
+    9:
+      item: "diamond hoe"
+      name: "&eKosa"
+      enchant:
+        - "efficiency 7"
+        - "unbreaking 5"
+        - "fortune 5"
+        - "mending 1"
+      amount: "1"
+      price:
+        gui:
+          - "&f3x &6Metal Wysokiej Jakosci"
+          - "&f10x Iron Block"
+          - "&f32x Oak Log"
+          - "&f1x Diamond Block"
+          - "&e15 &6lvl XP"
+        xp: "15"
+        items:
+          1:
+            item: "iron block"
+            amount: "10"
+          2:
+            item: "oak log"
+            amount: "32"
+          3:
+            item: "diamond block"
+            amount: "1"
+          4:
+            item: "red chiseled sandstone"
+            name: "&6Metal Wysokiej Jakosci"
+            amount: "3"
+    10:
+      item: "bow"
+      name: "&eJade Bow"
+      enchant:
+        - "power 7"
+        - "unbreaking 5"
+        - "infinity 1"
+        - "mending 1"
+      amount: "1"
+      price:
+        gui:
+          - "&f6x &6Metal Wysokiej Jakosci"
+          - "&f12x Iron Block"
+          - "&f32x string"
+          - "&f1x Diamond Block"
+          - "&e5 &6lvl XP"
+        xp: "5"
+        items:
+          1:
+            item: "iron block"
+            amount: "12"
+          2:
+            item: "string"
+            amount: "32"
+          3:
+            item: "diamond block"
+            amount: "1"
+          4:
+            item: "red chiseled sandstone"
+            name: "&6Metal Wysokiej Jakosci"
+            amount: "6"
+    11:
+      item: "iron horse armor"
+      name: "&c&lCustomSMG"
+      ctd: "3"
+      amount: "1"
+      lore:
+        - "&fRozjebana MP5 sklejona taśmą"
+      price:
+        gui:
+          - "&f12x &6Metal Wysokiej Jakosci"
+          - "&f48x Iron Block"
+          - "&f32x Oak Log"
+          - "&f4x Diamond Block"
+          - "&e15 &6lvl XP"
+        xp: "15"
+        items:
+          1:
+            item: "iron block"
+            amount: "48"
+          2:
+            item: "oak log"
+            amount: "32"
+          3:
+            item: "diamond block"
+            amount: "4"
+          4:
+            item: "red chiseled sandstone"
+            name: "&6Metal Wysokiej Jakosci"
+            amount: "12"
+    12:
+      item: "rabbit foot"
+      name: "&e9x19mm Ammo"
+      ctd: "2"
+      amount: "16"
+      lore:
+        - "&fAmunicja do &c&lCustomSMG"
+      price:
+        gui:
+          - "&f2x Iron Block"
+          - "&f4x Copper Block"
+          - "&f2x &eSiarki"
+          - "&f8x Gunpowder"
+        items:
+          1:
+            item: "iron block"
+            amount: "2"
+          2:
+            item: "copper block"
+            amount: "4"
+          3:
+            item: "gunpowder"
+            amount: "8"
+          4:
+            item: "smooth red sandstone"
+            name: "&eSiarka"
+            amount: "2"
+    13:
+      item: "iron horse armor"
+      name: "&c&lSemi Auto Rifle"
+      ctd: "5"
+      amount: "1"
+      lore:
+        - "&fUlubiona broń Grubego Joe'a"
+      price:
+        gui:
+          - "&f15x &6Metal Wysokiej Jakosci"
+          - "&f64x Iron Block"
+          - "&f48x Oak Log"
+          - "&f6x Diamond Block"
+          - "&e15 &6lvl XP"
+        xp: "15"
+        items:
+          1:
+            item: "iron block"
+            amount: "64"
+          2:
+            item: "oak log"
+            amount: "48"
+          3:
+            item: "diamond block"
+            amount: "6"
+          4:
+            item: "red chiseled sandstone"
+            name: "&6Metal Wysokiej Jakosci"
+            amount: "12"
+    14:
+      item: "rabbit foot"
+      name: "&e5.56 Ammo"
+      ctd: "3"
+      amount: "8"
+      lore:
+        - "&fAmunicja do &c&lSar'a"
+      price:
+        gui:
+          - "&f3x Iron Block"
+          - "&f5x Copper Block"
+          - "&f3x &eSiarki"
+          - "&f10x Gunpowder"
+        items:
+          1:
+            item: "iron block"
+            amount: "3"
+          2:
+            item: "copper block"
+            amount: "5"
+          3:
+            item: "gunpowder"
+            amount: "10"
+          4:
+            item: "smooth red sandstone"
+            name: "&eSiarka"
+            amount: "3"
+    15:
+      item: "honey bottle"
+      name: "&6&lAntyRad &7< &f&l10 &7>"
+      lore:
+        - "&fSluzy do przebywania w strefie radiacji"
+        - ""
+        - "&fDlugosc Trwania: &f&l10 minut"
+      enchant:
+        - "lure 9"
+      amount: "1"
+      price:
+        gui:
+          - "&f2x Ghast Tear"
+          - "&f4x Honeycomb"
+          - "&f5x Glowstone"
+          - "&f1x Glistering Melon Slice"
+        items:
+          1:
+            item: "ghast tear"
+            amount: "2"
+          2:
+            item: "honeycomb"
+            amount: "4"
+          3:
+            item: "glowstone"
+            amount: "5"
+          4:
+            item: "glistering melon slice"
+            amount: "1"
+    16:
+      item: "totem of undying"
+      name: "&5Zrzut Zaopatrzenia"
+      lore:
+        - "&fSluzy do wezwania Zrzutu Zaopatrzenia"
+        - ""
+        - "&fUzycie: &f&l<PPM>"
+      enchant:
+        - "lure 10"
+      amount: "1"
+      price:
+        gui:
+          - "&f18x Redstone Block"
+          - "&f18x Lapis Block"
+          - "&f5x Iron Block"
+          - "&f4x Siarka"
+        items:
+          1:
+            item: "redstone block"
+            amount: "18"
+          2:
+            item: "lapis block"
+            amount: "18"
+          3:
+            item: "iron block"
+            amount: "5"
+          4:
+            item: "smooth red sandstone"
+            name: "&eSiarka"
+            amount: "4"
+    17:
+      item: "gold horse armor"
+      name: "&5&lTalizman JackaPlacka"
+      ctd: "2"
+      lore:
+        - "&eTyp: Gornik"
+      amount: "1"
+      price:
+        gui:
+          - "&f3x Fragment talizmanu JackaPlacka"
+        items:
+          1:
+            item: "amethyst shard"
+            name: "&5&lFragment talizmanu JackaPlacka"
+            amount: "3"
+            ctd: "1"
+    18:
+      item: "gold horse armor"
+      name: "&5&lTalizman JackaPlacka"
+      ctd: "3"
+      lore:
+        - "&eTyp: Wojownik"
+      amount: "1"
+      price:
+        gui:
+          - "&f3x Fragment talizmanu JackaPlacka"
+        items:
+          1:
+            item: "amethyst shard"
+            name: "&5&lFragment talizmanu JackaPlacka"
+            amount: "3"
+            ctd: "1"
+  t1:
+    1:
+      item: "diamond helmet"
+      name: "&eWilk"
+      enchant:
+        - "protection 5"
+        - "unbreaking 4"
+        - "aqua affinity 1"
+      amount: "1"
+      price:
+        gui:
+          - "&f36x Leather"
+          - "&f4x Iron Block"
+          - "&f12x White Wool"
+          - "&f24x String"
+          - "&f8x Feather"
+          - "&f1x Diamond Block"
+          - "&e10 &6lvl XP"
+        xp: "10"
+        items:
+          1:
+            item: "leather"
+            amount: "36"
+          2:
+            item: "iron block"
+            amount: "4"
+          3:
+            item: "white wool"
+            amount: "12"
+          4:
+            item: "string"
+            amount: "24"
+          5:
+            item: "feather"
+            amount: "8"
+          6:
+            item: "diamond block"
+            amount: "1"
+    2:
+      item: "diamond chestplate"
+      name: "&ePoncho"
+      enchant:
+        - "protection 5"
+        - "unbreaking 4"
+      amount: "1"
+      price:
+        gui:
+          - "&f36x Leather"
+          - "&f10x Iron Block"
+          - "&f24x White Wool"
+          - "&f36x String"
+          - "&f16x Feather"
+          - "&f1x Diamond Block"
+          - "&e10 &6lvl XP"
+        xp: "10"
+        items:
+          1:
+            item: "leather"
+            amount: "36"
+          2:
+            item: "iron block"
+            amount: "10"
+          3:
+            item: "white wool"
+            amount: "24"
+          4:
+            item: "string"
+            amount: "36"
+          5:
+            item: "feather"
+            amount: "16"
+          6:
+            item: "diamond block"
+            amount: "1"
+    3:
+      item: "diamond leggings"
+      name: "&ePants"
+      enchant:
+        - "protection 5"
+        - "unbreaking 4"
+      amount: "1"
+      price:
+        gui:
+          - "&f24x Leather"
+          - "&f6x Iron Block"
+          - "&f12x White Wool"
+          - "&f24x String"
+          - "&f32x Feather"
+          - "&f1x Diamond Block"
+          - "&e10 &6lvl XP"
+        xp: "10"
+        items:
+          1:
+            item: "leather"
+            amount: "24"
+          2:
+            item: "iron block"
+            amount: "6"
+          3:
+            item: "white wool"
+            amount: "12"
+          4:
+            item: "string"
+            amount: "24"
+          5:
+            item: "feather"
+            amount: "32"
+          6:
+            item: "diamond block"
+            amount: "1"
+    4:
+      item: "diamond boots"
+      name: "&eKapcie"
+      enchant:
+        - "protection 5"
+        - "unbreaking 4"
+        - "feather falling 4"
+      amount: "1"
+      price:
+        gui:
+          - "&f24x Leather"
+          - "&f4x Iron Block"
+          - "&f24x White Wool"
+          - "&f48x String"
+          - "&f64x Feather"
+          - "&f1x Diamond Block"
+          - "&e10 &6lvl XP"
+        xp: "10"
+        items:
+          1:
+            item: "leather"
+            amount: "24"
+          2:
+            item: "iron block"
+            amount: "4"
+          3:
+            item: "white wool"
+            amount: "24"
+          4:
+            item: "string"
+            amount: "48"
+          5:
+            item: "feather"
+            amount: "64"
+          6:
+            item: "diamond block"
+            amount: "1"
+    5:
+      item: "diamond sword"
+      name: "&eSalvage Sword"
+      enchant:
+        - "sharpness 6"
+        - "unbreaking 4"
+        - "looting 4"
+      amount: "1"
+      price:
+        gui:
+          - "&f12x Leather"
+          - "&f24x Iron Block"
+          - "&f10x Oak Log"
+          - "&f1x Diamond Block"
+          - "&e10 &6lvl XP"
+        xp: "10"
+        items:
+          1:
+            item: "leather"
+            amount: "12"
+          2:
+            item: "iron block"
+            amount: "24"
+          3:
+            item: "oak log"
+            amount: "10"
+          4:
+            item: "diamond block"
+            amount: "1"
+    6:
+      item: "diamond pickaxe"
+      name: "&ePickaxe"
+      enchant:
+        - "efficiency 6"
+        - "unbreaking 4"
+        - "fortune 4"
+      amount: "1"
+      price:
+        gui:
+          - "&f6x Leather"
+          - "&f18x Iron Block"
+          - "&f32x Oak Log"
+          - "&f3x Diamond Block"
+          - "&e10 &6lvl XP"
+        xp: "10"
+        items:
+          1:
+            item: "leather"
+            amount: "6"
+          2:
+            item: "iron block"
+            amount: "18"
+          3:
+            item: "oak log"
+            amount: "32"
+          4:
+            item: "diamond block"
+            amount: "3"
+    7:
+      item: "diamond axe"
+      name: "&eHachet"
+      enchant:
+        - "efficiency 6"
+        - "unbreaking 4"
+        - "fortune 4"
+      amount: "1"
+      price:
+        gui:
+          - "&f10x Leather"
+          - "&f10x Iron Block"
+          - "&f20x Oak Log"
+          - "&f1x Diamond Block"
+          - "&e10 &6lvl XP"
+        xp: "10"
+        items:
+          1:
+            item: "leather"
+            amount: "10"
+          2:
+            item: "iron block"
+            amount: "10"
+          3:
+            item: "oak log"
+            amount: "20"
+          4:
+            item: "diamond block"
+            amount: "1"
+    8:
+      item: "diamond shovel"
+      name: "&ePaddle"
+      enchant:
+        - "efficiency 6"
+        - "unbreaking 4"
+        - "fortune 4"
+      amount: "1"
+      price:
+        gui:
+          - "&f10x Leather"
+          - "&f10x Iron Block"
+          - "&f20x Oak Log"
+          - "&f1x Diamond Block"
+          - "&e10 &6lvl XP"
+        xp: "10"
+        items:
+          1:
+            item: "leather"
+            amount: "10"
+          2:
+            item: "iron block"
+            amount: "10"
+          3:
+            item: "oak log"
+            amount: "20"
+          4:
+            item: "diamond block"
+            amount: "1"
+    9:
+      item: "diamond hoe"
+      name: "&eSierp"
+      enchant:
+        - "efficiency 6"
+        - "unbreaking 4"
+        - "fortune 4"
+      amount: "1"
+      price:
+        gui:
+          - "&f10x Leather"
+          - "&f10x Iron Block"
+          - "&f20x Oak Log"
+          - "&f1x Diamond Block"
+          - "&e10 &6lvl XP"
+        xp: "10"
+        items:
+          1:
+            item: "leather"
+            amount: "10"
+          2:
+            item: "iron block"
+            amount: "10"
+          3:
+            item: "oak log"
+            amount: "20"
+          4:
+            item: "diamond block"
+            amount: "1"
+    10:
+      item: "bow"
+      name: "&eLegacy Bow"
+      enchant:
+        - "power 6"
+        - "unbreaking 4"
+        - "infinity 1"
+      amount: "1"
+      price:
+        gui:
+          - "&f64x string"
+          - "&f2x Iron Block"
+          - "&f64x Oak Log"
+          - "&f2x Diamond Block"
+          - "&e10 &6lvl XP"
+        xp: "10"
+        items:
+          1:
+            item: "string"
+            amount: "64"
+          2:
+            item: "iron block"
+            amount: "2"
+          3:
+            item: "oak log"
+            amount: "64"
+          4:
+            item: "diamond block"
+            amount: "2"
+    11:
+      item: "iron horse armor"
+      name: "&c&lRevolver"
+      ctd: "1"
+      amount: "1"
+      lore:
+        - "&fKultowa replica revolveru z czasu Westernu"
+      price:
+        gui:
+          - "&f32x Iron Block"
+          - "&f64x Oak Log"
+          - "&f2x Diamond Block"
+          - "&e15 &6lvl XP"
+        xp: "15"
+        items:
+          1:
+            item: "iron block"
+            amount: "32"
+          2:
+            item: "oak log"
+            amount: "64"
+          3:
+            item: "diamond block"
+            amount: "2"
+    12:
+      item: "rabbit foot"
+      name: "&eMagnum .44"
+      ctd: "1"
+      amount: "8"
+      lore:
+        - "&fAmunicja do &cRevolver'a"
+      price:
+        gui:
+          - "&f2x Iron Block"
+          - "&f4x Copper Block"
+          - "&f16x Gunpowder"
+        items:
+          1:
+            item: "iron block"
+            amount: "2"
+          2:
+            item: "copper block"
+            amount: "4"
+          3:
+            item: "gunpowder"
+            amount: "16"
+    13:
+      item: "honey bottle"
+      name: "&6&lAntyRad &7< &f&l5 &7>"
+      lore:
+        - "&fSluzy do przebywania w strefie radiacji"
+        - ""
+        - "&fDlugosc Trwania: &f&l5 minut"
+      enchant:
+        - "lure 8"
+      amount: "1"
+      price:
+        gui:
+          - "&f2x Ghast Tear"
+          - "&f4x Honeycomb"
+          - "&f5x Glowstone"
+          - "&f1x Glistering Melon Slice"
+        items:
+          1:
+            item: "ghast tear"
+            amount: "2"
+          2:
+            item: "honeycomb"
+            amount: "4"
+          3:
+            item: "glowstone"
+            amount: "5"
+          4:
+            item: "glistering melon slice"
+            amount: "1"
+    14:
+      item: "rabbit hide"
+      name: "&eWytrych"
+      lore:
+        - ""
+        - "&fSluzy do otwierania &4Locked Crate'a"
+      enchant:
+        - "mending 10"
+      amount: "1"
+      price:
+        gui:
+          - "&f4x Iron Block"
+          - "&f8x Obsidian"
+          - "&f2x Diamond"
+        items:
+          1:
+            item: "iron block"
+            amount: "4"
+          2:
+            item: "obsidian"
+            amount: "8"
+          3:
+            item: "diamond"
+            amount: "2"
+    15:
+      item: "gold horse armor"
+      name: "&5&lTalizman JackaPlacka"
+      ctd: "6"
+      lore:
+        - "&eTyp: Builder"
+      amount: "1"
+      price:
+        gui:
+          - "&f1x Fragment talizmanu JackaPlacka"
+        items:
+          1:
+            item: "amethyst shard"
+            name: "&5&lFragment talizmanu JackaPlacka"
+            amount: "1"
+            ctd: "1"
+
+#                #
+#   --Locked--   #
+#                #
+
+locked:
+  t1:
+    1:
+      item: "amethyst shard"
+      lore:
+        - ""
+        - "&fJestes w stanie z fragmentow stworzyc"
+        - "&fdowolna wersje sprawnego talizmanu"
+      chance:
+        default: "75%"
+        vip: "85%"
+      name: "&5&lFragment talizmanu JackaPlacka"
+      ctd: "1"
+      amount:
+        min: "1"
+        max: "1"
+    2:
+      item: "diamond pickaxe"
+      chance:
+        default: "6%"
+        vip: "12%"
+      name: "&ePickaxe"
+      enchant:
+        - "efficiency 6"
+        - "unbreaking 4"
+        - "fortune 4"
+      amount:
+        min: "1"
+        max: "1"
+    3:
+      item: "diamond sword"
+      chance:
+        default: "6%"
+        vip: "12%"
+      name: "&eSalvage Sword"
+      enchant:
+        - "sharpness 6"
+        - "unbreaking 4"
+        - "looting 4"
+      amount:
+        min: "1"
+        max: "1"
+    4:
+      item: "diamond axe"
+      chance:
+        default: "6%"
+        vip: "12%"
+      name: "&eHachet"
+      enchant:
+        - "efficiency 6"
+        - "unbreaking 4"
+        - "fortune 4"
+      amount:
+        min: "1"
+        max: "1"
+    5:
+      item: "diamond shovel"
+      chance:
+        default: "6%"
+        vip: "12%"
+      name: "&ePaddle"
+      enchant:
+        - "efficiency 6"
+        - "unbreaking 4"
+        - "fortune 4"
+      amount:
+        min: "1"
+        max: "1"
+    6:
+      item: "diamond axe"
+      chance:
+        default: "6%"
+        vip: "12%"
+      name: "&eTopor Dariusa"
+      enchant:
+        - "sharpness 7"
+        - "unbreaking 4"
+        - "fire aspect 4"
+      amount:
+        min: "1"
+        max: "1"
+    7:
+      item: "bow"
+      chance:
+        default: "6%"
+        vip: "12%"
+      name: "&eLegacy Bow"
+      enchant:
+        - "power 6"
+        - "unbreaking 4"
+        - "infinity 1"
+      amount:
+        min: "1"
+        max: "1"
+    8:
+      item: "diamond hoe"
+      chance:
+        default: "6%"
+        vip: "12%"
+      name: "&eSierp"
+      enchant:
+        - "efficiency 6"
+        - "unbreaking 4"
+        - "fortune 4"
+      amount:
+        min: "1"
+        max: "1"
+    9:
+      item: "diamond helmet"
+      chance:
+        default: "6%"
+        vip: "12%"
+      name: "&eWilk"
+      enchant:
+        - "protection 5"
+        - "unbreaking 4"
+        - "aqua affinity 1"
+      amount:
+        min: "1"
+        max: "1"
+    10:
+      item: "diamond chestplate"
+      chance:
+        default: "6%"
+        vip: "12%"
+      name: "&ePoncho"
+      enchant:
+        - "protection 5"
+        - "unbreaking 4"
+      amount:
+        min: "1"
+        max: "1"
+    11:
+      item: "diamond leggings"
+      chance:
+        default: "6%"
+        vip: "12%"
+      name: "&ePants"
+      enchant:
+        - "protection 5"
+        - "unbreaking 4"
+      amount:
+        min: "1"
+        max: "1"
+    12:
+      item: "diamond boots"
+      chance:
+        default: "6%"
+        vip: "12%"
+      name: "&eKapcie"
+      enchant:
+        - "protection 5"
+        - "unbreaking 4"
+        - "feather falling 4"
+      amount:
+        min: "1"
+        max: "1"
+    13:
+      item: "paper"
+      chance:
+        default: "10%"
+        vip: "16%"
+      name: "&eCzek &f&l< 2500 >"
+      lore:
+        - ""
+        - "&fUzycie: &f&l<PPM>"
+      enchant:
+        - "lure 9"
+      amount:
+        min: "1"
+        max: "1"
+    14:
+      item: "rabbit hide"
+      chance:
+        default: "3%"
+        vip: "6%"
+      name: "&e&lLom"
+      lore:
+        - ""
+        - "&fSluzy do otwarcia &4Locked Crate'a"
+      ctd: "10"
+      amount:
+        min: "1"
+        max: "1"
+    15:
+      item: "rabbit hide"
+      chance:
+        default: "10%"
+        vip: "20%"
+      name: "&eWytrych"
+      lore:
+        - ""
+        - "&fSluzy do otwarcia &4Locked Crate'a"
+      enchant:
+        - "mending 10"
+      amount:
+        min: "1"
+        max: "4"
+    16:
+      item: "honey bottle"
+      chance:
+        default: "10%"
+        vip: "20%"
+      name: "&6&lAntyRad &7< &f&l5 &7>"
+      lore:
+        - "&fSluzy do przebywania w strefie radiacji"
+        - ""
+        - "&fDlugosc Trwania: &f&l5 minut"
+      enchant:
+        - "lure 8"
+      amount:
+        min: "1"
+        max: "3"
+    17:
+      item: "golden apple"
+      chance:
+        default: "30%"
+        vip: "50%"
+      amount:
+        min: "8"
+        max: "16"
+    18:
+      item: "enchanted golden apple"
+      chance:
+        default: "3%"
+        vip: "6%"
+      amount:
+        min: "1"
+        max: "2"
+    19:
+      item: "cooked beef"
+      chance:
+        default: "60%"
+        vip: "80%"
+      amount:
+        min: "16"
+        max: "32"
+    20:
+      item: "golden carrot"
+      chance:
+        default: "60%"
+        vip: "80%"
+      amount:
+        min: "16"
+        max: "32"
+    21:
+      item: "netherite ingot"
+      chance:
+        default: "2%"
+        vip: "4%"
+      amount:
+        min: "1"
+        max: "1"
+    22:
+      item: "diamond block"
+      chance:
+        default: "6%"
+        vip: "12%"
+      amount:
+        min: "1"
+        max: "3"
+    23:
+      item: "iron block"
+      chance:
+        default: "15%"
+        vip: "25%"
+      amount:
+        min: "5"
+        max: "12"
+    24:
+      item: "gold block"
+      chance:
+        default: "15%"
+        vip: "25%"
+      amount:
+        min: "6"
+        max: "20"
+    25:
+      item: "redstone block"
+      chance:
+        default: "20%"
+        vip: "30%"
+      amount:
+        min: "2"
+        max: "20"
+    26:
+      item: "lapis block"
+      chance:
+        default: "20%"
+        vip: "30%"
+      amount:
+        min: "2"
+        max: "20"
+    27:
+      item: "coal block"
+      chance:
+        default: "15%"
+        vip: "25%"
+      amount:
+        min: "4"
+        max: "24"
+    28:
+      item: "gunpowder"
+      chance:
+        default: "15%"
+        vip: "25%"
+      amount:
+        min: "20"
+        max: "100"
+    29:
+      item: "iron horse armor"
+      name: "&c&lRevolver"
+      ctd: "1"
+      lore:
+        - "&fKultowa replica revolveru z czasu Westernu"
+      chance:
+        default: "1%"
+        vip: "2%"
+      amount:
+        min: "1"
+        max: "1"
+    30:
+      item: "rabbit foot"
+      name: "&eMagnum .44"
+      ctd: "1"
+      lore:
+        - "&fAmunicja do &cRevolver'a"
+      chance:
+        default: "5%"
+        vip: "10%"
+      amount:
+        min: "8"
+        max: "16"
+    31:
+      item: "rabbit hide"
+      chance:
+        default: "15%"
+        vip: "25%"
+      name: "&dNerka"
+      enchant:
+        - "lure 10"
+      lore:
+        - "&fZagubiona nerka pewnego"
+        - "&flegendarnego zawodnika w F1."
+      amount:
+        min: "1"
+        max: "2"
+    32:
+      item: "rabbit hide"
+      chance:
+        default: "15%"
+        vip: "25%"
+      name: "&dPaka Szlogow"
+      lore:
+        - "&fPaczka papierosów Marlboro to"
+        - "&fklasyczne opakowanie"
+        - "&fz czerwonym logo i nazwą"
+        - "&fmarki na białym tle."
+        - "&fIdealnie pasuje z coca-colą."
+      enchant:
+        - "lure 9"
+      amount:
+        min: "1"
+        max: "2"
+    33:
+      item: "rabbit hide"
+      chance:
+        default: "15%"
+        vip: "25%"
+      name: "&dJoint"
+      lore:
+        - "&fJoint to forma papierosa"
+        - "&fskręconego z papieru i wypełnionego"
+        - "&fsuszem konopi indyjskich, która"
+        - "&fjest często używana w celach rekreacyjnych."
+      enchant:
+        - "lure 8"
+      amount:
+        min: "1"
+        max: "2"
+    34:
+      item: "rabbit hide"
+      chance:
+        default: "15%"
+        vip: "25%"
+      name: "&dJabol"
+      lore:
+        - "&fJabol to slangowe określenie taniego"
+        - "&fwina o niskiej jakości zwykle"
+        - "&fotrzymywanego z niedojrzałych winogron."
+      enchant:
+        - "lure 7"
+      amount:
+        min: "1"
+        max: "2"
+    35:
+      item: "rabbit hide"
+      chance:
+        default: "15%"
+        vip: "25%"
+      name: "&dAegis"
+      lore:
+        - "&fEpapieros typu Box"
+        - "&fPizga niezła chmure oraz po płucach"
+      enchant:
+        - "lure 6"
+      amount:
+        min: "1"
+        max: "2"
+    36:
+      item: "rabbit hide"
+      chance:
+        default: "15%"
+        vip: "25%"
+      name: "&dButelka Wody"
+      lore:
+        - "&fPół litra wody cristal  "
+        - "&fWoda służąca do napojenia się bądz"
+        - "&fZajebania przysaidu na nią "
+      enchant:
+        - "lure 5"
+      amount:
+        min: "1"
+        max: "1"
+    37:
+      item: "bow"
+      chance:
+        default: "1%"
+        vip: "2%"
+      name: "&f&lJan"
+      lore:
+        - "&fLegendarny złoty łuk papierza &fpol&caka"
+        - "&fNapewno jest warty sporą sumkę."
+      enchant:
+        - "power 2"
+      amount:
+        min: "1"
+        max: "1"
+  t2:
+    1:
+      item: "amethyst shard"
+      lore:
+        - ""
+        - "&fJestes w stanie z fragmentow stworzyc"
+        - "&fdowolna wersje sprawnego talizmanu"
+      chance:
+        default: "100%"
+        vip: "100%"
+      name: "&5&lFragment talizmanu JackaPlacka"
+      ctd: "1"
+      amount:
+        min: "1"
+        max: "1"
+    2:
+      item: "diamond pickaxe"
+      chance:
+        default: "3%"
+        vip: "6%"
+      name: "&ePickaxe"
+      enchant:
+        - "efficiency 6"
+        - "unbreaking 4"
+        - "fortune 4"
+      amount:
+        min: "1"
+        max: "1"
+    3:
+      item: "diamond sword"
+      chance:
+        default: "3%"
+        vip: "6%"
+      name: "&eSalvage Sword"
+      enchant:
+        - "sharpness 6"
+        - "unbreaking 4"
+        - "looting 4"
+      amount:
+        min: "1"
+        max: "1"
+    4:
+      item: "diamond axe"
+      chance:
+        default: "3%"
+        vip: "6%"
+      name: "&eHachet"
+      enchant:
+        - "efficiency 6"
+        - "unbreaking 4"
+        - "fortune 4"
+      amount:
+        min: "1"
+        max: "1"
+    5:
+      item: "diamond shovel"
+      chance:
+        default: "3%"
+        vip: "6%"
+      name: "&ePaddle"
+      enchant:
+        - "efficiency 6"
+        - "unbreaking 4"
+        - "fortune 4"
+      amount:
+        min: "1"
+        max: "1"
+    6:
+      item: "diamond axe"
+      chance:
+        default: "3%"
+        vip: "6%"
+      name: "&eTopor Dariusa"
+      enchant:
+        - "sharpness 7"
+        - "unbreaking 4"
+        - "fire aspect 4"
+      amount:
+        min: "1"
+        max: "1"
+    7:
+      item: "bow"
+      chance:
+        default: "3%"
+        vip: "6%"
+      name: "&eLegacy Bow"
+      enchant:
+        - "power 6"
+        - "unbreaking 4"
+        - "infinity 1"
+      amount:
+        min: "1"
+        max: "1"
+    8:
+      item: "diamond hoe"
+      chance:
+        default: "3%"
+        vip: "6%"
+      name: "&eSierp"
+      enchant:
+        - "efficiency 6"
+        - "unbreaking 4"
+        - "fortune 4"
+      amount:
+        min: "1"
+        max: "1"
+    9:
+      item: "diamond helmet"
+      chance:
+        default: "3%"
+        vip: "6%"
+      name: "&eWilk"
+      enchant:
+        - "protection 5"
+        - "unbreaking 4"
+        - "aqua affinity 1"
+      amount:
+        min: "1"
+        max: "1"
+    10:
+      item: "diamond chestplate"
+      chance:
+        default: "3%"
+        vip: "6%"
+      name: "&ePoncho"
+      enchant:
+        - "protection 5"
+        - "unbreaking 4"
+      amount:
+        min: "1"
+        max: "1"
+    11:
+      item: "diamond leggings"
+      chance:
+        default: "3%"
+        vip: "6%"
+      name: "&ePants"
+      enchant:
+        - "protection 5"
+        - "unbreaking 4"
+      amount:
+        min: "1"
+        max: "1"
+    12:
+      item: "diamond boots"
+      chance:
+        default: "3%"
+        vip: "6%"
+      name: "&eKapcie"
+      enchant:
+        - "protection 5"
+        - "unbreaking 4"
+        - "feather falling 4"
+      amount:
+        min: "1"
+        max: "1"
+    13:
+      item: "paper"
+      chance:
+        default: "10%"
+        vip: "16%"
+      name: "&eCzek &f&l< 2500 >"
+      lore:
+        - ""
+        - "&fUzycie: &f&l<PPM>"
+      enchant:
+        - "lure 9"
+      amount:
+        min: "1"
+        max: "2"
+    14:
+      item: "rabbit hide"
+      chance:
+        default: "3%"
+        vip: "6%"
+      name: "&e&lLom"
+      lore:
+        - ""
+        - "&fSluzy do otwarcia &4Locked Crate'a"
+      ctd: "10"
+      amount:
+        min: "1"
+        max: "1"
+    15:
+      item: "rabbit hide"
+      chance:
+        default: "30%"
+        vip: "50%"
+      name: "&eWytrych"
+      lore:
+        - ""
+        - "&fSluzy do otwarcia &4Locked Crate'a"
+      enchant:
+        - "mending 10"
+      amount:
+        min: "1"
+        max: "4"
+    16:
+      item: "honey bottle"
+      chance:
+        default: "10%"
+        vip: "20%"
+      name: "&6&lAntyRad &7< &f&l10 &7>"
+      lore:
+        - "&fSluzy do przebywania w strefie radiacji"
+        - ""
+        - "&fDlugosc Trwania: &f&l10 minut"
+      enchant:
+        - "lure 9"
+      amount:
+        min: "1"
+        max: "3"
+    17:
+      item: "golden apple"
+      chance:
+        default: "30%"
+        vip: "50%"
+      amount:
+        min: "8"
+        max: "16"
+    18:
+      item: "enchanted golden apple"
+      chance:
+        default: "3%"
+        vip: "6%"
+      amount:
+        min: "1"
+        max: "2"
+    19:
+      item: "cooked beef"
+      chance:
+        default: "60%"
+        vip: "80%"
+      amount:
+        min: "16"
+        max: "32"
+    20:
+      item: "golden carrot"
+      chance:
+        default: "60%"
+        vip: "80%"
+      amount:
+        min: "16"
+        max: "32"
+    21:
+      item: "netherite ingot"
+      chance:
+        default: "4%"
+        vip: "8%"
+      amount:
+        min: "1"
+        max: "1"
+    22:
+      item: "diamond block"
+      chance:
+        default: "9%"
+        vip: "15%"
+      amount:
+        min: "3"
+        max: "6"
+    23:
+      item: "iron block"
+      chance:
+        default: "25%"
+        vip: "35%"
+      amount:
+        min: "8"
+        max: "18"
+    24:
+      item: "gold block"
+      chance:
+        default: "25%"
+        vip: "35%"
+      amount:
+        min: "8"
+        max: "24"
+    25:
+      item: "redstone block"
+      chance:
+        default: "30%"
+        vip: "40%"
+      amount:
+        min: "2"
+        max: "20"
+    26:
+      item: "lapis block"
+      chance:
+        default: "30%"
+        vip: "40%"
+      amount:
+        min: "2"
+        max: "20"
+    27:
+      item: "coal block"
+      chance:
+        default: "25%"
+        vip: "35%"
+      amount:
+        min: "4"
+        max: "24"
+    28:
+      item: "gunpowder"
+      chance:
+        default: "25%"
+        vip: "35%"
+      amount:
+        min: "20"
+        max: "100"
+    29:
+      item: "diamond helmet"
+      name: "&eCoffe Can"
+      enchant:
+        - "protection 6"
+        - "unbreaking 4"
+        - "aqua affinity 1"
+        - "fire protection 4"
+        - "respiration 3"
+        - "mending 1"
+      lore:
+        - ""
+        - "&cGuns Resistance: &45%"
+        - ""
+      chance:
+        default: "3%"
+        vip: "6%"
+      amount:
+        min: "1"
+        max: "1"
+    30:
+      item: "diamond chestplate"
+      name: "&eRoad Sign Vest"
+      enchant:
+        - "protection 6"
+        - "unbreaking 4"
+        - "fire protection 4"
+        - "mending 1"
+      lore:
+        - ""
+        - "&cGuns Resistance: &48%"
+        - ""
+      chance:
+        default: "3%"
+        vip: "6%"
+      amount:
+        min: "1"
+        max: "1"
+    31:
+      item: "diamond leggings"
+      name: "&eSpodnie ze Znaków"
+      enchant:
+        - "protection 6"
+        - "unbreaking 4"
+        - "mending 1"
+        - "fire protection 4"
+        - "swift sneak 3"
+      lore:
+        - ""
+        - "&cGuns Resistance: &44%"
+        - ""
+      chance:
+        default: "3%"
+        vip: "6%"
+      amount:
+        min: "1"
+        max: "1"
+    32:
+      item: "diamond boots"
+      name: "&eTrampki"
+      enchant:
+        - "protection 6"
+        - "unbreaking 4"
+        - "mending 1"
+        - "fire protection 4"
+        - "feather falling 6"
+        - "depth strider 4"
+      lore:
+        - ""
+        - "&cGuns Resistance: &43%"
+        - ""
+      chance:
+        default: "3%"
+        vip: "6%"
+      amount:
+        min: "1"
+        max: "1"
+    33:
+      item: "diamond sword"
+      name: "&eSalvage Cleaver"
+      enchant:
+        - "sharpness 7"
+        - "unbreaking 5"
+        - "looting 5"
+        - "mending 1"
+      chance:
+        default: "3%"
+        vip: "6%"
+      amount:
+        min: "1"
+        max: "1"
+    34:
+      item: "diamond pickaxe"
+      name: "&eIce Pick"
+      enchant:
+        - "efficiency 7"
+        - "unbreaking 5"
+        - "fortune 6"
+        - "mending 1"
+      chance:
+        default: "3%"
+        vip: "6%"
+      amount:
+        min: "1"
+        max: "1"
+    35:
+      item: "diamond axe"
+      name: "&eSalvage Axe"
+      enchant:
+        - "efficiency 7"
+        - "unbreaking 5"
+        - "fortune 5"
+        - "mending 1"
+      chance:
+        default: "3%"
+        vip: "6%"
+      amount:
+        min: "1"
+        max: "1"
+    36:
+      item: "diamond shovel"
+      name: "&eŁopata"
+      enchant:
+        - "efficiency 7"
+        - "unbreaking 5"
+        - "fortune 5"
+        - "mending 1"
+      chance:
+        default: "3%"
+        vip: "6%"
+      amount:
+        min: "1"
+        max: "1"
+    37:
+      item: "diamond hoe"
+      name: "&eKosa"
+      enchant:
+        - "efficiency 7"
+        - "unbreaking 5"
+        - "fortune 5"
+        - "mending 1"
+      chance:
+        default: "3%"
+        vip: "6%"
+      amount:
+        min: "1"
+        max: "1"
+    38:
+      item: "bow"
+      name: "&eJade Bow"
+      enchant:
+        - "power 7"
+        - "unbreaking 5"
+        - "infinity 1"
+        - "mending 1"
+      chance:
+        default: "3%"
+        vip: "6%"
+      amount:
+        min: "1"
+        max: "1"
+    40:
+      item: "iron horse armor"
+      name: "&c&lRevolver"
+      ctd: "1"
+      lore:
+        - "&fKultowa replica revolveru z czasu Westernu"
+      chance:
+        default: "2%"
+        vip: "3%"
+      amount:
+        min: "1"
+        max: "1"
+    41:
+      item: "rabbit foot"
+      name: "&eMagnum .44"
+      ctd: "1"
+      lore:
+        - "&fAmunicja do &cRevolver'a"
+      chance:
+        default: "7%"
+        vip: "12%"
+      amount:
+        min: "10"
+        max: "18"
+    42:
+      item: "iron horse armor"
+      name: "&c&lCustomSMG"
+      ctd: "3"
+      lore:
+        - "&fRozjebana MP5 sklejona taśmą"
+      chance:
+        default: "0.5%"
+        vip: "0.8%"
+      amount:
+        min: "1"
+        max: "1"
+    43:
+      item: "rabbit foot"
+      name: "&e9x19mm Ammo"
+      ctd: "2"
+      lore:
+        - "&fAmunicja do &c&lCustomSMG"
+      chance:
+        default: "5%"
+        vip: "10%"
+      amount:
+        min: "8"
+        max: "16"
+    44:
+      item: "iron horse armor"
+      name: "&c&lSemi Auto Rifle"
+      ctd: "5"
+      lore:
+        - "&fUlubiona broń Grubego Joe'a"
+      chance:
+        default: "0.5%"
+        vip: "0.8%"
+      amount:
+        min: "1"
+        max: "1"
+    45:
+      item: "rabbit foot"
+      name: "&e5.56 Ammo"
+      ctd: "3"
+      lore:
+        - "&fAmunicja do &c&lSar'a"
+      chance:
+        default: "5%"
+        vip: "10%"
+      amount:
+        min: "8"
+        max: "16"
+    46:
+      item: "smooth red sandstone"
+      name: "&eSiarka"
+      chance:
+        default: "5%"
+        vip: "10%"
+      amount:
+        min: "2"
+        max: "4"
+    47:
+      item: "rabbit hide"
+      chance:
+        default: "15%"
+        vip: "25%"
+      name: "&dNerka"
+      enchant:
+        - "lure 10"
+      lore:
+        - "&fZagubiona nerka pewnego"
+        - "&flegendarnego zawodnika w F1."
+      amount:
+        min: "1"
+        max: "4"
+    48:
+      item: "rabbit hide"
+      chance:
+        default: "15%"
+        vip: "25%"
+      name: "&dPaka Szlogow"
+      lore:
+        - "&fPaczka papierosów Marlboro to"
+        - "&fklasyczne opakowanie"
+        - "&fz czerwonym logo i nazwą"
+        - "&fmarki na białym tle."
+        - "&fIdealnie pasuje z coca-colą."
+      enchant:
+        - "lure 9"
+      amount:
+        min: "1"
+        max: "4"
+    49:
+      item: "rabbit hide"
+      chance:
+        default: "15%"
+        vip: "25%"
+      name: "&dJoint"
+      lore:
+        - "&fJoint to forma papierosa"
+        - "&fskręconego z papieru i wypełnionego"
+        - "&fsuszem konopi indyjskich, która"
+        - "&fjest często używana w celach rekreacyjnych."
+      enchant:
+        - "lure 8"
+      amount:
+        min: "1"
+        max: "4"
+    50:
+      item: "rabbit hide"
+      chance:
+        default: "15%"
+        vip: "25%"
+      name: "&dJabol"
+      lore:
+        - "&fJabol to slangowe określenie taniego"
+        - "&fwina o niskiej jakości zwykle"
+        - "&fotrzymywanego z niedojrzałych winogron."
+      enchant:
+        - "lure 7"
+      amount:
+        min: "1"
+        max: "4"
+    51:
+      item: "rabbit hide"
+      chance:
+        default: "15%"
+        vip: "25%"
+      name: "&dAegis"
+      lore:
+        - "&fEpapieros typu Box"
+        - "&fPizga niezła chmure oraz po płucach"
+      enchant:
+        - "lure 6"
+      amount:
+        min: "1"
+        max: "4"
+    52:
+      item: "rabbit hide"
+      chance:
+        default: "15%"
+        vip: "25%"
+      name: "&dButelka Wody"
+      lore:
+        - "&fPół litra wody cristal  "
+        - "&fWoda służąca do napojenia się bądz"
+        - "&fZajebania przysaidu na nią "
+      enchant:
+        - "lure 5"
+      amount:
+        min: "1"
+        max: "2"
+    53:
+      item: "bow"
+      chance:
+        default: "1.5%"
+        vip: "2.5%"
+      name: "&f&lJan"
+      lore:
+        - "&fLegendarny złoty łuk papierza &fpol&caka"
+        - "&fNapewno jest warty sporą sumkę."
+      enchant:
+        - "power 2"
+      amount:
+        min: "1"
+        max: "1"
+  t3:
+    1:
+      item: "amethyst shard"
+      lore:
+        - ""
+        - "&fJestes w stanie z fragmentow stworzyc"
+        - "&fdowolna wersje sprawnego talizmanu"
+      chance:
+        default: "100%"
+        vip: "100%"
+      name: "&5&lFragment talizmanu JackaPlacka"
+      ctd: "1"
+      amount:
+        min: "1"
+        max: "2"
+    2:
+      item: "paper"
+      chance:
+        default: "15%"
+        vip: "21%"
+      name: "&eCzek &f&l< 2500 >"
+      lore:
+        - ""
+        - "&fUzycie: &f&l<PPM>"
+      enchant:
+        - "lure 9"
+      amount:
+        min: "1"
+        max: "2"
+    3:
+      item: "paper"
+      chance:
+        default: "10%"
+        vip: "15%"
+      name: "&eCzek &f&l< 5000 >"
+      lore:
+        - ""
+        - "&fUzycie: &f&l<PPM>"
+      enchant:
+        - "lure 10"
+      amount:
+        min: "1"
+        max: "1"
+    4:
+      item: "rabbit hide"
+      chance:
+        default: "10%"
+        vip: "15%"
+      name: "&e&lLom"
+      lore:
+        - ""
+        - "&fSluzy do otwarcia &4Locked Crate'a"
+      ctd: "10"
+      amount:
+        min: "1"
+        max: "2"
+    5:
+      item: "honey bottle"
+      chance:
+        default: "10%"
+        vip: "20%"
+      name: "&6&lAntyRad &7< &f&l20 &7>"
+      lore:
+        - "&fSluzy do przebywania w strefie radiacji"
+        - ""
+        - "&fDlugosc Trwania: &f&l20 minut"
+      enchant:
+        - "lure 10"
+      amount:
+        min: "1"
+        max: "3"
+    6:
+      item: "golden apple"
+      chance:
+        default: "50%"
+        vip: "70%"
+      amount:
+        min: "8"
+        max: "32"
+    7:
+      item: "enchanted golden apple"
+      chance:
+        default: "6%"
+        vip: "12%"
+      amount:
+        min: "1"
+        max: "3"
+    8:
+      item: "cooked beef"
+      chance:
+        default: "80%"
+        vip: "100%"
+      amount:
+        min: "8"
+        max: "48"
+    9:
+      item: "golden carrot"
+      chance:
+        default: "80%"
+        vip: "100%"
+      amount:
+        min: "8"
+        max: "48"
+    10:
+      item: "netherite ingot"
+      chance:
+        default: "8%"
+        vip: "14%"
+      amount:
+        min: "1"
+        max: "3"
+    11:
+      item: "diamond block"
+      chance:
+        default: "14%"
+        vip: "19%"
+      amount:
+        min: "3"
+        max: "12"
+    12:
+      item: "iron block"
+      chance:
+        default: "33%"
+        vip: "50%"
+      amount:
+        min: "8"
+        max: "25"
+    13:
+      item: "gold block"
+      chance:
+        default: "33%"
+        vip: "50%"
+      amount:
+        min: "8"
+        max: "25"
+    14:
+      item: "redstone block"
+      chance:
+        default: "50%"
+        vip: "65%"
+      amount:
+        min: "10"
+        max: "48"
+    15:
+      item: "lapis block"
+      chance:
+        default: "50%"
+        vip: "65%"
+      amount:
+        min: "10"
+        max: "48"
+    16:
+      item: "coal block"
+      chance:
+        default: "45%"
+        vip: "55%"
+      amount:
+        min: "8"
+        max: "24"
+    17:
+      item: "gunpowder"
+      chance:
+        default: "40%"
+        vip: "55%"
+      amount:
+        min: "32"
+        max: "128"
+    18:
+      item: "diamond helmet"
+      name: "&eCoffe Can"
+      enchant:
+        - "protection 6"
+        - "unbreaking 4"
+        - "aqua affinity 1"
+        - "fire protection 4"
+        - "respiration 3"
+        - "mending 1"
+      lore:
+        - ""
+        - "&cGuns Resistance: &45%"
+        - ""
+      chance:
+        default: "6%"
+        vip: "12%"
+      amount:
+        min: "1"
+        max: "1"
+    19:
+      item: "diamond chestplate"
+      name: "&eRoad Sign Vest"
+      enchant:
+        - "protection 6"
+        - "unbreaking 4"
+        - "fire protection 4"
+        - "mending 1"
+      lore:
+        - ""
+        - "&cGuns Resistance: &48%"
+        - ""
+      chance:
+        default: "6%"
+        vip: "12%"
+      amount:
+        min: "1"
+        max: "1"
+    20:
+      item: "diamond leggings"
+      name: "&eSpodnie ze Znaków"
+      enchant:
+        - "protection 6"
+        - "unbreaking 4"
+        - "mending 1"
+        - "fire protection 4"
+        - "swift sneak 3"
+      lore:
+        - ""
+        - "&cGuns Resistance: &44%"
+        - ""
+      chance:
+        default: "6%"
+        vip: "12%"
+      amount:
+        min: "1"
+        max: "1"
+    21:
+      item: "diamond boots"
+      name: "&eTrampki"
+      enchant:
+        - "protection 6"
+        - "unbreaking 4"
+        - "mending 1"
+        - "fire protection 4"
+        - "feather falling 6"
+        - "depth strider 4"
+      lore:
+        - ""
+        - "&cGuns Resistance: &43%"
+        - ""
+      chance:
+        default: "6%"
+        vip: "12%"
+      amount:
+        min: "1"
+        max: "1"
+    22:
+      item: "diamond sword"
+      name: "&eSalvage Cleaver"
+      enchant:
+        - "sharpness 7"
+        - "unbreaking 5"
+        - "looting 5"
+        - "mending 1"
+      chance:
+        default: "6%"
+        vip: "12%"
+      amount:
+        min: "1"
+        max: "1"
+    23:
+      item: "diamond pickaxe"
+      name: "&eIce Pick"
+      enchant:
+        - "efficiency 7"
+        - "unbreaking 5"
+        - "fortune 6"
+        - "mending 1"
+      chance:
+        default: "6%"
+        vip: "12%"
+      amount:
+        min: "1"
+        max: "1"
+    24:
+      item: "diamond axe"
+      name: "&eSalvage Axe"
+      enchant:
+        - "efficiency 7"
+        - "unbreaking 5"
+        - "fortune 5"
+        - "mending 1"
+      chance:
+        default: "6%"
+        vip: "12%"
+      amount:
+        min: "1"
+        max: "1"
+    25:
+      item: "diamond shovel"
+      name: "&eŁopata"
+      enchant:
+        - "efficiency 7"
+        - "unbreaking 5"
+        - "fortune 5"
+        - "mending 1"
+      chance:
+        default: "6%"
+        vip: "12%"
+      amount:
+        min: "1"
+        max: "1"
+    26:
+      item: "diamond hoe"
+      name: "&eKosa"
+      enchant:
+        - "efficiency 7"
+        - "unbreaking 5"
+        - "fortune 5"
+        - "mending 1"
+      chance:
+        default: "6%"
+        vip: "12%"
+      amount:
+        min: "1"
+        max: "1"
+    27:
+      item: "bow"
+      name: "&eJade Bow"
+      enchant:
+        - "power 7"
+        - "unbreaking 5"
+        - "infinity 1"
+        - "mending 1"
+      chance:
+        default: "6%"
+        vip: "12%"
+      amount:
+        min: "1"
+        max: "1"
+    28:
+      item: "iron horse armor"
+      name: "&c&lRevolver"
+      ctd: "1"
+      lore:
+        - "&fKultowa replica revolveru z czasu Westernu"
+      chance:
+        default: "4%"
+        vip: "6%"
+      amount:
+        min: "1"
+        max: "1"
+    29:
+      item: "rabbit foot"
+      name: "&eMagnum .44"
+      ctd: "1"
+      lore:
+        - "&fAmunicja do &cRevolver'a"
+      chance:
+        default: "7%"
+        vip: "12%"
+      amount:
+        min: "10"
+        max: "18"
+    30:
+      item: "iron horse armor"
+      name: "&c&lCustomSMG"
+      ctd: "3"
+      lore:
+        - "&fRozjebana MP5 sklejona taśmą"
+      chance:
+        default: "1%"
+        vip: "2%"
+      amount:
+        min: "1"
+        max: "1"
+    31:
+      item: "rabbit foot"
+      name: "&e9x19mm Ammo"
+      ctd: "2"
+      lore:
+        - "&fAmunicja do &c&lCustomSMG"
+      chance:
+        default: "10%"
+        vip: "20%"
+      amount:
+        min: "8"
+        max: "16"
+    32:
+      item: "iron horse armor"
+      name: "&c&lSemi Auto Rifle"
+      ctd: "5"
+      lore:
+        - "&fUlubiona broń Grubego Joe'a"
+      chance:
+        default: "1%"
+        vip: "2%"
+      amount:
+        min: "1"
+        max: "1"
+    33:
+      item: "rabbit foot"
+      name: "&e5.56 Ammo"
+      ctd: "3"
+      lore:
+        - "&fAmunicja do &c&lSar'a"
+      chance:
+        default: "10%"
+        vip: "20%"
+      amount:
+        min: "8"
+        max: "16"
+    34:
+      item: "smooth red sandstone"
+      name: "&eSiarka"
+      chance:
+        default: "10%"
+        vip: "20%"
+      amount:
+        min: "2"
+        max: "4"
+    35:
+      item: "red chiseled sandstone"
+      name: "&6Metal Wysokiej Jakosci"
+      chance:
+        default: "5%"
+        vip: "10%"
+      amount:
+        min: "2"
+        max: "4"
+    36:
+      item: "rabbit hide"
+      chance:
+        default: "15%"
+        vip: "25%"
+      name: "&dNerka"
+      enchant:
+        - "lure 10"
+      lore:
+        - "&fZagubiona nerka pewnego"
+        - "&flegendarnego zawodnika w F1."
+      amount:
+        min: "2"
+        max: "6"
+    37:
+      item: "rabbit hide"
+      chance:
+        default: "15%"
+        vip: "25%"
+      name: "&dPaka Szlogow"
+      lore:
+        - "&fPaczka papierosów Marlboro to"
+        - "&fklasyczne opakowanie"
+        - "&fz czerwonym logo i nazwą"
+        - "&fmarki na białym tle."
+        - "&fIdealnie pasuje z coca-colą."
+      enchant:
+        - "lure 9"
+      amount:
+        min: "2"
+        max: "6"
+    38:
+      item: "rabbit hide"
+      chance:
+        default: "15%"
+        vip: "25%"
+      name: "&dJoint"
+      lore:
+        - "&fJoint to forma papierosa"
+        - "&fskręconego z papieru i wypełnionego"
+        - "&fsuszem konopi indyjskich, która"
+        - "&fjest często używana w celach rekreacyjnych."
+      enchant:
+        - "lure 8"
+      amount:
+        min: "2"
+        max: "6"
+    39:
+      item: "rabbit hide"
+      chance:
+        default: "15%"
+        vip: "25%"
+      name: "&dJabol"
+      lore:
+        - "&fJabol to slangowe określenie taniego"
+        - "&fwina o niskiej jakości zwykle"
+        - "&fotrzymywanego z niedojrzałych winogron."
+      enchant:
+        - "lure 7"
+      amount:
+        min: "2"
+        max: "6"
+    40:
+      item: "jungle button"
+      chance:
+        default: "10%"
+        vip: "20%"
+      name: "&c&lC4"
+      lore:
+        - ""
+        - "&fSluzy do wysadzania baz"
+        - ""
+        - "&fUżycie: &f&l<LPM>"
+      amount:
+        min: "2"
+        max: "3"
+    41:
+      item: "rabbit hide"
+      chance:
+        default: "15%"
+        vip: "25%"
+      name: "&dAegis"
+      lore:
+        - "&fEpapieros typu Box"
+        - "&fPizga niezła chmure oraz po płucach"
+      enchant:
+        - "lure 6"
+      amount:
+        min: "2"
+        max: "6"
+    42:
+      item: "rabbit hide"
+      chance:
+        default: "15%"
+        vip: "25%"
+      name: "&dButelka Wody"
+      lore:
+        - "&fPół litra wody cristal  "
+        - "&fWoda służąca do napojenia się bądz"
+        - "&fZajebania przysaidu na nią "
+      enchant:
+        - "lure 5"
+      amount:
+        min: "1"
+        max: "3"
+    43:
+      item: "bow"
+      chance:
+        default: "2%"
+        vip: "3%"
+      name: "&f&lJan"
+      lore:
+        - "&fLegendarny złoty łuk papierza &fpol&caka"
+        - "&fNapewno jest warty sporą sumkę."
+      enchant:
+        - "power 2"
+      amount:
+        min: "1"
+        max: "1"
+    44:
+      item: "netherite pickaxe"
+      name: "&4&lJackhammer"
+      enchant:
+        - "efficiency 10"
+        - "unbreaking 10"
+        - "fortune 7"
+        - "mending 1"
+      chance:
+        default: "0.01%"
+        vip: "0.02%"
+      amount:
+        min: "1"
+        max: "1"
+    45:
+      item: "netherite sword"
+      name: "&4&lTempered Sword"
+      enchant:
+        - "sharpness 10"
+        - "unbreaking 10"
+        - "fire aspect 7"
+        - "smite 10"
+        - "bane of arthropods 10"
+        - "sweeping edge 7"
+        - "looting 7"
+        - "mending 1"
+      chance:
+        default: "0.01%"
+        vip: "0.02%"
+      amount:
+        min: "1"
+        max: "1"
+    46:
+      item: "iron horse armor"
+      name: "&4&lAlien Red"
+      ctd: "7"
+      lore:
+        - "&fLegendarny karabin automatyczny z specjalnym malowaniem."
+      chance:
+        default: "0.02%"
+        vip: "0.03%"
+      amount:
+        min: "1"
+        max: "1"
+    47:
+      item: "iron horse armor"
+      name: "&4&lL96"
+      ctd: "9"
+      lore:
+        - "&fMust-have każdego roofcampera."
+      chance:
+        default: "0.02%"
+        vip: "0.03%"
+      amount:
+        min: "1"
+        max: "1"
+    48:
+      item: "rabbit foot"
+      name: "&e7.62x39mm Ammo"
+      ctd: "4"
+      lore:
+        - "&fAmunicja do &4&lAlien Red"
+      chance:
+        default: "1%"
+        vip: "2%"
+      amount:
+        min: "8"
+        max: "16"
+    49:
+      item: "rabbit foot"
+      name: "&e.308 Ammo"
+      ctd: "5"
+      lore:
+        - "&fAmunicja do &4&lL96"
+      chance:
+        default: "1%"
+        vip: "2%"
+      amount:
+        min: "2"
+        max: "10"
+
+#                   #
+#   --NPCTRADER--   #
+#                   #
+
+quest-drops:
+  1:
+    item: "rabbit hide"
+    name: "&dNerka"
+    lore:
+      - "&fZagubiona nerka pewnego"
+      - "&flegendarnego zawodnika w F1."
+    enchant:
+      - "lure 10"
+    amount:
+      min: "1"
+      max: "1"
+    drop:
+      1:
+        type: "zombie"
+        chance:
+          default: "1%"
+          vip: "3%"
+  2:
+    item: "rabbit hide"
+    name: "&dPaka Szlugów"
+    lore:
+      - "&fPaczka papierosów Marlboro to"
+      - "&fklasyczne opakowanie"
+      - "&fz czerwonym logo i nazwą"
+      - "&fmarki na białym tle."
+      - "&fIdealnie pasuje z coca-colą."
+    enchant:
+      - "lure 9"
+    amount:
+      min: "1"
+      max: "1"
+    drop:
+      1:
+        type: "creeper"
+        chance:
+          default: "1%"
+          vip: "3%"
+  3:
+    item: "rabbit hide"
+    name: "&dJoint"
+    lore:
+      - "&fJoint to forma papierosa"
+      - "&fskręconego z papieru i wypełnionego"
+      - "&fsuszem konopi indyjskich, która"
+      - "&fjest często używana w celach rekreacyjnych."
+    enchant:
+      - "lure 8"
+    amount:
+      min: "1"
+      max: "1"
+    drop:
+      1:
+        type: "spider"
+        chance:
+          default: "1%"
+          vip: "3%"
+  4:
+    item: "rabbit hide"
+    name: "&dJabol"
+    lore:
+      - "&fJabol to slangowe określenie taniego"
+      - "&fwina o niskiej jakości zwykle"
+      - "&fotrzymywanego z niedojrzałych winogron."
+    enchant:
+      - "lure 7"
+    amount:
+      min: "1"
+      max: "1"
+    drop:
+      1:
+        type: "skeleton"
+        chance:
+          default: "1%"
+          vip: "3%"
+  5:
+    item: "rabbit hide"
+    name: "&dAegis"
+    lore:
+      - "&fEpapieros typu Box"
+      - "&fPizga niezła chmure oraz po płucach"
+    enchant:
+      - "lure 6"
+    amount:
+      min: "1"
+      max: "1"
+    drop:
+      1:
+        type: "enderman"
+        chance:
+          default: "1%"
+          vip: "3%"
+  6:
+    item: "rabbit hide"
+    name: "&dButelka Wody"
+    lore:
+      - "&fPół litra wody cristal  "
+      - "&fWoda służąca do napojenia się bądz"
+      - "&fZajebania przysaidu na nią "
+    enchant:
+      - "lure 5"
+    amount:
+      min: "1"
+      max: "1"
+    drop:
+      1:
+        type: "enderman"
+        chance:
+          default: "1%"
+          vip: "2%"
+      2:
+        type: "skeleton"
+        chance:
+          default: "0.5%"
+          vip: "1.5%"
+      3:
+        type: "zombie"
+        chance:
+          default: "0.5%"
+          vip: "1.5%"
+      4:
+        type: "spider"
+        chance:
+          default: "0.5%"
+          vip: "1.5%"
+      5:
+        type: "creeper"
+        chance:
+          default: "0.5%"
+          vip: "1.5%"
+
+#             #
+#   --Roll--  #
+#             #
+
+#Config roll menel,og,vip
+roll:
+  menel:
+    icon-customdata: "4"
+    cd: "1 hour"
+    cdm: "1h"
+    items:
+      0:
+        chance: "0.1%"
+        item: "paper"
+        name: "&eCzek &f&l< 2500 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 9"
+        amount:
+          min: "1"
+          max: "1"
+      1:
+        chance: "2%"
+        item: "netherite ingot"
+        amount:
+          min: "1"
+          max: "1"
+      2:
+        chance: "4%"
+        item: "diamond"
+        amount:
+          min: "1"
+          max: "2"
+      3:
+        chance: "5%"
+        item: "paper"
+        name: "&eCzek &f&l< 100 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 7"
+        amount:
+          min: "2"
+          max: "3"
+      4:
+        chance: "10%"
+        item: "iron ingot"
+        amount:
+          min: "6"
+          max: "10"
+      5:
+        chance: "20%"
+        item: "gold ingot"
+        amount:
+          min: "2"
+          max: "4"
+      6:
+        chance: "29.45%"
+        item: "coal"
+        amount:
+          min: "4"
+          max: "8"
+      7:
+        chance: "29.45%"
+        item: "oak log"
+        amount:
+          min: "4"
+          max: "8"
+  og:
+    icon-customdata: "5"
+    cd: "1 hour"
+    cdm: "1h"
+    items:
+      0:
+        chance: "0.01%"
+        item: "paper"
+        name: "&eCzek &f&l< 5000 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 10"
+        amount:
+          min: "1"
+          max: "1"
+      1:
+        chance: "1%"
+        item: "paper"
+        name: "&eCzek &f&l< 2500 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 9"
+        amount:
+          min: "1"
+          max: "1"
+      2:
+        chance: "3%"
+        item: "netherite ingot"
+        amount:
+          min: "1"
+          max: "2"
+      3:
+        chance: "6%"
+        item: "diamond"
+        amount:
+          min: "1"
+          max: "5"
+      4:
+        chance: "7.5%"
+        item: "paper"
+        name: "&eCzek &f&l< 100 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 7"
+        amount:
+          min: "2"
+          max: "5"
+      5:
+        chance: "15%"
+        item: "iron ingot"
+        amount:
+          min: "10"
+          max: "24"
+      6:
+        chance: "20%"
+        item: "copper ingot"
+        amount:
+          min: "15"
+          max: "32"
+      7:
+        chance: "23.74%"
+        item: "paper"
+        name: "&eCzek &f&l< 20 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 5"
+        amount:
+          min: "1"
+          max: "12"
+      8:
+        chance: "23.75%"
+        item: "oak log"
+        amount:
+          min: "4"
+          max: "8"
+  vip:
+    cd: "1 hour"
+    icon-customdata: "6"
+    cdm: "1h"
+    items:
+      0:
+        chance: "0.5%"
+        item: "paper"
+        name: "&eCzek &f&l< 5000 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 10"
+        amount:
+          min: "1"
+          max: "1"
+      1:
+        chance: "2%"
+        item: "paper"
+        name: "&eCzek &f&l< 2500 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 9"
+        amount:
+          min: "1"
+          max: "1"
+      2:
+        chance: "5%"
+        item: "honey bottle"
+        name: "&6&lAntyRad &7< &f&l10 &7>"
+        lore:
+          - "&fSluzy do przebywania w strefie radiacji"
+          - ""
+          - "&fDlugosc Trwania: &f&l10 minut"
+        enchant:
+          - "lure 9"
+        amount:
+          min: "1"
+          max: "1"
+      3:
+        chance: "6%"
+        item: "netherite ingot"
+        amount:
+          min: "1"
+          max: "2"
+      3:
+        chance: "11.5%"
+        item: "diamond"
+        amount:
+          min: "4"
+          max: "16"
+      4:
+        chance: "12.5%"
+        item: "golden apple"
+        amount:
+          min: "4"
+          max: "16"
+      5:
+        chance: "12.5%"
+        item: "iron block"
+        amount:
+          min: "4"
+          max: "8"
+      6:
+        chance: "12.5%"
+        item: "copper block"
+        amount:
+          min: "4"
+          max: "8"
+      7:
+        chance: "12.5%"
+        item: "coal block"
+        amount:
+          min: "4"
+          max: "6"
+      8:
+        chance: "12.5%"
+        item: "leather"
+        amount:
+          min: "4"
+          max: "24"
+      9:
+        chance: "12.5%"
+        item: "emerald"
+        amount:
+          min: "4"
+          max: "18"
+
+#paid roll
+paid-roll:
+  1:
+    cost: "125000"
+    name: "&6&lPAIN"
+    icon-customdata: "7"
+    items:
+      0:
+        chance: "10%"
+        item: "netherite helmet"
+        name: "&4&lBig Grin"
+        enchant:
+          - "protection 10"
+          - "unbreaking 10"
+          - "aqua affinity 1"
+          - "respiration 7"
+          - "fire protection 7"
+          - "projectile protection 7"
+          - "blast protection 7"
+          - "mending 1"
+        lore:
+          - ""
+          - "&cGuns Resistance: &420%"
+          - "&eRad Resistance: &65%"
+          - ""
+        amount:
+          min: "1"
+          max: "1"
+      1:
+        chance: "10%"
+        item: "netherite chestplate"
+        name: "&4&lMetal Chestplate"
+        enchant:
+          - "protection 10"
+          - "unbreaking 10"
+          - "fire protection 7"
+          - "projectile protection 7"
+          - "blast protection 7"
+          - "mending 1"
+        lore:
+          - ""
+          - "&cGuns Resistance: &430%"
+          - "&eRad Resistance: &610%"
+          - ""
+        amount:
+          min: "1"
+          max: "1"
+      2:
+        chance: "10%"
+        item: "netherite leggings"
+        name: "&4&lArmored Spodnie"
+        enchant:
+          - "protection 10"
+          - "unbreaking 10"
+          - "fire protection 7"
+          - "projectile protection 7"
+          - "blast protection 7"
+          - "mending 1"
+          - "Swift Sneak 7"
+        lore:
+          - ""
+          - "&eRad Resistance: &650%"
+          - ""
+        amount:
+          min: "1"
+          max: "1"
+      3:
+        chance: "10%"
+        item: "netherite boots"
+        name: "&4&lButy"
+        enchant:
+          - "protection 10"
+          - "unbreaking 10"
+          - "mending 1"
+          - "feather falling 7"
+          - "depth strider 7"
+          - "fire protection 7"
+          - "projectile protection 7"
+          - "blast protection 7"
+          - "soul speed 7"
+        lore:
+          - ""
+          - "&eRad Resistance: &635%"
+          - ""
+        amount:
+          min: "1"
+          max: "1"
+      4:
+        chance: "10%"
+        item: "netherite sword"
+        name: "&4&lTempered Sword"
+        enchant:
+          - "sharpness 10"
+          - "unbreaking 10"
+          - "fire aspect 7"
+          - "smite 10"
+          - "bane of arthropods 10"
+          - "sweeping edge 7"
+          - "looting 7"
+          - "mending 1"
+        amount:
+          min: "1"
+          max: "1"
+      5:
+        chance: "10%"
+        item: "netherite pickaxe"
+        name: "&4&lJackhammer"
+        enchant:
+          - "efficiency 10"
+          - "unbreaking 10"
+          - "fortune 7"
+          - "mending 1"
+        amount:
+          min: "1"
+          max: "1"
+      6:
+        chance: "15%"
+        item: "iron horse armor"
+        name: "&4&lAlien Red"
+        ctd: "7"
+        lore:
+          - "&fLegendarny karabin automatyczny z specjalnym malowaniem."
+        amount:
+          min: "1"
+          max: "1"
+      7:
+        chance: "10%"
+        item: "iron horse armor"
+        name: "&4&lL96"
+        ctd: "9"
+        lore:
+          - "&fMust-have każdego roofcampera."
+        amount:
+          min: "1"
+          max: "1"
+      8:
+        chance: "5%"
+        item: "rabbit hide"
+        name: "&e&lLom"
+        lore:
+          - ""
+          - "&fSluzy do otwarcia &4Locked Crate'a"
+        ctd: "10"
+        amount:
+          min: "12"
+          max: "32"
+      9:
+        chance: "3%"
+        item: "red chiseled sandstone"
+        name: "&6Metal Wysokiej Jakosci"
+        amount:
+          min: "48"
+          max: "64"
+      10:
+        chance: "4%"
+        item: "smooth red sandstone"
+        name: "&eSiarka"
+        amount:
+          min: "64"
+          max: "96"
+      11:
+        chance: "3%"
+        item: "leather helmet"
+        name: "&7Cap"
+        amount:
+          min: "1"
+          max: "1"
+  2:
+    cost: "100000"
+    name: "&6&lBig Grin Madness"
+    icon-customdata: "8"
+    items:
+      0:
+        chance: "20%"
+        item: "netherite helmet"
+        name: "&4&lBig Grin"
+        enchant:
+          - "protection 10"
+          - "unbreaking 10"
+          - "aqua affinity 1"
+          - "respiration 7"
+          - "fire protection 7"
+          - "projectile protection 7"
+          - "blast protection 7"
+          - "mending 1"
+        lore:
+          - ""
+          - "&cGuns Resistance: &420%"
+          - "&eRad Resistance: &65%"
+          - ""
+        amount:
+          min: "1"
+          max: "1"
+      1:
+        chance: "40%"
+        item: "iron horse armor"
+        name: "&4&lAlien Red"
+        ctd: "7"
+        lore:
+          - "&fLegendarny karabin automatyczny z specjalnym malowaniem."
+        amount:
+          min: "1"
+          max: "1"
+      2:
+        chance: "30%"
+        item: "iron horse armor"
+        name: "&4&lL96"
+        ctd: "9"
+        lore:
+          - "&fMust-have każdego roofcampera."
+        amount:
+          min: "1"
+          max: "1"
+      3:
+        chance: "10%"
+        item: "rabbit hide"
+        name: "&e&lLom"
+        lore:
+          - ""
+          - "&fSluzy do otwarcia &4Locked Crate'a"
+        ctd: "10"
+        amount:
+          min: "8"
+          max: "16"
+  3:
+    cost: "50000"
+    name: "&6&lBig Grin 50/50"
+    icon-customdata: "9"
+    items:
+      0:
+        chance: "50%"
+        item: "netherite helmet"
+        name: "&4&lBig Grin"
+        enchant:
+          - "protection 10"
+          - "unbreaking 10"
+          - "aqua affinity 1"
+          - "respiration 7"
+          - "fire protection 7"
+          - "projectile protection 7"
+          - "blast protection 7"
+          - "mending 1"
+        lore:
+          - ""
+          - "&cGuns Resistance: &420%"
+          - "&eRad Resistance: &65%"
+          - ""
+        amount:
+          min: "1"
+          max: "1"
+      1:
+        chance: "50%"
+        item: "leather helmet"
+        name: "&7Cap"
+        amount:
+          min: "1"
+          max: "1"
+  4:
+    cost: "12000"
+    name: "&6&lLocket Crate W Płynie Skurwysynie"
+    icon-customdata: "10"
+    items:
+      0:
+        chance: "35%"
+        item: "paper"
+        name: "&eCzek &f&l< 2500 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 9"
+        amount:
+          min: "1"
+          max: "1"
+      1:
+        chance: "5%"
+        item: "diamond helmet"
+        name: "&eCoffe Can"
+        enchant:
+          - "protection 6"
+          - "unbreaking 4"
+          - "aqua affinity 1"
+          - "fire protection 4"
+          - "respiration 3"
+          - "mending 1"
+        lore:
+          - ""
+          - "&cGuns Resistance: &45%"
+          - ""
+        amount:
+          min: "1"
+          max: "1"
+      2:
+        item: "diamond chestplate"
+        name: "&eRoad Sign Vest"
+        enchant:
+          - "protection 6"
+          - "unbreaking 4"
+          - "fire protection 4"
+          - "mending 1"
+        lore:
+          - ""
+          - "&cGuns Resistance: &48%"
+          - ""
+        chance: "5%"
+        amount:
+          min: "1"
+          max: "1"
+      3:
+        item: "diamond leggings"
+        name: "&eSpodnie ze Znaków"
+        enchant:
+          - "protection 6"
+          - "unbreaking 4"
+          - "mending 1"
+          - "fire protection 4"
+          - "swift sneak 3"
+        lore:
+          - ""
+          - "&cGuns Resistance: &44%"
+          - ""
+        chance: "5%"
+        amount:
+          min: "1"
+          max: "1"
+      4:
+        item: "diamond boots"
+        name: "&eTrampki"
+        enchant:
+          - "protection 6"
+          - "unbreaking 4"
+          - "mending 1"
+          - "fire protection 4"
+          - "feather falling 6"
+          - "depth strider 4"
+        lore:
+          - ""
+          - "&cGuns Resistance: &43%"
+          - ""
+        chance: "5%"
+        amount:
+          min: "1"
+          max: "1"
+      5:
+        item: "diamond sword"
+        name: "&eSalvage Cleaver"
+        enchant:
+          - "sharpness 7"
+          - "unbreaking 5"
+          - "looting 5"
+          - "mending 1"
+        chance: "5%"
+        amount:
+          min: "1"
+          max: "1"
+      6:
+        item: "diamond pickaxe"
+        name: "&eIce Pick"
+        enchant:
+          - "efficiency 7"
+          - "unbreaking 5"
+          - "fortune 6"
+          - "mending 1"
+        chance: "5%"
+        amount:
+          min: "1"
+          max: "1"
+      7:
+        item: "diamond axe"
+        name: "&eSalvage Axe"
+        enchant:
+          - "efficiency 7"
+          - "unbreaking 5"
+          - "fortune 5"
+          - "mending 1"
+        chance: "5%"
+        amount:
+          min: "1"
+          max: "1"
+      8:
+        item: "diamond shovel"
+        name: "&eŁopata"
+        enchant:
+          - "efficiency 7"
+          - "unbreaking 5"
+          - "fortune 5"
+          - "mending 1"
+        chance: "5%"
+        amount:
+          min: "1"
+          max: "1"
+      9:
+        item: "diamond hoe"
+        name: "&eKosa"
+        enchant:
+          - "efficiency 7"
+          - "unbreaking 5"
+          - "fortune 5"
+          - "mending 1"
+        chance: "5%"
+        amount:
+          min: "1"
+          max: "1"
+      10:
+        item: "bow"
+        name: "&eJade Bow"
+        enchant:
+          - "power 7"
+          - "unbreaking 5"
+          - "infinity 1"
+          - "mending 1"
+        chance: "5%"
+        amount:
+          min: "1"
+          max: "1"
+      11:
+        item: "iron horse armor"
+        name: "&c&lRevolver"
+        ctd: "1"
+        lore:
+          - "&fKultowa replica revolveru z czasu Westernu"
+        chance: "5%"
+        amount:
+          min: "1"
+          max: "1"
+      12:
+        item: "iron horse armor"
+        name: "&c&lCustomSMG"
+        ctd: "3"
+        lore:
+          - "&fRozjebana MP5 sklejona taśmą"
+        chance: "5%"
+        amount:
+          min: "1"
+          max: "1"
+      13:
+        item: "iron horse armor"
+        name: "&c&lSemi Auto Rifle"
+        ctd: "5"
+        lore:
+          - "&fUlubiona broń Grubego Joe'a"
+        chance: "5%"
+        amount:
+          min: "1"
+          max: "1"
+  5:
+    cost: "2137"
+    name: "&6&lLow Risk Crate"
+    icon-customdata: "11"
+    items:
+      0:
+        chance: "20%"
+        item: "paper"
+        name: "&eCzek &f&l< 2500 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 9"
+        amount:
+          min: "1"
+          max: "2"
+      1:
+        chance: "20%"
+        item: "shulker shell"
+        amount:
+          min: "1"
+          max: "2"
+      2:
+        chance: "20%"
+        item: "enchanted golden apple"
+        amount:
+          min: "1"
+          max: "1"
+      3:
+        chance: "20%"
+        item: "netherite ingot"
+        amount:
+          min: "3"
+          max: "4"
+      4:
+        chance: "20%"
+        item: "bell"
+        amount:
+          min: "1"
+          max: "1"
+  6:
+    cost: "2000"
+    name: "&6&lHigh Risk Crate"
+    icon-customdata: "12"
+    items:
+      0:
+        chance: "2.5%"
+        item: "paper"
+        name: "&eCzek &f&l< 5000 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 10"
+        amount:
+          min: "6"
+          max: "8"
+      1:
+        chance: "2.5%"
+        item: "red chiseled sandstone"
+        name: "&6Metal Wysokiej Jakosci"
+        amount:
+          min: "15"
+          max: "16"
+      2:
+        chance: "20%"
+        item: "red wool"
+        amount:
+          min: "1"
+          max: "1"
+      3:
+        chance: "25%"
+        item: "blue wool"
+        amount:
+          min: "1"
+          max: "1"
+      4:
+        chance: "25%"
+        item: "green wool"
+        amount:
+          min: "1"
+          max: "1"
+      5:
+        chance: "25%"
+        item: "pink wool"
+        amount:
+          min: "1"
+          max: "1"
+  7:
+    cost: "2500"
+    name: "&6&lFarmer Madness"
+    icon-customdata: "13"
+    items:
+      0:
+        chance: "2.5%"
+        item: "netherite pickaxe"
+        name: "&4&lJackhammer"
+        enchant:
+          - "efficiency 10"
+          - "unbreaking 10"
+          - "fortune 7"
+          - "mending 1"
+        amount:
+          min: "1"
+          max: "1"
+      1:
+        chance: "7.5%"
+        item: "diamond pickaxe"
+        name: "&eIce Pick"
+        enchant:
+          - "efficiency 7"
+          - "unbreaking 5"
+          - "fortune 6"
+          - "mending 1"
+        amount:
+          min: "1"
+          max: "1"
+      2:
+        chance: "20%"
+        item: "diamond pickaxe"
+        name: "&ePickaxe"
+        enchant:
+          - "efficiency 6"
+          - "unbreaking 4"
+          - "fortune 4"
+        amount:
+          min: "1"
+          max: "1"
+      3:
+        chance: "30%"
+        item: "diamond pickaxe"
+        amount:
+          min: "1"
+          max: "2"
+      4:
+        chance: "40%"
+        item: "iron pickaxe"
+        amount:
+          min: "1"
+          max: "3"
+  8:
+    cost: "1000"
+    name: "&6&lBambik Madness"
+    icon-customdata: "14"
+    items:
+      0:
+        chance: "20%"
+        item: "paper"
+        name: "&eCzek &f&l< 5000 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 10"
+        amount:
+          min: "1"
+          max: "1"
+      1:
+        chance: "30%"
+        item: "dirt"
+        amount:
+          min: "1"
+          max: "64"
+      2:
+        chance: "25%"
+        item: "sand"
+        amount:
+          min: "1"
+          max: "64"
+      3:
+        chance: "25%"
+        item: "stone"
+        amount:
+          min: "1"
+          max: "64"
+  9:
+    cost: "1300"
+    name: "&6&lŚlunzk W Płynie"
+    icon-customdata: "15"
+    items:
+      0:
+        chance: "5%"
+        item: "netherite ingot"
+        amount:
+          min: "1"
+          max: "2"
+      1:
+        chance: "10%"
+        item: "diamond"
+        amount:
+          min: "6"
+          max: "16"
+      2:
+        chance: "10%"
+        item: "emerald"
+        amount:
+          min: "12"
+          max: "32"
+      3:
+        chance: "10%"
+        item: "gold ingot"
+        amount:
+          min: "32"
+          max: "64"
+      4:
+        chance: "10%"
+        item: "iron ingot"
+        amount:
+          min: "32"
+          max: "64"
+      5:
+        chance: "10%"
+        item: "lapis lazuli"
+        amount:
+          min: "64"
+          max: "128"
+      6:
+        chance: "10%"
+        item: "redstone"
+        amount:
+          min: "64"
+          max: "128"
+      7:
+        chance: "15%"
+        item: "copper ingot"
+        amount:
+          min: "64"
+          max: "128"
+      8:
+        chance: "20%"
+        item: "coal"
+        amount:
+          min: "64"
+          max: "128"
+  10:
+    cost: "200"
+    name: "&6&lZestaw Opaśnika"
+    icon-customdata: "16"
+    items:
+      0:
+        chance: "2.5%"
+        item: "enchanted golden apple"
+        amount:
+          min: "1"
+          max: "1"
+      1:
+        chance: "7.5%"
+        item: "golden apple"
+        amount:
+          min: "8"
+          max: "16"
+      2:
+        chance: "10%"
+        item: "golden carrot"
+        amount:
+          min: "16"
+          max: "32"
+      3:
+        chance: "10%"
+        item: "cooked beef"
+        amount:
+          min: "16"
+          max: "32"
+      4:
+        chance: "10%"
+        item: "cake"
+        amount:
+          min: "4"
+          max: "8"
+      5:
+        chance: "10%"
+        item: "cookie"
+        amount:
+          min: "16"
+          max: "32"
+      6:
+        chance: "10%"
+        item: "pufferfish"
+        amount:
+          min: "1"
+          max: "3"
+      7:
+        chance: "10%"
+        item: "cooked mutton"
+        amount:
+          min: "16"
+          max: "32"
+      8:
+        chance: "10%"
+        item: "cooked porkchop"
+        amount:
+          min: "4"
+          max: "8"
+      9:
+        chance: "10%"
+        item: "pumpkin pie"
+        amount:
+          min: "16"
+          max: "32"
+      10:
+        chance: "10%"
+        item: "rotten flesh"
+        amount:
+          min: "16"
+          max: "32"
+  11:
+    cost: "500"
+    name: "&6&lBoiler"
+    icon-customdata: "17"
+    items:
+      0:
+        chance: "5%"
+        item: "jungle button"
+        name: "&c&lC4"
+        lore:
+          - ""
+          - "&fSluzy do wysadzania baz"
+          - ""
+          - "&fUżycie: &f&l<LPM>"
+        amount:
+          min: "1"
+          max: "1"
+      1:
+        chance: "15%"
+        item: "tnt"
+        amount:
+          min: "4"
+          max: "8"
+      2:
+        chance: "40%"
+        item: "gunpowder"
+        amount:
+          min: "16"
+          max: "32"
+      3:
+        chance: "40%"
+        item: "sand"
+        amount:
+          min: "16"
+          max: "32"
+  12:
+    cost: "50"
+    name: "&6&lZUS Profit"
+    icon-customdata: "18"
+    items:
+      0:
+        chance: "45%"
+        item: "paper"
+        name: "&eCzek &f&l< 100 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 7"
+        amount:
+          min: "1"
+          max: "1"
+      1:
+        chance: "50%"
+        item: "coal"
+        amount:
+          min: "1"
+          max: "1"
+      2:
+        chance: "5%"
+        item: "charcoal"
+        amount:
+          min: "1"
+          max: "1"
+  13:
+    cost: "1"
+    name: "&6&lBambik Dreamer"
+    icon-customdata: "19"
+    items:
+      0:
+        chance: "1%"
+        item: "paper"
+        name: "&eCzek &f&l< 100 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 7"
+        amount:
+          min: "1"
+          max: "1"
+      1:
+        chance: "99%"
+        item: "oak log"
+        amount:
+          min: "1"
+          max: "2"
+  14:
+    cost: "400"
+    name: "&6&lCheap high risk case "
+    icon-customdata: "20"
+    items:
+      0:
+        chance: "10%"
+        item: "paper"
+        name: "&eCzek &f&l< 1000 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 8"
+        amount:
+          min: "1"
+          max: "2"
+      1:
+        chance: "10%"
+        item: "enchanted golden apple"
+        amount:
+          min: "1"
+          max: "1"
+      2:
+        chance: "20%"
+        item: "coal"
+        enchant:
+        amount:
+          min: "1"
+          max: "2"
+      3:
+        chance: "20%"
+        item: "sand"
+        amount:
+          min: "1"
+          max: "2"
+      4:
+        chance: "20%"
+        item: "dirt"
+        enchant:
+        amount:
+          min: "1"
+          max: "2"
+      5:
+        chance: "20%"
+        item: "oak log"
+        amount:
+          min: "1"
+          max: "2"
+  15:
+    cost: "150"
+    name: "&6&lParty Case"
+    icon-customdata: "21"
+    items:
+      1:
+        item: "honey bottle"
+        chance: "50%"
+        name: "&f&lKrokodil"
+        lore:
+          - "&dChyba to będzie pierwsze i ostatnie spróbowanie tego gowna."
+        enchant:
+          - "infinity 7"
+        amount:
+          min: "1"
+          max: "1"
+      2:
+        item: "honey bottle"
+        chance: "5%"
+        name: "&f&lMefedron Od Cpuna"
+        lore:
+          - "&dZbawienie pływaka - wersja Premium"
+        enchant:
+          - "infinity 8"
+        amount:
+          min: "1"
+          max: "1"
+      3:
+        item: "honey bottle"
+        chance: "5%"
+        name: "&f&lMarichuana od tłusto włosego"
+        lore:
+          - "&dTowar, którego nawet Snoop Dogg by się nie powstydził."
+        enchant:
+          - "infinity 9"
+        amount:
+          min: "1"
+          max: "1"
+      4:
+        item: "honey bottle"
+        chance: "5%"
+        name: "&f&lAmfetamina dobrej jakości"
+        lore:
+          - "&dŚnieżnobiały proszek. Wygląda jak dobre gówno"
+        enchant:
+          - "infinity 2"
+        amount:
+          min: "1"
+          max: "1"
+      5:
+        item: "honey bottle"
+        chance: "5%"
+        name: "&f&lKokaina Od Bossa Cartelu z Kolumbii "
+        lore:
+          - "&dKox z podpisem Pablo Escobar"
+        enchant:
+          - "infinity 5"
+        amount:
+          min: "1"
+          max: "1"
+      6:
+        item: "honey bottle"
+        chance: "10%"
+        name: "&f&lEnergol"
+        lore:
+          - "&dMocny monsterek"
+        enchant:
+          - "infinity 3"
+        amount:
+          min: "1"
+          max: "1"
+      7:
+        item: "honey bottle"
+        chance: "5%"
+        name: "&f&lPrzedtreningówa"
+        lore:
+          - "&dMocne pierdolnięcie energii."
+        enchant:
+          - "infinity 7"
+        amount:
+          min: "1"
+          max: "1"
+      8:
+        item: "honey bottle"
+        chance: "5%"
+        name: "&f&lPoważne piguły"
+        lore:
+          - "&dRzeczy dla poważnych ludzi"
+        enchant:
+          - "infinity 6"
+        amount:
+          min: "1"
+          max: "1"
+      9:
+        item: "honey bottle"
+        chance: "10%"
+        name: "&f&lKacuu miks - mały"
+        lore:
+          - "&dMały miks różnego rodzaju dragów i innych zasobów kuchni."
+        enchant:
+          - "infinity 10"
+        amount:
+          min: "1"
+          max: "1"
+      10:
+        chance: "5%"
+        item: "honey bottle"
+        name: "&f&lKacuu miks - duży"
+        lore:
+          - "&dDuzy miks różnego rodzaju dragów i innych zasobów kuchni."
+        enchant:
+          - "infinity 10"
+        amount:
+          min: "1"
+          max: "1"
+      11:
+        chance: "4%"
+        item: "honey bottle"
+        name: "&f&lKacuu miks - XXL"
+        lore:
+          - "&dMiks kacaa wersja kebab mieso mieszana mieszana"
+        enchant:
+          - "infinity 10"
+        amount:
+          min: "1"
+          max: "1"
+      12:
+        chance: "1%"
+        item: "honey bottle"
+        name: "&f&lSARS-27012"
+        lore:
+          - "&dDziwka strzykawka, zajebana z jakiegoś"
+          - "&dnieznanego laboratorium."
+        enchant:
+          - "power 10"
+        amount:
+          min: "1"
+          max: "1"
+  16:
+    cost: "12500"
+    name: "&6&lMiami Case"
+    icon-customdata: "22"
+    items:
+      1:
+        chance: "2.5%"
+        item: "iron horse armor"
+        name: "&4&lAlien Red"
+        ctd: "7"
+        lore:
+          - "&fLegendarny karabin automatyczny z specjalnym malowaniem."
+        amount:
+          min: "1"
+          max: "1"
+      2:
+        chance: "2.5%"
+        item: "iron horse armor"
+        name: "&4&lL96"
+        ctd: "9"
+        lore:
+          - "&fMust-have każdego roofcampera."
+        amount:
+          min: "1"
+          max: "1"
+      3:
+        chance: "2.5%"
+        item: "netherite sword"
+        name: "&4&lTempered Sword"
+        enchant:
+          - "sharpness 10"
+          - "unbreaking 10"
+          - "fire aspect 7"
+          - "smite 10"
+          - "bane of arthropods 10"
+          - "sweeping edge 7"
+          - "looting 7"
+          - "mending 1"
+        amount:
+          min: "1"
+          max: "1"
+      4:
+        item: "iron horse armor"
+        name: "&c&lCustomSMG"
+        ctd: "3"
+        lore:
+          - "&fRozjebana MP5 sklejona taśmą"
+        chance: "5%"
+        amount:
+          min: "1"
+          max: "1"
+      5:
+        item: "iron horse armor"
+        name: "&c&lSemi Auto Rifle"
+        ctd: "5"
+        lore:
+          - "&fUlubiona broń Grubego Joe'a"
+        chance: "5%"
+        amount:
+          min: "1"
+          max: "1"
+      6:
+        item: "iron horse armor"
+        name: "&c&lRevolver"
+        ctd: "1"
+        lore:
+          - "&fKultowa replica revolveru z czasu Westernu"
+        chance: "10%"
+        amount:
+          min: "1"
+          max: "1"
+      7:
+        item: "diamond sword"
+        name: "&eSalvage Cleaver"
+        enchant:
+          - "sharpness 7"
+          - "unbreaking 5"
+          - "looting 5"
+          - "mending 1"
+        chance: "10%"
+        amount:
+          min: "1"
+          max: "1"
+      8:
+        chance: "12.5%"
+        item: "diamond sword"
+        name: "&eSalvage Sword"
+        enchant:
+          - "sharpness 6"
+          - "unbreaking 4"
+          - "looting 4"
+        amount:
+          min: "1"
+          max: "1"
+      9:
+        chance: "20%"
+        item: "diamond sword"
+        amount:
+          min: "1"
+          max: "1"
+      10:
+        chance: "30%"
+        item: "iron sword"
+        amount:
+          min: "1"
+          max: "1"
+  17:
+    cost: "11000"
+    name: "&6&lGun Pile"
+    icon-customdata: "23"
+    items:
+      1:
+        item: "iron horse armor"
+        name: "&c&lCustomSMG"
+        ctd: "3"
+        lore:
+          - "&fRozjebana MP5 sklejona taśmą"
+        chance: "25%"
+        amount:
+          min: "1"
+          max: "1"
+      2:
+        item: "iron horse armor"
+        name: "&c&lSemi Auto Rifle"
+        ctd: "5"
+        lore:
+          - "&fUlubiona broń Grubego Joe'a"
+        chance: "25%"
+        amount:
+          min: "1"
+          max: "1"
+      3:
+        chance: "50%"
+        item: "leather helmet"
+        name: "&7Cap"
+        amount:
+          min: "1"
+          max: "1"
+
+#               #
+#   --Totems--  #
+#               #
+
+building-blocks:
+- Oak planks
+- Oak log
+- Spruce log
+- Spruce planks
+- birch log
+- birch planks
+- Jungle log
+- Jungle planks
+- Acacia log
+- Acacia planks
+- dark oak log
+- dark oak planks
+- Mangrove log
+- Mangrove planks
+- Cherry log
+- Cherry planks
+- bamboo block
+- Crimson Stem
+- Crimson Hyphae
+- Warped Stem
+- Warped Hyphae
+- Stone
+- Cobblestone
+- Mossy Cobblestone
+- Smooth stone
+- Stone Bricks
+- Mossy Stone Bricks
+- Granite
+- Diorite
+- Andesite
+- Deepslate
+- cobbled deepslate
+- Packed Mud
+- Sandstone
+- Sea Lantern
+- Prismarine
+- Prismarine Bricks
+- Dark Prismarine
+- Basalt
+- Smooth Basalt
+- Blackstone
+- Terracotta
+- White Terracotta
+- Light Gray Terracotta
+- Gray Terracotta
+- Black Terracotta
+- Brown Terracotta
+- Red Terracotta
+- Orange Terracotta
+- Yellow Terracotta
+- Lime Terracotta
+- Green Terracotta
+- Cyan Terracotta
+- Light Blue Terracotta
+- Blue Terracotta
+- Purple Terracotta
+- Magenta Terracotta
+- Pink Terracotta
+- White Concrete
+- Light Gray Concrete
+- Gray Concrete
+- Black Concrete
+- Brown Concrete
+- Red Concrete
+- Orange Concrete
+- Yellow Concrete
+- Lime Concrete
+- Green Concrete
+- Cyan Concrete
+- Light Blue Concrete
+- Blue Concrete
+- Purple Concrete
+- Magenta Concrete
+- Pink Concrete
+- Glass
+- Tinted Glass
+- White Stained Glass
+- Light Gray Stained Glass
+- Gray Stained Glass
+- Black Stained Glass
+- Brown Stained Glass
+- Red Stained Glass
+- Orange Stained Glass
+- Yellow Stained Glass
+- Lime Stained Glass
+- Green Stained Glass
+- Cyan Stained Glass
+- Light blue Stained Glass
+- Blue Stained Glass
+- Purple Stained Glass
+- Magenta Stained Glass
+- Pink Stained Glass
+- Glass Pane
+- White Stained Glass Pane
+- Gray Stained Glass Pane
+- Black Stained Glass Pane
+- Brown Stained Glass Pane
+- Red Stained Glass Pane
+- Orange Stained Glass Pane
+- Yellow Stained Glass Pane
+- Lime Stained Glass Pane
+- Green Stained Glass Pane
+- Cyan Stained Glass Pane
+- Light blue Stained Glass Pane
+- Blue Stained Glass Pane
+- Purple Stained Glass Pane
+- Magenta Stained Glass Pane
+- Pink Stained Glass Pane
+- Grass Block
+- Dirt
+- Torch
+- Soul Torch
+- Lantern
+- Soul Lantern
+- Chain
+- Item Frame
+- Painting
+- Flower Pot
+- Armor Stand
+- Candle
+
+#-------------------------- End of lootable -------------------------------------#

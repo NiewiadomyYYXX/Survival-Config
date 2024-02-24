@@ -1,0 +1,8104 @@
+#Config for Survival++ bundle by NiewiadomyYYXX
+#Default Config by NiewiadomyYYXX
+#Ver. 6.0
+
+#             #
+# --General-- #
+#             #
+
+#server tag
+tag: "&7[ &4! &7]"
+
+#dc
+dc: "https://discord.gg/cuQT7H9AJV"
+
+#lista niezniszczalnych, niewysadzalnych blokow
+god-blocks:
+  - bedrock
+  - end portal frame
+  - command block
+  - barrier
+  - red sandstone
+  - red sandstone stairs
+  - red nether brick stairs
+  - smooth red sandstone stairs
+  - red sandstone slab
+  - smooth red sandstone slab
+  - smooth red sandstone
+  - cut red sandstone slab
+  - cut red sandstone
+  - red chiseled sandstone
+  - red sandstone wall
+  - red nether brick wall
+  - red nether brick
+
+god-items:
+  - "netherite helmet named &eWilk"
+  - "netherite chestplate named &ePoncho"
+  - "netherite leggings named &ePants"
+  - "netherite boots named &eKapcie"
+  - "netherite pickaxe named &ePickaxe"
+  - "netherite sword named &eSalvage Sword"
+  - "netherite axe named &eHachet"
+  - "netherite shovel named &ePaddle"
+  - "netherite axe named &eTopor Dariusa"
+  - "netherite hoe named &eSierp"
+  - "netherite helmet named &eCoffe Can"
+  - "netherite chestplate named &eRoad Sign Vest"
+  - "netherite leggings named &eSpodnie ze Znaków"
+  - "netherite boots named &eTrampki"
+  - "netherite pickaxe named &eIce Pick"
+  - "netherite sword named &eSalvage Cleaver"
+  - "netherite axe named &eSalvage Axe"
+  - "netherite shovel named &eŁopata"
+  - "netherite axe named &4Topor Dariusa"
+  - "netherite hoe named &eKosa"
+
+txt:
+  download: ""
+  hash: ""
+
+wipe:
+  start-mess: "08.03.2024r. (Piatek) o godz. 18:00"
+  push: "30"
+  balance-team: "proDogePL, NiewiadomyYYXX"
+  models: "proDogePL"
+  unix-data: "1709917200" #https://www.unixtimestamp.com
+  block:
+    tier: "24 hours"
+    nether: "6 hours"
+    end: "36 hours"
+    raid: "48 hours"
+    pvp: "24 hours"
+
+pvp-block:
+  time: "20 seconds"
+  time-in-unix: "20"
+
+logintime: "120"
+
+walka-time: "1 hour"
+
+death-loc:
+  vip: "28"
+  og: "3"
+  everyone: "1"
+
+death-box-despawn: "60 minutes"
+
+despawn-spawn-log: "30 minutes"
+
+enderchest:
+  easy:
+    slot: "1"
+    unlock: "7"
+  medium:
+    slot: "3"
+    unlock: "14"
+  hard:
+    slot: "5"
+    unlock: "21"
+  vhard:
+    slot: "7"
+    shulker: "1"
+    unlock: "26"
+  premium:
+    slot: "2"
+    shulker: "2"
+  imposible:
+    slot: "9"
+    shulker: "3"
+    unlock: "27"
+
+spawn:
+  world:
+    cost: "10"
+    free-use: "3"
+    free-use-cooldown:
+      everyone: "1 hours"
+      vip: "20 minutes"
+  nether:
+    cost: "50"
+    free-use: "2"
+    free-use-cooldown:
+      everyone: "2 hours"
+      vip: " 40 minutes"
+  end:
+    cost: "100"
+    free-use: "1"
+    free-use-cooldown:
+      everyone: "6 hours"
+      vip: "2 hours"
+
+tpr:
+  world:
+    cost: "10"
+  nether:
+    cost: "25"
+  end:
+    cost: "150"
+
+home:
+  world:
+    create:
+      everyone: "50"
+      vip: "25"
+    tp:
+      everyone: "10"
+      vip: "3"
+  nether:
+    create:
+      everyone: "100"
+      vip: "40"
+    tp:
+      everyone: "20"
+      vip: "6"
+  end:
+    create:
+      everyone: "500"
+      vip: "200"
+    tp:
+      everyone: "150"
+      vip: "100"
+
+stats-number-of-stats: "8"
+
+stats:
+  czas:
+    id: "1"
+    var: "czas"
+    unit: "Godzin"
+    icon:
+      item: "clock"
+      name: "&aRanking &f- &eCzasu"
+      lore:
+        - "&bRanking najwiekszego czasu na serwerze"
+  money:
+    id: "2"
+    var: "money"
+    unit: "Maticoin'ow"
+    icon:
+      item: "emerald"
+      name: "&aRanking &f- &ePosiadanych Monet"
+      lore:
+        - "&bRanking najwiekszego bogacza na serwerze"
+  death:
+    id: "3"
+    var: "death"
+    unit: "Śmierci"
+    icon:
+      item: "red sandstone wall"
+      name: "&aRanking &f- &eSmierci"
+      lore:
+        - "&bRanking najwiekszego bambika na serwerze"
+  air:
+    id: "4"
+    var: "air"
+    unit: "Airdrop'ow"
+    icon:
+      item: "cut red sandstone slab"
+      name: "&aRanking &f- &eOtwartych zrzutów"
+      lore:
+        - "&bRanking najlepszych otwieraczy"
+        - "&bairdropów na serwerze"
+  locked:
+    id: "5"
+    var: "locked"
+    unit: "Locked Crate'ow"
+    icon:
+      item: "cut red sandstone"
+      name: "&aRanking &f- &eOtwartych Locked Crate'ow"
+      lore:
+        - "&bRanking najlepszych otwieraczy"
+        - "&bLocked Crate'ow na serwerze"
+  obs:
+    id: "6"
+    var: "obs"
+    unit: "blokow"
+    icon:
+      item: "obsidian"
+      name: "&aRanking &f- &eWykopanych bloków Obsidianu"
+      lore:
+        - "&bRanking najwiekszego kopacza"
+        - "&bobsidianu na serwerze"
+  hqm:
+    id: "7"
+    var: "hqm"
+    unit: "blokow"
+    icon:
+      item: "red chiseled sandstone"
+      name: "&aRanking &f- &eWykopanych bloków &6HQM"
+      lore:
+        - "&bRanking najwiekszego kopacza"
+        - "&bHQM na serwerze"
+  sur:
+    id: "8"
+    var: "sur"
+    unit: "blokow"
+    icon:
+      item: "smooth red sandstone"
+      name: "&aRanking &f- &eWykopanych bloków &eSiarki"
+      lore:
+        - "&bRanking najwiekszego kopacza"
+        - "&bsiarki na serwerze"
+
+#             #
+#   --Rad--   #
+#             #
+
+#startdmg == Koniec strefy wolnej radiacji (liczona od miejsca spawnu w blokach) w roznych swiatach
+#warning == ostrzezenie o koncu strefy wolnej od radiacji (liczona od miejsca spawnu w blokach) w roznych swiatach
+#dmg == jaki zadaje radiacja (dmg nie zalezy od zbroi; liczony w sercach)
+
+rad:
+  world:
+    startdmg: "6000"
+    warning: "5950"
+    dmg: "2"
+  world_nether:
+    startdmg: "30000"
+    warning: "29950"
+    dmg: "2"
+  world_the_end:
+    startdmg: "-1"
+    warning: "30000000"
+    dmg: "2"
+  multi: "6"
+
+Custom-Ores:
+  gen-time: "45" #w sekundach
+  y: "20"
+  swapblocks:
+    - "stone"
+    - "deepslate"
+    - "diorite"
+    - "gravel"
+    - "granite"
+    - "andesite"
+    - "dirt"
+  HQM:
+    block: "red chiseled sandstone"
+    chance: "0.02%"
+    vein:
+      chance: "5%"
+      max: "3"
+    mining:
+      time: "30 seconds"
+      tools:
+        1:
+          name: "&4&lJackhammer"
+          hit: "2"
+          dmg: "25"
+        2:
+          name: "&eIce Pick"
+          hit: "4"
+          dmg: "50"
+        3:
+          name: "&ePickaxe"
+          hit: "6"
+          dmg: "75"
+        4:
+          item: "netherite pickaxe"
+          hit: "8"
+          dmg: "100"
+        5:
+          item: "diamond pickaxe"
+          hit: "10"
+          dmg: "125"
+  Sulfur:
+    block: "smooth red sandstone"
+    chance: "0.04%"
+    vein:
+      chance: "20%"
+      max: "6"
+    mining:
+      time: "30 seconds"
+      tools:
+        1:
+          name: "&4&lJackhammer"
+          hit: "1"
+          dmg: "12"
+        2:
+          name: "&eIce Pick"
+          hit: "2"
+          dmg: "25"
+        3:
+          name: "&ePickaxe"
+          hit: "3"
+          dmg: "37"
+        4:
+          item: "netherite pickaxe"
+          hit: "4"
+          dmg: "50"
+        5:
+          item: "diamond pickaxe"
+          hit: "5"
+          dmg: "67"
+
+#             #
+# --Airdrop-- #
+#             #
+
+airdrop:
+  x: #Wartosci kordynatow gdzie moze spasc airdrop
+    min: "-6000"
+    max: "6000"
+  z:
+    min: "-6000"
+    max: "6000"
+  random-min: "45" #co ile szansa na dropa ma sie prokowac
+  random-chance: "20%" #jak jest 0 graczy online <default wartosc>
+  random-increase: "15%" #wartosc dodawana za kazdego gracza
+
+#           #
+#   --TC--  #
+#           #
+
+tc:
+  SpawnBlock: "135"
+  CloseTC: "135"
+  DropRaid: "2"
+  swap-names:
+    red chiseled sandstone: "&6Metal Wysokiej Jakosci"
+  greeting: "&cWkroczyles na teren gracza"
+  farewell: "&2Wyszedles z terenu gracza"
+  tiers:
+    tier1:
+      icon: "dirt block"
+      size: "8"
+      price:
+        - 1 diamond block
+        - 4 coal block
+        - 1 emerald block
+        - 4 iron block
+        - 8 lapis block
+        - 8 redstone block
+    tier2:
+      icon: "iron block"
+      size: "16"
+      price:
+        - 2 diamond block
+        - 2 emerald block
+        - 8 iron block
+        - 8 coal block
+        - 16 lapis block
+        - 16 redstone block
+    tier3:
+      icon: "gold block"
+      size: "32"
+      price:
+        - 4 diamond block
+        - 4 emerald block
+        - 8 gold block
+        - 16 iron block
+        - 16 coal block
+        - 64 obsidian
+        - 32 copper block
+        - 32 redstone block
+        - 32 lapis block
+    tier4:
+      icon: "diamond block"
+      size: "48"
+      price:
+        - 8 diamond block
+        - 1 netherite ingot
+        - 16 gold block
+        - 16 emerald block
+        - 32 iron block
+        - 128 obsidian
+        - 32 coal block
+        - 32 redstone block
+        - 32 lapis block
+        - 64 copper block
+    tier5:
+      icon: "bedrock"
+      size: "64"
+      price:
+        - 1 netherite block
+        - 64 gold block
+        - 32 emerald block
+        - 32 diamond block
+        - 128 coal block
+        - 128 iron block
+        - 384 obsidian
+        - 128 redstone block
+        - 128 lapis block
+        - 192 copper block
+
+#             #
+#  --Craft--  #
+#             #
+
+#itemy z nazwa typu jackhammer maja byc pierwsze bo inaczej nie bedzie dzialac !!!
+
+wb:
+  mining:
+    time: "30 seconds"
+    t3:
+      1:
+        name: "&4&lJackhammer"
+        hit: "16"
+        dmg: "200"
+      2:
+        name: "&eIce Pick"
+        hit: "24"
+        dmg: "300"
+      3:
+        name: "&ePickaxe"
+        hit: "32"
+        dmg: "400"
+      4:
+        item: "netherite pickaxe"
+        hit: "40"
+        dmg: "500"
+      5:
+        item: "diamond pickaxe"
+        hit: "48"
+        dmg: "600"
+      6:
+        item: "air"
+        hit: "1000"
+        dmg: "0"
+    t2:
+      1:
+        name: "&4&lJackhammer"
+        hit: "8"
+        dmg: "100"
+      2:
+        name: "&eIce Pick"
+        hit: "12"
+        dmg: "150"
+      3:
+        name: "&ePickaxe"
+        hit: "16"
+        dmg: "200"
+      4:
+        item: "netherite pickaxe"
+        hit: "20"
+        dmg: "250"
+      5:
+        item: "diamond pickaxe"
+        hit: "24"
+        dmg: "300"
+      6:
+        item: "air"
+        hit: "300"
+        dmg: "0"
+    t1:
+      1:
+        name: "&4&lJackhammer"
+        hit: "4"
+        dmg: "50"
+      2:
+        name: "&eIce Pick"
+        hit: "6"
+        dmg: "75"
+      3:
+        name: "&ePickaxe"
+        hit: "8"
+        dmg: "100"
+      4:
+        name: "&eSalvage Axe"
+        hit: "6"
+        dmg: "75"
+      5:
+        name: "&eHachet"
+        hit: "8"
+        dmg: "100"
+      6:
+        item: "netherite pickaxe"
+        hit: "10"
+        dmg: "125"
+      7:
+        item: "netherite axe"
+        hit: "10"
+        dmg: "125"
+      8:
+        item: "diamond pickaxe"
+        hit: "12"
+        dmg: "150"
+      9:
+        item: "diamond axe"
+        hit: "12"
+        dmg: "150"
+      10:
+        item: "air"
+        hit: "100"
+        dmg: "0"
+
+c4:
+  raid-block: "5 minutes"
+  raid-block-in-unix: "300"
+  power: "7"
+  blocks:
+    1:
+      item: "water"
+      chance: "100%"
+    2:
+      item: "lava"
+      chance: "100%"
+    3:
+      item: "obsidian"
+      chance: "33%"
+    4:
+      item: "ender chest"
+      chance: "33%"
+    5:
+      item: "anvil"
+      chance: "33%"
+    6:
+      item: "enchanting table"
+      chance: "33%"
+    7:
+      item: "crying obsidian"
+      chance: "33%"
+    8:
+      item: "ancient debris"
+      chance: "33%"
+    9:
+      item: "netherite block"
+      chance: "5%"
+
+guns:
+  rev:
+    name: "&c&lRevolver"
+    type: "semi"
+    ctd:
+      normal: "1"
+      zoom: "2"
+    ammo:
+      ammo-in-chamber: "8"
+      item: "rabbit foot"
+      name: "&eMagnum .44"
+      ctd: "1"
+    sound:
+      empty-clip: "rev_empty-clip"
+      shot: "rev_shot"
+      reload: "rev_reload"
+      hit_mark: "hit_mark"
+    stats:
+      pvp: "1.5"
+      pve: "5"
+      velocity: "2.5"
+      recoil-horizontal: "0.1"
+      recoil-vertical: "0.1"
+      zoom:
+        recoil-horizontal: "0.05"
+        recoil-vertical: "0.05"
+      fire_rate: "5"
+      reload_time: "3"
+  CustomSMG:
+    name: "&c&lCustomSMG"
+    type: "auto"
+    ctd:
+      normal: "3"
+      zoom: "4"
+    ammo:
+      ammo-in-chamber: "24"
+      item: "rabbit foot"
+      name: "&e9x19mm Ammo"
+      ctd: "2"
+    sound:
+      empty-clip: "customsmg_empty-clip"
+      shot: "customsmg_shot"
+      reload: "customsmg_reload"
+      hit_mark: "hit_mark"
+    stats:
+      pvp: "1"
+      pve: "8"
+      velocity: "3.5"
+      recoil-horizontal: "0.25"
+      recoil-vertical: "0.25"
+      zoom:
+        recoil-horizontal: "0.2"
+        recoil-vertical: "0.2"
+      fire_rate: "1.25"
+      reload_time: "3.5"
+  sar:
+    name: "&c&lSemi Auto Rifle"
+    type: "semi"
+    ctd:
+      normal: "5"
+      zoom: "6"
+    ammo:
+      ammo-in-chamber: "16"
+      item: "rabbit foot"
+      name: "&e5.56 Ammo "
+      ctd: "3"
+    sound:
+      empty-clip: "sar_empty-clip"
+      shot: "sar_shot"
+      reload: "sar_reload"
+      hit_mark: "hit_mark"
+    stats:
+      pvp: "5"
+      pve: "25"
+      velocity: "5.5"
+      recoil-horizontal: "0.3"
+      recoil-vertical: "0.2"
+      zoom:
+        recoil-horizontal: "0.1"
+        recoil-vertical: "0.1"
+      fire_rate: "8"
+      reload_time: "3.7"
+  AK:
+    name: "&4&lAlien Red"
+    type: "auto"
+    ctd:
+      normal: "7"
+      zoom: "8"
+    ammo:
+      ammo-in-chamber: "30"
+      item: "rabbit foot"
+      name: "&e7.62x39mm Ammo "
+      ctd: "4"
+    sound:
+      empty-clip: "ak_empty-clip"
+      shot: "ak_shot"
+      reload: "ak_reload"
+      hit_mark: "hit_mark"
+    stats:
+      pvp: "8"
+      pve: "40"
+      velocity: "5"
+      recoil-horizontal: "0.15"
+      recoil-vertical: "0.10"
+      zoom:
+        recoil-horizontal: "0.05"
+        recoil-vertical: "0.1"
+      fire_rate: "1.5"
+      reload_time: "4"
+  L96:
+    name: "&4&lL96"
+    type: "snipe"
+    ctd:
+      normal: "9"
+      zoom: "10"
+    ammo:
+      ammo-in-chamber: "5"
+      item: "rabbit foot"
+      name: "&e.308 Ammo"
+      ctd: "5"
+    sound:
+      empty-clip: "l9_empty-clip"
+      shot: "l9_shot"
+      reload: "l9_reload"
+      hit_mark: "hit_mark"
+    stats:
+      pvp: "16"
+      pve: "80"
+      velocity: "8"
+      recoil-horizontal: "0.15"
+      recoil-vertical: "0.10"
+      zoom:
+        recoil-horizontal: "0"
+        recoil-vertical: "0"
+      fire_rate: "26"
+      reload_time: "5"
+
+enchants:
+  special:
+    armor:
+      1:
+        name: "&eCoffe Can"
+        stats:
+          armor: "0.05"
+      2:
+        name: "&eRoad Sign Vest"
+        stats:
+          armor: "0.08"
+      3:
+        name: "&eSpodnie"
+        stats:
+          armor: "0.04"
+      4:
+        name: "&eTrampki"
+        stats:
+          armor: "0.03"
+      5:
+        name: "&4&lBig Grin"
+        stats:
+          armor: "0.2"
+          anty-rad: "0.05"
+      6:
+        name: "&4&lMetal Chestplate"
+        stats:
+          armor: "0.3"
+          anty-rad: "0.1"
+      7:
+        name: "&4&lArmored Spodnie"
+        stats:
+          anty-rad: "0.5"
+      8:
+        name: "&4&lButy"
+        stats:
+          anty-rad: "0.35"
+    tools:
+      1:
+        name: "&4&lJackhammer"
+        enchant: "lure 4"
+        dmg: "3"
+  normal:
+    1:
+      name: "&eIce Pick"
+      enchant: "silk touch 1"
+      key: "1"
+      enchant-name: "&eSilk Touch"
+    2:
+      name: "&4&lJackhammer"
+      enchant: "silk touch 1"
+      key: "1"
+      enchant-name: "&eSilk Touch"
+    3:
+      name: "&4&lJackhammer"
+      enchant: "lure 4"
+      key: "2"
+      enchant-name: "&6Kopanie 3x3"
+    4:
+      name: "&eSalvage Cleaver"
+      enchant: "fire aspect 2"
+      key: "1"
+      enchant-name: "&eFire Aspect"
+    5:
+      name: "&eSalvage Axe"
+      enchant: "silk touch 1"
+      key: "1"
+      enchant-name: "&eSilk Touch"
+    6:
+      name: "&eŁopata"
+      enchant: "silk touch 1"
+      key: "1"
+      enchant-name: "&eSilk Touch"
+    7:
+      name: "&4&lTempered Sword"
+      enchant: "fire aspect 7"
+      key: "1"
+      enchant-name: "&eFire Aspect"
+    8:
+      name: "&4&lTempered Sword"
+      enchant: "knockback 3"
+      key: "2"
+      enchant-name: "&6Knockback"
+
+#              #
+#   --Flee--   #
+#              #
+
+flee:
+  premium:
+    slot: "1"
+    decay: "2" #mnoznik do czasu
+    cost: "600"
+  default:
+    slot: "2"
+    decay: "8 hours"
+  og:
+    decay: "10 hours"
+  vip:
+    slot: "1"
+    decay: "12 hours"
+
+#             #
+#   --Kits--  #
+#             #
+
+kit:
+  boiler:
+    random: "15%"
+    cd: "10 minutes"
+    items:
+      - tnt
+  menel:
+    cd: "1 hour"
+    cdm: "1h"
+    lore:
+      - "  &f- 1x lodz"
+      - "  &f- 2x steki"
+    maticoins: "20"
+    items:
+      - oak boat
+      - 2 cooked beef
+  og:
+    cd: "1 hour"
+    cdm: "1h"
+    lore:
+      - "  &f- 1x lodz"
+      - "  &f- 6x steki"
+    xp: "5"
+    maticoins: "50"
+    items:
+      - 1 oak boat
+      - 6 cooked beef
+  vip:
+    cd: "18 hour"
+    cdm: "18h"
+    lore:
+      - "  &f- 1x Set zelazny (Prot. 2, Unbr. 2)"
+      - "  &f- 1x Zelazne narzedzia (Sharp. 2/Eff. 2, Unbr. 2)"
+      - "  &f- 15x steki"
+      - "  &f- 2x Zlote Jabłka"
+    xp: "35"
+    maticoins: "750"
+    items:
+      - 2 of golden apple
+      - iron helmet of protection 2 and unbreaking 2
+      - iron chestplate of protection 2 and unbreaking 2
+      - iron leggings of protection 2 and unbreaking 2
+      - iron boots of protection 2 and unbreaking 2
+      - 15 of cooked beef
+      - iron sword of sharpness 2 and unbreaking 2
+      - iron pickaxe of efficiency 2 and unbreaking 2
+      - iron shovel of efficiency 2 and unbreaking 2
+      - iron axe of efficiency 2 and unbreaking 2 and sharpness 2
+      - iron hoe of efficiency 2 and unbreaking 2
+
+#                #
+#   --Mutant--   #
+#                #
+
+mutant:
+  name: "&4&lKanibal Mutant"
+  random:
+    min: "3"
+    chance: "40%"
+    increase: "15%"
+  spawn:
+    minx: "-4500"
+    maxx: "4500"
+    minz: "-4500"
+    maxz: "4500"
+  bossy:
+    t1: #nazywaj to t1, t2, t3 bo tak jest hardowane jak nazwiesz inaczej to gg
+      1:
+        type: "zombie"
+        name: "&4Tanker &7< &e★ &7>"
+        hp: "300"
+        guns:
+          rew: #tu id no value co tu piszesz ale cos musi byc
+            chance: "20%" #szansa
+            dmg: "5" #dmg normalny + ta wartosc
+            name: "&c&lRevolver" #nazwa broni jak bron nazywa sie np. &cRevolver to wjebac &cRevolver
+          th:
+            chance: "20%"
+            dmg: "5"
+            name: "&c&lCustomSMG"
+          sar:
+            chance: "33%"
+            dmg: "25"
+            name: "&c&lSemi Auto Rifle"
+          ak:
+            chance: "33%"
+            dmg: "20"
+            name: "&c&lAlien Red"
+          L9:
+            chance: "50%"
+            dmg: "40"
+            name: "&c&lL96"
+        special:
+          tnt: "20%"
+          achilles:
+            chance: "10%"
+            power: "2"
+            time: "2 seconds"
+          heal:
+            chance: "1%"
+            value: "30"
+        effects:
+          1:
+            effect: "speed"
+            power: "1"
+        gear:
+          helmet:
+            item: "diamond helmet"
+            enchant:
+              - "protection 4"
+              - "unbreaking 255"
+              - "blast protection 15"
+              - "lure 11"
+          chestplate:
+            item: "diamond chestplate"
+            enchant:
+              - "protection 4"
+              - "unbreaking 255"
+              - "blast protection 15"
+              - "lure 11"
+          leggings:
+            item: "diamond leggings"
+            enchant:
+              - "protection 4"
+              - "unbreaking 255"
+              - "blast protection 15"
+              - "lure 11"
+          boots:
+            item: "diamond boots"
+            enchant:
+              - "protection 4"
+              - "unbreaking 255"
+              - "blast protection 15"
+              - "lure 11"
+          weapon:
+            item: "bone"
+            enchant:
+              - "sharpness 20"
+              - "fire aspect 2"
+              - "lure 11"
+      2:
+        type: "husk"
+        name: "&4Assassin &7< &e★ &7>"
+        hp: "200"
+        guns:
+          rew: #tu id no value co tu piszesz ale cos musi byc
+            chance: "20%" #szansa
+            dmg: "5" #dmg normalny + ta wartosc
+            name: "&c&lRevolver" #nazwa broni jak bron nazywa sie np. &cRevolver to wjebac &cRevolver
+          th:
+            chance: "20%"
+            dmg: "5"
+            name: "&c&lCustomSMG"
+          sar:
+            chance: "33%"
+            dmg: "25"
+            name: "&c&lSemi Auto Rifle"
+          ak:
+            chance: "33%"
+            dmg: "20"
+            name: "&c&lAlien Red"
+          L9:
+            chance: "50%"
+            dmg: "40"
+            name: "&c&lL96"
+        special:
+          tnt: "20%"
+          teemo-e:
+            chance: "70%"
+            power: "2"
+            time: "2 seconds"
+          tp: "10%"
+        effects:
+          1:
+            effect: "speed"
+            power: "2"
+          2:
+            effect: "strength"
+            power: "1"
+        gear:
+          helmet:
+            item: "diamond helmet"
+            enchant:
+              - "protection 2"
+              - "unbreaking 255"
+              - "blast protection 15"
+              - "lure 12"
+          chestplate:
+            item: "diamond chestplate"
+            enchant:
+              - "protection 2"
+              - "unbreaking 255"
+              - "blast protection 15"
+              - "lure 12"
+          leggings:
+            item: "diamond leggings"
+            enchant:
+              - "protection 2"
+              - "unbreaking 255"
+              - "blast protection 15"
+              - "lure 12"
+          boots:
+            item: "diamond boots"
+            enchant:
+              - "protection 2"
+              - "unbreaking 255"
+              - "blast protection 15"
+              - "lure 12"
+          weapon:
+            item: "bone"
+            enchant:
+              - "sharpness 25"
+              - "lure 12"
+      3:
+        type: "skeleton"
+        name: "&4Nekromanta &7< &e★ &7>"
+        hp: "125"
+        guns:
+          rew: #tu id no value co tu piszesz ale cos musi byc
+            chance: "20%" #szansa
+            dmg: "5" #dmg normalny + ta wartosc
+            name: "&c&lRevolver" #nazwa broni jak bron nazywa sie np. &cRevolver to wjebac &cRevolver
+          th:
+            chance: "20%"
+            dmg: "5"
+            name: "&c&lCustomSMG"
+          sar:
+            chance: "33%"
+            dmg: "25"
+            name: "&c&lSemi Auto Rifle"
+          ak:
+            chance: "33%"
+            dmg: "20"
+            name: "&c&lAlien Red"
+          L9:
+            chance: "50%"
+            dmg: "40"
+            name: "&c&lL96"
+        special:
+          tnt: "20%"
+          group-heal:
+            chance: "3%"
+            value: "30"
+          minions:
+            chance: "7%"
+            amount:
+              min: "6"
+              max: "10"
+        effects:
+          1:
+            effect: "speed"
+            power: "2"
+        gear:
+          helmet:
+            item: "diamond helmet"
+            enchant:
+              - "unbreaking 255"
+              - "blast protection 15"
+              - "lure 13"
+          chestplate:
+            item: "diamond chestplate"
+            enchant:
+              - "unbreaking 255"
+              - "blast protection 15"
+              - "lure 13"
+          leggings:
+            item: "diamond leggings"
+            enchant:
+              - "unbreaking 255"
+              - "blast protection 15"
+              - "lure 13"
+          boots:
+            item: "diamond boots"
+            enchant:
+              - "unbreaking 255"
+              - "blast protection 15"
+              - "lure 13"
+          weapon:
+            item: "bow"
+            enchant:
+              - "power 20"
+              - "punch 5"
+              - "lure 13"
+    t2: #nazywaj to t1, t2, t3 bo tak jest hardowane jak nazwiesz inaczej to gg
+      1:
+        type: "zombie"
+        name: "&4Tanker &7< &e★ &e★ &7>"
+        hp: "600"
+        guns:
+          rew: #tu id no value co tu piszesz ale cos musi byc
+            chance: "15%" #szansa
+            dmg: "10" #dmg normalny + ta wartosc
+            name: "&c&lRevolver" #nazwa broni jak bron nazywa sie np. &cRevolver to wjebac &cRevolver
+          th:
+            chance: "15%"
+            dmg: "10"
+            name: "&c&lCustomSMG"
+          sar:
+            chance: "27%"
+            dmg: "30"
+            name: "&c&lSemi Auto Rifle"
+          ak:
+            chance: "27%"
+            dmg: "25"
+            name: "&c&lAlien Red"
+          L9:
+            chance: "45%"
+            dmg: "50"
+            name: "&c&lL96"
+        special:
+          tnt: "30%"
+          achilles:
+            chance: "30%"
+            power: "3"
+            time: "2 seconds"
+          heal:
+            chance: "2%"
+            value: "35"
+        effects:
+          1:
+            effect: "speed"
+            power: "1"
+        gear:
+          helmet:
+            item: "diamond helmet"
+            enchant:
+              - "protection 4"
+              - "unbreaking 255"
+              - "blast protection 15"
+              - "lure 11"
+          chestplate:
+            item: "diamond chestplate"
+            enchant:
+              - "protection 4"
+              - "unbreaking 255"
+              - "blast protection 15"
+              - "lure 11"
+          leggings:
+            item: "diamond leggings"
+            enchant:
+              - "protection 4"
+              - "unbreaking 255"
+              - "blast protection 15"
+              - "lure 11"
+          boots:
+            item: "diamond boots"
+            enchant:
+              - "protection 4"
+              - "unbreaking 255"
+              - "blast protection 15"
+              - "lure 11"
+          weapon:
+            item: "bone"
+            enchant:
+              - "sharpness 30"
+              - "fire aspect 2"
+              - "lure 11"
+      2:
+        type: "husk"
+        name: "&4Assassin &7< &e★ &e★ &7>"
+        hp: "400"
+        guns:
+          rew: #tu id no value co tu piszesz ale cos musi byc
+            chance: "15%" #szansa
+            dmg: "10" #dmg normalny + ta wartosc
+            name: "&c&lRevolver" #nazwa broni jak bron nazywa sie np. &cRevolver to wjebac &cRevolver
+          th:
+            chance: "15%"
+            dmg: "10"
+            name: "&c&lCustomSMG"
+          sar:
+            chance: "27%"
+            dmg: "30"
+            name: "&c&lSemi Auto Rifle"
+          ak:
+            chance: "27%"
+            dmg: "25"
+            name: "&c&lAlien Red"
+          L9:
+            chance: "45%"
+            dmg: "50"
+            name: "&c&lL96"
+        special:
+          tnt: "30%"
+          teemo-e:
+            chance: "80%"
+            power: "3"
+            time: "2 seconds"
+          tp: "20%"
+        effects:
+          1:
+            effect: "speed"
+            power: "2"
+          2:
+            effect: "strength"
+            power: "2"
+        gear:
+          helmet:
+            item: "diamond helmet"
+            enchant:
+              - "protection 2"
+              - "unbreaking 255"
+              - "blast protection 15"
+              - "lure 12"
+          chestplate:
+            item: "diamond chestplate"
+            enchant:
+              - "protection 2"
+              - "unbreaking 255"
+              - "blast protection 15"
+              - "lure 12"
+          leggings:
+            item: "diamond leggings"
+            enchant:
+              - "protection 2"
+              - "unbreaking 255"
+              - "blast protection 15"
+              - "lure 12"
+          boots:
+            item: "diamond boots"
+            enchant:
+              - "protection 2"
+              - "unbreaking 255"
+              - "blast protection 15"
+              - "lure 12"
+          weapon:
+            item: "bone"
+            enchant:
+              - "sharpness 35"
+              - "lure 12"
+      3:
+        type: "skeleton"
+        name: "&4Nekromanta &7< &e★ &e★ &7>"
+        hp: "250"
+        guns:
+          rew: #tu id no value co tu piszesz ale cos musi byc
+            chance: "15%" #szansa
+            dmg: "10" #dmg normalny + ta wartosc
+            name: "&c&lRevolver" #nazwa broni jak bron nazywa sie np. &cRevolver to wjebac &cRevolver
+          th:
+            chance: "15%"
+            dmg: "10"
+            name: "&c&lCustomSMG"
+          sar:
+            chance: "27%"
+            dmg: "30"
+            name: "&c&lSemi Auto Rifle"
+          ak:
+            chance: "27%"
+            dmg: "25"
+            name: "&c&lAlien Red"
+          L9:
+            chance: "45%"
+            dmg: "50"
+            name: "&c&lL96"
+        special:
+          tnt: "30%"
+          group-heal:
+            chance: "5%"
+            value: "30"
+          minions:
+            chance: "10%"
+            amount:
+              min: "8"
+              max: "12"
+        effects:
+          1:
+            effect: "speed"
+            power: "2"
+        gear:
+          helmet:
+            item: "diamond helmet"
+            enchant:
+              - "unbreaking 255"
+              - "blast protection 15"
+              - "lure 13"
+          chestplate:
+            item: "diamond chestplate"
+            enchant:
+              - "unbreaking 255"
+              - "blast protection 15"
+              - "lure 13"
+          leggings:
+            item: "diamond leggings"
+            enchant:
+              - "unbreaking 255"
+              - "blast protection 15"
+              - "lure 13"
+          boots:
+            item: "diamond boots"
+            enchant:
+              - "unbreaking 255"
+              - "blast protection 15"
+              - "lure 13"
+          weapon:
+            item: "bow"
+            enchant:
+              - "power 30"
+              - "punch 5"
+              - "lure 13"
+      4:
+        type: "husk"
+        name: "&4Ahmed &7< &e★ &e★ &7>"
+        hp: "300"
+        guns:
+          rew: #tu id no value co tu piszesz ale cos musi byc
+            chance: "15%" #szansa
+            dmg: "10" #dmg normalny + ta wartosc
+            name: "&c&lRevolver" #nazwa broni jak bron nazywa sie np. &cRevolver to wjebac &cRevolver
+          th:
+            chance: "15%"
+            dmg: "10"
+            name: "&c&lCustomSMG"
+          sar:
+            chance: "27%"
+            dmg: "30"
+            name: "&c&lSemi Auto Rifle"
+          ak:
+            chance: "27%"
+            dmg: "25"
+            name: "&c&lAlien Red"
+          L9:
+            chance: "45%"
+            dmg: "50"
+            name: "&c&lL96"
+        special:
+          tnt: "80%"
+          nuke:
+            chance: "7%"
+            power: "4"
+          teemo-w:
+            chance: "20%"
+            power: "5"
+            time: "1.5 seconds"
+        effects:
+          1:
+            effect: "strength"
+            power: "2"
+        gear:
+          helmet:
+            item: "diamond helmet"
+            enchant:
+              - "protection 2"
+              - "unbreaking 255"
+              - "blast protection 255"
+              - "lure 14"
+          chestplate:
+            item: "diamond chestplate"
+            enchant:
+              - "protection 2"
+              - "unbreaking 255"
+              - "blast protection 255"
+              - "lure 14"
+          leggings:
+            item: "diamond leggings"
+            enchant:
+              - "protection 2"
+              - "unbreaking 255"
+              - "blast protection 255"
+              - "lure 14"
+          boots:
+            item: "diamond boots"
+            enchant:
+              - "protection 2"
+              - "unbreaking 255"
+              - "blast protection 255"
+              - "lure 14"
+          weapon:
+            item: "tnt"
+            enchant:
+              - "sharpness 30"
+      5:
+        type: "skeleton"
+        name: "&4Hunter &7< &e★ &e★ &7>"
+        hp: "300"
+        guns:
+          rew: #tu id no value co tu piszesz ale cos musi byc
+            chance: "15%" #szansa
+            dmg: "10" #dmg normalny + ta wartosc
+            name: "&c&lRevolver" #nazwa broni jak bron nazywa sie np. &cRevolver to wjebac &cRevolver
+          th:
+            chance: "15%"
+            dmg: "10"
+            name: "&c&lCustomSMG"
+          sar:
+            chance: "27%"
+            dmg: "30"
+            name: "&c&lSemi Auto Rifle"
+          ak:
+            chance: "27%"
+            dmg: "25"
+            name: "&c&lAlien Red"
+          L9:
+            chance: "45%"
+            dmg: "50"
+            name: "&c&lL96"
+        special:
+          tnt: "30%"
+          shaco-q: "20%"
+          teemo-q:
+            chance: "10%"
+            power: "2"
+            time: "2 seconds"
+        effects:
+          1:
+            effect: "speed"
+            power: "2"
+        gear:
+          helmet:
+            item: "diamond helmet"
+            enchant:
+              - "protection 2"
+              - "unbreaking 255"
+              - "blast protection 15"
+              - "lure 17"
+          chestplate:
+            item: "diamond chestplate"
+            enchant:
+              - "protection 2"
+              - "unbreaking 255"
+              - "blast protection 15"
+              - "lure 17"
+          leggings:
+            item: "diamond leggings"
+            enchant:
+              - "protection 2"
+              - "unbreaking 255"
+              - "blast protection 15"
+              - "lure 17"
+          boots:
+            item: "diamond boots"
+            enchant:
+              - "protection 2"
+              - "unbreaking 255"
+              - "blast protection 15"
+              - "lure 17"
+          weapon:
+            item: "bow"
+            enchant:
+              - "power 30"
+              - "lure 17"
+    t3: #nazywaj to t1, t2, t3 bo tak jest hardowane jak nazwiesz inaczej to gg
+      1:
+        type: "zombie"
+        name: "&4Tanker &7< &e★ &e★ &e★ &7>"
+        hp: "1000"
+        guns:
+          rew: #tu id no value co tu piszesz ale cos musi byc
+            chance: "10%" #szansa
+            dmg: "15" #dmg normalny + ta wartosc
+            name: "&c&lRevolver" #nazwa broni jak bron nazywa sie np. &cRevolver to wjebac &cRevolver
+          th:
+            chance: "10%"
+            dmg: "15"
+            name: "&c&lCustomSMG"
+          sar:
+            chance: "20%"
+            dmg: "35"
+            name: "&c&lSemi Auto Rifle"
+          ak:
+            chance: "20%"
+            dmg: "30"
+            name: "&c&lAlien Red"
+          L9:
+            chance: "40%"
+            dmg: "60"
+            name: "&c&lL96"
+        special:
+          tnt: "40%"
+          achilles:
+            chance: "50%"
+            power: "3"
+            time: "2 seconds"
+          heal:
+            chance: "3%"
+            value: "40"
+        effects:
+          1:
+            effect: "speed"
+            power: "2"
+        gear:
+          helmet:
+            item: "diamond helmet"
+            enchant:
+              - "protection 4"
+              - "unbreaking 255"
+              - "blast protection 15"
+              - "lure 11"
+          chestplate:
+            item: "diamond chestplate"
+            enchant:
+              - "protection 4"
+              - "unbreaking 255"
+              - "blast protection 15"
+              - "lure 11"
+          leggings:
+            item: "diamond leggings"
+            enchant:
+              - "protection 4"
+              - "unbreaking 255"
+              - "blast protection 15"
+              - "lure 11"
+          boots:
+            item: "diamond boots"
+            enchant:
+              - "protection 4"
+              - "unbreaking 255"
+              - "blast protection 15"
+              - "lure 11"
+          weapon:
+            item: "bone"
+            enchant:
+              - "sharpness 40"
+              - "fire aspect 2"
+              - "lure 11"
+      2:
+        type: "husk"
+        name: "&4Assassin &7< &e★ &e★ &e★ &7>"
+        hp: "600"
+        guns:
+          rew: #tu id no value co tu piszesz ale cos musi byc
+            chance: "10%" #szansa
+            dmg: "15" #dmg normalny + ta wartosc
+            name: "&c&lRevolver" #nazwa broni jak bron nazywa sie np. &cRevolver to wjebac &cRevolver
+          th:
+            chance: "10%"
+            dmg: "15"
+            name: "&c&lCustomSMG"
+          sar:
+            chance: "20%"
+            dmg: "35"
+            name: "&c&lSemi Auto Rifle"
+          ak:
+            chance: "20%"
+            dmg: "30"
+            name: "&c&lAlien Red"
+          L9:
+            chance: "40%"
+            dmg: "60"
+            name: "&c&lL96"
+        special:
+          tnt: "40%"
+          teemo-e:
+            chance: "100%"
+            power: "3"
+            time: "2 seconds"
+          tp: "30%"
+        effects:
+          1:
+            effect: "speed"
+            power: "2"
+          2:
+            effect: "strength"
+            power: "2"
+        gear:
+          helmet:
+            item: "diamond helmet"
+            enchant:
+              - "protection 2"
+              - "unbreaking 255"
+              - "blast protection 15"
+              - "lure 12"
+          chestplate:
+            item: "diamond chestplate"
+            enchant:
+              - "protection 2"
+              - "unbreaking 255"
+              - "blast protection 15"
+              - "lure 12"
+          leggings:
+            item: "diamond leggings"
+            enchant:
+              - "protection 2"
+              - "unbreaking 255"
+              - "blast protection 15"
+              - "lure 12"
+          boots:
+            item: "diamond boots"
+            enchant:
+              - "protection 2"
+              - "unbreaking 255"
+              - "blast protection 15"
+              - "lure 12"
+          weapon:
+            item: "bone"
+            enchant:
+              - "sharpness 45"
+              - "lure 12"
+      3:
+        type: "skeleton"
+        name: "&4Nekromanta &7< &e★ &e★ &e★ &7>"
+        hp: "375"
+        guns:
+          rew: #tu id no value co tu piszesz ale cos musi byc
+            chance: "10%" #szansa
+            dmg: "15" #dmg normalny + ta wartosc
+            name: "&c&lRevolver" #nazwa broni jak bron nazywa sie np. &cRevolver to wjebac &cRevolver
+          th:
+            chance: "10%"
+            dmg: "15"
+            name: "&c&lCustomSMG"
+          sar:
+            chance: "20%"
+            dmg: "35"
+            name: "&c&lSemi Auto Rifle"
+          ak:
+            chance: "20%"
+            dmg: "30"
+            name: "&c&lAlien Red"
+          L9:
+            chance: "40%"
+            dmg: "60"
+            name: "&c&lL96"
+        special:
+          tnt: "40%"
+          group-heal:
+            chance: "7%"
+            value: "35"
+          minions:
+            chance: "20%"
+            amount:
+              min: "10"
+              max: "16"
+        effects:
+          1:
+            effect: "speed"
+            power: "3"
+        gear:
+          helmet:
+            item: "diamond helmet"
+            enchant:
+              - "unbreaking 255"
+              - "blast protection 15"
+              - "lure 13"
+          chestplate:
+            item: "diamond chestplate"
+            enchant:
+              - "unbreaking 255"
+              - "blast protection 15"
+              - "lure 13"
+          leggings:
+            item: "diamond leggings"
+            enchant:
+              - "unbreaking 255"
+              - "blast protection 15"
+              - "lure 13"
+          boots:
+            item: "diamond boots"
+            enchant:
+              - "unbreaking 255"
+              - "blast protection 15"
+              - "lure 13"
+          weapon:
+            item: "bow"
+            enchant:
+              - "power 40"
+              - "punch 5"
+              - "lure 13"
+      4:
+        type: "husk"
+        name: "&4Ahmed &7< &e★ &e★ &e★ &7>"
+        hp: "500"
+        guns:
+          rew: #tu id no value co tu piszesz ale cos musi byc
+            chance: "10%" #szansa
+            dmg: "15" #dmg normalny + ta wartosc
+            name: "&c&lRevolver" #nazwa broni jak bron nazywa sie np. &cRevolver to wjebac &cRevolver
+          th:
+            chance: "10%"
+            dmg: "15"
+            name: "&c&lCustomSMG"
+          sar:
+            chance: "20%"
+            dmg: "35"
+            name: "&c&lSemi Auto Rifle"
+          ak:
+            chance: "20%"
+            dmg: "30"
+            name: "&c&lAlien Red"
+          L9:
+            chance: "40%"
+            dmg: "60"
+            name: "&c&lL96"
+        special:
+          tnt: "90%"
+          nuke:
+            chance: "10%"
+            power: "6"
+          teemo-w:
+            chance: "40%"
+            power: "5"
+            time: "2 seconds"
+        effects:
+          1:
+            effect: "strength"
+            power: "2"
+        gear:
+          helmet:
+            item: "diamond helmet"
+            enchant:
+              - "protection 2"
+              - "unbreaking 255"
+              - "blast protection 255"
+              - "lure 14"
+          chestplate:
+            item: "diamond chestplate"
+            enchant:
+              - "protection 2"
+              - "unbreaking 255"
+              - "blast protection 255"
+              - "lure 14"
+          leggings:
+            item: "diamond leggings"
+            enchant:
+              - "protection 2"
+              - "unbreaking 255"
+              - "blast protection 255"
+              - "lure 14"
+          boots:
+            item: "diamond boots"
+            enchant:
+              - "protection 2"
+              - "unbreaking 255"
+              - "blast protection 255"
+              - "lure 14"
+          weapon:
+            item: "tnt"
+            enchant:
+              - "sharpness 40"
+      5:
+        type: "skeleton"
+        name: "&4Hunter &7< &e★ &e★ &e★ &7>"
+        hp: "450"
+        guns:
+          rew: #tu id no value co tu piszesz ale cos musi byc
+            chance: "10%" #szansa
+            dmg: "15" #dmg normalny + ta wartosc
+            name: "&c&lRevolver" #nazwa broni jak bron nazywa sie np. &cRevolver to wjebac &cRevolver
+          th:
+            chance: "10%"
+            dmg: "15"
+            name: "&c&lCustomSMG"
+          sar:
+            chance: "20%"
+            dmg: "35"
+            name: "&c&lSemi Auto Rifle"
+          ak:
+            chance: "20%"
+            dmg: "30"
+            name: "&c&lAlien Red"
+          L9:
+            chance: "40%"
+            dmg: "60"
+            name: "&c&lL96"
+        special:
+          tnt: "40%"
+          shaco-q: "40%"
+          teemo-q:
+            chance: "20%"
+            power: "2"
+            time: "2 seconds"
+        effects:
+          1:
+            effect: "speed"
+            power: "3"
+        gear:
+          helmet:
+            item: "diamond helmet"
+            enchant:
+              - "protection 2"
+              - "unbreaking 255"
+              - "blast protection 15"
+              - "lure 17"
+          chestplate:
+            item: "diamond chestplate"
+            enchant:
+              - "protection 2"
+              - "unbreaking 255"
+              - "blast protection 15"
+              - "lure 17"
+          leggings:
+            item: "diamond leggings"
+            enchant:
+              - "protection 2"
+              - "unbreaking 255"
+              - "blast protection 15"
+              - "lure 17"
+          boots:
+            item: "diamond boots"
+            enchant:
+              - "protection 2"
+              - "unbreaking 255"
+              - "blast protection 15"
+              - "lure 17"
+          weapon:
+            item: "bow"
+            enchant:
+              - "power 40"
+              - "lure 17"
+      6:
+        type: "zombie"
+        name: "&4Techno Zul &7< &e★ &e★ &e★ &7>"
+        hp: "1000"
+        guns:
+          rew: #tu id no value co tu piszesz ale cos musi byc
+            chance: "10%" #szansa
+            dmg: "15" #dmg normalny + ta wartosc
+            name: "&c&lRevolver" #nazwa broni jak bron nazywa sie np. &cRevolver to wjebac &cRevolver
+          th:
+            chance: "10%"
+            dmg: "15"
+            name: "&c&lCustomSMG"
+          sar:
+            chance: "20%"
+            dmg: "35"
+            name: "&c&lSemi Auto Rifle"
+          ak:
+            chance: "20%"
+            dmg: "30"
+            name: "&c&lAlien Red"
+          L9:
+            chance: "40%"
+            dmg: "60"
+            name: "&c&lL96"
+        special:
+          tnt: "60%"
+          achilles:
+            chance: "15%"
+            power: "2"
+            time: "2 seconds"
+          shaco-q: "20%"
+          teemo-e:
+            chance: "20%"
+            power: "4"
+            time: "2 seconds"
+          teemo-q:
+            chance: "20%"
+            power: "2"
+            time: "2 seconds"
+          heal:
+            chance: "3%"
+            value: "40"
+          group-heal:
+            chance: "3%"
+            value: "40"
+          nuke:
+            chance: "10%"
+            power: "6"
+          minions:
+            chance: "10%"
+            amount:
+              min: "16"
+              max: "32"
+          tp: "10%"
+          locked-multiple: "3"
+        effects:
+          1:
+            effect: "strength"
+            power: "2"
+          2:
+            effect: "speed"
+            power: "2"
+        gear:
+          helmet:
+            item: "diamond helmet"
+            enchant:
+              - "protection 2"
+              - "unbreaking 255"
+              - "blast protection 255"
+              - "lure 15"
+          chestplate:
+            item: "diamond chestplate"
+            enchant:
+              - "protection 2"
+              - "unbreaking 255"
+              - "blast protection 255"
+              - "lure 15"
+          leggings:
+            item: "diamond leggings"
+            enchant:
+              - "protection 2"
+              - "unbreaking 255"
+              - "blast protection 255"
+              - "lure 15"
+          boots:
+            item: "diamond boots"
+            enchant:
+              - "protection 2"
+              - "unbreaking 255"
+              - "blast protection 255"
+              - "lure 15"
+          weapon:
+            item: "rabbit hide"
+            enchant:
+              - "sharpness 50"
+              - "fire aspect 10"
+              - "lure 7"
+
+#                #
+#   --Locked--   #
+#                #
+
+locked:
+  t1: #tier
+    chance: #szanse dla wytrychu lom ma zawsze 100% hard cooded :/
+      success: "45%"
+      fail: "54.99%"
+      lost: "0.01%"
+  t2: #tier
+    chance: #szanse dla wytrychu lom ma zawsze 100% hard cooded :/
+      success: "20%"
+      fail: "65%"
+      lost: "15%"
+  t3: #tier
+    chance: #szanse dla wytrychu lom ma zawsze 100% hard cooded :/
+      success: "3%"
+      fail: "7%"
+      lost: "90%"
+
+#                    #
+#   --NPC TRADER--   #
+#                    #
+
+traders:
+  babucha:
+    traderreset: "30"
+    name: "&5Gruby Joe"
+    data: ",VillagerData:{type:swamp,profession:armorer,level:99}}"
+    dialogs:
+      hurt:
+        - "Impostor z empire wtf??"
+        - "Jo dupia"
+        - "Ale urwał"
+      sellsuccess:
+        - "Babucha ON TOP"
+        - "Moze ja sie robie menel ale to nie wydaje sie ostre"
+      sellfail:
+        - "Mokry kiep ale to sie wysuszy"
+        - "Nie kupuje przeciagu"
+      buysuccess:
+        - "Która to godzina? 12 zł i 36gr"
+        - "hyhyhy to bylo przeterminowane o 6 lat"
+      buyfail:
+        - "Niestety zeszyt pelny nie da rady"
+        - "E kolego 2 ziko jeszcze"
+  cpun:
+    name: "&2Cpun"
+    data: ",VillagerData:{type:swamp,profession:butcher,level:99}}"
+    dialogs:
+      hurt:
+        - "ghy ghy !?"
+        - "ała chyba złamałem piszczel"
+      buysuccess:
+        - "miesany miesany na cienki"
+        - "to taka petarda ze nie pytaj"
+        - "jak jebniesz to nie wstaniesz"
+      buyfail:
+        - "jak rozjebiesz radio to odkupujesz"
+        - "nie sprzedaje na raty"
+        - "a pokaz legitymacje"
+        - "a co kurwa ja bar mleczny"
+  questman:
+    name: "&6Generał Borsuk"
+    data: ",VillagerData:{type:swamp,profession:cartographer,level:99}}"
+    roll-price:
+      1: "500"
+      2: "1500"
+      3: "4000"
+      4: "7500"
+      5: "-1"
+    dialogs:
+      hurt:
+        - "na glebe kurwo jebana"
+        - "Wedlug postanowienia Państwa podziemnego skazuje cie na kare 3 godzin robienie yamala"
+      success:
+        - "U ruskich takich nie kupisz"
+        - "Mowie ci bedzie sluzylo lata"
+      fail:
+        - "ty pazerno swinio"
+        - "klasykiem polece twoja babka kurwa byla..."
+    wb:
+      t1:
+        gui:
+          - "1x &r&fDiamond Block"
+          - "16x &r&fIron Block"
+          - "16x &r&fCopper Block"
+          - "64x &r&fOak Log"
+          - "64x &r&fBirch Log"
+          - "64x &r&fSpruce Log"
+          - "&e&l15 &r&6lvl XP"
+          - "&e&l200x &r&6Maticoin'ow"
+        price-xp: "15"
+        price-coin: "200"
+        price:
+          1:
+            item: "diamond block"
+            amount: "1"
+          2:
+            item: "iron block"
+            amount: "16"
+          3:
+            item: "copper block"
+            amount: "16"
+          4:
+            item: "oak log"
+            amount: "64"
+          5:
+            item: "birch log"
+            amount: "64"
+          6:
+            item: "spruce log"
+            amount: "64"
+      t2:
+        gui:
+          - "1x &r&6&lWorkbench &r&f<1>"
+          - "2x &r&f&6Metal Wysokiej Jakosci"
+          - "2x &r&fNetherite Ingot"
+          - "8x &r&fDiamond Block"
+          - "64x &r&fIron Block"
+          - "64x &r&fBrick Block"
+          - "&e&l30 &r&6lvl XP"
+          - "&e&l1000x &r&6Maticoin'ow"
+        price-xp: "30"
+        price-coin: "1000"
+        price:
+          1:
+            item: "red nether brick stairs"
+            name: "&6&lWorkbench &r&f<1>"
+            amount: "1"
+          2:
+            item: "red chiseled sandstone"
+            name: "&6Metal Wysokiej Jakosci"
+            amount: "2"
+          3:
+            item: "netherite ingot"
+            amount: "2"
+          4:
+            item: "diamond block"
+            amount: "8"
+          5:
+            item: "iron block"
+            amount: "64"
+          6:
+            item: "red brick block"
+            amount: "64"
+      t3:
+        gui:
+          - "1x &r&6&lWorkbench &r&f<2>"
+          - "20x &r&f&6Metal Wysokiej Jakosci"
+          - "1x &r&fNetherite Block"
+          - "16x &r&fDiamond Block"
+          - "128x &r&fIron Block"
+          - "128x &r&fCopper Block"
+          - "384x &r&fBrick Block"
+          - "&e&l45 &r&6lvl XP"
+          - "&e&l5000x &r&6Maticoin'ow"
+        price-xp: "45"
+        price-coin: "5000"
+        price:
+          1:
+            item: "smooth red sandstone stair"
+            name: "&6&lWorkbench &r&f<2>"
+            amount: "1"
+          2:
+            item: "red chiseled sandstone"
+            name: "&6Metal Wysokiej Jakosci"
+            amount: "20"
+          3:
+            item: "netherite block"
+            amount: "1"
+          4:
+            item: "diamond block"
+            amount: "16"
+          5:
+            item: "iron block"
+            amount: "128"
+          5:
+            item: "copper block"
+            amount: "128"
+          6:
+            item: "red brick block"
+            amount: "384"
+
+quest:
+  1:
+    difficulty:
+      lvl: "1"
+      gui: "&2★ &7★ &7★ &7★"
+    type: "collect"
+    items:
+      1:
+        item: "cobblestone"
+        amount:
+          min: "128"
+          max: "128"
+    targetgui: "Zbierz ;x cobblestone"
+    reward:
+      1:
+        item: "paper"
+        name: "&eCzek &f&l< 10 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 4"
+        amount:
+          min: "4"
+          max: "4"
+      2:
+        item: "iron ingot"
+        amount:
+          min: "3"
+          max: "4"
+    rewardgui: ";x czeków[10], ;x Sztabek Zelaza"
+    dialog:
+      intro: "Zrobiła mi się dziura w dachu, weź mi przynieś trochę kamienia."
+      complete: "Wreszcie nie będzie mi tak wiało."
+  2:
+    difficulty:
+      lvl: "1"
+      gui: "&2★ &7★ &7★ &7★"
+    type: "collect"
+    items:
+      1:
+        item: "sand"
+        amount:
+          min: "128"
+          max: "128"
+    targetgui: "Zbierz ;x piasku"
+    reward:
+      1:
+        item: "paper"
+        name: "&eCzek &f&l< 10 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 4"
+        amount:
+          min: "4"
+          max: "4"
+      2:
+        item: "gold ingot"
+        amount:
+          min: "3"
+          max: "4"
+    rewardgui: ";x czeków[10], ;x Sztabek Złota"
+    dialog:
+      intro: "Zabrakło nam piasku na strzelnicy, ogranieś trochę?"
+      complete: "Dzięki wielkie, to biorę się do roboty."
+  3:
+    difficulty:
+      lvl: "1"
+      gui: "&2★ &7★ &7★ &7★"
+    type: "collect"
+    items:
+      1:
+        item: "rabbit hide"
+        name: "&dNerka"
+        enchant:
+          - "lure 10"
+        lore:
+          - "&fZagubiona nerka pewnego"
+          - "&flegendarnego zawodnika w F1."
+        amount:
+          min: "1"
+          max: "1"
+    targetgui: "Zbierz ;x Nerka"
+    reward:
+      1:
+        item: "paper"
+        name: "&eCzek &f&l< 100 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 7"
+        amount:
+          min: "10"
+          max: "10"
+      2:
+        item: "cooked porkchop"
+        amount:
+          min: "6"
+          max: "7"
+    rewardgui: ";x czeków[100], ;x Porkchop"
+    dialog:
+      intro: "Poszukaj mi nerki, wypadła mi."
+      complete: "No i git."
+  4:
+    difficulty:
+      lvl: "1"
+      gui: "&2★ &7★ &7★ &7★"
+    type: "collect"
+    items:
+      1:
+        item: "wheat"
+        amount:
+          min: "32"
+          max: "64"
+    targetgui: "Zbierz ;x pszenicy"
+    reward:
+      1:
+        item: "paper"
+        name: "&eCzek &f&l< 20 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 5"
+        amount:
+          min: "3"
+          max: "3"
+      2:
+        item: "redstone"
+        amount:
+          min: "12"
+          max: "20"
+    rewardgui: ";x czeków[20], ;x redstone"
+    dialog:
+      intro: "Nasza wioska głoduje, przynieś nam trochę pszenicy."
+      complete: "Wykarmiłeś kilka głodnych pysków."
+  5:
+    difficulty:
+      lvl: "1"
+      gui: "&2★ &7★ &7★ &7★"
+    type: "collect"
+    items:
+      1:
+        item: "raw iron"
+        amount:
+          min: "8"
+          max: "10"
+    targetgui: "Zbierz ;x surowe żelazo"
+    reward:
+      1:
+        item: "paper"
+        name: "&eCzek &f&l< 50 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 6"
+        amount:
+          min: "3"
+          max: "4"
+      2:
+        item: "lapis lazuli"
+        amount:
+          min: "8"
+          max: "14"
+    rewardgui: ";x czeków[50], ;x lapis"
+    dialog:
+      intro: "Ostatnio rozjebało mi się kowadło, ogarnij trochę żelaza na jego naprawę."
+      complete: "Zaraz to kowadło będzie jak nowe."
+  6:
+    difficulty:
+      lvl: "1"
+      gui: "&2★ &7★ &7★ &7★"
+    type: "collect"
+    items:
+      1:
+        item: "coal"
+        amount:
+          min: "32"
+          max: "48"
+    targetgui: "Zbierz ;x węgla"
+    reward:
+      1:
+        item: "paper"
+        name: "&eCzek &f&l< 20 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 5"
+        amount:
+          min: "4"
+          max: "6"
+      2:
+        item: "copper ingot"
+        amount:
+          min: "8"
+          max: "14"
+    rewardgui: ";x czeków[20], ;x miedz"
+    dialog:
+      intro: "W kuźni brakuje węgla do wypalania."
+      complete: "Teraz będzie się grzało kurwa."
+  7:
+    difficulty:
+      lvl: "1"
+      gui: "&2★ &7★ &7★ &7★"
+    type: "collect"
+    items:
+      1:
+        item: "diorite"
+        amount:
+          min: "16"
+          max: "24"
+    targetgui: "Zbierz ;x diorite"
+    reward:
+      1:
+        item: "paper"
+        name: "&eCzek &f&l< 20 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 5"
+        amount:
+          min: "4"
+          max: "5"
+      2:
+        item: "torch"
+        amount:
+          min: "8"
+          max: "14"
+    rewardgui: ";x czeków[20], ;x pochodnie"
+    dialog:
+      intro: "Znajdź mi jakiś ładny kamień."
+      complete: "Co to za gówno?!"
+  8:
+    difficulty:
+      lvl: "1"
+      gui: "&2★ &7★ &7★ &7★"
+    type: "kill"
+    entity:
+      1:
+        type: "zombie"
+        amount:
+          min: "8"
+          max: "10"
+    targetgui: "Pokonaj ;x zombie"
+    reward:
+      1:
+        item: "paper"
+        name: "&eCzek &f&l< 10 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 4"
+        amount:
+          min: "4"
+          max: "5"
+    rewardgui: ";x czeków[10]"
+    dialog:
+      intro: "Dużo tego gówna rozniósłoby się po naszej wiosce. Zrób coś z tym."
+      complete: "Od razu jakoś przestało śmierdzieć."
+  9:
+    difficulty:
+      lvl: "1"
+      gui: "&2★ &7★ &7★ &7★"
+    type: "kill"
+    entity:
+      1:
+        type: "skeleton"
+        amount:
+          min: "6"
+          max: "12"
+    targetgui: "Pokonaj ;x skeleton"
+    reward:
+      1:
+        item: "paper"
+        name: "&eCzek &f&l< 20 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 5"
+        amount:
+          min: "3"
+          max: "4"
+    rewardgui: ";x czeków[20]"
+    dialog:
+      intro: "Pewne skurwysyny wybiły mi okno, pogadaj z nimi."
+      complete: "Świetnie, jeszcze okno muszę wymienić..."
+  10:
+    difficulty:
+      lvl: "1"
+      gui: "&2★ &7★ &7★ &7★"
+    type: "kill"
+    entity:
+      1:
+        type: "spider"
+        amount:
+          min: "3"
+          max: "4"
+    targetgui: "Pokonaj ;x spider"
+    reward:
+      1:
+        item: "paper"
+        name: "&eCzek &f&l< 20 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 5"
+        amount:
+          min: "1"
+          max: "2"
+    rewardgui: ";x czeków[20]"
+    dialog:
+      intro: "Co oni kurwa myślą, że są Spider-Manem?"
+      complete: "Teraz to już został tylko jeden prawdziwy."
+  11:
+    difficulty:
+      lvl: "1"
+      gui: "&2★ &7★ &7★ &7★"
+    type: "kill"
+    entity:
+      1:
+        type: "chicken"
+        amount:
+          min: "5"
+          max: "6"
+    targetgui: "Pokonaj ;x kurczaki"
+    reward:
+      1:
+        item: "paper"
+        name: "&eCzek &f&l< 20 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 5"
+        amount:
+          min: "3"
+          max: "5"
+    rewardgui: ";x czeków[20]"
+    dialog:
+      intro: "Potrzebujemy trochę mięsa z KFC."
+      complete: "Teraz czarnuchy mają co jeść. Ale dalej nie mają wody."
+  12:
+    difficulty:
+      lvl: "1"
+      gui: "&2★ &7★ &7★ &7★"
+    type: "kill"
+    entity:
+      1:
+        type: "sheep"
+        amount:
+          min: "4"
+          max: "5"
+    targetgui: "Pokonaj ;x owce"
+    reward:
+      1:
+        item: "paper"
+        name: "&eCzek &f&l< 20 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 5"
+        amount:
+          min: "6"
+          max: "7"
+    rewardgui: ";x czeków[20]"
+    dialog:
+      intro: "U Turasa zabrakło mięsa."
+      complete: "No i kebab bedzię sie kręcił."
+  13:
+    difficulty:
+      lvl: "1"
+      gui: "&2★ &7★ &7★ &7★"
+    type: "kill"
+    entity:
+      1:
+        type: "creeper"
+        amount:
+          min: "5"
+          max: "5"
+    targetgui: "Pokonaj ;x creeper"
+    reward:
+      1:
+        item: "paper"
+        name: "&eCzek &f&l< 50 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 6"
+        amount:
+          min: "2"
+          max: "3"
+    rewardgui: ";x czeków[50]"
+    dialog:
+      intro: "Trochę talibów spadło w naszej okolicy."
+      complete: "Creeper oh men."
+  14:
+    difficulty:
+      lvl: "1"
+      gui: "&2★ &7★ &7★ &7★"
+    type: "kill"
+    entity:
+      1:
+        type: "cow"
+        amount:
+          min: "4"
+          max: "5"
+    targetgui: "Pokonaj ;x krowy"
+    reward:
+      1:
+        item: "paper"
+        name: "&eCzek &f&l< 20 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 5"
+        amount:
+          min: "6"
+          max: "7"
+    rewardgui: ";x czeków[20]"
+    dialog:
+      intro: "Potrzebujemy na szybko skóry z krowy."
+      complete: "Enchant zaraz bedzię gotowy."
+  15:
+    difficulty:
+      lvl: "1"
+      gui: "&2★ &7★ &7★ &7★"
+    type: "find"
+    cords:
+      x-min: "600"
+      x-max: "-600"
+      z-min: "600"
+      z-max: "-600"
+      world: "world"
+      enemies:
+        1:
+          type: "zombie"
+          hp: "30"
+          amount:
+            min: "1"
+            max: "3"
+          gear:
+            helmet:
+              item: "diamond helmet"
+              enchant:
+                - "unbreaking 255"
+                - "lure 20"
+            chestplate:
+              item: "diamond chestplate"
+              enchant:
+                - "unbreaking 255"
+                - "lure 20"
+            leggings:
+              item: "diamond leggings"
+              enchant:
+                - "unbreaking 255"
+                - "lure 20"
+            boots:
+              item: "diamond boots"
+              enchant:
+                - "unbreaking 255"
+                - "lure 20"
+            weapon:
+              item: "diamond sword"
+              enchant:
+                - "lure 20"
+    targetgui: "Znajdz moj Zagubiony Skarb ( x: ; | z: ; | Swiat: ; )"
+    reward:
+      1:
+        item: "paper"
+        name: "&eCzek &f&l< 100 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 7"
+        amount:
+          min: "1"
+          max: "2"
+      2:
+        item: "iron ingot"
+        amount:
+          min: "6"
+          max: "8"
+    rewardgui: ";x czeków[100], ;x Sztabek Zelaza"
+    dialog:
+      intro: "Siema, zgubiłem paczkę z zasobami, możesz ją znaleźć?"
+      complete: "Dzięki wielkie, ciekawe co jest w środku, jak to kurwa pusta."
+  16:
+    difficulty:
+      lvl: "1"
+      gui: "&2★ &7★ &7★ &7★"
+    type: "find"
+    cords:
+      x-min: "800"
+      x-max: "-800"
+      z-min: "800"
+      z-max: "-800"
+      world: "world"
+      enemies:
+        1:
+          type: "zombie"
+          hp: "30"
+          amount:
+            min: "2"
+            max: "3"
+          gear:
+            helmet:
+              item: "diamond helmet"
+              enchant:
+                - "unbreaking 255"
+                - "lure 20"
+            chestplate:
+              item: "diamond chestplate"
+              enchant:
+                - "unbreaking 255"
+                - "lure 20"
+            leggings:
+              item: "diamond leggings"
+              enchant:
+                - "unbreaking 255"
+                - "lure 20"
+            boots:
+              item: "diamond boots"
+              enchant:
+                - "unbreaking 255"
+                - "lure 20"
+            weapon:
+              item: "diamond sword"
+              enchant:
+                - "lure 20"
+    targetgui: "Znajdz moj Zagubiony Skarb ( x: ; | z: ; | Swiat: ; )"
+    reward:
+      1:
+        item: "paper"
+        name: "&eCzek &f&l< 100 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 7"
+        amount:
+          min: "2"
+          max: "2"
+      2:
+        item: "iron ingot"
+        amount:
+          min: "6"
+          max: "8"
+    rewardgui: ";x czeków[100], ;x Sztabek Zelaza"
+    dialog:
+      intro: "Siema, zgubiłem paczkę z zasobami, możesz ją znaleźć?"
+      complete: "Dzięki wielkie, ciekawe co jest w środku, jak to kurwa pusta."
+  17:
+    difficulty:
+      lvl: "2"
+      gui: "&e★ &e★ &7★ &7★"
+    type: "collect"
+    items:
+      1:
+        item: "iron ingot"
+        amount:
+          min: "48"
+          max: "64"
+    targetgui: "Zbierz ;x Sztabki Żelaża"
+    reward:
+      1:
+        item: "paper"
+        name: "&eCzek &f&l< 100 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 7"
+        amount:
+          min: "10"
+          max: "12"
+      2:
+        item: "diamond"
+        amount:
+          min: "1"
+          max: "2"
+    rewardgui: ";x czeków[100], ;x Diamenty"
+    dialog:
+      intro: "Zabrakło mi materiałów do kuźni."
+      complete: "Teraz będę mógł wytwarzać bronie."
+  18:
+    difficulty:
+      lvl: "2"
+      gui: "&e★ &e★ &7★ &7★"
+    type: "collect"
+    items:
+      1:
+        item: "oak log"
+        amount:
+          min: "384"
+          max: "384"
+    targetgui: "Zbierz ;x dębowego drewna"
+    reward:
+      1:
+        item: "paper"
+        name: "&eCzek &f&l< 100 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 7"
+        amount:
+          min: "3"
+          max: "4"
+      2:
+        item: "gold ingot"
+        amount:
+          min: "10"
+          max: "14"
+    rewardgui: ";x czeków[100], ;x Sztabek Złota"
+    dialog:
+      intro: "Mamy deficyt drewna, pomożesz nam z tym?"
+      complete: "Dzięki wielkie"
+  19:
+    difficulty:
+      lvl: "2"
+      gui: "&e★ &e★ &7★ &7★"
+    type: "collect"
+    items:
+      1:
+        item: "rabbit hide"
+        name: "&dJoint"
+        lore:
+          - "&fJoint to forma papierosa"
+          - "&fskręconego z papieru i wypełnionego"
+          - "&fsuszem konopi indyjskich, która"
+          - "&fjest często używana w celach rekreacyjnych."
+        enchant:
+          - "lure 8"
+        amount:
+          min: "2"
+          max: "2"
+    targetgui: "Zbierz ;x Jointy"
+    reward:
+      1:
+        item: "paper"
+        name: "&eCzek &f&l< 1000 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 8"
+        amount:
+          min: "4"
+          max: "4"
+      2:
+        item: "diamond sword"
+        amount:
+          min: "1"
+          max: "1"
+    rewardgui: ";x czeków[1000], ;x Diamentowy Miecz"
+    dialog:
+      intro: "Weź, kaj, pochytaj 2 skręty."
+      complete: "No i bajka."
+  20:
+    difficulty:
+      lvl: "2"
+      gui: "&e★ &e★ &7★ &7★"
+    type: "collect"
+    items:
+      1:
+        item: "blaze rod"
+        amount:
+          min: "8"
+          max: "12"
+    targetgui: "Zbierz ;x pał blaze'ow"
+    reward:
+      1:
+        item: "paper"
+        name: "&eCzek &f&l< 50 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 6"
+        amount:
+          min: "2"
+          max: "3"
+      2:
+        item: "golden apple"
+        amount:
+          min: "3"
+          max: "4"
+    rewardgui: ";x czeków[50], ;x Złote Jabłka"
+    dialog:
+      intro: "Potrzebuje czegoś ciepłego."
+      complete: "Dzięki teraz bedę miał ciepło w chacie"
+  21:
+    difficulty:
+      lvl: "2"
+      gui: "&e★ &e★ &7★ &7★"
+    type: "collect"
+    items:
+      1:
+        item: "lapis block"
+        amount:
+          min: "16"
+          max: "20"
+      2:
+        item: "redstone block"
+        amount:
+          min: "16"
+          max: "20"
+    targetgui: "Zbierz ;x Bloków lapisu, ;x Bloków Redstone'a"
+    reward:
+      1:
+        item: "paper"
+        name: "&eCzek &f&l< 20 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 6"
+        amount:
+          min: "6"
+          max: "7"
+      2:
+        item: "diamond"
+        amount:
+          min: "2"
+          max: "3"
+    rewardgui: ";x czeków[20], ;x Diamenty"
+    dialog:
+      intro: "Na magazynie skończył nam się redstone i lapis, załatw trochę dla nas."
+      complete: "Teraz już nie zabraknie."
+  22:
+    difficulty:
+      lvl: "2"
+      gui: "&e★ &e★ &7★ &7★"
+    type: "collect"
+    items:
+      1:
+        item: "rabbit hide"
+        name: "&dPaka Szlogow"
+        lore:
+          - "&fPaczka papierosów Marlboro to"
+          - "&fklasyczne opakowanie"
+          - "&fz czerwonym logo i nazwą"
+          - "&fmarki na białym tle."
+          - "&fIdealnie pasuje z coca-colą."
+        enchant:
+          - "lure 9"
+        amount:
+          min: "4"
+          max: "5"
+    targetgui: "Zbierz ;x Paczek Szlugów"
+    reward:
+      1:
+        item: "paper"
+        name: "&eCzek &f&l< 1000 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 8"
+        amount:
+          min: "5"
+          max: "6"
+    rewardgui: ";x czeków[1000]"
+    dialog:
+      intro: "Siema zajarać musze bo sie udusze!"
+      complete: "Dzięki może nie skończe jak Grzesiu."
+  23:
+    difficulty:
+      lvl: "2"
+      gui: "&e★ &e★ &7★ &7★"
+    type: "collect"
+    items:
+      1:
+        item: "pumpkin"
+        amount:
+          min: "16"
+          max: "24"
+    targetgui: "Zbierz ;x Dyn"
+    reward:
+      1:
+        item: "paper"
+        name: "&eCzek &f&l< 20 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 5"
+        amount:
+          min: "5"
+          max: "6"
+      2:
+        item: "melon"
+        amount:
+          min: "3"
+          max: "4"
+    rewardgui: ";x czeków[20], ;x Melon"
+    dialog:
+      intro: "Siema potrzebujemy dyn do stworzenia golemów."
+      complete: "Dzięki bardzo bratku."
+  24:
+    difficulty:
+      lvl: "2"
+      gui: "&e★ &e★ &7★ &7★"
+    type: "kill"
+    entity:
+      1:
+        type: "zombie"
+        amount:
+          min: "16"
+          max: "20"
+    targetgui: "Pokonaj ;x zombie"
+    reward:
+      1:
+        item: "paper"
+        name: "&eCzek &f&l< 10 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 4"
+        amount:
+          min: "8"
+          max: "10"
+    rewardgui: ";x czeków[10]"
+    dialog:
+      intro: "Dużo tego gówna rozniósłoby się po naszej wiosce. Zrób coś z tym."
+      complete: "Od razu jakoś przestało śmierdzieć."
+  25:
+    difficulty:
+      lvl: "2"
+      gui: "&e★ &e★ &7★ &7★"
+    type: "kill"
+    entity:
+      1:
+        type: "skeleton"
+        amount:
+          min: "12"
+          max: "24"
+    targetgui: "Pokonaj ;x skeleton"
+    reward:
+      1:
+        item: "paper"
+        name: "&eCzek &f&l< 20 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 5"
+        amount:
+          min: "6"
+          max: "8"
+    rewardgui: ";x czeków[20]"
+    dialog:
+      intro: "Pewne skurwysyny wybiły mi okno, pogadaj z nimi."
+      complete: "Świetnie, jeszcze okno muszę wymienić..."
+  26:
+    difficulty:
+      lvl: "2"
+      gui: "&e★ &e★ &7★ &7★"
+    type: "kill"
+    entity:
+      1:
+        type: "cave spider"
+        amount:
+          min: "3"
+          max: "4"
+    targetgui: "Pokonaj ;x cave spider"
+    reward:
+      1:
+        item: "paper"
+        name: "&eCzek &f&l< 50 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 6"
+        amount:
+          min: "3"
+          max: "4"
+    rewardgui: ";x czeków[20]"
+    dialog:
+      intro: "Co oni kurwa myślą, że są Spider-Manem z jaskin?"
+      complete: "Teraz to już został tylko jeden prawdziwy."
+  27:
+    difficulty:
+      lvl: "2"
+      gui: "&e★ &e★ &7★ &7★"
+    type: "kill"
+    entity:
+      1:
+        type: "spider"
+        amount:
+          min: "10"
+          max: "16"
+    targetgui: "Pokonaj ;x spider"
+    reward:
+      1:
+        item: "paper"
+        name: "&eCzek &f&l< 50 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 6"
+        amount:
+          min: "6"
+          max: "10"
+    rewardgui: ";x czeków[50]"
+    dialog:
+      intro: "Bambiki nam sie ladderuja przez mury zrób coś z tym."
+      complete: "Teraz czarnuchy mają swoją nauczkę."
+  28:
+    difficulty:
+      lvl: "2"
+      gui: "&e★ &e★ &7★ &7★"
+    type: "kill"
+    entity:
+      1:
+        type: "pig"
+        amount:
+          min: "16"
+          max: "20"
+    targetgui: "Pokonaj ;x świń"
+    reward:
+      1:
+        item: "paper"
+        name: "&eCzek &f&l< 50 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 5"
+        amount:
+          min: "3"
+          max: "4"
+    rewardgui: ";x czeków[50]"
+    dialog:
+      intro: "Brakuje nam bekonu weź pomóż."
+      complete: "No i grill musi teraz oddać."
+  29:
+    difficulty:
+      lvl: "2"
+      gui: "&e★ &e★ &7★ &7★"
+    type: "kill"
+    entity:
+      1:
+        type: "creeper"
+        amount:
+          min: "10"
+          max: "12"
+    targetgui: "Pokonaj ;x creeper"
+    reward:
+      1:
+        item: "paper"
+        name: "&eCzek &f&l< 50 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 6"
+        amount:
+          min: "4"
+          max: "5"
+    rewardgui: ";x czeków[50]"
+    dialog:
+      intro: "Trochę talibów spadło w naszej okolicy."
+      complete: "Creeper oh men."
+  30:
+    difficulty:
+      lvl: "2"
+      gui: "&e★ &e★ &7★ &7★"
+    type: "kill"
+    entity:
+      1:
+        type: "cow"
+        amount:
+          min: "10"
+          max: "12"
+    targetgui: "Pokonaj ;x krowy"
+    reward:
+      1:
+        item: "paper"
+        name: "&eCzek &f&l< 50 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 6"
+        amount:
+          min: "5"
+          max: "6"
+    rewardgui: ";x czeków[50]"
+    dialog:
+      intro: "Potrzebujemy na szybko skóry z krowy."
+      complete: "Enchant zaraz bedzię gotowy."
+  31:
+    difficulty:
+      lvl: "2"
+      gui: "&e★ &e★ &7★ &7★"
+    type: "find"
+    cords:
+      x-min: "1200"
+      x-max: "-1200"
+      z-min: "1200"
+      z-max: "-1200"
+      world: "world_nether"
+      enemies:
+        1:
+          type: "zombie"
+          hp: "40"
+          amount:
+            min: "3"
+            max: "5"
+          gear:
+            helmet:
+              item: "diamond helmet"
+              enchant:
+                - "unbreaking 255"
+                - "lure 20"
+            chestplate:
+              item: "diamond chestplate"
+              enchant:
+                - "unbreaking 255"
+                - "lure 20"
+            leggings:
+              item: "diamond leggings"
+              enchant:
+                - "unbreaking 255"
+                - "lure 20"
+            boots:
+              item: "diamond boots"
+              enchant:
+                - "unbreaking 255"
+                - "lure 20"
+            weapon:
+              item: "diamond sword"
+              enchant:
+                - "lure 20"
+    targetgui: "Znajdz moj Zagubiony Skarb ( x: ; | z: ; | Swiat: ; )"
+    reward:
+      1:
+        item: "paper"
+        name: "&eCzek &f&l< 1000 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 8"
+        amount:
+          min: "1"
+          max: "2"
+      2:
+        item: "iron block"
+        amount:
+          min: "2"
+          max: "3"
+    rewardgui: ";x czeków[1000], ;x Bloków Zelaza"
+    dialog:
+      intro: "Siema, zgubiłem paczkę z zasobami, możesz ją znaleźć?"
+      complete: "Dzięki wielkie, ciekawe co jest w środku, jak to kurwa pusta."
+  32:
+    difficulty:
+      lvl: "2"
+      gui: "&e★ &e★ &7★ &7★"
+    type: "find"
+    cords:
+      x-min: "1800"
+      x-max: "-1800"
+      z-min: "1800"
+      z-max: "-1800"
+      world: "world"
+      enemies:
+        1:
+          type: "zombie"
+          hp: "40"
+          amount:
+            min: "5"
+            max: "6"
+          gear:
+            helmet:
+              item: "diamond helmet"
+              enchant:
+                - "unbreaking 255"
+                - "lure 20"
+            chestplate:
+              item: "diamond chestplate"
+              enchant:
+                - "unbreaking 255"
+                - "lure 20"
+            leggings:
+              item: "diamond leggings"
+              enchant:
+                - "unbreaking 255"
+                - "lure 20"
+            boots:
+              item: "diamond boots"
+              enchant:
+                - "unbreaking 255"
+                - "lure 20"
+            weapon:
+              item: "diamond sword"
+              enchant:
+                - "lure 20"
+    targetgui: "Znajdz moj Zagubiony Skarb ( x: ; | z: ; | Swiat: ; )"
+    reward:
+      1:
+        item: "paper"
+        name: "&eCzek &f&l< 1000 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 7"
+        amount:
+          min: "3"
+          max: "3"
+      2:
+        item: "iron block"
+        amount:
+          min: "4"
+          max: "5"
+    rewardgui: ";x czeków[1000], ;x Bloków Zelaza"
+    dialog:
+      intro: "Siema, zgubiłem paczkę z zasobami, możesz ją znaleźć?"
+      complete: "Dzięki wielkie, ciekawe co jest w środku, jak to kurwa pusta."
+  33:
+    difficulty:
+      lvl: "3"
+      gui: "&c★ &c★ &c★ &7★"
+    type: "collect"
+    items:
+      1:
+        item: "rabbit hide"
+        name: "&dJabol"
+        lore:
+          - "&fJabol to slangowe określenie taniego"
+          - "&fwina o niskiej jakości zwykle"
+          - "&fotrzymywanego z niedojrzałych winogron."
+        enchant:
+          - "lure 7"
+        amount:
+          min: "14"
+          max: "16"
+    targetgui: "Zbierz ;x Jaboli"
+    reward:
+      1:
+        item: "paper"
+        name: "&eCzek &f&l< 2500 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 9"
+        amount:
+          min: "3"
+          max: "4"
+      2:
+        item: "diamond"
+        amount:
+          min: "6"
+          max: "8"
+    rewardgui: ";x czeków[2500], ;x Diamentów"
+    dialog:
+      intro: "Za niedługo bedę mieć impreze. Potrzebuje trochę alko."
+      complete: "Ale sie najebiemy."
+  34:
+    difficulty:
+      lvl: "3"
+      gui: "&c★ &c★ &c★ &7★"
+    type: "collect"
+    items:
+      1:
+        item: "rabbit hide"
+        name: "&dAegis"
+        lore:
+          - "&fEpapieros typu Box"
+          - "&fPizga niezła chmure oraz po płucach"
+        enchant:
+          - "lure 6"
+        amount:
+          min: "8"
+          max: "10"
+    targetgui: "Zbierz ;x Aegis'y"
+    reward:
+      1:
+        item: "paper"
+        name: "&eCzek &f&l< 2500 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 9"
+        amount:
+          min: "2"
+          max: "3"
+      2:
+        item: "diamond"
+        amount:
+          min: "10"
+          max: "12"
+    rewardgui: ";x czeków[2500], ;x Diamentów"
+    dialog:
+      intro: "Ostatnio zajebali mi ijust'a. Weź mi ogarnij coś w zamian."
+      complete: "Ale to chmurzy, jo dupia."
+  35:
+    difficulty:
+      lvl: "3"
+      gui: "&c★ &c★ &c★ &7★"
+    type: "collect"
+    items:
+      1:
+        item: "rabbit hide"
+        name: "&dButelka Wody"
+        lore:
+          - "&fPół litra wody cristal  "
+          - "&fWoda służąca do napojenia się bądz"
+          - "&fZajebania przysaidu na nią "
+        enchant:
+          - "lure 5"
+        amount:
+          min: "12"
+          max: "14"
+    targetgui: "Zbierz ;x Butelek wody"
+    reward:
+      1:
+        item: "paper"
+        name: "&eCzek &f&l< 2500 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 9"
+        amount:
+          min: "4"
+          max: "5"
+      2:
+        item: "diamond"
+        amount:
+          min: "14"
+          max: "16"
+    rewardgui: ";x czeków[2500], ;x Diamentów"
+    dialog:
+      intro: "Moim czarnuchom zabrakło wody. Pomożesz?"
+      complete: "Dzięki to więcej niz cała Afryka jest w stanie wygenerować przez rok."
+  36:
+    difficulty:
+      lvl: "3"
+      gui: "&c★ &c★ &c★ &7★"
+    type: "collect"
+    items:
+      1:
+        item: "Melon"
+        amount:
+          min: "384"
+          max: "384"
+    targetgui: "Zbierz ;x Bloków Melona"
+    reward:
+      1:
+        item: "paper"
+        name: "&eCzek &f&l< 1000 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 8"
+        amount:
+          min: "8"
+          max: "10"
+    rewardgui: ";x czeków[1000]"
+    dialog:
+      intro: "Potrzebujemy sporego zapasu melonów. Ogarnij tam troche."
+      complete: "Dzięki teraz magazyn to sie nie domyka."
+
+cpun:
+  offers:
+    1:
+      item: "honey bottle"
+      price: "1"
+      name: "&f&lKrokodil"
+      lore:
+        - "&dChyba to będzie pierwsze i ostatnie spróbowanie tego gowna."
+      enchant:
+        - "infinity 7"
+      effects:
+        1:
+          effect: "wither"
+          time: "999 seconds"
+          power: "1"
+        2:
+          effect: "poison"
+          time: "999 seconds"
+          power: "2"
+        3:
+          effect: "nausea"
+          time: "999 seconds"
+          power: "3"
+        4:
+          effect: "slowness"
+          time: "999 seconds"
+          power: "5"
+        5:
+          effect: "blindness"
+          time: "999 seconds"
+          power: "1"
+        6:
+          effect: "Glowing"
+          time: "999 seconds"
+          power: "2"
+        7:
+          effect: "hunger"
+          time: "999 seconds"
+          power: "1"
+        8:
+          effect: "mining fatigue"
+          time: "999 seconds"
+          power: "2"
+        9:
+          effect: "darkness"
+          time: "999 seconds"
+          power: "1"
+        10:
+          effect: "weakness"
+          time: "999 seconds"
+          power: "4"
+        11:
+          effect: "unluck"
+          time: "999 seconds"
+          power: "1"
+        12:
+          effect: "levitation"
+          time: "10 seconds"
+          power: "1"
+        13:
+          effect: "instant damage"
+          time: "2 seconds"
+          power: "1"
+    2:
+      item: "honey bottle"
+      price: "25"
+      name: "&f&lLewy Mefedron"
+      lore:
+        - "&dZbawienie pływaka - wersja menel"
+      enchant:
+        - "infinity 8"
+      effects:
+        1:
+          effect: "poison"
+          time: "10 seconds"
+          power: "1"
+        2:
+          effect: "nausea"
+          time: "20 seconds"
+          power: "1"
+        3:
+          effect: "night vision"
+          time: "400 seconds"
+          power: "1"
+        4:
+          effect: "Dolphin's Grace"
+          time: "400 seconds"
+          power: "1"
+    3:
+      item: "honey bottle"
+      price: "75"
+      name: "&f&lMefedron Od Cpuna"
+      lore:
+        - "&dZbawienie pływaka - wersja Premium"
+      enchant:
+        - "infinity 8"
+      effects:
+        1:
+          effect: "Water Breathing"
+          time: "800 seconds"
+          power: "1"
+        2:
+          effect: "nausea"
+          time: "10 seconds"
+          power: "1"
+        3:
+          effect: "night vision"
+          time: "800 seconds"
+          power: "1"
+        4:
+          effect: "poison"
+          time: "5 seconds"
+          power: "1"
+        5:
+          effect: "Dolphin's Grace"
+          time: "800 seconds"
+          power: "1"
+    4:
+      item: "honey bottle"
+      price: "40"
+      name: "&f&lMarichuana od krzywego ziomka"
+      lore:
+        - "&dJakieś skruszone suche wióry. Pewnie maczane?"
+      enchant:
+        - "infinity 9"
+      effects:
+        1:
+          effect: "absorption"
+          time: "240 seconds"
+          power: "2"
+        2:
+          effect: "hunger"
+          time: "30 seconds"
+          power: "0"
+        3:
+          effect: "nausea"
+          time: "10 seconds"
+          power: "0"
+        4:
+          effect: "regeneration"
+          time: "10 seconds"
+          power: "1"
+    5:
+      item: "honey bottle"
+      price: "80"
+      name: "&f&lMarichuana od tłusto włosego"
+      lore:
+        - "&dTowar, którego nawet Snoop Dogg by się nie powstydził."
+      enchant:
+        - "infinity 9"
+      effects:
+        1:
+          effect: "absorption"
+          time: "480 seconds"
+          power: "3"
+        2:
+          effect: "regeneration"
+          time: "20 seconds"
+          power: "2"
+        3:
+          effect: "hunger"
+          time: "30 seconds"
+          power: "1"
+        4:
+          effect: "nausea"
+          time: "15 seconds"
+          power: "1"
+    6:
+      item: "honey bottle"
+      price: "10"
+      name: "&f&lAmfetamina od cygana"
+      lore:
+        - "&dWygląda niczym tynk ze ściany."
+      enchant:
+        - "infinity 2"
+      effects:
+        1:
+          effect: "fire resistance"
+          time: "400 seconds"
+          power: "1"
+        3:
+          effect: "regeneration"
+          time: "2 seconds"
+          power: "5"
+    7:
+      item: "honey bottle"
+      price: "15"
+      name: "&f&lAmfetamina dobrej jakości"
+      lore:
+        - "&dŚnieżnobiały proszek. Wygląda jak dobre gówno"
+      enchant:
+        - "infinity 2"
+      effects:
+        1:
+          effect: "fire resistance"
+          time: "800"
+          power: "1"
+        2:
+          effect: "darkness"
+          time: "5 seconds"
+          power: "1"
+        3:
+          effect: "regeneration"
+          time: "5 seconds"
+          power: "5"
+    8:
+      item: "honey bottle"
+      price: "20"
+      name: "&f&lKokaina "
+      lore:
+        - "&dTy kurwa cukier puder."
+      enchant:
+        - "infinity 5"
+      effects:
+        1:
+          effect: "Strength"
+          time: "120 seconds"
+          power: "2"
+        3:
+          effect: "Mining Fatigue"
+          time: "100 seconds"
+          power: "2"
+    9:
+      item: "honey bottle"
+      price: "50"
+      name: "&f&lKokaina od polecanego dilera "
+      lore:
+        - "&dJest dobrze, jest tanio."
+      enchant:
+        - "infinity 5"
+      effects:
+        1:
+          effect: "Strength"
+          time: "180 seconds"
+          power: "3"
+        2:
+          effect: "Mining Fatigue"
+          time: "160 seconds"
+          power: "3"
+    10:
+      item: "honey bottle"
+      price: "250"
+      name: "&f&lKokaina Od Bossa Cartelu z Kolumbii "
+      lore:
+        - "&dKox z podpisem Pablo Escobar"
+      enchant:
+        - "infinity 5"
+      effects:
+        1:
+          effect: "Strength"
+          time: "180 seconds"
+          power: "3"
+        2:
+          effect: "resistance"
+          time: "120 seconds"
+          power: "3"
+    11:
+      item: "honey bottle"
+      price: "10"
+      name: "&f&lEnergol"
+      lore:
+        - "&dMocny monsterek"
+      enchant:
+        - "infinity 3"
+      effects:
+        1:
+          effect: "speed"
+          time: "180 seconds"
+          power: "1"
+    12:
+      item: "honey bottle"
+      price: "40"
+      name: "&f&lPrzedtreningówa"
+      lore:
+        - "&dMocne pierdolnięcie energii."
+      enchant:
+        - "infinity 7"
+      effects:
+        1:
+          effect: "speed"
+          time: "240 seconds"
+          power: "3"
+    13:
+      item: "honey bottle"
+      price: "50"
+      name: "&f&lŚmieszne piguły"
+      lore:
+        - "&dWygląda niczym APAP"
+      enchant:
+        - "infinity 6"
+      effects:
+        1:
+          effect: "regeneration"
+          time: "100 seconds"
+          power: "2"
+        2:
+          effect: "haste"
+          time: "60 seconds"
+          power: "1"
+    14:
+      item: "honey bottle"
+      price: "80"
+      name: "&f&lPoważne piguły"
+      lore:
+        - "&dRzeczy dla poważnych ludzi"
+      enchant:
+        - "infinity 6"
+      effects:
+        1:
+          effect: "regeneration"
+          time: "240 seconds"
+          power: "3"
+        2:
+          effect: "haste"
+          time: "120 seconds"
+          power: "1"
+    15:
+      item: "honey bottle"
+      price: "200"
+      name: "&f&lKacuu miks - mały"
+      lore:
+        - "&dMały miks różnego rodzaju dragów i innych zasobów kuchni."
+      enchant:
+        - "infinity 10"
+      effects:
+        1:
+          effect: "Strength"
+          time: "30 seconds"
+          power: "1"
+        2:
+          effect: "resistance"
+          time: "5 seconds"
+          power: "3"
+        3:
+          effect: "night vision"
+          time: "300 seconds"
+          power: "10"
+        4:
+          effect: "haste"
+          time: "60 seconds"
+          power: "1"
+        5:
+          effect: "wither"
+          time: "60 seconds"
+          power: "1"
+    16:
+      item: "honey bottle"
+      price: "400"
+      name: "&f&lKacuu miks - duży"
+      lore:
+        - "&dDuzy miks różnego rodzaju dragów i innych zasobów kuchni."
+      enchant:
+        - "infinity 10"
+      effects:
+        1:
+          effect: "Strength"
+          time: "60 seconds"
+          power: "1"
+        2:
+          effect: "resistance"
+          time: "10 seconds"
+          power: "3"
+        3:
+          effect: "night vision"
+          time: "600 seconds"
+          power: "10"
+        4:
+          effect: "haste"
+          time: "120 seconds"
+          power: "2"
+        5:
+          effect: "wither"
+          time: "20 seconds"
+          power: "1"
+    17:
+      item: "honey bottle"
+      price: "600"
+      name: "&f&lKacuu miks - XXL"
+      lore:
+        - "&dMiks kacaa wersja kebab mieso mieszana mieszana"
+      enchant:
+        - "infinity 10"
+      effects:
+        1:
+          effect: "Strength"
+          time: "60 seconds"
+          power: "2"
+        2:
+          effect: "resistance"
+          time: "10 seconds"
+          power: "3"
+        3:
+          effect: "night vision"
+          time: "600 seconds"
+          power: "10"
+        4:
+          effect: "haste"
+          time: "180 seconds"
+          power: "2"
+        5:
+          effect: "wither"
+          time: "20 seconds"
+          power: "1"
+    18:
+      item: "honey bottle"
+      price: "5000"
+      name: "&f&lSARS-27012"
+      lore:
+        - "&dDziwka strzykawka, zajebana z jakiegoś"
+        - "&dnieznanego laboratorium."
+      enchant:
+        - "power 10"
+      effects:
+        1:
+          effect: "Strength"
+          time: "300 seconds"
+          power: "4"
+        2:
+          effect: "resistance"
+          time: "300 seconds"
+          power: "3"
+        3:
+          effect: "night vision"
+          time: "2000 seconds"
+          power: "10"
+        4:
+          effect: "haste"
+          time: "1600 seconds"
+          power: "3"
+        5:
+          effect: "absorption"
+          time: "800 seconds"
+          power: "30"
+        6:
+          effect: "regeneration"
+          time: "180 seconds"
+          power: "3"
+        7:
+          effect: "wither"
+          time: "30 seconds"
+          power: "5"
+
+joe:
+  stats:
+    price-buy: "1"
+    price-sell: "0.5"
+    price-sellall: "0.3"
+  items:
+    # 0: #id item yaml
+    #   item: "oak log" #item id
+    #   name: "&2AAA" #nazwa-
+    #   ctd: "1" #custom txt data
+    #   lore: #lore
+    #     - "lorem ipsum"
+    #   enchant: #enchant
+    #     - "lure 10"
+    #   price: "10" #cena
+    #   wyjatek: #wyjatki
+    #     sell:
+    #       sell: "true" #czy ma byc w rotacji
+    #       always-here: "true" #jak to ustawisz a nie zrobisz sell true to i tak bedzie btw
+    #       price: "1000" #cena jak ma byc customowa a nie auto przeliczana
+    #     buy:
+    #       buy: "true" #czy ma byc w rotacji
+    #       always-here: "true"
+    #       price: "1000" #cena jak ma byc customowa
+    1:
+      item: "oak log"
+      price: "0.8"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+    2:
+      item: "oak planks"
+      price: "0.2"
+    3:
+      item: "oak wood"
+      price: "0.8"
+    4:
+      item: "stripped oak wood"
+      price: "0.8"
+    5:
+      item: "stripped oak log"
+      price: "0.8"
+    6:
+      item: "oak stairs"
+      price: "0.1"
+    7:
+      item: "oak slab"
+      price: "0.1"
+    8:
+      item: "oak fence"
+      price: "0.1"
+    9:
+      item: "oak fence gate"
+      price: "0.1"
+    10:
+      item: "oak door"
+      price: "0.1"
+    11:
+      item: "oak trapdoor"
+      price: "0.1"
+    12:
+      item: "oak pressure plate"
+      price: "0.1"
+    13:
+      item: "oak button"
+      price: "0.1"
+    14:
+      item: "spruce log"
+      price: "0.8"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+    15:
+      item: "spruce wood"
+      price: "0.8"
+    16:
+      item: "stripped spruce log"
+      price: "0.8"
+    17:
+      item: "stripped spruce wood"
+      price: "0.8"
+    18:
+      item: "spruce planks"
+      price: "0.2"
+    19:
+      item: "spruce stairs"
+      price: "0.1"
+    20:
+      item: "spruce slab"
+      price: "0.1"
+    21:
+      item: "spruce fence"
+      price: "0.1"
+    22:
+      item: "spruce fence gate"
+      price: "0.1"
+    23:
+      item: "spruce door"
+      price: "0.1"
+    24:
+      item: "spruce trapdoor"
+      price: "0.1"
+    25:
+      item: "spruce pressure plate"
+      price: "0.1"
+    26:
+      item: "spruce button"
+      price: "0.1"
+    27:
+      item: "birch log"
+      price: "0.8"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+    28:
+      item: "birch planks"
+      price: "0.2"
+    29:
+      item: "birch wood"
+      price: "0.8"
+    30:
+      item: "stripped birch wood"
+      price: "0.8"
+    31:
+      item: "stripped birch log"
+      price: "0.8"
+    32:
+      item: "birch stairs"
+      price: "0.1"
+    33:
+      item: "birch slab"
+      price: "0.1"
+    34:
+      item: "birch fence"
+      price: "0.1"
+    35:
+      item: "birch fence gate"
+      price: "0.1"
+    36:
+      item: "birch door"
+      price: "0.1"
+    37:
+      item: "birch trapdoor"
+      price: "0.1"
+    38:
+      item: "birch pressure plate"
+      price: "0.1"
+    39:
+      item: "birch button"
+      price: "0.1"
+    40:
+      item: "jungle log"
+      price: "0.8"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+    41:
+      item: "jungle planks"
+      price: "0.2"
+    42:
+      item: "jungle wood"
+      price: "0.8"
+    43:
+      item: "stripped jungle wood"
+      price: "0.8"
+    44:
+      item: "stripped jungle log"
+      price: "0.8"
+    45:
+      item: "jungle stairs"
+      price: "0.1"
+    46:
+      item: "jungle slab"
+      price: "0.1"
+    47:
+      item: "jungle fence"
+      price: "0.1"
+    48:
+      item: "jungle fence gate"
+      price: "0.1"
+    49:
+      item: "jungle door"
+      price: "0.1"
+    50:
+      item: "jungle trapdoor"
+      price: "0.1"
+    51:
+      item: "jungle pressure plate"
+      price: "0.1"
+    52:
+      item: "acacia log"
+      price: "0.8"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+    53:
+      item: "acacia planks"
+      price: "0.2"
+    54:
+      item: "acacia wood"
+      price: "0.8"
+    55:
+      item: "stripped acacia wood"
+      price: "0.8"
+    56:
+      item: "stripped acacia log"
+      price: "0.8"
+    57:
+      item: "acacia stairs"
+      price: "0.1"
+    58:
+      item: "acacia slab"
+      price: "0.1"
+    59:
+      item: "acacia fence"
+      price: "0.1"
+    60:
+      item: "acacia fence gate"
+      price: "0.1"
+    61:
+      item: "acacia door"
+      price: "0.1"
+    62:
+      item: "acacia trapdoor"
+      price: "0.1"
+    63:
+      item: "acacia pressure plate"
+      price: "0.1"
+    64:
+      item: "acacia button"
+      price: "0.1"
+    65:
+      item: "dark oak log"
+      price: "0.8"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+    66:
+      item: "dark oak planks"
+      price: "0.2"
+    67:
+      item: "dark oak wood"
+      price: "0.8"
+    68:
+      item: "stripped dark oak wood"
+      price: "0.8"
+    69:
+      item: "stripped dark oak log"
+      price: "0.8"
+    70:
+      item: "dark oak stairs"
+      price: "0.1"
+    71:
+      item: "dark oak slab"
+      price: "0.1"
+    72:
+      item: "dark oak fence"
+      price: "0.1"
+    73:
+      item: "dark oak fence gate"
+      price: "0.1"
+    74:
+      item: "dark oak door"
+      price: "0.1"
+    75:
+      item: "dark oak trapdoor"
+      price: "0.1"
+    76:
+      item: "dark oak pressure plate"
+      price: "0.1"
+    77:
+      item: "dark oak button"
+      price: "0.1"
+    78:
+      item: "mangrove log"
+      price: "0.8"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+    79:
+      item: "mangrove planks"
+      price: "0.2"
+    80:
+      item: "mangrove wood"
+      price: "0.8"
+    81:
+      item: "stripped mangrove wood"
+      price: "0.8"
+    82:
+      item: "stripped mangrove log"
+      price: "0.8"
+    83:
+      item: "mangrove stairs"
+      price: "0.1"
+    84:
+      item: "mangrove slab"
+      price: "0.1"
+    85:
+      item: "mangrove fence"
+      price: "0.1"
+    86:
+      item: "mangrove fence gate"
+      price: "0.1"
+    87:
+      item: "mangrove door"
+      price: "0.1"
+    88:
+      item: "mangrove trapdoor"
+      price: "0.1"
+    89:
+      item: "mangrove pressure plate"
+      price: "0.1"
+    90:
+      item: "mangrove button"
+      price: "0.1"
+    91:
+      item: "cherry log"
+      price: "0.8"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+    92:
+      item: "cherry planks"
+      price: "0.2"
+    93:
+      item: "cherry wood"
+      price: "0.8"
+    94:
+      item: "stripped cherry wood"
+      price: "0.8"
+    95:
+      item: "stripped cherry log"
+      price: "0.8"
+    96:
+      item: "cherry stairs"
+      price: "0.1"
+    97:
+      item: "cherry slab"
+      price: "0.1"
+    98:
+      item: "cherry fence"
+      price: "0.1"
+    99:
+      item: "cherry fence gate"
+      price: "0.1"
+    100:
+      item: "cherry door"
+      price: "0.1"
+    101:
+      item: "cherry trapdoor"
+      price: "0.1"
+    102:
+      item: "cherry pressure plate"
+      price: "0.1"
+    103:
+      item: "cherry button"
+      price: "0.1"
+    104:
+      item: "bamboo block"
+      price: "0.8"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+    105:
+      item: "stripped bamboo block"
+      price: "0.8"
+    106:
+      item: "bamboo planks"
+      price: "0.2"
+    107:
+      item: "bamboo mosaic"
+      price: "0.2"
+    108:
+      item: "bamboo stairs"
+      price: "0.1"
+    109:
+      item: "bamboo mosaic stairs"
+      price: "0.1"
+    110:
+      item: "bamboo slab"
+      price: "0.1"
+    111:
+      item: "bamboo mosaic slab"
+      price: "0.1"
+    112:
+      item: "bamboo fence"
+      price: "0.1"
+    113:
+      item: "bamboo fence gate"
+      price: "0.1"
+    114:
+      item: "bamboo door"
+      price: "0.1"
+    115:
+      item: "bamboo trapdoor"
+      price: "0.1"
+    116:
+      item: "bamboo pressure plate"
+      price: "0.1"
+    117:
+      item: "bamboo button"
+      price: "0.1"
+    118:
+      item: "crimson stem"
+      price: "0.8"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+    119:
+      item: "crimson planks"
+      price: "0.2"
+    120:
+      item: "crimson hyphae"
+      price: "0.8"
+    121:
+      item: "stripped crimson stem"
+      price: "0.8"
+    122:
+      item: "stripped crimson hyphae"
+      price: "0.8"
+    123:
+      item: "crimson stairs"
+      price: "0.1"
+    124:
+      item: "crimson slab"
+      price: "0.1"
+    125:
+      item: "crimson fence"
+      price: "0.1"
+    126:
+      item: "crimson fence gate"
+      price: "0.1"
+    127:
+      item: "crimson door"
+      price: "0.1"
+    128:
+      item: "crimson trapdoor"
+      price: "0.1"
+    129:
+      item: "crimson pressure plate"
+      price: "0.1"
+    130:
+      item: "crimson button"
+      price: "0.1"
+    131:
+      item: "warped stem"
+      price: "0.8"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+    132:
+      item: "warped planks"
+      price: "0.2"
+    133:
+      item: "warped hyphae"
+      price: "0.8"
+    134:
+      item: "stripped warped stem"
+      price: "0.8"
+    135:
+      item: "stripped warped hyphae"
+      price: "0.8"
+    136:
+      item: "warped stairs"
+      price: "0.1"
+    137:
+      item: "warped slab"
+      price: "0.1"
+    138:
+      item: "warped fence"
+      price: "0.1"
+    139:
+      item: "warped fence gate"
+      price: "0.1"
+    140:
+      item: "warped door"
+      price: "0.1"
+    141:
+      item: "warped trapdoor"
+      price: "0.1"
+    142:
+      item: "warped pressure plate"
+      price: "0.1"
+    143:
+      item: "warped button"
+      price: "0.1"
+    144:
+      item: "stone"
+      price: "0.12"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+    145:
+      item: "stone stairs"
+      price: "0.06"
+    146:
+      item: "stone slab"
+      price: "0.06"
+    147:
+      item: "stone pressure plate"
+      price: "0.06"
+    148:
+      item: "stone button"
+      price: "0.06"
+    149:
+      item: "cobblestone"
+      price: "0.06"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+    150:
+      item: "cobblestone stairs"
+      price: "0.03"
+    151:
+      item: "cobblestone slab"
+      price: "0.03"
+    152:
+      item: "cobblestone wall"
+      price: "0.03"
+    153:
+      item: "mossy cobblestone"
+      price: "0.06"
+    154:
+      item: "mossy cobblestone stairs"
+      price: "0.03"
+    155:
+      item: "mossy cobblestone slab"
+      price: "0.03"
+    156:
+      item: "mossy cobblestone wall"
+      price: "0.03"
+    157:
+      item: "smooth stone"
+      price: "0.12"
+    158:
+      item: "smooth stone slab"
+      price: "0.06"
+    159:
+      item: "stone bricks"
+      price: "0.12"
+    160:
+      item: "cracked stone bricks"
+      price: "0.12"
+    161:
+      item: "stone brick stairs"
+      price: "0.06"
+    162:
+      item: "stone brick slab"
+      price: "0.06"
+    163:
+      item: "stone brick wall"
+      price: "0.06"
+    164:
+      item: "chiseled stone bricks"
+      price: "0.12"
+    165:
+      item: "mossy stone bricks"
+      price: "0.12"
+    166:
+      item: "mossy stone brick stairs"
+      price: "0.06"
+    167:
+      item: "mossy stone brick slab"
+      price: "0.06"
+    168:
+      item: "mossy stone brick wall"
+      price: "0.06"
+    169:
+      item: "granite"
+      price: "0.12"
+    170:
+      item: "granite stairs"
+      price: "0.06"
+    171:
+      item: "granite slab"
+      price: "0.06"
+    172:
+      item: "granite wall"
+      price: "0.06"
+    173:
+      item: "polished granite"
+      price: "0.12"
+    174:
+      item: "polished granite"
+      price: "0.06"
+    175:
+      item: "polished granite stairs"
+      price: "0.06"
+    176:
+      item: "polished granite slab"
+      price: "0.06"
+    177:
+      item: "diorite"
+      price: "0.12"
+    178:
+      item: "diorite stairs"
+      price: "0.06"
+    179:
+      item: "diorite slab"
+      price: "0.06"
+    180:
+      item: "diorite wall"
+      price: "0.06"
+    181:
+      item: "polished diorite"
+      price: "0.12"
+    182:
+      item: "polished diorite stairs"
+      price: "0.06"
+    183:
+      item: "polished diorite slab"
+      price: "0.06"
+    184:
+      item: "andesite"
+      price: "0.12"
+    185:
+      item: "andesite stairs"
+      price: "0.06"
+    186:
+      item: "andesite slab"
+      price: "0.06"
+    187:
+      item: "andesite wall"
+      price: "0.06"
+    188:
+      item: "polished andesite"
+      price: "0.12"
+    189:
+      item: "polished andesite stairs"
+      price: "0.06"
+    190:
+      item: "polished andesite slab"
+      price: "0.06"
+    191:
+      item: "deepslate"
+      price: "0.12"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+    192:
+      item: "cobbled deepslate"
+      price: "0.06"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+    193:
+      item: "cobbled deepslate stairs"
+      price: "0.03"
+    194:
+      item: "cobbled deepslate slab"
+      price: "0.03"
+    195:
+      item: "cobbled deepslate wall"
+      price: "0.03"
+    196:
+      item: "chiseled deepslate"
+      price: "0.12"
+    197:
+      item: "polished deepslate"
+      price: "0.12"
+    198:
+      item: "polished deepslate stairs"
+      price: "0.06"
+    199:
+      item: "polished deepslate slab"
+      price: "0.06"
+    200:
+      item: "polished deepslate wall"
+      price: "0.06"
+    201:
+      item: "deepslate bricks"
+      price: "0.12"
+    202:
+      item: "cracked deepslate bricks"
+      price: "0.12"
+    203:
+      item: "deepslate brick stairs"
+      price: "0.06"
+    204:
+      item: "deepslate brick slab"
+      price: "0.06"
+    205:
+      item: "deepslate brick wall"
+      price: "0.06"
+    206:
+      item: "deepslate tiles"
+      price: "0.12"
+    207:
+      item: "cracked deepslate tiles"
+      price: "0.12"
+    208:
+      item: "deepslate tile stairs"
+      price: "0.06"
+    209:
+      item: "deepslate tile slab"
+      price: "0.06"
+    210:
+      item: "deepslate tile wall"
+      price: "0.06"
+    211:
+      item: "tuff"
+      price: "0.06"
+    212:
+      item: "bricks"
+      price: "10"
+    213:
+      item: "brick stairs"
+      price: "10"
+    214:
+      item: "brick slab"
+      price: "10"
+    215:
+      item: "brick wall"
+      price: "10"
+    216:
+      item: "packed mud"
+      price: "1"
+    217:
+      item: "mud bricks"
+      price: "1"
+    218:
+      item: "mud brick stairs"
+      price: "1"
+    219:
+      item: "mud brick slab"
+      price: "1"
+    220:
+      item: "mud brick wall"
+      price: "1"
+    221:
+      item: "sandstone"
+      price: "1"
+    222:
+      item: "eastward sandstone stair"
+      price: "1"
+    223:
+      item: "top sandstone slab"
+      price: "1"
+    224:
+      item: "sandstone wall"
+      price: "1"
+    225:
+      item: "chiseled sandstone"
+      price: "1"
+    226:
+      item: "smooth sandstone"
+      price: "1"
+    227:
+      item: "smooth sandstone stairs"
+      price: "1"
+    228:
+      item: "smooth sandstone slab"
+      price: "1"
+    229:
+      item: "cut sandstone"
+      price: "1"
+    230:
+      item: "cut sandstone slab"
+      price: "1"
+    231:
+      item: "sea lantern"
+      price: "3"
+    232:
+      item: "prismarine"
+      price: "2"
+    233:
+      item: "prismarine stairs"
+      price: "2"
+    234:
+      item: "prismarine slab"
+      price: "2"
+    235:
+      item: "prismarine wall"
+      price: "2"
+    236:
+      item: "prismarine brick"
+      price: "2"
+    237:
+      item: "prismarine brick stairs"
+      price: "2"
+    238:
+      item: "prismarine brick slab"
+      price: "2"
+    239:
+      item: "dark prismarine"
+      price: "2"
+    240:
+      item: "dark prismarine stairs"
+      price: "2"
+    241:
+      item: "netherrack"
+      price: "0.04"
+    242:
+      item: "nether bricks"
+      price: "1"
+    243:
+      item: " cracked nether bricks"
+      price: "1"
+    244:
+      item: "nether brick stairs"
+      price: "1"
+    245:
+      item: "nether brick slab"
+      price: "1"
+    246:
+      item: "nether brick wall"
+      price: "1"
+    247:
+      item: "nether brick fence"
+      price: "1"
+    248:
+      item: "nether bricks"
+      price: "1"
+    249:
+      item: "chiseled nether bricks"
+      price: "1"
+    250:
+      item: "basalt"
+      price: "0.12"
+    251:
+      item: "smooth basalt"
+      price: "0.12"
+    252:
+      item: "polished basalt"
+      price: "0.12"
+    253:
+      item: "blackstone"
+      price: "1"
+    254:
+      item: "gilded blackstone"
+      price: "2"
+    255:
+      item: "blackstone stairs"
+      price: "1"
+    256:
+      item: "blackstone slab"
+      price: "1"
+    257:
+      item: "blackstone wall"
+      price: "1"
+    258:
+      item: "chiseled polished blackstone"
+      price: "1"
+    259:
+      item: "polished blackstone"
+      price: "1"
+    260:
+      item: "polished blackstone stairs"
+      price: "1"
+    261:
+      item: "polished blackstone slab"
+      price: "1"
+    262:
+      item: "polished blackstone wall"
+      price: "1"
+    263:
+      item: "polished blackstone pressure plate"
+      price: "1"
+    264:
+      item: "polished blackstone button"
+      price: "1"
+    265:
+      item: "polished blackstone bricks"
+      price: "1"
+    266:
+      item: "polished blackstone brick stairs"
+      price: "1"
+    267:
+      item: "polished blackstone brick slab"
+      price: "1"
+    268:
+      item: "cracked polished blackstone bricks"
+      price: "1"
+    269:
+      item: "polished blackstone brick wall"
+      price: "1"
+    270:
+      item: "end stone"
+      price: "5"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+    271:
+      item: "end stone bricks"
+      price: "5"
+    272:
+      item: "end stone brick stairs"
+      price: "5"
+    273:
+      item: "end stone brick slab"
+      price: "5"
+    274:
+      item: "end stone brick wall"
+      price: "5"
+    275:
+      item: "purpur block"
+      price: "15"
+      wyjatek:
+        buy:
+          buy: "true"
+    276:
+      item: "purpur pillar"
+      price: "15"
+    277:
+      item: "purpur stairs"
+      price: "15"
+    278:
+      item: "purpur slab"
+      price: "15"
+    279:
+      item: "iron bars"
+      price: "2"
+    280:
+      item: "iron door"
+      price: "2"
+    281:
+      item: "iron trapdoor"
+      price: "2"
+    282:
+      item: "heavy weighted pressure plate"
+      price: "2"
+    283:
+      item: "chain"
+      price: "2"
+    284:
+      item: "light weighted pressure plate"
+      price: "2"
+    285:
+      item: "quartz block"
+      price: "5"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+    286:
+      item: "quartz stairs"
+      price: "2"
+    287:
+      item: "quartz slab"
+      price: "2"
+    288:
+      item: "chiseled quartz block"
+      price: "2"
+    289:
+      item: "quartz bricks"
+      price: "2"
+    290:
+      item: "quartz pillar"
+      price: "2"
+    291:
+      item: "smooth quartz"
+      price: "2"
+    292:
+      item: "smooth quartz stairs"
+      price: "2"
+    293:
+      item: "smooth quartz slab"
+      price: "2"
+    294:
+      item: "amethyst block"
+      price: "2"
+    295:
+      item: "cut copper"
+      price: "5"
+    296:
+      item: "cut copper stairs"
+      price: "5"
+    297:
+      item: "cut copper slab"
+      price: "5"
+    298:
+      item: "waxed copper block"
+      price: "5"
+    299:
+      item: "oxidized copper"
+      price: "5"
+    300:
+      item: "white wool"
+      price: "4"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+          price: "10"
+    301:
+      item: "light gray wool"
+      price: "4"
+    302:
+      item: "gray wool"
+      price: "4"
+    303:
+      item: "black wool"
+      price: "4"
+    304:
+      item: "brown wool"
+      price: "4"
+    305:
+      item: "red wool"
+      price: "4"
+    306:
+      item: "orange wool"
+      price: "4"
+    307:
+      item: "yellow wool"
+      price: "4"
+    308:
+      item: "lime wool"
+      price: "4"
+    309:
+      item: "green wool"
+      price: "4"
+    310:
+      item: "cyan wool"
+      price: "4"
+    311:
+      item: "light blue wool"
+      price: "4"
+    312:
+      item: "blue wool"
+      price: "4"
+    313:
+      item: "purple wool"
+      price: "4"
+    314:
+      item: "magenta wool"
+      price: "4"
+    315:
+      item: "pink wool"
+      price: "4"
+    316:
+      item: "terracotta"
+      price: "3"
+    317:
+      item: "glass"
+      price: "1.2"
+    318:
+      item: "glass pane"
+      price: "0.45"
+    319:
+      item: "white bed"
+      price: "5"
+    320:
+      item: "light gray bed"
+      price: "5"
+    321:
+      item: "gray bed"
+      price: "5"
+    322:
+      item: "black bed"
+      price: "5"
+    323:
+      item: "brown bed"
+      price: "5"
+    324:
+      item: "red bed"
+      price: "5"
+    325:
+      item: "orange bed"
+      price: "5"
+    326:
+      item: "yellow bed"
+      price: "5"
+    327:
+      item: "lime bed"
+      price: "5"
+    328:
+      item: "green bed"
+      price: "5"
+    329:
+      item: "cyan bed"
+      price: "5"
+    330:
+      item: "light blue bed"
+      price: "5"
+    331:
+      item: "blue bed"
+      price: "5"
+    332:
+      item: "purple bed"
+      price: "5"
+    333:
+      item: "magenta bed"
+      price: "5"
+    334:
+      item: "pink bed"
+      price: "5"
+    335:
+      item: "candle"
+      price: "5"
+    336:
+      item: "white standing banner"
+      price: "15"
+    337:
+      item: "dirt"
+      price: "0.05"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+          price: "1"
+    338:
+      item: "grass block"
+      price: "0.5"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+          price: "5"
+    339:
+      item: "mud"
+      price: "0.1"
+    340:
+      item: "gravel"
+      price: "0.6"
+    341:
+      item: "sand"
+      price: "0.6"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+    341:
+      item: "ice"
+      price: "1.5"
+    342:
+      item: "packed ice"
+      price: "2"
+    343:
+      item: "blue ice"
+      price: "3"
+    344:
+      item: "snow block"
+      price: "1"
+    345:
+      item: "moss block"
+      price: "0.12"
+    346:
+      item: "calcite"
+      price: "0.12"
+    347:
+      item: "dripstone block"
+      price: "0.12"
+    348:
+      item: "magma block"
+      price: "2"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+    349:
+      item: "obsidian"
+      price: "30"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+    350:
+      item: "crying obsidian"
+      price: "75"
+    351:
+      item: "crimson nylium"
+      price: "3"
+    352:
+      item: "warped nylium"
+      price: "3"
+    353:
+      item: "soul sand"
+      price: "3"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+    354:
+      item: "soul soil"
+      price: "3"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+    355:
+      item: "glowstone"
+      price: "4"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+    356:
+      item: "mangrove roots"
+      price: "1"
+    357:
+      item: "shroomlight"
+      price: "4"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+    358:
+      item: "oak sapling"
+      price: "10"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+    359:
+      item: "spruce sapling"
+      price: "10"
+    360:
+      item: "birch sapling"
+      price: "10"
+    361:
+      item: "jungle sapling"
+      price: "10"
+    362:
+      item: "acacia sapling"
+      price: "10"
+    363:
+      item: "dark oak sapling"
+      price: "10"
+    364:
+      item: "crimson fungus"
+      price: "10"
+    365:
+      item: "warped fungus"
+      price: "10"
+    366:
+      item: "mangrove propagule"
+      price: "10"
+    367:
+      item: "cherry sapling"
+      price: "10"
+    368:
+      item: "wither rose"
+      price: "100"
+      wyjatek:
+        sell:
+          sell: "true"
+    369:
+      item: "bamboo"
+      price: "0.08"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+          price: "30"
+    370:
+      item: "sugar cane"
+      price: "1"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+          price: "30"
+    371:
+      item: "cactus"
+      price: "2"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+          price: "30"
+    372:
+      item: "wheat seeds"
+      price: "1"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+          price: "30"
+    373:
+      item: "cocoa beans"
+      price: "2"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+          price: "30"
+    374:
+      item: "pumpkin seeds"
+      price: "2"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+          price: "30"
+    375:
+      item: "melon seeds"
+      price: "2"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+          price: "30"
+    376:
+      item: "beetroot seeds"
+      price: "2"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+          price: "30"
+    377:
+      item: "glow berries"
+      price: "3"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+          price: "30"
+    378:
+      item: "sweet berries"
+      price: "2.5"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+          price: "30"
+    379:
+      item: "nether wart"
+      price: "5"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+          price: "50"
+    380:
+      item: "kelp"
+      price: "0.06"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+          price: "30"
+    381:
+      item: "dried kelp block"
+      price: "0.6"
+      wyjatek:
+        sell:
+          sell: "true"
+    382:
+      item: "sponge"
+      price: "300"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+    383:
+      item: "melon"
+      price: "5"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+          price: "30"
+    384:
+      item: "pumpkin"
+      price: "5"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+          price: "30"
+    385:
+      item: "z-aligned hay bale"
+      price: "27"
+      wyjatek:
+        sell:
+          sell: "true"
+    386:
+      item: "slime block"
+      price: "153"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+    387:
+      item: "slime ball"
+      price: "17"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+    388:
+      item: "honey block"
+      price: "36"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+    388a:
+      item: "honeycomb block"
+      price: "12"
+    388b:
+      item: "honeycomb"
+      price: "3"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+    389:
+      item: "shrieker"
+      price: "100"
+      wyjatek:
+        sell:
+          sell: "true"        
+    390:
+      item: "sculk sensor"
+      price: "30"
+      wyjatek:
+        sell:
+          sell: "true"
+    391:
+      item: "torch"
+      price: "0.5"
+    392:
+      item: "soul torch"
+      price: "3"
+    393:
+      item: "redstone Torch"
+      price: "2"
+    394:
+      item: "Lantern"
+      price: "20"
+    395:
+      item: "soul Lantern"
+      price: "23"
+    396:
+      item: "lit redstone lamp"
+      price: "12"
+    397:
+      item: "crafting table"
+      price: "0.8"
+    398:
+      item: "stonecutter"
+      price: "20.4"
+    399:
+      item: "Lantern"
+      price: "21"
+    400:
+      item: "grindstone"
+      price: "0.5"
+    401:
+      item: "lit furnace"
+      price: "0.6"
+    402:
+      item: "smoker"
+      price: "4"
+    403:
+      item: "Blast furnace"
+      price: "101"
+    404:
+      item: "Anvil"
+      price: "640"
+    405:
+      item: "composter"
+      price: "0.7"
+    406:
+      item: "enchanting table"
+      price: "335"
+    407:
+      item: "end crystal"
+      price: "32"
+      wyjatek:
+        buy:
+          buy: "true"
+          price: "150"
+    408:
+      item: "brewing stand"
+      price: "8.40"
+    409:
+      item: "empty cauldron"
+      price: "140"
+    410:
+      item: "bell"
+      price: "100"
+    411:
+      item: "beacon"
+      price: "4000"
+      wyjatek:
+        buy:
+          buy: "true"
+    412:
+      item: "ladder"
+      price: "0.1"
+    413:
+      item: "beehive"
+      price: "7.2"
+    414:
+      item: "clay"
+      price: "3"
+    415:
+      item: "bookshelf"
+      price: "50"
+      wyjatek:
+        sell:
+          sell: "true"            
+        buy:
+          buy: "true"
+          price: "100"            
+    416:
+      item: "lectern"
+      price: "5"
+      wyjatek:
+        sell:
+          sell: "true"            
+        buy:
+          buy: "true"            
+    417:
+      item: "eastward oak floor sign"
+      price: "1.2"
+    418:
+      item: "oak hanging sign"
+      price: "1.5"
+    419:
+      item: "eastward cherry floor sign"
+      price: "1.2"
+    420:
+      item: "cherry hanging sign"
+      price: "1.5"
+    421:
+      item: "eastward spruce floor sign"
+      price: "1.2"
+    422:
+      item: "spruce hanging sign"
+      price: "1.5"
+    423:
+      item: "eastward birch floor sign"
+      price: "1.2"
+    424:
+      item: "birch hanging sign"
+      price: "1.5"
+    425:
+      item: "eastward jungle floor sign"
+      price: "1.2"
+    426:
+      item: "jungle hanging sign"
+      price: "1.5"
+    427:
+      item: "eastward acacia floor sign"
+      price: "1.2"
+    428:
+      item: "acacia hanging sign"
+      price: "1.5"
+    429:
+      item: "eastward dark oak floor sign"
+      price: "1.2"
+    430:
+      item: "dark oak hanging sign"
+      price: "1.5"
+    431:
+      item: "eastward crimson floor sign"
+      price: "1.2"
+    432:
+      item: "crimson hanging sign"
+      price: "1.5"
+    433:
+      item: "eastward warped floor sign"
+      price: "1.2"
+    434:
+      item: "warped hanging sign"
+      price: "1.5"        
+    435:
+      item: "eastward mangrove floor sign"
+      price: "1.2"
+    436:
+      item: "mangrove hanging sign"
+      price: "1.5"        
+    437:
+      item: "eastward bamboo floor sign"
+      price: "1.2"
+    438:
+      item: "bamboo hanging sign"
+      price: "1.5"        
+    439:
+      item: "chest"
+      price: "1.6"        
+    440:
+      item: "barrel"
+      price: "1.5"     
+    441:
+      item: "respawn anchor"
+      price: "10"     
+    442:
+      item: "wither skeleton skull"
+      price: "1000"     
+    443:
+      item: "zombie head"
+      price: "5000"     
+    444:
+      item: "creeper head"
+      price: "5000"     
+    445:
+      item: "dragon head"
+      price: "500"     
+    446:
+      item: "ender eye"
+      price: "14"     
+    447:
+      item: "string"
+      price: "5"  
+    448:
+      item: "redstone"
+      price: "2"
+    449:
+      item: "repeater"
+      price: "6.50"
+    450:
+      item: "comparator"
+      price: "7"
+    451:
+      item: "archery target block"
+      price: "11"
+    452:
+      item: "lever"
+      price: "0.2"
+    453:
+      item: "tripwire hook"
+      price: "21"
+    454:
+      item: "normal daylight detector"
+      price: "5"
+    455:
+      item: "piston"
+      price: "25"
+    456:
+      item: "sticky piston"
+      price: "42"
+    457:
+      item: "dispenser"
+      price: "20"
+    458:
+      item: "dropper"
+      price: "2.5"
+    459:
+      item: "hopper"
+      price: "105"
+    460:
+      item: "observer"
+      price: "5"
+    461:
+      item: "rail"
+      price: "7.5"
+    462:
+      item: "powered rail"
+      price: "30.5"
+    463:
+      item: "detector rail"
+      price: "21"
+    464:
+      item: "activator rail"
+      price: "21"
+    465:
+      item: "minecart"
+      price: "100"
+    466:
+      item: "TNT"
+      price: "38"
+    467:
+      item: "warped fungus on a stick"
+      price: "5"
+    468:
+      item: "wooden shovel"
+      price: "0.8"
+    469:
+      item: "wooden pickaxe"
+      price: "1.2"
+    470:
+      item: "wooden axe"
+      price: "1.2"
+    471:
+      item: "wooden hoe"
+      price: "1"
+    472:
+      item: "stone shovel"
+      price: "1.92"
+    473:
+      item: "stone pickaxe"
+      price: "2.12"
+    474:
+      item: "stone axe"
+      price: "2.12"
+    475:
+      item: "stone hoe"
+      price: "2.02"
+    476:
+      item: "iron shovel"
+      price: "20.4"
+    477:
+      item: "iron pickaxe"
+      price: "60.4"
+    478:
+      item: "iron axe"
+      price: "60.4"
+    479:
+      item: "iron hoe"
+      price: "40.2"
+    480:
+      item: "golden shovel"
+      price: "30.4"
+    481:
+      item: "golden pickaxe"
+      price: "90.4"
+    482:
+      item: "golden axe"
+      price: "90.4"
+    483:
+      item: "golden hoe"
+      price: "60.2"
+    484:
+      item: "diamond shovel"
+      price: "100.4"
+      wyjatek:
+        sell:
+          sell: "true"            
+        buy:
+          buy: "true"
+    485:
+      item: "diamond pickaxe"
+      price: "300.4"
+      wyjatek:
+        sell:
+          sell: "true"            
+        buy:
+          buy: "true"
+    486:
+      item: "diamond axe"
+      price: "300.4"
+      wyjatek:
+        sell:
+          sell: "true"            
+        buy:
+          buy: "true"
+    487:
+      item: "diamond hoe"
+      price: "200.2"
+    488:
+      item: "netherite shovel"
+      price: "950.8"
+    489:
+      item: "netherite pickaxe"
+      price: "950.8"
+    490:
+      item: "netherite axe"
+      price: "950.8"
+    491:
+      item: "netherite hoe"
+      price: "950.4"    
+    492:
+      item: "bucket"
+      price: "60" 
+      wyjatek:
+        sell:
+          sell: "true"            
+        buy:
+          buy: "true"   
+    493:
+      item: "water bucket"
+      price: "63"    
+    494:
+      item: "lava bucket"
+      price: "65"    
+    495:
+      item: "powder snow bucket"
+      price: "70"    
+    496:
+      item: "milk bucket"
+      price: "70"    
+    497:
+      item: "fishing rod"
+      price: "5"
+    498:
+      item: "flint and steel"
+      price: "25"
+      wyjatek:
+        sell:
+          sell: "true"            
+        buy:
+          buy: "true"
+    499:
+      item: "fire charge"
+      price: "10"
+    500:
+      item: "bone meal"
+      price: "2"
+    501:
+      item: "shears"
+      price: "40"
+    502:
+      item: "brush"
+      price: "5"
+    503:
+      item: "name tag"
+      price: "125"
+      wyjatek:
+        sell:
+          sell: "true"            
+        buy:
+          buy: "true"
+    504:
+      item: "lead"
+      price: "15"
+    505:
+      item: "compass"
+      price: "4"
+    506:
+      item: "recovery compass"
+      price: "4"
+    507:
+      item: "clock"
+      price: "4"
+    508:
+      item: "spyglass"
+      price: "4"
+    509:
+      item: "empty map"
+      price: "2"
+    510:
+      item: "book and quill"
+      price: "4"
+    511:
+      item: "ender pearl"
+      price: "10"
+      wyjatek:
+        sell:
+          sell: "true"            
+        buy:
+          buy: "true"
+    512:
+      item: "elytra"
+      price: "2750"
+      wyjatek:
+        sell:
+          sell: "true"            
+        buy:
+          buy: "true"
+    513:
+      item: "firework"
+      price: "5"
+    514:
+      item: "saddle"
+      price: "80"
+      wyjatek:
+        sell:
+          sell: "true"            
+        buy:
+          buy: "true"
+    515:
+      item: "carrot on a stick"
+      price: "5"
+    516:
+      item: "oak boat"
+      price: "1"
+    517:
+      item: "spruce boat"
+      price: "1"
+    518:
+      item: "birch boat"
+      price: "1"
+    519:
+      item: "jungle boat"
+      price: "1"
+    520:
+      item: "acacia boat"
+      price: "1"
+    521:
+      item: "dark oak boat"
+      price: "1"
+    522:
+      item: "oak boat with chest"
+      price: "2.6"
+    523:
+      item: "spruce boat with chest"
+      price: "2.6"
+    524:
+      item: "birch boat with chest"
+      price: "2.6"
+    525:
+      item: "jungle boat with chest"
+      price: "2.6"
+    526:
+      item: "acacia boat with chest"
+      price: "2.6"
+    527:
+      item: "dark oak boat with chest"
+      price: "2.6"
+    528:
+      item: "mangrove chest boat"
+      price: "2.6"
+    527:
+      item: "mangrove boat"
+      price: "1"
+    529:
+      item: "cherry chest boat"
+      price: "2.6"
+    530:
+      item: "cherry boat"
+      price: "1"
+    531:
+      item: "bamboo chest raft"
+      price: "2.6"
+    532:
+      item: "bamboo raft"
+      price: "1"
+    533:
+      item: "goat horn"
+      price: "15"
+    534:
+      item: "music disc 13"
+      price: "500"
+    535:
+      item: "music disc cat"
+      price: "500"
+    536:
+      item: "music disc blocks"
+      price: "500"
+    537:
+      item: "music disc chirp"
+      price: "500"
+    538:
+      item: "music disc far"
+      price: "500"
+    539:
+      item: "music disc mall"
+      price: "500"
+    540:
+      item: "music disc mellohi"
+      price: "500"
+    541:
+      item: "music disc stal"
+      price: "500"
+    542:
+      item: "music disc strad"
+      price: "500"
+    543:
+      item: "music disc ward"
+      price: "500"
+    544:
+      item: "music disc 11"
+      price: "500"
+    545:
+      item: "music disc wait"
+      price: "500"
+    546:
+      item: "music disc otherside"
+      price: "500"
+    547:
+      item: "music disc relic"
+      price: "800"
+    547:
+      item: "music disc 5"
+      price: "800"
+    547:
+      item: "music disc pigstep"
+      price: "800"    
+    548:
+      item: "wooden sword"
+      price: "1.6"
+    549:
+      item: "stone sword"
+      price: "2"
+    550:
+      item: "iron sword"
+      price: "40"
+    551:
+      item: "golden sword"
+      price: "60"
+    552:
+      item: "diamond sword"
+      price: "200"
+      wyjatek:
+        sell:
+          sell: "true"            
+        buy:
+          buy: "true"
+    553:
+      item: "netherite sword"
+      price: "1500"
+    554:
+      item: "trident"
+      price: "1250"
+    555:
+      item: "shield"
+      price: "25"
+    556:
+      item: "leather helmet"
+      price: "50"
+    557:
+      item: "leather chestplate"
+      price: "80"
+    558:
+      item: "leather leggings"
+      price: "70"
+    559:
+      item: "leather boots"
+      price: "40"
+    560:
+      item: "turtle helmet"
+      price: "200"
+    561:
+      item: "iron helmet"
+      price: "100"
+    562:
+      item: "iron chestplate"
+      price: "160"
+    563:
+      item: "iron leggings"
+      price: "140"
+    564:
+      item: "iron boots"
+      price: "80"
+    565:
+      item: "golden helmet"
+      price: "120"
+    566:
+      item: "golden chestplate"
+      price: "240"
+    567:
+      item: "golden leggings"
+      price: "210"
+    568:
+      item: "golden boots"
+      price: "120"
+    569:
+      item: "diamond helmet"
+      price: "400"
+    570:
+      item: "diamond chestplate"
+      price: "800"
+    571:
+      item: "diamond leggings"
+      price: "700"
+    572:
+      item: "diamond boots"
+      price: "400"
+    573:
+      item: "netherite helmet"
+      price: "1250"
+    574:
+      item: "netherite chestplate"
+      price: "1650"
+    575:
+      item: "netherite leggings"
+      price: "1550"
+    576:
+      item: "netherite boots"
+      price: "1250"
+    577:
+      item: "totem of undying"
+      price: "350"
+    578:
+      item: "snowball"
+      price: "1"
+    579:
+      item: "egg"
+      price: "2"
+    580:
+      item: "bow"
+      price: "15"
+    581:
+      item: "crossbow"
+      price: "45"
+    582:
+      item: "arrow"
+      price: "1.5"
+    583:
+      item: "spectral arrow"
+      price: "2"
+    583a:
+      item: "chainmail helmet"
+      price: "300"
+    583b:
+      item: "chainmail chestplate"
+      price: "500"
+    583c:
+      item: "chainmail leggings"
+      price: "400"
+    583d:
+      item: "chainmail boots"
+      price: "300"
+    583e:
+      item: "apple"
+      price: "10"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+    583f:
+      item: "golden apple"
+      price: "250"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+    583g:
+      item: "enchanted golden apple"
+      price: "1800"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+    583h:
+      item: "melon slice"
+      price: "2"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+          price: "30"
+    583j:
+      item: "chorus fruit"
+      price: "2"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+          price: "30"
+    583k:
+      item: "carrot"
+      price: "2"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+          price: "30"
+    583l:
+      item: "golden carrot"
+      price: "32"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+    583m:
+      item: "potato"
+      price: "2"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+          price: "30"
+    583n:
+      item: "baked potato"
+      price: "5"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+    583o:
+      item: "poisonous potato"
+      price: "30"
+      wyjatek:
+        sell:
+          sell: "true"
+    583p:
+      item: "beetroot"
+      price: "2"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+          price: "30"
+    584:
+      item: "dried kelp"
+      price: "0.06"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+    585:
+      item: "beef"
+      price: "2"
+      wyjatek:
+        sell:
+          sell: "true"
+    586:
+      item: "cooked beef"
+      price: "5"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+    587:
+      item: "porkchop"
+      price: "2"
+      wyjatek:
+        sell:
+          sell: "true"
+    588:
+      item: "cooked porkchop"
+      price: "5"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+    589:
+      item: "chicken"
+      price: "2"
+      wyjatek:
+        sell:
+          sell: "true"
+    590:
+      item: "cooked chicken"
+      price: "5"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+    591:
+      item: "rabbit"
+      price: "2"
+      wyjatek:
+        sell:
+          sell: "true"
+    592:
+      item: "cooked rabbit"
+      price: "5"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+    593:
+      item: "cod"
+      price: "2"
+      wyjatek:
+        sell:
+          sell: "true"
+    594:
+      item: "cooked cod"
+      price: "5"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+    595:
+      item: "salmon"
+      price: "2"
+      wyjatek:
+        sell:
+          sell: "true"
+    596:
+      item: "cooked salmon"
+      price: "5"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+    597:
+      item: "mutton"
+      price: "2"
+      wyjatek:
+        sell:
+          sell: "true"
+    598:
+      item: "cooked mutton"
+      price: "5"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+    599:
+      item: "tropical fish"
+      price: "2"
+      wyjatek:
+        sell:
+          sell: "true"
+    600:
+      item: "pufferfish"
+      price: "10"
+      wyjatek:
+        sell:
+          sell: "true"
+    601:
+      item: "bread"
+      price: "9"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+    602:
+      item: "cookie"
+      price: "8"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+    603:
+      item: "pumpkin pie"
+      price: "8"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+    604:
+      item: "rotten flesh"
+      price: "2"
+      wyjatek:
+        sell:
+          sell: "true"
+    605:
+      item: "spider eye"
+      price: "4"
+      wyjatek:
+        sell:
+          sell: "true"
+    606:
+      item: "coal"
+      price: "15"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+    607:
+      item: "charcoal"
+      price: "15"
+    608:
+      item: "coal block"
+      price: "135"
+    609:
+      item: "raw iron"
+      price: "17"
+    610:
+      item: "raw iron block"
+      price: "153"
+    610a:
+      item: "iron block"
+      price: "180"
+    611:
+      item: "copper block"
+      price: "45"
+    612:
+      item: "raw copper"
+      price: "4"
+    613:
+      item: "raw copper block"
+      price: "36"
+    614:
+      item: "gold block"
+      price: "270"
+    615:
+      item: "raw gold"
+      price: "25"
+    616:
+      item: "raw gold block"
+      price: "225"
+    617:
+      item: "emerald"
+      price: "60"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+    618:
+      item: "emerald block"
+      price: "540"
+    619:
+      item: "lapis lazuli"
+      price: "3"
+    620:
+      item: "lapis block"
+      price: "27"
+    621:
+      item: "diamond"
+      price: "100"
+      wyjatek:
+        sell:
+          sell: "true"
+          always-here: "true"
+        buy:
+          buy: "true"
+    622:
+      item: "diamond block"
+      price: "900"
+    623:
+      item: "quartz"
+      price: "2.7"
+    624:
+      item: "amethyst shard"
+      price: "20"
+    625:
+      item: "iron nugget"
+      price: "2.2"
+    626:
+      item: "gold nugget"
+      price: "3.3"
+    627:
+      item: "iron ingot"
+      price: "20"
+      wyjatek:
+        sell:
+          sell: "true"
+          always-here: "true"
+        buy:
+          buy: "true"
+    628:
+      item: "copper ingot"
+      price: "5"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+    629:
+      item: "gold ingot"
+      price: "30"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+    630:
+      item: "netherite scrap"
+      price: "210"
+    631:
+      item: "ancient debris"
+      price: "200"
+    632:
+      item: "netherite ingot"
+      price: "800"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+    633:
+      item: "netherite block"
+      price: "7200"
+    634:
+      item: "stick"
+      price: "0.05"
+    635:
+      item: "flint"
+      price: "1"
+    636:
+      item: "wheat"
+      price: "3"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+    637:
+      item: "bone"
+      price: "2"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+    638:
+      item: "feather"
+      price: "3"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+          price: "10"
+    639:
+      item: "leather"
+      price: "10"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+          price: "30"
+    640:
+      item: "ink sac"
+      price: "5"
+    641:
+      item: "glow ink sac"
+      price: "15"
+    642:
+      item: "scute"
+      price: "20"
+    643:
+      item: "clay ball"
+      price: "1.3"
+    644:
+      item: "prismarine shard"
+      price: "1.2"
+    645:
+      item: "prismarine crystal"
+      price: "2.2"
+    646:
+      item: "nautilus shell"
+      price: "33"
+    647:
+      item: "heart of the sea"
+      price: "100"
+    648:
+      item: "blaze rod"
+      price: "8"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+    649:
+      item: "nether star"
+      price: "3500"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+    650:
+      item: "shulker shell"
+      price: "700"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+          price: "1850"
+    651:
+      item: "popped chorus fruit"
+      price: "5"
+    652:
+      item: "bowl"
+      price: "1.5"
+    653:
+      item: "brick"
+      price: "3"
+    654:
+      item: "nether brick"
+      price: "3"
+    655:
+      item: "paper"
+      price: "3"
+    656:
+      item: "book"
+      price: "14"
+    657:
+      item: "glowstone dust"
+      price: "1"
+    658:
+      item: "gunpowder"
+      price: "7.5"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+    659:
+      item: "dragon breath"
+      price: "45"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+    660:
+      item: "fermented spider eye"
+      price: "10"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+          price: "30"
+    661:
+      item: "glass bottle"
+      price: "4"
+      wyjatek:
+        sell:
+          sell: "true"
+    661:
+      item: "redstone"
+      price: "2"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+    662:
+      item: "redstone block"
+      price: "18"
+    663:
+      item: "blaze powder"
+      price: "4"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+    664:
+      item: "sugar"
+      price: "1"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+    665:
+      item: "glistering melon slice"
+      price: "35"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+    666:
+      item: "magma cream"
+      price: "20"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+    667:
+      item: "ghast tear"
+      price: "20"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+          price: "40"
+    668:
+      item: "phantom membrane"
+      price: "50"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+          price: "100"
+    669:
+      item: "netherite upgrade smithing template"
+      price: "400"
+      wyjatek:
+        sell:
+          sell: "true"
+    670:
+      item: "experience bottle"
+      price: "20"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+    671:
+      item: "amethyst shard"
+      lore:
+        - ""
+        - "&fJestes w stanie z fragmentow stworzyc"
+        - "&fdowolna wersje sprawnego talizmanu"
+      name: "&5&lFragment talizmanu JackaPlacka"
+      ctd: "1"
+      price: "750"
+      wyjatek:
+        sell:
+          sell: "true"
+    672:
+      item: "diamond pickaxe"
+      name: "&ePickaxe"
+      enchant:
+        - "efficiency 6"
+        - "unbreaking 4"
+        - "fortune 4"
+      price: "3500"
+      wyjatek:
+        sell:
+          sell: "true"
+    673:
+      item: "diamond sword"
+      name: "&eSalvage Sword"
+      enchant:
+        - "sharpness 6"
+        - "unbreaking 4"
+        - "looting 4"
+      price: "3500"
+      wyjatek:
+        sell:
+          sell: "true"
+    674:
+      item: "diamond axe"
+      name: "&eHachet"
+      enchant:
+        - "efficiency 6"
+        - "unbreaking 4"
+        - "fortune 4"
+      price: "3500"
+      wyjatek:
+        sell:
+          sell: "true"
+    675:
+      item: "diamond shovel"
+      name: "&ePaddle"
+      enchant:
+        - "efficiency 6"
+        - "unbreaking 4"
+        - "fortune 4"
+      price: "3500"
+      wyjatek:
+        sell:
+          sell: "true"
+    676:
+      item: "diamond axe"
+      name: "&eTopor Dariusa"
+      enchant:
+        - "sharpness 7"
+        - "unbreaking 4"
+        - "fire aspect 4"
+      price: "4000"
+      wyjatek:
+        sell:
+          sell: "true"
+    677:
+      item: "bow"
+      name: "&eLegacy Bow"
+      enchant:
+        - "power 6"
+        - "unbreaking 4"
+        - "infinity 1"
+      price: "2500"
+      wyjatek:
+        sell:
+          sell: "true"
+    678:
+      item: "diamond hoe"
+      name: "&eSierp"
+      enchant:
+        - "efficiency 6"
+        - "unbreaking 4"
+        - "fortune 4"
+      price: "1700"
+      wyjatek:
+        sell:
+          sell: "true"
+    679:
+      item: "diamond helmet"
+      name: "&eWilk"
+      enchant:
+        - "protection 5"
+        - "unbreaking 4"
+        - "aqua affinity 1"
+      price: "1700"
+      wyjatek:
+        sell:
+          sell: "true"
+    680:
+      item: "diamond chestplate"
+      name: "&ePoncho"
+      enchant:
+        - "protection 5"
+        - "unbreaking 4"
+      price: "1700"
+      wyjatek:
+        sell:
+          sell: "true"
+    681:
+      item: "diamond leggings"
+      name: "&ePants"
+      enchant:
+        - "protection 5"
+        - "unbreaking 4"
+      price: "1700"
+      wyjatek:
+        sell:
+          sell: "true"
+    682:
+      item: "diamond boots"
+      name: "&eKapcie"
+      enchant:
+        - "protection 5"
+        - "unbreaking 4"
+        - "feather falling 4"
+      price: "1700"
+      wyjatek:
+        sell:
+          sell: "true"
+    683:
+      item: "rabbit hide"
+      name: "&e&lLom"
+      lore:
+        - ""
+        - "&fSluzy do otwarcia &4Locked Crate'a"
+      ctd: "10"
+      price: "2000"
+      wyjatek:
+        buy:
+          buy: "true"
+          always-here: "true"
+    684:
+      item: "rabbit hide"
+      name: "&eWytrych"
+      lore:
+        - ""
+        - "&fSluzy do otwarcia &4Locked Crate'a"
+      enchant:
+        - "mending 10"
+      price: "500"
+      wyjatek:
+        sell:
+          sell: "true"
+    685:
+      item: "honey bottle"
+      name: "&6&lAntyRad &7< &f&l20 &7>"
+      lore:
+        - "&fSluzy do przebywania w strefie radiacji"
+        - ""
+        - "&fDlugosc Trwania: &f&l20 minut"
+      enchant:
+        - "lure 10"
+      price: "405"
+      wyjatek:
+        buy:
+          buy: "true"
+          always-here: "true"
+          price: "1800"
+    686:
+      item: "honey bottle"
+      name: "&6&lAntyRad &7< &f&l10 &7>"
+      lore:
+        - "&fSluzy do przebywania w strefie radiacji"
+        - ""
+        - "&fDlugosc Trwania: &f&l10 minut"
+      enchant:
+        - "lure 9"
+      price: "205"
+      wyjatek:
+        buy:
+          buy: "true"
+          always-here: "true"
+          price: "1200"
+    687:
+      item: "honey bottle"
+      name: "&6&lAntyRad &7< &f&l5 &7>"
+      lore:
+        - "&fSluzy do przebywania w strefie radiacji"
+        - ""
+        - "&fDlugosc Trwania: &f&l5 minut"
+      enchant:
+        - "lure 8"
+      price: "105"
+      wyjatek:
+        buy:
+          buy: "true"
+          price: "600"
+    688:
+      item: "diamond helmet"
+      name: "&eCoffe Can"
+      enchant:
+        - "protection 6"
+        - "unbreaking 4"
+        - "aqua affinity 1"
+        - "fire protection 4"
+        - "respiration 3"
+        - "mending 1"
+      lore:
+        - ""
+        - "&cGuns Resistance: &45%"
+        - ""
+      price: "12000"
+      wyjatek:
+        sell:
+          sell: "true"
+    689:
+      item: "diamond chestplate"
+      name: "&eRoad Sign Vest"
+      enchant:
+        - "protection 6"
+        - "unbreaking 4"
+        - "fire protection 4"
+        - "mending 1"
+      lore:
+        - ""
+        - "&cGuns Resistance: &48%"
+        - ""
+      price: "12000"
+      wyjatek:
+        sell:
+          sell: "true"
+    690:
+      item: "diamond leggings"
+      name: "&eSpodnie ze Znaków"
+      enchant:
+        - "protection 6"
+        - "unbreaking 4"
+        - "mending 1"
+        - "fire protection 4"
+        - "swift sneak 3"
+      lore:
+        - ""
+        - "&cGuns Resistance: &44%"
+        - ""
+      price: "12000"
+      wyjatek:
+        sell:
+          sell: "true"
+    691:
+      item: "diamond boots"
+      name: "&eTrampki"
+      enchant:
+        - "protection 6"
+        - "unbreaking 4"
+        - "mending 1"
+        - "fire protection 4"
+        - "feather falling 6"
+        - "depth strider 4"
+      lore:
+        - ""
+        - "&cGuns Resistance: &43%"
+        - ""
+      price: "12000"
+      wyjatek:
+        sell:
+          sell: "true"
+    692:
+      item: "diamond sword"
+      name: "&eSalvage Cleaver"
+      enchant:
+        - "sharpness 7"
+        - "unbreaking 5"
+        - "looting 5"
+        - "mending 1"
+      price: "12000"
+      wyjatek:
+        sell:
+          sell: "true"
+    693:
+      item: "diamond pickaxe"
+      name: "&eIce Pick"
+      enchant:
+        - "efficiency 7"
+        - "unbreaking 5"
+        - "fortune 6"
+        - "mending 1"
+      price: "12000"
+      wyjatek:
+        sell:
+          sell: "true"
+    694:
+      item: "diamond axe"
+      name: "&eSalvage Axe"
+      enchant:
+        - "efficiency 7"
+        - "unbreaking 5"
+        - "fortune 5"
+        - "mending 1"
+      price: "8000"
+      wyjatek:
+        sell:
+          sell: "true"
+    695:
+      item: "diamond shovel"
+      name: "&eŁopata"
+      enchant:
+        - "efficiency 7"
+        - "unbreaking 5"
+        - "fortune 5"
+        - "mending 1"
+      price: "8000"
+      wyjatek:
+        sell:
+          sell: "true"
+    696:
+      item: "diamond hoe"
+      name: "&eKosa"
+      enchant:
+        - "efficiency 7"
+        - "unbreaking 5"
+        - "fortune 5"
+        - "mending 1"
+      price: "6000"
+      wyjatek:
+        sell:
+          sell: "true"
+    697:
+      item: "bow"
+      name: "&eJade Bow"
+      enchant:
+        - "power 7"
+        - "unbreaking 5"
+        - "infinity 1"
+        - "mending 1"
+      price: "5000"
+      wyjatek:
+        sell:
+          sell: "true"
+    698:
+      item: "iron horse armor"
+      name: "&c&lRevolver"
+      ctd: "1"
+      lore:
+        - "&fKultowa replica revolveru z czasu Westernu"
+      price: "3500"
+      wyjatek:
+        sell:
+          sell: "true"
+    699:
+      item: "rabbit foot"
+      name: "&eMagnum .44"
+      ctd: "1"
+      lore:
+        - "&fAmunicja do &cRevolver'a"
+      price: "80"
+      wyjatek:
+        sell:
+          sell: "true"
+    700:
+      item: "iron horse armor"
+      name: "&c&lCustomSMG"
+      ctd: "3"
+      lore:
+        - "&fRozjebana MP5 sklejona taśmą"
+      price: "20000"
+      wyjatek:
+        sell:
+          sell: "true"
+    701:
+      item: "rabbit foot"
+      name: "&e9x19mm Ammo"
+      ctd: "2"
+      lore:
+        - "&fAmunicja do &c&lCustomSMG"
+      price: "150"
+      wyjatek:
+        sell:
+          sell: "true"
+    702:
+      item: "iron horse armor"
+      name: "&c&lSemi Auto Rifle"
+      ctd: "5"
+      lore:
+        - "&fUlubiona broń Grubego Joe'a"
+      price: "25000"
+      wyjatek:
+        sell:
+          sell: "true"
+    703:
+      item: "rabbit foot"
+      name: "&e5.56 Ammo"
+      ctd: "3"
+      lore:
+        - "&fAmunicja do &c&lSar'a"
+      price: "300"
+      wyjatek:
+        sell:
+          sell: "true"
+    706:
+      item: "netherite helmet"
+      name: "&4&lBig Grin"
+      enchant:
+        - "protection 10"
+        - "unbreaking 10"
+        - "aqua affinity 1"
+        - "respiration 7"
+        - "fire protection 7"
+        - "projectile protection 7"
+        - "blast protection 7"
+        - "mending 1"
+      lore:
+        - ""
+        - "&cGuns Resistance: &420%"
+        - "&eRad Resistance: &65%"
+        - ""
+      price: "100000"
+    707:
+      item: "netherite chestplate"
+      name: "&4&lMetal Chestplate"
+      enchant:
+        - "protection 10"
+        - "unbreaking 10"
+        - "fire protection 7"
+        - "projectile protection 7"
+        - "blast protection 7"
+        - "mending 1"
+      lore:
+        - ""
+        - "&cGuns Resistance: &430%"
+        - "&eRad Resistance: &610%"
+        - ""
+      price: "120000"
+    708:
+      item: "netherite leggings"
+      name: "&4&lArmored Spodnie"
+      enchant:
+        - "protection 10"
+        - "unbreaking 10"
+        - "fire protection 7"
+        - "projectile protection 7"
+        - "blast protection 7"
+        - "mending 1"
+        - "Swift Sneak 7"
+      lore:
+        - ""
+        - "&eRad Resistance: &650%"
+        - ""
+      price: "100000"
+    709:
+      item: "netherite boots"
+      name: "&4&lButy"
+      enchant:
+        - "protection 10"
+        - "unbreaking 10"
+        - "mending 1"
+        - "feather falling 7"
+        - "depth strider 7"
+        - "fire protection 7"
+        - "projectile protection 7"
+        - "blast protection 7"
+        - "soul speed 7"
+      lore:
+        - ""
+        - "&eRad Resistance: &635%"
+        - ""
+      price: "100000"
+    710:
+      item: "netherite sword"
+      name: "&4&lTempered Sword"
+      enchant:
+        - "sharpness 10"
+        - "unbreaking 10"
+        - "fire aspect 7"
+        - "smite 10"
+        - "bane of arthropods 10"
+        - "sweeping edge 7"
+        - "looting 7"
+        - "mending 1"
+      price: "90000"
+    711:
+      item: "netherite pickaxe"
+      name: "&4&lJackhammer"
+      enchant:
+        - "efficiency 10"
+        - "unbreaking 10"
+        - "fortune 7"
+        - "mending 1"
+      price: "90000"
+    712:
+      item: "iron horse armor"
+      name: "&4&lAlien Red"
+      ctd: "7"
+      lore:
+        - "&fLegendarny karabin automatyczny z specjalnym malowaniem."
+      price: "80000"
+    713:
+      item: "rabbit foot"
+      name: "&e7.62x39mm Ammo"
+      ctd: "400"
+      lore:
+        - "&fAmunicja do &4&lAlien Red"
+      price: ""
+    714:
+      item: "iron horse armor"
+      name: "&4&lL96"
+      ctd: "9"
+      lore:
+        - "&fMust-have każdego roofcampera."
+      price: "140000"
+    715:
+      item: "rabbit foot"
+      name: "&e.308 Ammo"
+      ctd: "5"
+      amount: "2"
+      lore:
+        - "&fAmunicja do &4&lL96"
+      price: "1000"
+    716:
+      item: "compass"
+      name: "&e&lNadajnik GPS"
+      enchant:
+        - "lure 10"
+      price: "500"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+          price: "2000"
+    717:
+      item: "rabbit hide"
+      name: "&dNerka"
+      enchant:
+        - "lure 10"
+      lore:
+        - "Zagubiona nerka pewnego"
+        - "legendarnego zawodnika w F1."
+      price: "1000"
+      wyjatek:
+        sell:
+          sell: "true"
+    718:
+      item: "rabbit hide"
+      name: "&dPaka Szlogow"
+      lore:
+        - "&fPaczka papierosów Marlboro to"
+        - "&fklasyczne opakowanie"
+        - "&fz czerwonym logo i nazwą"
+        - "&fmarki na białym tle."
+        - "&fIdealnie pasuje z coca-colą."
+      enchant:
+        - "lure 9"
+      price: "1000"
+      wyjatek:
+        sell:
+          sell: "true"
+    719:
+      item: "rabbit hide"
+      name: "&dJoint"
+      lore:
+        - "&fJoint to forma papierosa"
+        - "&fskręconego z papieru i wypełnionego"
+        - "&fsuszem konopi indyjskich, która"
+        - "&fjest często używana w celach rekreacyjnych."
+      enchant:
+        - "lure 8"
+      price: "1000"
+      wyjatek:
+        sell:
+          sell: "true"
+    720:
+      item: "rabbit hide"
+      name: "&dJabol"
+      lore:
+        - "&fJabol to slangowe określenie taniego"
+        - "&fwina o niskiej jakości zwykle"
+        - "&fotrzymywanego z niedojrzałych winogron."
+      enchant:
+        - "lure 7"
+      price: "1000"
+      wyjatek:
+        sell:
+          sell: "true"
+    721:
+      item: "jungle button"
+      name: "&c&lC4"
+      lore:
+        - ""
+        - "&fSluzy do wysadzania baz"
+        - ""
+        - "&fUżycie: &f&l<LPM>"
+      price: "8000"
+    722:
+      item: "rabbit hide"
+      name: "&dAegis"
+      lore:
+        - "&fEpapieros typu Box"
+        - "&fPizga niezła chmure oraz po płucach"
+      enchant:
+        - "lure 6"
+      price: "1200"
+      wyjatek:
+        sell:
+          sell: "true"
+    723:
+      item: "rabbit hide"
+      name: "&dButelka Wody"
+      lore:
+        - "&fPół litra wody cristal  "
+        - "&fWoda służąca do napojenia się bądz"
+        - "&fZajebania przysaidu na nią "
+      enchant:
+        - "lure 5"
+      price: "2000"
+      wyjatek:
+        sell:
+          sell: "true"
+    724:
+      item: "bow"
+      name: "&f&lJan"
+      lore:
+        - "&fLegendarny złoty łuk papierza &fpol&caka"
+        - "&fNapewno jest warty sporą sumkę."
+      enchant:
+        - "power 2"
+      price: "4274"
+      wyjatek:
+        sell:
+          sell: "true"
+    725:
+      item: "red sandstone"
+      name: "&l&eTool Cupboard"
+      price: "200"
+      wyjatek:
+        buy:
+          buy:
+          always-here: "true"
+          price: "400"
+    727:
+      item: "smooth red sandstone"
+      name: "&eSiarka"
+      price: "1000"
+      wyjatek:
+        sell:
+          sell: "true"
+          always-here: "true"
+          price: "600"
+        buy:
+          buy: "true"
+    728:
+      item: "red chiseled sandstone"
+      name: "&6Metal Wysokiej Jakosci"
+      price: "3000"
+      wyjatek:
+        sell:
+          sell: "true"
+          always-here: "true"
+          price: "1800"
+        buy:
+          buy: "true"
+
+#                #
+#   --Totems--   #
+#                #
+
+#config totemu
+totems:
+  tank:
+    type: "tank"
+    name: "&eTyp: Tank"
+    item: "shield"
+    target:
+      gui:
+        - ""
+        - "&6XP dostaniesz za:"
+        - "&fŚmierci oraz zjedzone jedzenie"
+        - ""
+        - "&2Smierc &f-> &a5xp"
+        - "&2Refil &f-> &a65xp"
+        - "&2Złota Marchewka &f-> &a25xp"
+        - "&2Rozdymka &f-> &a750xp"
+        - "&2Zgniły Ziemniak &f-> &a1000xp"
+        - "&2Kox &f-> &a99999xp"
+        - "&2Każde Jedzenie &f-> &a5xp"
+      xp:
+        gain:
+          food:
+            1:
+              item: "enchanted golden apple"
+              xp: "99999"
+            2:
+              item: "golden apple"
+              xp: "65"
+            3:
+              item: "golden carrot"
+              xp: "25"
+            4:
+              item: "poisonous potato"
+              xp: "1000"
+            5:
+              item: "pufferfish"
+              xp: "750"
+            any-food:
+              item: "any-food"
+              xp: "5"
+          death:
+            xp: "5"
+        stats:
+          startxp: "150"
+          nextlvladdxp: "200"
+          HugeDropEvery: "5"
+          lvlcap: "50"
+    items:
+      average:
+        1:
+          item: "apple"
+          start-amount: "2"
+        2:
+          item: "iron ingot"
+          start-amount: "1"
+        3:
+          item: "gold ingot"
+          start-amount: "1"
+        4:
+          item: "lapis lazuli"
+          start-amount: "1"
+        5:
+          item: "carrot"
+          start-amount: "2"
+        6:
+          item: "honeycomb"
+          start-amount: "1"
+        7:
+          item: "bread"
+          start-amount: "1"
+      huge:
+        1:
+          item: "diamond"
+          start-amount: "5"
+        2:
+          item: "netherite ingot"
+          start-amount: "2"
+        3:
+          item: "gold block"
+          start-amount: "5"
+        4:
+          item: "iron  block"
+          start-amount: "6"
+        5:
+          item: "golden carrot"
+          start-amount: "7"
+        6:
+          item: "golden apple"
+          start-amount: "5"
+    effects:
+      1:
+        gui: "&cHealth Boost &7< &f&l1 &7>"
+        effect: "health boost"
+        power: "2"
+        lvl: "10"
+      2:
+        gui: "&cHealth Boost &7< &f&l2 &7>"
+        effect: "health boost"
+        power: "3"
+        lvl: "20"
+      3:
+        gui: "&cHealth Boost &7< &f&l3 &7>"
+        effect: "health boost"
+        power: "5"
+        lvl: "30"
+      4:
+        gui: "&cHealth Boost &7< &4&lMAX LVL &7>"
+        effect: "health boost"
+        power: "10"
+        lvl: "50"
+  mine:
+    type: "mine"
+    name: "&eTyp: Gornik"
+    item: "diamond pickaxe"
+    target:
+      gui:
+        - ""
+        - "&6XP dostaniesz za:"
+        - "&fZa wykopane bloki"
+        - ""
+        - "&2kamień &f-> &a2xp"
+        - "&2Obsydian &f-> &a15xp"
+        - "&2Crying Obsydian &f-> &a40xp"
+        - "&eSiarka &f-> &a50xp"
+        - "&2Shrieker &f-> &a75xp"
+        - "&6Metal Wysokiej Jakosci &f-> &a100xp"
+        - "&2Kazdy Blok &f-> &a1xp"
+        - "&2Każda Ruda &f-> &a9xp"
+      xp:
+        gain:
+          mine:
+            1:
+              item: "stone"
+              xp: "2"
+            2:
+              item: "obsidian"
+              xp: "15"
+            3:
+              item: "crying obsidian"
+              xp: "40"
+            5:
+              item: "shrieker"
+              xp: "75"
+            6:
+              item: "red chiseled sandstone"
+              xp: "100"
+            7:
+              item: "smooth red sandstone"
+              xp: "50"
+            any:
+              item: "any"
+              xp: "1"
+            any-ore:
+              item: "any-ore"
+              xp: "9"
+        stats:
+          startxp: "600"
+          nextlvladdxp: "300"
+          HugeDropEvery: "5"
+          lvlcap: "50"
+    items:
+      average:
+        1:
+          item: "redstone"
+          start-amount: "2"
+        2:
+          item: "iron ingot"
+          start-amount: "2"
+        3:
+          item: "gold ingot"
+          start-amount: "2"
+        4:
+          item: "quartz block"
+          start-amount: "4"
+        5:
+          item: "obsidian"
+          start-amount: "2"
+        6:
+          item: "oak log"
+          start-amount: "5"
+        7:
+          item: "coal"
+          start-amount: "3"
+      huge:
+        1:
+          item: "diamond ore"
+          start-amount: "3"
+        2:
+          item: "netherite ingot"
+          start-amount: "2"
+        3:
+          item: "gold block"
+          start-amount: "5"
+        4:
+          item: "iron  block"
+          start-amount: "6"
+        5:
+          item: "obsidian"
+          start-amount: "20"
+        6:
+          item: "emerald"
+          start-amount: "6"
+    effects:
+      1:
+        gui: "&cHaste &7< &f&l1 &7>"
+        effect: "haste"
+        power: "1"
+        lvl: "10"
+      2:
+        gui: "&cHaste &7< &f&l2 &7>"
+        effect: "haste"
+        power: "2"
+        lvl: "20"
+      3:
+        gui: "&cHaste &7< &f&l3 &7>"
+        effect: "haste"
+        power: "3"
+        lvl: "30"
+      4:
+        gui: "&cHaste &7< &4&lMAX LVL &7>"
+        effect: "haste"
+        power: "4"
+        lvl: "50"
+  Wojownik:
+    type: "Wojownik"
+    name: "&eTyp: Wojownik"
+    item: "diamond sword"
+    target:
+      gui:
+        - ""
+        - "&6XP dostaniesz za:"
+        - "&fZabijanie mobów oraz graczy"
+        - ""
+        - "&2Zombie &f-> &a1xp"
+        - "&2Spider &f-> &a1.3xp"
+        - "&2Skeleton &f-> &a1.5xp"
+        - "&2Creeper &f-> &a2xp"
+        - "&2Enderman &f-> &a3xp"
+        - "&2Ender dragon &f-> &a250xp"
+        - "&2Wither &f-> &a500xp"
+        - "&2Warden &f-> &a750xp"
+        - "&2Boss Tanker &f-> &a1500xp &7( XP jest mnożony przez TIER Bossa &7)"
+        - "&2Boss Assassin &f-> &a1250xp &7( XP jest mnożony przez TIER Bossa &7)"
+        - "&2Boss Nekromanta &f-> &a1000xp &7( XP jest mnożony przez TIER Bossa &7)"
+        - "&2Boss Ahmed &f-> &a2000xp &7( XP jest mnożony przez TIER Bossa &7)"
+        - "&2Boss Hunter &f-> &a1500xp &7( XP jest mnożony przez TIER Bossa &7)"
+        - "&2Boss Techno Zul &f-> &a3000xp &7( XP jest mnożony przez TIER Bossa &7)"
+        - "&2Player &f-> &a10xp"
+        - "&2Każdy Mob &f-> &a1xp"
+      xp:
+        gain:
+          kill:
+            1:
+              type: "zombie"
+              xp: "1"
+            2:
+              type: "skeleton"
+              xp: "1.5"
+            2:
+              type: "spider"
+              xp: "1.3"
+            4:
+              type: "creeper"
+              xp: "2"
+            5:
+              type: "enderman"
+              xp: "3"
+            6:
+              type: "wither"
+              xp: "500"
+            7:
+              type: "ender dragon"
+              xp: "250"
+            8:
+              type: "warden"
+              xp: "750"
+            9:
+              type: "zombie"
+              name: "&4Tanker &7< &e★ &7>"
+              xp: "1500"
+            10:
+              type: "zombie"
+              name: "&4Tanker &7< &e★ &e★ &7>"
+              xp: "3000"
+            11:
+              type: "zombie"
+              name: "&4Tanker &7< &e★ &e★ &e★ &7>"
+              xp: "4500"
+            12:
+              type: "husk"
+              name: "&4Assassin &7< &e★ &7>"
+              xp: "1250"
+            13:
+              type: "husk"
+              name: "&4Assassin &7< &e★ &e★ &7>"
+              xp: "2500"
+            14:
+              type: "husk"
+              name: "&4Assassin &7< &e★ &e★ &e★ &7>"
+              xp: "3750"
+            15:
+              type: "skeleton"
+              name: "&4Nekromanta &7< &e★ &7>"
+              xp: "1000"
+            16:
+              type: "skeleton"
+              name: "&4Nekromanta &7< &e★ &e★ &7>"
+              xp: "2000"
+            17:
+              type: "skeleton"
+              name: "&4Nekromanta &7< &e★ &e★ &e★ &7>"
+              xp: "3000"
+            18:
+              type: "husk"
+              name: "&4Ahmed &7< &e★ &e★ &7>"
+              xp: "2000"
+            19:
+              type: "husk"
+              name: "&4Ahmed &7< &e★ &e★ &e★ &7>"
+              xp: "4000"
+            20:
+              type: "skeleton"
+              name: "&4Hunter &7< &e★ &e★ &7>"
+              xp: "1500"
+            21:
+              type: "skeleton"
+              name: "&4Hunter &7< &e★ &e★ &e★ &7>"
+              xp: "3000"
+            22:
+              type: "zombie"
+              name: "&4Techno Zul &7< &e★ &e★ &e★ &7>"
+              xp: "5000"
+            23:
+              type: "player"
+              xp: "10"
+            24:
+              type: "husk"
+              xp: "1.2"
+            25:
+              type: "stray"
+              xp: "1.5"
+            26:
+              type: "drowned"
+              xp: "1.2"
+            any:
+              type: "any"
+              xp: "1"
+        stats:
+          startxp: "500"
+          nextlvladdxp: "400"
+          HugeDropEvery: "5"
+          lvlcap: "50"
+    items:
+      average:
+        1:
+          item: "cooked chicken"
+          start-amount: "3"
+        2:
+          item: "iron ingot"
+          start-amount: "1"
+        3:
+          item: "gold ingot"
+          start-amount: "1"
+        4:
+          item: "cooked beef"
+          start-amount: "3"
+        5:
+          item: "ender pearl"
+          start-amount: "1"
+        6:
+          item: "blaze rod"
+          start-amount: "2"
+      huge:
+        1:
+          item: "golden block"
+          start-amount: "16"
+        2:
+          item: "netherite ingot"
+          start-amount: "2"
+        3:
+          item: "golden apple"
+          start-amount: "6"
+        4:
+          item: "ender pearl"
+          start-amount: "10"
+        5:
+          item: "end crystal"
+          start-amount: "3"
+        6:
+          item: "totem of undying"
+          start-amount: "1"
+        7:
+          item: "experience bottle"
+          start-amount: "15"
+    effects:
+      1:
+        gui: "&cSiła &7< &f&l1 &7>"
+        effect: "strength"
+        power: "1"
+        lvl: "10"
+      2:
+        gui: "&cSiła &7< &f&l2 &7>"
+        effect: "strength"
+        power: "2"
+        lvl: "20"
+      3:
+        gui: "&cSiła &7< &f&l3 &7>"
+        effect: "strength"
+        power: "3"
+        lvl: "30"
+      4:
+        gui: "&cSiła &7< &4&lMAX LVL &7>"
+        effect: "strength"
+        power: "4"
+        lvl: "50"
+  Zyd:
+    type: "Zyd"
+    name: "&eTyp: Zyd"
+    item: "emerald"
+    target:
+      gui:
+        - ""
+        - "&6XP dostaniesz za:"
+        - "&fTranzakcje pieniężne"
+        - ""
+        - "&21 wydana moneta &f-> &a1xp"
+      xp:
+        gain:
+          money:
+            xp-transfer: "300"
+            debuff:
+              flee: "0.5" #kupno na flee, nie dziala jak sprzedajesz bo to by bylo chujowe fest
+              przelej: "0.1"
+            xp: "1"
+        stats:
+          startxp: "300"
+          nextlvladdxp: "350"
+          HugeDropEvery: "5"
+          lvlcap: "50"
+    items:
+      average:
+        1:
+          item: "paper"
+          name: "&eCzek &f&l< 20 >"
+          lore:
+            - ""
+            - "&fUzycie: &f&l<PPM>"
+          enchant:
+            - "lure 5"
+          start-amount: "1"
+        2:
+          item: "paper"
+          name: "&eCzek &f&l< 10 >"
+          lore:
+            - ""
+            - "&fUzycie: &f&l<PPM>"
+          enchant:
+            - "lure 4"
+          start-amount: "1"
+        3:
+          item: "gold ingot"
+          start-amount: "10"
+      huge:
+        1:
+          item: "paper"
+          name: "&eCzek &f&l< 100 >"
+          lore:
+            - ""
+            - "&fUzycie: &f&l<PPM>"
+          enchant:
+            - "lure 7"
+          start-amount: "1"
+        2:
+          item: "paper"
+          name: "&eCzek &f&l< 1000 >"
+          lore:
+            - ""
+            - "&fUzycie: &f&l<PPM>"
+          enchant:
+            - "lure 8"
+          start-amount: "1"
+        3:
+          item: "gold block"
+          start-amount: "20"
+    effects:
+      1:
+        gui: "&cHero of the vilage &7< &f&l1 &7>"
+        effect: "Hero of the vilage"
+        power: "1"
+        lvl: "25"
+        money-multi: "0.05"
+      2:
+        gui: "&cHero of the vilage &7< &f&l2 &7>"
+        effect: "Hero of the vilage"
+        power: "2"
+        lvl: "30"
+        money-multi: "0.1"
+      3:
+        gui: "&cHero of the vilage &7< &f&l3 &7>"
+        effect: "Hero of the vilage"
+        power: "3"
+        lvl: "35"
+        money-multi: "0.2"
+      4:
+        gui: "&cHero of the vilage &7< &4&lMAX LVL &7>"
+        effect: "Hero of the vilage"
+        power: "4"
+        lvl: "50"
+        money-multi: "0.3"
+  Builder:
+    type: "Builder"
+    name: "&eTyp: Builder"
+    item: "oak log"
+    target:
+      gui:
+        - "&6XP dostaniesz za:"
+        - "Stawianie Klocków"
+        - ""
+        - "&2obsidian &f-> &a3xp"
+        - "&eSiarka &f-> &a5xp"
+        - "&6Metal Wysokiej Jakośći &f-> &a10xp"
+        - "&2Każdy Blok &f-> &a2xp"
+      xp:
+        gain:
+          build:
+            1:
+              item: "obsidian"
+              xp: "3"
+            2:
+              item: "smooth red sandstone"
+              xp: "5"
+            3:
+              item: "red chiseled sandstone"
+              xp: "10"
+            any:
+              item: "any"
+              xp: "2"
+        stats:
+          startxp: "100"
+          nextlvladdxp: "100"
+          HugeDropEvery: "5"
+          lvlcap: "50"
+    items:
+      average:
+        1:
+          item: "paper"
+          name: "&eKupon na 64x Bloki budowalne"
+          enchant:
+            - "mending 10"
+          start-amount: "1"
+        2:
+          item: "paper"
+          name: "&eKupon na 128x Bloki budowalne"
+          enchant:
+            - "mending 10"
+          start-amount: "1"
+      huge:
+        1:
+          item: "paper"
+          name: "&eKupon na 500x Bloki budowalne"
+          enchant:
+            - "mending 10"
+          start-amount: "1"
+        2:
+          item: "paper"
+          name: "&eKupon na 1000x Bloki budowalne"
+          enchant:
+            - "mending 10"
+          start-amount: "1"
+    effects:
+      1:
+        gui: "&cSpeed &7< &f&l1 &7>"
+        effect: "speed"
+        power: "1"
+        lvl: "10"
+      2:
+        gui: "&cSpeed &7< &f&l1 &7>"
+        effect: "speed"
+        power: "1"
+        lvl: "20"
+      3:
+        gui: "&cSpeed &7< &f&l3 &7>"
+        effect: "speed"
+        power: "1"
+        lvl: "30"
+      4:
+        gui: "&cSpeed &7< &4&lMAX LVL &7>"
+        effect: "speed"
+        power: "2"
+        lvl: "50"
+
+#Jak to czytasz to milego dzionka ~06.03.22 Edit1: Jeszcze troche i styknie rok :) ~10.02.23 Edit2: jo babyn zara skrypt bedzie mial 2.5 roku gdzies ~ 03.05.23 Edit3: Whats up nigga ~ 16.12.2023r. Edit4: Im still standing ~01.01.24
+
+#                 #
+#    --MISC--     #
+#                 #
+
+#motd
+motd:
+  wipe: "Wipe rozpocznie się &7( &a;wipedate; &7)"
+  1: "Serwer inspirowany Rust'em z dużą ilością zmian względem podstawowej gry."
+  2: "Nie zapomnij odebrać swojego darmowego roll'a."
+  3: "Nie zapomnij odebrać swojego kit'a."
+  4: "Wbij na Discorda &7( &a;dc; &7)"
+  5: "Sprawdź, czy zrzut nie spadł akurat niedaleko twojej bazy."
+  6: "Nie wyloguj się na spawnie, bo Gruby Joe cię okradnie!"
+
+#tip
+tip:
+  1: "Oferty u tradera zmieniają się co mniej więcej pół godziny."
+  2: "Rangi możesz kupić na Discordzie ( ;dc; )."
+  3: "Lomy możesz kupić u handlarza."
+  4: "Nigdy nie zmieniaj nazwy przedmiotów specjalnych (np. cuboid, lom), gdyż wtedy przestaną działać."
+  5: "Przedmioty Tier'u 2 i 3 mogą mieć możliwość włączenia/wyłączenia pewnych enchantów."
+  6: "Jak znajdziesz jakiś bug, zgłoś go /report."
+  7: "Użyj komendy /pomoc, aby dowiedzieć się więcej oraz jak działają systemy na serwerze."
+  8: "Użyj /regulamin, aby poznać regulamin serwera."
+  9: "Pamiętaj, że jak wyjdziesz z serwera, twoje itemy nadal mogą zostać ukradzione."
+  10: "Opłaca się polować na zrzuty."
+  11: "Użyj /kit, aby odebrać zestawy."
+  12: "Użyj komendy /tpr <nick>, aby teleportować się do kogoś."
+  13: "Pamiętaj, żeby ukryć Cuboid, żeby łatwo nie było ci zrajdować."
+  14: "U handlarza Generała Borsuka możesz stworzyć specjalny crafting, który pozwala ci stworzyć specjalne przedmioty takie jak bronie."
+  15: "Jak cheatujesz, masz malego siurka."
+  16: "Możesz odebrać misje u Generała Borsuka."
+  17: "Czasami z mobów mogą wypaść specjalne przedmioty wymagane na misje."
+  18: "Jak zginiesz w miejscu twojej śmierci pojawi się grób, który zniknie po jakimś czasie, ale pamiętaj, że każdy może go zebrać."
+  19: "Możesz zabrać przedmioty/zabić śpiącego gracza za pomocą menu, które możesz otworzyć klikając na plecak śpiącego gracza."
+  20: "Poziom trudności bossów zależy od dnia od startu wipe'a."
+  21: "U handlarza Grubego Joe możesz sprzedać przedmioty, które są w rotacji lub sprzedać każdy przedmiot, który nie jest w rotacji po niższej cenie."
+
+#help
+help:
+  0:
+    icon:
+      1:
+        icon: "red sandstone"
+    name: "&eTool Cupboard ( TC )"
+    text: "&fTo blok własności ziemi (cuboid). Ma różne poziomy wielkości (na początek 16x16). Klikając prawym przyciskiem myszy otwierasz jego menu, z którego możesz zwiększać rozmiar (TC), usuwać oraz dodawać członków TC."
+  1:
+    icon:
+      1:
+        icon: "cut red sandstone slab"
+      2:
+        icon: "totem of undying"
+        enchant:
+          - "lure 10"
+    name: "&2Airdrop"
+    text: "&fTo jest zrzut zaopatrzenia, który pojawia się losowo na mapie lub może być wezwany przez gracza. Pojawia się cyklicznie w losowych miejscach, z częstotliwością uzależnioną od liczby graczy na serwerze. Informacje o pojawieniu się zrzutu są pokazywane na czacie, zawartość jest losowa i często wartościowa, dlatego warto się po niego udać."
+  2:
+    icon:
+      1:
+        icon: "kelp"
+        enchant:
+          - respiration 6
+      2:
+        icon: "totem of undying"
+        enchant:
+          - "lure 9"
+    name: "&4Bossy / Kanibale"
+    text: "To specjalni przeciwnicy, którzy pojawiają się losowo na mapie lub mogą być przywołani przez gracza za pomocą granatu zrzutu mutanta. Istnieją różne poziomy trudności bossów, oznaczone (&e★&f), posiadają oni specjalne umiejętności zależne od typu mutanta. Po zabiciu, wypada z nich &4Locked Crate&f."
+  3:
+    icon:
+      1:
+        icon: "cut red sandstone"
+    name: "&4Locked Crate"
+    text: "&fSkrzynia, która wypada po zabiciu bossa, wymaga &elomu &f(zawsze 100% szans na otwarcie) lub &ewytrychu &fdo otwarcia. Po otwarciu &4Locked &4Crate &fmożna otrzymać bardzo wartościowe przedmioty. Wartość Locked Crate oraz szansa na jego otwarcie zależą od poziomu bossa, który ją wydropił. Lomy można kupić u handlarza &dGrubego &dJoe'a &flub innych graczy, natomiast wytrychy można wytwarzać w &eWB1."
+  4:
+    icon:
+      1:
+        icon: "red nether brick stair"
+      2:
+        icon: "smooth red sandstone stair"
+      3:
+        icon: "red sandstone stair"
+    name: "&6Workbench ( WB )"
+    text: "&fTo specjalne craftingi, w których można wytwarzać unikatowe przedmioty, takie jak &ebronie&f. Istnieją trzy różne poziomy WB, które można nabyć lub ulepszyć u handlarza &dGenerała &dBorsuka"
+  5:
+    icon:
+      1:
+        icon: "kelp"
+        enchant:
+          - respiration 5
+    name: "&eRadiacja"
+    text: "&fWokół mapy znajduje się strefa wykluczenia, gdzie stopień promieniowania jest bardzo wysoki, i bez odpowiedniego przygotowania możesz umrzeć wchodząc tam. Aby przekroczyć granicę strefy, potrzebujesz &eAnty &eRad'a &flub kompletnego &eFullkit'a(End-Game'owy set)&f. Wewnątrz strefy radiacji znajdują się &especjalne &erudki&f. &eGPS &fpozwala śledzić odległość od strefy radiacji. Gdy zbliżasz się do strefy otrzymasz ostrzeżenie. &cRadiacja &cznajduje &csię &cw &ccałym &cEnd'ie"
+  6:
+    icon:
+      1:
+        icon: "honey bottle"
+        enchant:
+          - lure 8
+      2:
+        icon: "honey bottle"
+        enchant:
+          - lure 9
+      3:
+        icon: "honey bottle"
+        enchant:
+          - lure 10
+    name: "&6Anty Rad"
+    text: "&4Anty &4Rad &fjest niezbędny do wejścia do End'u oraz eksplorowania &estrefy &eradiacji&f. Można go zdobyć z &ezrzutów &fznajdujących się w tej strefie, a także wytwarzając lub kupując go od handlarza &dCpun'a&f. Dostępne są trzy rodzaje &4Anty &4Radow&f, różniące się długością trwania. &c(Anty &cRad &ctrwa &c6x &cdłużej &cw &cend'ie)"
+  7:
+    icon:
+      1:
+        icon: "red chiseled sandstone"
+      2:
+        icon: "smooth red sandstone"
+    name: "&6Metal Wysokiej Jakosci &f/ &eSiarka"
+    text: "Obie rudy występują w &estrefie &ewykluczenia&f, przy czym &4siarka &fpojawia się częściej niż &4HQM &fi jest mniej wartościowa. Używając &eGPS-a&f, można łatwiej zlokalizować te zasoby. &4Siarka &fjest potrzebna do produkcji takich przedmiotów jak &eamunicja&f, podczas gdy &4HQM &fjest niezbędne do tworzenia &ebroni&f oraz &ezbroi&f i jest bardzo wartościowe."
+  8:
+    icon:
+      1:
+        icon: "red nether brick wall"
+    name: "&eSpiacy Gracze / Plecaki"
+    text: "Po wylogowaniu z serwera wszystkie przedmioty, które miałeś na sobie, zostają przekształcone w formę plecaka, który każdy na serwerze może zebrać. Jeśli nie zalogujesz się ponownie na spawnie w ciągu 20 minut, twoje przedmioty znikną (zostaną skradzione przez chciwego handlarza)."
+  9:
+    icon:
+      1:
+        icon: "red sandstone wall"
+    name: "&eGrób"
+    text: "Po śmierci wszystkie twoje przedmioty zostaną przekształcone w formę grobu, który może być podniesiony przez każdego gracza. Groby znikają po pewnym czasie. Dokładny czas można sprawdzić używając komendy &d/smierci."
+  10:
+    icon:
+      1:
+        icon: "gold horse armor"
+        ctd: "2"
+      2:
+        icon: "gold horse armor"
+        ctd: "3"
+      3:
+        icon: "gold horse armor"
+        ctd: "4"
+      4:
+        icon: "gold horse armor"
+        ctd: "5"
+      5:
+        icon: "gold horse armor"
+        ctd: "6"
+    name: "&eTalizmany"
+    text: "To przedmiot, który można wytworzyć w &eWB &fza pomocą fragmentów, które dropią z &eLocked &eCrate'ów&f. Można go otworzyć używając przycisku <F> i wyświetlić jego aktualne statystyki. Istnieją różne rodzaje, które wymagają od gracza różnych celów do wykonania w celu ich ulepszenia. Każdy z nich oferuje różne nagrody i efekty, na przykład tank oferuje dodatkowe punkty życia."
+  11:
+    icon:
+      1:
+        icon: "ender chest"
+    name: "&5Ender Chest"
+    text: "Na tym serwerze Enderchest jest ograniczony. Aby odblokować kolejne miejsca w Enderchestcie, potrzebujesz ukończyć kolejne poziomy trudności misji. Istnieje także limit na ilość Shulker Boxów w Enderchestcie - po ukończeniu poziomu Bardzo Trudnego masz dostępne 1 miejsce na Shulkera, a po ukończeniu poziomu Niemożliwego - 2 miejsca na Shulkera, łącznie 3. Gracze VIP otrzymują dodatkowo 2 miejsca w Enderchestcie (razem 3), w tym 1 dodatkowe miejsce w limicie Shulkerów"
+  12:
+    icon:
+      1:
+        icon: "kelp"
+        enchant:
+          - mending 10
+    name: "&eMisje"
+    text: "Okno misji można otworzyć, wchodząc w interakcję z handlarzem &dGenerałem &dBorsukiem&f. Aby sprawdzić postęp misji, możesz wpisać komendę /quest. Istnieje 5 poziomów trudności, od &ałatwego&f do &5niemożliwego&f, a nagrody zależą od poziomu trudności. Po ukończeniu wszystkich misji danego poziomu trudności ulepszasz miejsce w &eEnderchestcie&f. Nagrody można odebrać z menu misji. Istnieją 3 rodzaje misji: Zbierz (zdobądź przedmioty i wróć do handlarza), Zabij (zabij określoną liczbę określonych mobów i wróć do handlarza) i Znajdź (znajdź zakopany skarb i wróć do handlarza)."
+  13:
+    icon:
+      1:
+        icon: "rabbit hide"
+        enchant:
+          - lure 5
+      2:
+        icon: "rabbit hide"
+        enchant:
+          - lure 6
+      3:
+        icon: "rabbit hide"
+        enchant:
+          - lure 7
+      4:
+        icon: "rabbit hide"
+        enchant:
+          - lure 8
+      5:
+        icon: "rabbit hide"
+        enchant:
+          - lure 9
+      6:
+        icon: "rabbit hide"
+        enchant:
+          - lure 10
+    name: "&ePrzedmioty Questowe"
+    text: "Na tym serwerze niektóre z mobów mogą zrzucić specjalne przedmioty, które są wymagane do zadań lub mogą być sprzedane u &dGrubego &dJoe'a&f po korzystnej cenie."
+  14:
+    icon:
+      1:
+        icon: "rabbit foot"
+        enchant:
+          - unbreaking 5
+    name: "&dGenerał Borsuk"
+    text: "To handlarz, u którego możesz stworzyć/ulepszyć &eWB &foraz wykonywać &emisje&f. Możesz również odebrać &eroll'e&f i &ekit'y&f."
+  15:
+    icon:
+      1:
+        icon: "kelp"
+        enchant:
+          - mending 5
+    name: "&dGruby Joe"
+    text: "To handlarz, u którego możesz kupować oraz sprzedawać przedmioty, które są w rotacji. Możesz także sprzedawać przedmioty spoza rotacji po niższej cenie, korzystając z funkcji &esell-all&f (możesz wrzucić do &esell-all &fshulkera, aby sprzedać jego zawartość)."
+  16:
+    icon:
+      1:
+        icon: "honey bottle"
+        enchant:
+          - infinity 7
+    name: "&dCpun"
+    text: "To handlarz, u którego możesz kupić dragi, które dają efekty na krótki czas. Im droższy drag, tym lepsze i dłuższe efekty."
+  17:
+    icon:
+      1:
+        icon: "lectern"
+    name: "&eFlee"
+    text: "Jest to rynek graczy, gdzie każdy gracz może bezpiecznie wystawić swoje przedmioty na sprzedaż lub bezpiecznie je kupić. Aby otworzyć rynek, użyj komendy &d/flee&f. Możesz również użyć komendy &d/flee &d?&f, aby dowiedzieć się, jak wystawić przedmioty. Po pewnym czasie, jeśli nikt nie kupi twoich przedmiotów, znikną one z flee, a ty będziesz mógł je odebrać z menu flee. Możesz również ulepszyć swoje flee, aby twoje przedmioty były dłużej na rynku i abyś mógł wystawić więcej przedmiotów na raz."
+  18:
+    icon:
+      1:
+        icon: "popped chorus fruit"
+        ctd: "1"
+    name: "&eRoll"
+    text: "Tutaj możesz odebrać swoje &edarmowe &eroll'e&f, z których możesz wylosować przedmioty, a także możesz kupić dodatkowe roll'e, aby mieć szansę wygrać niesamowite przedmioty &c(pamiętaj, &cże &cistnieje &cryzyko &cprzegranej &ccałej &cswojej &ckasy)."
+  19:
+    icon:
+      1:
+        icon: "kelp"
+        enchant:
+          - respiration 4
+    name: "&cBlokady"
+    text: "Po starcie edycji nie można wejść do Netheru przez pierwsze &c6 &cgodzin&f, a do Endu przez pierwsze &c36 &cgodzin&f. Przez pierwsze &c24 &cgodziny &fnie można prowadzić walki PvP bez obustronnej zgody. Przez pierwsze &c48 &cgodzin &fnie można otwierać skrzynek innych graczy, chyba że dana osoba dodała cię do znajomych."
+  20:
+    icon:
+      1:
+        icon: "rabbit foot"
+        enchant:
+          - unbreaking 6
+    name: "&6Rangi"
+    text: "Na serwerze są dwie rangi: &2OG &fi &6VIP&f. Rangę &2OG&f można zdobyć grając aktywnie w poprzedniej edycji lub zapraszając dużą liczbę osób na aktualną edycję. Ta ranga zapewnia kilka dodatkowych komend i inne udogodnienia. Rangę &6VIP&f można zakupić poprzez kontakt z administracją na Discordzie. &6VIP&f posiada dodatkowe komendy, nieco zwiększone szanse na drop i inne udogodnienia."
+  21:
+    icon:
+      1:
+        icon: "kelp"
+        enchant:
+          - respiration 9
+    name: "&2Lista Komend"
+    text: "&aKliknij aby wyswietlic liste komend"
+    special-case: "1"
+    special-text:
+      - "&e/spawn &7- &fTeleportuje cię na spawn."
+      - "&e/sethome <nazwa> &7- Ustawiasz sobie miejsce do teleportacji."
+      - "&e/home <nazwa> &7- Teleportujesz się do miejsca, które wcześniej ustawiłeś."
+      - "&e/delhome <nazwa> &7- Usuwasz jeden z swoich home'ów."
+      - "&e/tpr <nick> &7- &fWysyłasz prośbę o teleportację do gracza."
+      - "&e/tpd &7- &fAkceptujesz prośbę o teleportację."
+      - "&e/tpa &7- &fAnulujesz prośbę o teleportację."
+      - "&e/roll &7- &fMenu Roll'i."
+      - "&e/quest &7- &fPodgląd postępu misji."
+      - "&e/bank &7- &fAktualny stan konta oraz komendy związane z przelewami gotówki."
+      - "&e/bloki &7- &fMożesz sobie wybrać bloki budowlane, które dostałeś za postęp w talizmanie &dBudowniczy."
+      - "&e/znajomy dodaj <nick> &7- &fDodaj gracza do znajomych, aby mógł otwierać skrzynki i beczki."
+      - "&e/znajomy usun <nick> &7- &fUsuń gracza z znajomych, aby nie mógł już otwierać skrzynek i beczek."
+      - "&e/znajomy lista &7- &fLista znajomych."
+      - "&e/lock &7- &fZamyka daną skrzynkę, dzięki czemu tylko ty możesz ją otwierać, nawet osoby dodane do twoich znajomych. &cWymaga rangi: &6VIP."
+      - "&e/unlock &7- &fOdblokowuje daną skrzynkę, dzięki czemu tylko ty i twoi znajomi mogą ją odwierać. &cWymaga rangi: &6VIP."
+      - "&e/flee &7- &fRynek graczy."
+      - "&e/flee ? &7- &fKomendy związane z ryynkiem graczy."
+      - "&e/walka wyzwij <nick> &7- &fWysyłasz zaproszenie do walki z danym graczem."
+      - "&e/walka koniec <nick> &7- &fKończysz walkę z danym graczem."
+      - "&e/walka koniec all &7- &fKończysz wszystkie rozpoczęte walki."
+      - "&e/stats &7- &fStatystyki na serwerze."
+      - "&e/info &7- &fInformacje o serwerze."
+      - "&e/event &7- &fWszystko o eventach, które mogą się pojawić na edycji."
+      - "&e/kit &7- &fZestawy dla graczy, które można odebrać co jakiś czas."
+      - "&e/tc &7- &fPozwala sprawdzić, czy możesz postawić TC w miejscu, w którym się znajdujesz."
+      - "&e/tip &7- &fZarządzanie wiadomościami na chacie [TIP]."
+  22:
+    icon:
+      1:
+        icon: "writable book"
+    name: "&4Regulamin"
+    text: "&aKliknij aby wyswietlic liste regulamin"
+    special-case: "2"
+    commands: "/regulamin"
+
+#regulamin
+Reg:
+  1: "&cNie mozna zmieniac nazw itemow specialnych (np. cuboid lub lom) bo przestana dzialac. Administracja nie zwroci ich"
+  2: "&cZa oszukiwanie, lagowanie serwera równa się banem na dzień/pernamentnie"
+  3: "&cNie zgłaszanie błędów i wykorzystywanie ich spowoduje pernamentnego bana"
+  4: "&cPróby niszczenia ekonomi serwera i wykorzystywanie to na swoją korzyść poskutkuje banem i wyzerowaniem całego dobytku na serwerze"
+  5: "&cJeśli będziesz chciał odwołać się od bana i wytłumaczyć się z zaistniałej sytuacji zgłaszasz się do nas poprzez discorda"
+  6: "&cRegulamin w każdym momencie może zostać zmieniony bez poinformowania was z jakiego powodu zaistniała taka sytuacja"
+  7: "&cKupując rangi Premium nie masz możliwości zwrócenia pieniędzy których wydałeś na to"
+  8: "&cWchodząc na serwer musisz zaakceptować regulamin. Nie zaakceptowania go poskutkuje karami"
+  9: "&cNie można przez pierwsze 24 godziny okradać innych graczy oraz zabijać"
+  10: "&cZakaz rajdów przez pierwsze 48 godzin, nie posłuchanie poskutkuje banem"
+  11: "&cZakaz rajdowania/niszczenia/griefowania baz lub innych obiektow za pomoca mutanta"
+  12: "&cZakaz budowania bazy na biomie Badlands (czerwona pustynia). Zlamanie zakazania skutkuje usunieciem bazy"
+#-------------------------- End of Config -------------------------------------
