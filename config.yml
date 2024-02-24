@@ -3726,7 +3726,7 @@ quest:
     rewardgui: ";x Sztabek Netheru, ;x Blokow Diamentu, ;x czeków[2500]"
     dialog:
       intro: "Potrzebujemy HQM mozesz nam to zalatwic"
-      complete: "Dobra teraz nasza baza jest git"."
+      complete: "Dobra teraz nasza baza jest git."
   46:
     difficulty:
       lvl: "4"
