@@ -55,8 +55,8 @@ god-items:
   - "netherite hoe named &eKosa"
 
 txt:
-  download: ""
-  hash: ""
+  download: "https://drive.google.com/uc?export=download&id=1aZKp7Ay5F80ZUQmkgbGBf8jYqKvfPBwk"
+  hash: "6b13d04c6cc96b0d6a71afc6af8418ba0afd1441"
 
 wipe:
   start-mess: "08.03.2024r. (Piatek) o godz. 18:00"
@@ -3370,6 +3370,970 @@ quest:
     dialog:
       intro: "Potrzebujemy sporego zapasu melonów. Ogarnij tam troche."
       complete: "Dzięki teraz magazyn to sie nie domyka."
+  37:
+    difficulty:
+      lvl: "3"
+      gui: "&c★ &c★ &c★ &7★"
+    type: "collect"
+    items:
+      1:
+        item: "wither skeleton skull"
+        amount:
+          min: "3"
+          max: "3"
+    targetgui: "Zbierz ;x Głowy Wither Szkieleta"
+    reward:
+      1:
+        item: "paper"
+        name: "&eCzek &f&l< 1000 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 8"
+        amount:
+          min: "3"
+          max: "3"
+    rewardgui: ";x czeków[1000]"
+    dialog:
+      intro: "Chcemy zrespić Wither'a, ale brakuje nam głow szkieletów. Ogarniesz temat?"
+      complete: "Dzięki zaraz bedziemy go bić."
+  38:
+    difficulty:
+      lvl: "3"
+      gui: "&c★ &c★ &c★ &7★"
+    type: "kill"
+    entity:
+      1:
+        type: "shulker"
+        amount:
+          min: "5"
+          max: "6"
+    targetgui: "Pokonaj ;x Shulker"
+    reward:
+      1:
+        item: "paper"
+        name: "&eCzek &f&l< 1000 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 6"
+        amount:
+          min: "3"
+          max: "4"
+    rewardgui: ";x czeków[1000]"
+    dialog:
+      intro: "Musisz pokonac kilka shulkerów. Nasza satelita wykrywa, że tych skurwesynów jest coraz więcej."
+      complete: "Dzięki Wielkie Bratku."
+  39:
+    difficulty:
+      lvl: "3"
+      gui: "&c★ &c★ &c★ &7★"
+    type: "kill"
+    entity:
+      1:
+        type: "blaze"
+        amount:
+          min: "30"
+          max: "35"
+    targetgui: "Pokonaj ;x blazów"
+    reward:
+      1:
+        item: "paper"
+        name: "&eCzek &f&l< 100 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 6"
+        amount:
+          min: "6"
+          max: "8"
+    rewardgui: ";x czeków[100]"
+    dialog:
+      intro: "Blazy podpali mi chate ostatnio. Wez ich przekop."
+      complete: "Dzięki Wielkie Bratku."
+  40:
+    difficulty:
+      lvl: "3"
+      gui: "&c★ &c★ &c★ &7★"
+    type: "kill"
+    entity:
+      1:
+        type: "zombie"
+        amount:
+          min: "100"
+          max: "125"
+      2:
+        type: "skeleton"
+        amount:
+          min: "100"
+          max: "125"
+      3:
+        type: "creeper"
+        amount:
+          min: "100"
+          max: "125"
+      4:
+        type: "spider"
+        amount:
+          min: "100"
+          max: "125"
+    targetgui: "Pokonaj ;x zombie, ;x szkieletów, ;x creeperów, ;x pająków"
+    reward:
+      1:
+        item: "paper"
+        name: "&eCzek &f&l< 2500 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 9"
+        amount:
+          min: "6"
+          max: "8"
+    rewardgui: ";x czeków[100]"
+    dialog:
+      intro: "Ostatnio duzo mobów tu chodzi. Daj im nauczkę."
+      complete: "Dzięki Wielkie Bratku."
+  41:
+    difficulty:
+      lvl: "3"
+      gui: "&c★ &c★ &c★ &7★"
+    type: "kill"
+    entity:
+      1:
+        type: "ender dragon"
+        amount:
+          min: "2"
+          max: "2"
+    targetgui: "Pokonaj ;x smoków"
+    reward:
+      1:
+        item: "diamond"
+        amount:
+          min: "10"
+          max: "10"
+      2:
+        item: "paper"
+        name: "&eCzek &f&l< 100 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 7"
+        amount:
+          min: "10"
+          max: "10"
+    rewardgui: ";x diamentow, ;x czeków[100]"
+    dialog:
+      intro: "smok nasrał mi na wycieraczke NO WAY zrob z nim porządek"
+      complete: "dziena tera zaden petung mi nie nasra"
+  42:
+    difficulty:
+      lvl: "3"
+      gui: "&c★ &c★ &c★ &7★"
+    type: "kill"
+    entity:
+      1:
+        type: "enderman"
+        amount:
+          min: "30"
+          max: "35"
+    targetgui: "Pokonaj ;x endermanów"
+    reward:
+      1:
+        item: "paper"
+        name: "&eCzek &f&l< 1000 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 8"
+        amount:
+          min: "4"
+          max: "5"
+    rewardgui: ";x czeków[1000]"
+    dialog:
+      intro: "Endermany zajebali mi blok diaxów ostatnio. Wez ich przekop."
+      complete: "Dzięki Wielkie Bratku."
+  43:
+    difficulty:
+      lvl: "3"
+      gui: "&c★ &c★ &c★ &7★"
+    type: "find"
+    cords:
+      x-min: "1800"
+      x-max: "-1800"
+      z-min: "1800"
+      z-max: "-1800"
+      world: "world"
+      enemies:
+        1:
+          type: "zombie"
+          hp: "40"
+          amount:
+            min: "5"
+            max: "6"
+          gear:
+            helmet:
+              item: "diamond helmet"
+              enchant:
+                - "unbreaking 255"
+                - "lure 20"
+            chestplate:
+              item: "diamond chestplate"
+              enchant:
+                - "unbreaking 255"
+                - "lure 20"
+            leggings:
+              item: "diamond leggings"
+              enchant:
+                - "unbreaking 255"
+                - "lure 20"
+            boots:
+              item: "diamond boots"
+              enchant:
+                - "unbreaking 255"
+                - "lure 20"
+            weapon:
+              item: "diamond sword"
+              enchant:
+                - "lure 20"
+    targetgui: "Znajdz moj Zagubiony Skarb ( x: ; | z: ; | Swiat: ; )"
+    reward:
+      1:
+        item: "paper"
+        name: "&eCzek &f&l< 1000 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 7"
+        amount:
+          min: "3"
+          max: "3"
+      2:
+        item: "iron block"
+        amount:
+          min: "4"
+          max: "5"
+    rewardgui: ";x czeków[1000], ;x Bloków Zelaza"
+    dialog:
+      intro: "Siema, zgubiłem paczkę z zasobami, możesz ją znaleźć?"
+      complete: "Dzięki wielkie, ciekawe co jest w środku, jak to kurwa pusta."
+  44:
+    difficulty:
+      lvl: "3"
+      gui: "&c★ &c★ &c★ &7★"
+    type: "find"
+    cords:
+      x-min: "1800"
+      x-max: "-1800"
+      z-min: "1800"
+      z-max: "-1800"
+      world: "world"
+      enemies:
+        1:
+          type: "zombie"
+          hp: "40"
+          amount:
+            min: "5"
+            max: "6"
+          gear:
+            helmet:
+              item: "diamond helmet"
+              enchant:
+                - "unbreaking 255"
+                - "lure 20"
+            chestplate:
+              item: "diamond chestplate"
+              enchant:
+                - "unbreaking 255"
+                - "lure 20"
+            leggings:
+              item: "diamond leggings"
+              enchant:
+                - "unbreaking 255"
+                - "lure 20"
+            boots:
+              item: "diamond boots"
+              enchant:
+                - "unbreaking 255"
+                - "lure 20"
+            weapon:
+              item: "diamond sword"
+              enchant:
+                - "lure 20"
+    targetgui: "Znajdz moj Zagubiony Skarb ( x: ; | z: ; | Swiat: ; )"
+    reward:
+      1:
+        item: "paper"
+        name: "&eCzek &f&l< 1000 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 7"
+        amount:
+          min: "3"
+          max: "3"
+      2:
+        item: "iron block"
+        amount:
+          min: "4"
+          max: "5"
+    rewardgui: ";x czeków[1000], ;x Bloków Zelaza"
+    dialog:
+      intro: "Siema, zgubiłem paczkę z zasobami, możesz ją znaleźć?"
+      complete: "Dzięki wielkie, ciekawe co jest w środku, jak to kurwa pusta."
+  45:
+    difficulty:
+      lvl: "4"
+      gui: "&4★ &4★ &4★ &4★"
+    type: "collect"
+    items:
+      1:
+        item: "red chiseled sandstone"
+        name: "&6Metal Wysokiej Jakosci"
+        amount:
+          min: "32"
+          max: "32"
+    targetgui: "Zbierz ;x HQM"
+    reward:
+      1:
+        item: "netherite ingot"
+        amount:
+          min: "40"
+          max: "40"
+      2:
+        item: "diamond block"
+        amount:
+          min: "5"
+          max: "5"
+      3:
+        item: "paper"
+        name: "&eCzek &f&l< 2500 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 9"
+        amount:
+          min: "6"
+          max: "8"
+    rewardgui: ";x Sztabek Netheru, ;x Blokow Diamentu, ;x czeków[2500]"
+    dialog:
+      intro: "Potrzebujemy HQM mozesz nam to zalatwic"
+      complete: "Dobra teraz nasza baza jest git"."
+  46:
+    difficulty:
+      lvl: "4"
+      gui: "&4★ &4★ &4★ &4★"
+    type: "collect"
+    items:
+      1:
+        item: "rabbit hide"
+        name: "&dAegis"
+        lore:
+          - "&fEpapieros typu Box"
+          - "&fPizga niezła chmure oraz po płucach"
+        enchant:
+          - "lure 6"
+        amount:
+          min: "32"
+          max: "32"
+      2:
+        item: "rabbit hide"
+        name: "&dButelka Wody"
+        lore:
+          - "&fPół litra wody cristal  "
+          - "&fWoda służąca do napojenia się bądz"
+          - "&fZajebania przysaidu na nią "
+        enchant:
+          - "lure 5"
+        amount:
+          min: "32"
+          max: "32"
+    targetgui: "Zbierz ;x Aegis'y, ;x Butelek wody"
+    reward:
+      1:
+        item: "paper"
+        name: "&eCzek &f&l< 2500 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 9"
+        amount:
+          min: "10"
+          max: "15"
+      2:
+        item: "diamond"
+        amount:
+          min: "10"
+          max: "12"
+    rewardgui: ";x czeków[2500], ;x Diamentów"
+    dialog:
+      intro: "Ostatnio zajebali mi ijust'a. Weź mi ogarnij coś w zamian. + przyniesc troche wody"
+      complete: "Ale to chmurzy, jo dupia."
+  47:
+    difficulty:
+      lvl: "4"
+      gui: "&4★ &4★ &4★ &4★"
+    type: "collect"
+    items:
+      1:
+        item: "beacon"
+        amount:
+          min: "5"
+          max: "5"
+    targetgui: "Zbierz ;x Beaconow"
+    reward:
+      1:
+        item: "red chiseled sandstone"
+        name: "&6Metal Wysokiej Jakosci"
+        amount:
+          min: "4"
+          max: "4"
+      2:
+        item: "paper"
+        name: "&eCzek &f&l< 2500 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 9"
+        amount:
+          min: "10"
+          max: "15"
+    rewardgui: ";x HQM, ;x czeków[2500]"
+    dialog:
+      intro: "Potrzebujemy Beaconow mozesz nam to zalatwic"
+      complete: "Dobra teraz baza bedzie sie swiecic jak psu jajca"
+  48:
+    difficulty:
+      lvl: "4"
+      gui: "&4★ &4★ &4★ &4★"
+    type: "collect"
+    items:
+      1:
+        item: "white wool"
+        amount:
+          min: "64"
+          max: "64"
+      2:
+        item: "light gray wool"
+        amount:
+          min: "64"
+          max: "64"
+      3:
+        item: "black wool"
+        amount:
+          min: "64"
+          max: "64"
+      4:
+        item: "gray wool"
+        amount:
+          min: "64"
+          max: "64"
+      5:
+        item: "brown wool"
+        amount:
+          min: "64"
+          max: "64"
+      6:
+        item: "red wool"
+        amount:
+          min: "64"
+          max: "64"
+      7:
+        item: "orange wool"
+        amount:
+          min: "64"
+          max: "64"
+      8:
+        item: "yellow wool"
+        amount:
+          min: "64"
+          max: "64"
+      9:
+        item: "lime wool"
+        amount:
+          min: "64"
+          max: "64"
+      10:
+        item: "green wool"
+        amount:
+          min: "64"
+          max: "64"
+      11:
+        item: "cyan wool"
+        amount:
+          min: "64"
+          max: "64"
+      12:
+        item: "light blue wool"
+        amount:
+          min: "64"
+          max: "64"
+      13:
+        item: "blue wool"
+        amount:
+          min: "64"
+          max: "64"
+      14:
+        item: "purple wool"
+        amount:
+          min: "64"
+          max: "64"
+      15:
+        item: "pink wool"
+        amount:
+          min: "64"
+          max: "64"
+      16:
+        item: "magenta wool"
+        amount:
+          min: "64"
+          max: "64"
+    targetgui: "Zbierz ;x Wszystkich kolorow wełny"
+    reward:
+      1:
+        item: "red chiseled sandstone"
+        name: "&6Metal Wysokiej Jakosci"
+        amount:
+          min: "9"
+          max: "10"
+      2:
+        item: "paper"
+        name: "&eCzek &f&l< 2500 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 9"
+        amount:
+          min: "10"
+          max: "15"
+    rewardgui: ";x HQM, ;x czeków[2500]"
+    dialog:
+      intro: "Potrzebujemy Kolorowych wełn"
+      complete: "Super Gratki za wytrwalosc"
+  49:
+    difficulty:
+      lvl: "4"
+      gui: "&4★ &4★ &4★ &4★"
+    type: "collect"
+    items:
+      1:
+        item: "wither skeleton skull"
+        amount:
+          min: "32"
+          max: "32"
+    targetgui: "Zbierz ;x Głowy Wither Szkieleta"
+    reward:
+      1:
+        item: "paper"
+        name: "&eCzek &f&l< 1000 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 8"
+        amount:
+          min: "20"
+          max: "20"
+    rewardgui: ";x czeków[1000]"
+    dialog:
+      intro: "Chcemy zrespić Wither'a, ale brakuje nam głow szkieletów. Ogarniesz temat?"
+      complete: "Dzięki zaraz bedziemy go bić."
+  50:
+    difficulty:
+      lvl: "4"
+      gui: "&4★ &4★ &4★ &4★"
+    type: "kill"
+    entity:
+      1:
+        type: "shulker"
+        amount:
+          min: "15"
+          max: "20"
+    targetgui: "Pokonaj ;x Shulker"
+    reward:
+      1:
+        item: "paper"
+        name: "&eCzek &f&l< 1000 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 6"
+        amount:
+          min: "20"
+          max: "25"
+    rewardgui: ";x czeków[1000]"
+    dialog:
+      intro: "Musisz pokonac kilka shulkerów. Nasza satelita wykrywa, że tych skurwesynów jest coraz więcej."
+      complete: "Dzięki Wielkie Bratku."
+  51:
+    difficulty:
+      lvl: "4"
+      gui: "&4★ &4★ &4★ &4★"
+    type: "kill"
+    entity:
+      1:
+        type: "blaze"
+        amount:
+          min: "100"
+          max: "130"
+    targetgui: "Pokonaj ;x blazów"
+    reward:
+      1:
+        item: "paper"
+        name: "&eCzek &f&l< 1000 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 7"
+        amount:
+          min: "16"
+          max: "18"
+    rewardgui: ";x czeków[1000]"
+    dialog:
+      intro: "Blazy podpali mi chate ostatnio. Wez ich przekop."
+      complete: "Dzięki Wielkie Bratku."
+  52:
+    difficulty:
+      lvl: "4"
+      gui: "&4★ &4★ &4★ &4★"
+    type: "kill"
+    entity:
+      1:
+        type: "blaze"
+        amount:
+          min: "30"
+          max: "35"
+    targetgui: "Pokonaj ;x blazów"
+    reward:
+      1:
+        item: "paper"
+        name: "&eCzek &f&l< 100 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 6"
+        amount:
+          min: "6"
+          max: "8"
+    rewardgui: ";x czeków[100]"
+    dialog:
+      intro: "Blazy podpali mi chate ostatnio. Wez ich przekop."
+      complete: "Dzięki Wielkie Bratku."
+  53:
+    difficulty:
+      lvl: "4"
+      gui: "&4★ &4★ &4★ &4★"
+    type: "kill"
+    entity:
+      1:
+        type: "enderman"
+        amount:
+          min: "130"
+          max: "135"
+    targetgui: "Pokonaj ;x Endermanów"
+    reward:
+      1:
+        item: "paper"
+        name: "&eCzek &f&l< 1000 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 7"
+        amount:
+          min: "16"
+          max: "18"
+    rewardgui: ";x czeków[100]"
+    dialog:
+      intro: "Blazy podpali mi chate ostatnio. Wez ich przekop."
+      complete: "Dzięki Wielkie Bratku."
+  54:
+    difficulty:
+      lvl: "4"
+      gui: "&4★ &4★ &4★ &4★"
+    type: "kill"
+    entity:
+      1:
+        type: "blaze"
+        amount:
+          min: "230"
+          max: "235"
+    targetgui: "Pokonaj ;x blazów"
+    reward:
+      1:
+        item: "paper"
+        name: "&eCzek &f&l< 1000 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 7"
+        amount:
+          min: "16"
+          max: "18"
+    rewardgui: ";x czeków[1000]"
+    dialog:
+      intro: "Blazy podpali mi chate ostatnio. Wez ich przekop."
+      complete: "Dzięki Wielkie Bratku."
+  55:
+    difficulty:
+      lvl: "4"
+      gui: "&4★ &4★ &4★ &4★"
+    type: "find"
+    cords:
+      x-min: "7000"
+      x-max: "-7000"
+      z-min: "7000"
+      z-max: "-7000"
+      world: "random"
+      enemies:
+        1:
+          type: "zombie"
+          hp: "150"
+          amount:
+            min: "8"
+            max: "12"
+          gear:
+            helmet:
+              item: "diamond helmet"
+              enchant:
+                - "protection 4"
+                - "unbreaking 255"
+                - "lure 20"
+            chestplate:
+              item: "diamond chestplate"
+              enchant:
+                - "protection 4"
+                - "unbreaking 255"
+                - "lure 20"
+            leggings:
+              item: "diamond leggings"
+              enchant:
+                - "protection 4"
+                - "unbreaking 255"
+                - "lure 20"
+            boots:
+              item: "diamond boots"
+              enchant:
+                - "protection 4"
+                - "unbreaking 255"
+                - "lure 20"
+            weapon:
+              item: "diamond sword"
+              enchant:
+                - "sharpness 5"
+                - "lure 20"
+    targetgui: "Znajdz moj Zagubiony Skarb ( x: ; | z: ; | Swiat: ; )"
+    reward:
+      1:
+        item: "paper"
+        name: "&eCzek &f&l< 5000 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 10"
+        amount:
+          min: "3"
+          max: "3"
+    rewardgui: ";x czeków[5000]"
+    dialog:
+      intro: "Siema, zgubiłem paczkę z zasobami, możesz ją znaleźć?"
+      complete: "Dzięki wielkie, ciekawe co jest w środku, jak to kurwa pusta."
+  56:
+    difficulty:
+      lvl: "4"
+      gui: "&4★ &4★ &4★ &4★"
+    type: "find"
+    cords:
+      x-min: "7500"
+      x-max: "-7500"
+      z-min: "7500"
+      z-max: "-7500"
+      world: "random"
+      enemies:
+        1:
+          type: "zombie"
+          hp: "200"
+          amount:
+            min: "10"
+            max: "12"
+          gear:
+            helmet:
+              item: "diamond helmet"
+              enchant:
+                - "protection 4"
+                - "unbreaking 255"
+                - "lure 20"
+            chestplate:
+              item: "diamond chestplate"
+              enchant:
+                - "protection 4"
+                - "unbreaking 255"
+                - "lure 20"
+            leggings:
+              item: "diamond leggings"
+              enchant:
+                - "protection 4"
+                - "unbreaking 255"
+                - "lure 20"
+            boots:
+              item: "diamond boots"
+              enchant:
+                - "protection 4"
+                - "unbreaking 255"
+                - "lure 20"
+            weapon:
+              item: "diamond sword"
+              enchant:
+                - "sharpness 5"
+                - "lure 20"
+    targetgui: "Znajdz moj Zagubiony Skarb ( x: ; | z: ; | Swiat: ; )"
+    reward:
+      1:
+        item: "paper"
+        name: "&eCzek &f&l< 5000 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 10"
+        amount:
+          min: "5"
+          max: "5"
+    rewardgui: ";x czeków[5000]"
+    dialog:
+      intro: "Siema, zgubiłem paczkę z zasobami, możesz ją znaleźć?"
+      complete: "Dzięki wielkie, ciekawe co jest w środku, jak to kurwa pusta."
+  57:
+    difficulty:
+      lvl: "5"
+      gui: "&d★ &d★ &d★ &d★ &d★"
+    type: "collect"
+    items:
+      1:
+        item: "diamond block"
+        amount:
+          min: "32"
+          max: "48"
+      2:
+        item: "iron block"
+        amount:
+          min: "128"
+          max: "255"
+      3:
+        item: "gold block"
+        amount:
+          min: "128"
+          max: "200"
+      4:
+        item: "netherite ingot"
+        amount:
+          min: "32"
+          max: "32"
+      5:
+        item: "nether star"
+        amount:
+          min: "5"
+          max: "5"
+      6:
+        item: "elytra"
+        amount:
+          min: "5"
+          max: "5"
+    targetgui: "Zbierz ;x blokow diaxow, ;x blokow zelaza, ;x blokow zlota, ;x sztabek netheritu, ;x nether starow, ;x elytr"
+    reward:
+      1:
+        item: "red chilesed sandstone"
+        name: "&6Metal Wysokiej Jakosci"
+        lore:
+        enchant:
+        amount:
+          min: "48"
+          max: "48"
+      2:
+        item: "paper"
+        name: "&eCzek &f&l< 5000 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 10"
+        amount:
+          min: "10"
+          max: "10"
+    rewardgui: ";x HQM, ;x czeków[5000]"
+    dialog:
+      intro: "pomocy rajdują mnie giga zergi"
+      complete: "ale stomp masz fuicy a zapłate"
+  58:
+    difficulty:
+      lvl: "5"
+      gui: "&d★ &d★ &d★ &d★ &d★"
+    type: "kill"
+    entity:
+      1:
+        type: "warden"
+        amount:
+          min: "12"
+          max: "12"
+      2:
+        type: "ender dragon"
+        amount:
+          min: "5"
+          max: "5"
+      3:
+        type: "wither"
+        amount:
+          min: "5"
+          max: "5"
+      4:
+        type: "zombie"
+        amount:
+          min: "1337"
+          max: "1337"
+    targetgui: "Pokonaj ;x Shulker"
+    reward:
+      1:
+        item: "diamond blocks"
+        amount:
+          min: "48"
+          max: "48"
+      2:
+        item: "red chilesed sandstone"
+        name: "&6Metal Wysokiej Jakosci"
+        amount:
+          min: "35"
+          max: "40"
+      3:
+        item: "paper"
+        name: "&eCzek &f&l< 5000 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 10"
+        amount:
+          min: "10"
+          max: "10"
+    rewardgui: ";x diamentow, ;x HQM, ;x czeków[5000]"
+    dialog:
+      intro: "pomocy rajdują mnie giga zergi"
+      complete: "ale stomp masz fuicy a zapłate"
 
 cpun:
   offers:
