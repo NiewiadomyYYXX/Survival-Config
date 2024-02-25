@@ -3493,7 +3493,7 @@ quest:
         amount:
           min: "6"
           max: "8"
-    rewardgui: ";x czeków[100]"
+    rewardgui: ";x czeków[2500]"
     dialog:
       intro: "Ostatnio duzo mobów tu chodzi. Daj im nauczkę."
       complete: "Dzięki Wielkie Bratku."
@@ -4012,11 +4012,11 @@ quest:
     type: "kill"
     entity:
       1:
-        type: "blaze"
+        type: "ender dragon"
         amount:
-          min: "30"
-          max: "35"
-    targetgui: "Pokonaj ;x blazów"
+          min: "5"
+          max: "5"
+    targetgui: "Pokonaj ;x smoków endu"
     reward:
       1:
         item: "paper"
@@ -4031,7 +4031,7 @@ quest:
           max: "8"
     rewardgui: ";x czeków[100]"
     dialog:
-      intro: "Blazy podpali mi chate ostatnio. Wez ich przekop."
+      intro: "Smok nasral mi na dywan. Wez ich przekop."
       complete: "Dzięki Wielkie Bratku."
   53:
     difficulty:
@@ -4068,11 +4068,11 @@ quest:
     type: "kill"
     entity:
       1:
-        type: "blaze"
+        type: "warden"
         amount:
-          min: "230"
-          max: "235"
-    targetgui: "Pokonaj ;x blazów"
+          min: "3"
+          max: "4"
+    targetgui: "Pokonaj ;x warden"
     reward:
       1:
         item: "paper"
@@ -4087,7 +4087,7 @@ quest:
           max: "18"
     rewardgui: ";x czeków[1000]"
     dialog:
-      intro: "Blazy podpali mi chate ostatnio. Wez ich przekop."
+      intro: "Wardeny podpali mi chate ostatnio. Wez ich przekop."
       complete: "Dzięki Wielkie Bratku."
   55:
     difficulty:
@@ -4255,7 +4255,77 @@ quest:
         amount:
           min: "5"
           max: "5"
-    targetgui: "Zbierz ;x blokow diaxow, ;x blokow zelaza, ;x blokow zlota, ;x sztabek netheritu, ;x nether starow, ;x elytr"
+      7:
+        item: "rabbit hide"
+        name: "&dNerka"
+        enchant:
+          - "lure 10"
+        lore:
+          - "Zagubiona nerka pewnego"
+          - "legendarnego zawodnika w F1."
+        amount:
+          min: "64"
+          max: "64"
+      8:
+        item: "rabbit hide"
+        name: "&dPaka Szlogow"
+        lore:
+          - "&fPaczka papierosów Marlboro to"
+          - "&fklasyczne opakowanie"
+          - "&fz czerwonym logo i nazwą"
+          - "&fmarki na białym tle."
+          - "&fIdealnie pasuje z coca-colą."
+        enchant:
+          - "lure 9"  
+        amount:
+          min: "64"
+          max: "64"                
+      9:
+        item: "rabbit hide"
+        name: "&dJoint"
+        lore:
+          - "&fJoint to forma papierosa"
+          - "&fskręconego z papieru i wypełnionego"
+          - "&fsuszem konopi indyjskich, która"
+          - "&fjest często używana w celach rekreacyjnych."
+        enchant:
+          - "lure 8"
+      10:
+        item: "rabbit hide"
+        name: "&dJabol"
+        lore:
+          - "&fJabol to slangowe określenie taniego"
+          - "&fwina o niskiej jakości zwykle"
+          - "&fotrzymywanego z niedojrzałych winogron."
+        enchant:
+          - "lure 7"   
+        amount:
+          min: "64"
+          max: "64"
+      11:
+        item: "rabbit hide"
+        name: "&dAegis"
+        lore:
+          - "&fEpapieros typu Box"
+          - "&fPizga niezła chmure oraz po płucach"
+        enchant:
+          - "lure 6"
+        amount:
+          min: "32"
+          max: "32"
+      12:
+        item: "rabbit hide"
+        name: "&dButelka Wody"
+        lore:
+          - "&fPół litra wody cristal  "
+          - "&fWoda służąca do napojenia się bądz"
+          - "&fZajebania przysaidu na nią "
+        enchant:
+          - "lure 5"
+        amount:
+          min: "32"
+          max: "32"
+    targetgui: "Zbierz ;x blokow diaxow, ;x blokow zelaza, ;x blokow zlota, ;x sztabek netheritu, ;x nether starow, ;x elytr, ;x nerek, ;x jaboli, ;x pak szlugów, ;x joinow, ;x aegisow, ;x butelek wody"
     reward:
       1:
         item: "red chilesed sandstone"
@@ -4263,8 +4333,8 @@ quest:
         lore:
         enchant:
         amount:
-          min: "48"
-          max: "48"
+          min: "64"
+          max: "64"
       2:
         item: "paper"
         name: "&eCzek &f&l< 5000 >"
