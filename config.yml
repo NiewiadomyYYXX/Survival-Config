@@ -55,8 +55,8 @@ god-items:
   - "netherite hoe named &eKosa"
 
 txt:
-  download: "https://drive.google.com/uc?export=download&id=1aZKp7Ay5F80ZUQmkgbGBf8jYqKvfPBwk"
-  hash: "6b13d04c6cc96b0d6a71afc6af8418ba0afd1441"
+  download: "https://drive.google.com/uc?export=download&id=1o3LCuoeHvkQBYB-GyO7CagaENS2vVNCA"
+  hash: "3c889b5bc22690364a214bec08b339d49ab39a45"
 
 wipe:
   start-mess: "08.03.2024r. (Piatek) o godz. 18:00"
@@ -108,7 +108,7 @@ enderchest:
   imposible:
     slot: "9"
     shulker: "3"
-    unlock: "27"
+    unlock: "28"
 
 spawn:
   world:
@@ -623,7 +623,7 @@ guns:
     ammo:
       ammo-in-chamber: "16"
       item: "rabbit foot"
-      name: "&e5.56 Ammo "
+      name: "&e5.56 Ammo"
       ctd: "3"
     sound:
       empty-clip: "sar_empty-clip"
@@ -650,7 +650,7 @@ guns:
     ammo:
       ammo-in-chamber: "30"
       item: "rabbit foot"
-      name: "&e7.62x39mm Ammo "
+      name: "&e7.62x39mm Ammo"
       ctd: "4"
     sound:
       empty-clip: "ak_empty-clip"
@@ -859,7 +859,7 @@ kit:
 mutant:
   name: "&4&lKanibal Mutant"
   random:
-    min: "3"
+    min: "2"
     chance: "40%"
     increase: "15%"
   spawn:
@@ -883,8 +883,8 @@ mutant:
             dmg: "5"
             name: "&c&lCustomSMG"
           sar:
-            chance: "33%"
-            dmg: "25"
+            chance: "20%"
+            dmg: "15"
             name: "&c&lSemi Auto Rifle"
           ak:
             chance: "33%"
@@ -907,6 +907,9 @@ mutant:
           1:
             effect: "speed"
             power: "1"
+          2:
+            effect: "strength"
+            power: "1"
         gear:
           helmet:
             item: "diamond helmet"
@@ -939,13 +942,13 @@ mutant:
           weapon:
             item: "bone"
             enchant:
-              - "sharpness 20"
+              - "sharpness 25"
               - "fire aspect 2"
               - "lure 11"
       2:
         type: "husk"
         name: "&4Assassin &7< &e★ &7>"
-        hp: "200"
+        hp: "185"
         guns:
           rew: #tu id no value co tu piszesz ale cos musi byc
             chance: "20%" #szansa
@@ -956,8 +959,8 @@ mutant:
             dmg: "5"
             name: "&c&lCustomSMG"
           sar:
-            chance: "33%"
-            dmg: "25"
+            chance: "20%"
+            dmg: "15"
             name: "&c&lSemi Auto Rifle"
           ak:
             chance: "33%"
@@ -980,7 +983,7 @@ mutant:
             power: "2"
           2:
             effect: "strength"
-            power: "1"
+            power: "2"
         gear:
           helmet:
             item: "diamond helmet"
@@ -1013,7 +1016,7 @@ mutant:
           weapon:
             item: "bone"
             enchant:
-              - "sharpness 25"
+              - "sharpness 30"
               - "lure 12"
       3:
         type: "skeleton"
@@ -1029,8 +1032,8 @@ mutant:
             dmg: "5"
             name: "&c&lCustomSMG"
           sar:
-            chance: "33%"
-            dmg: "25"
+            chance: "20%"
+            dmg: "15"
             name: "&c&lSemi Auto Rifle"
           ak:
             chance: "33%"
@@ -1082,8 +1085,8 @@ mutant:
           weapon:
             item: "bow"
             enchant:
-              - "power 20"
-              - "punch 5"
+              - "power 30"
+              - "punch 7"
               - "lure 13"
     t2: #nazywaj to t1, t2, t3 bo tak jest hardowane jak nazwiesz inaczej to gg
       1:
@@ -1100,8 +1103,8 @@ mutant:
             dmg: "10"
             name: "&c&lCustomSMG"
           sar:
-            chance: "27%"
-            dmg: "30"
+            chance: "20%"
+            dmg: "15"
             name: "&c&lSemi Auto Rifle"
           ak:
             chance: "27%"
@@ -1124,6 +1127,9 @@ mutant:
           1:
             effect: "speed"
             power: "1"
+          2:
+            effect: "strength"
+            power: "2"
         gear:
           helmet:
             item: "diamond helmet"
@@ -1156,7 +1162,7 @@ mutant:
           weapon:
             item: "bone"
             enchant:
-              - "sharpness 30"
+              - "sharpness 35"
               - "fire aspect 2"
               - "lure 11"
       2:
@@ -1173,8 +1179,8 @@ mutant:
             dmg: "10"
             name: "&c&lCustomSMG"
           sar:
-            chance: "27%"
-            dmg: "30"
+            chance: "20%"
+            dmg: "15"
             name: "&c&lSemi Auto Rifle"
           ak:
             chance: "27%"
@@ -1197,7 +1203,7 @@ mutant:
             power: "2"
           2:
             effect: "strength"
-            power: "2"
+            power: "3"
         gear:
           helmet:
             item: "diamond helmet"
@@ -1230,7 +1236,7 @@ mutant:
           weapon:
             item: "bone"
             enchant:
-              - "sharpness 35"
+              - "sharpness 40"
               - "lure 12"
       3:
         type: "skeleton"
@@ -1246,8 +1252,8 @@ mutant:
             dmg: "10"
             name: "&c&lCustomSMG"
           sar:
-            chance: "27%"
-            dmg: "30"
+            chance: "20%"
+            dmg: "15"
             name: "&c&lSemi Auto Rifle"
           ak:
             chance: "27%"
@@ -1270,7 +1276,7 @@ mutant:
         effects:
           1:
             effect: "speed"
-            power: "2"
+            power: "3"
         gear:
           helmet:
             item: "diamond helmet"
@@ -1299,8 +1305,8 @@ mutant:
           weapon:
             item: "bow"
             enchant:
-              - "power 30"
-              - "punch 5"
+              - "power 45"
+              - "punch 10"
               - "lure 13"
       4:
         type: "husk"
@@ -1316,8 +1322,8 @@ mutant:
             dmg: "10"
             name: "&c&lCustomSMG"
           sar:
-            chance: "27%"
-            dmg: "30"
+            chance: "20%"
+            dmg: "15"
             name: "&c&lSemi Auto Rifle"
           ak:
             chance: "27%"
@@ -1339,7 +1345,7 @@ mutant:
         effects:
           1:
             effect: "strength"
-            power: "2"
+            power: "3"
         gear:
           helmet:
             item: "diamond helmet"
@@ -1372,7 +1378,7 @@ mutant:
           weapon:
             item: "tnt"
             enchant:
-              - "sharpness 30"
+              - "sharpness 40"
       5:
         type: "skeleton"
         name: "&4Hunter &7< &e★ &e★ &7>"
@@ -1387,8 +1393,8 @@ mutant:
             dmg: "10"
             name: "&c&lCustomSMG"
           sar:
-            chance: "27%"
-            dmg: "30"
+            chance: "20%"
+            dmg: "15"
             name: "&c&lSemi Auto Rifle"
           ak:
             chance: "27%"
@@ -1402,9 +1408,9 @@ mutant:
           tnt: "30%"
           shaco-q: "20%"
           teemo-q:
-            chance: "10%"
-            power: "2"
-            time: "2 seconds"
+            chance: "30%"
+            power: "3"
+            time: "3 seconds"
         effects:
           1:
             effect: "speed"
@@ -1441,7 +1447,7 @@ mutant:
           weapon:
             item: "bow"
             enchant:
-              - "power 30"
+              - "power 40"
               - "lure 17"
     t3: #nazywaj to t1, t2, t3 bo tak jest hardowane jak nazwiesz inaczej to gg
       1:
@@ -1482,6 +1488,9 @@ mutant:
           1:
             effect: "speed"
             power: "2"
+          2:
+            effect: "strength"
+            power: "3"
         gear:
           helmet:
             item: "diamond helmet"
@@ -1514,7 +1523,7 @@ mutant:
           weapon:
             item: "bone"
             enchant:
-              - "sharpness 40"
+              - "sharpness 50"
               - "fire aspect 2"
               - "lure 11"
       2:
@@ -1546,7 +1555,7 @@ mutant:
           tnt: "40%"
           teemo-e:
             chance: "100%"
-            power: "3"
+            power: "4"
             time: "2 seconds"
           tp: "30%"
         effects:
@@ -1555,7 +1564,7 @@ mutant:
             power: "2"
           2:
             effect: "strength"
-            power: "2"
+            power: "3"
         gear:
           helmet:
             item: "diamond helmet"
@@ -1588,7 +1597,7 @@ mutant:
           weapon:
             item: "bone"
             enchant:
-              - "sharpness 45"
+              - "sharpness 55"
               - "lure 12"
       3:
         type: "skeleton"
@@ -1618,7 +1627,7 @@ mutant:
         special:
           tnt: "40%"
           group-heal:
-            chance: "7%"
+            chance: "8.5%"
             value: "35"
           minions:
             chance: "20%"
@@ -1628,7 +1637,7 @@ mutant:
         effects:
           1:
             effect: "speed"
-            power: "3"
+            power: "4"
         gear:
           helmet:
             item: "diamond helmet"
@@ -1657,8 +1666,8 @@ mutant:
           weapon:
             item: "bow"
             enchant:
-              - "power 40"
-              - "punch 5"
+              - "power 60"
+              - "punch 15"
               - "lure 13"
       4:
         type: "husk"
@@ -1688,16 +1697,16 @@ mutant:
         special:
           tnt: "90%"
           nuke:
-            chance: "10%"
+            chance: "15%"
             power: "6"
           teemo-w:
             chance: "40%"
             power: "5"
-            time: "2 seconds"
+            time: "3 seconds"
         effects:
           1:
             effect: "strength"
-            power: "2"
+            power: "3"
         gear:
           helmet:
             item: "diamond helmet"
@@ -1730,7 +1739,7 @@ mutant:
           weapon:
             item: "tnt"
             enchant:
-              - "sharpness 40"
+              - "sharpness 60"
       5:
         type: "skeleton"
         name: "&4Hunter &7< &e★ &e★ &e★ &7>"
@@ -1758,15 +1767,15 @@ mutant:
             name: "&c&lL96"
         special:
           tnt: "40%"
-          shaco-q: "40%"
+          shaco-q: "60%"
           teemo-q:
             chance: "20%"
-            power: "2"
-            time: "2 seconds"
+            power: "4"
+            time: "4 seconds"
         effects:
           1:
             effect: "speed"
-            power: "3"
+            power: "4"
         gear:
           helmet:
             item: "diamond helmet"
@@ -1799,7 +1808,7 @@ mutant:
           weapon:
             item: "bow"
             enchant:
-              - "power 40"
+              - "power 60"
               - "lure 17"
       6:
         type: "zombie"
@@ -1807,23 +1816,23 @@ mutant:
         hp: "1000"
         guns:
           rew: #tu id no value co tu piszesz ale cos musi byc
-            chance: "10%" #szansa
+            chance: "0%" #szansa
             dmg: "15" #dmg normalny + ta wartosc
             name: "&c&lRevolver" #nazwa broni jak bron nazywa sie np. &cRevolver to wjebac &cRevolver
           th:
-            chance: "10%"
+            chance: "0%"
             dmg: "15"
             name: "&c&lCustomSMG"
           sar:
-            chance: "20%"
+            chance: "0%"
             dmg: "35"
             name: "&c&lSemi Auto Rifle"
           ak:
-            chance: "20%"
+            chance: "0%"
             dmg: "30"
             name: "&c&lAlien Red"
           L9:
-            chance: "40%"
+            chance: "5%"
             dmg: "60"
             name: "&c&lL96"
         special:
@@ -1860,10 +1869,10 @@ mutant:
         effects:
           1:
             effect: "strength"
-            power: "2"
+            power: "5"
           2:
             effect: "speed"
-            power: "2"
+            power: "3"
         gear:
           helmet:
             item: "diamond helmet"
@@ -1896,7 +1905,7 @@ mutant:
           weapon:
             item: "rabbit hide"
             enchant:
-              - "sharpness 50"
+              - "sharpness 70"
               - "fire aspect 10"
               - "lure 7"
 
@@ -2814,7 +2823,7 @@ quest:
           - ""
           - "&fUzycie: &f&l<PPM>"
         enchant:
-          - "lure 6"
+          - "lure 5"
         amount:
           min: "6"
           max: "7"
@@ -3029,7 +3038,7 @@ quest:
           - ""
           - "&fUzycie: &f&l<PPM>"
         enchant:
-          - "lure 5"
+          - "lure 6"
         amount:
           min: "3"
           max: "4"
@@ -3210,7 +3219,7 @@ quest:
           - ""
           - "&fUzycie: &f&l<PPM>"
         enchant:
-          - "lure 7"
+          - "lure 8"
         amount:
           min: "3"
           max: "3"
@@ -3392,9 +3401,14 @@ quest:
         enchant:
           - "lure 8"
         amount:
-          min: "3"
-          max: "3"
-    rewardgui: ";x czeków[1000]"
+          min: "4"
+          max: "5"
+      2:
+        item: "coal"
+        amount:
+          min: "100"
+          max: "128"
+    rewardgui: ";x czeków[1000], ;x Coal"
     dialog:
       intro: "Chcemy zrespić Wither'a, ale brakuje nam głow szkieletów. Ogarniesz temat?"
       complete: "Dzięki zaraz bedziemy go bić."
@@ -3418,7 +3432,7 @@ quest:
           - ""
           - "&fUzycie: &f&l<PPM>"
         enchant:
-          - "lure 6"
+          - "lure 8"
         amount:
           min: "3"
           max: "4"
@@ -3435,22 +3449,22 @@ quest:
       1:
         type: "blaze"
         amount:
-          min: "30"
-          max: "35"
+          min: "100"
+          max: "135"
     targetgui: "Pokonaj ;x blazów"
     reward:
       1:
         item: "paper"
-        name: "&eCzek &f&l< 100 >"
+        name: "&eCzek &f&l< 1000 >"
         lore:
           - ""
           - "&fUzycie: &f&l<PPM>"
         enchant:
-          - "lure 6"
+          - "lure 8"
         amount:
-          min: "6"
-          max: "8"
-    rewardgui: ";x czeków[100]"
+          min: "20"
+          max: "30"
+    rewardgui: ";x czeków[1000]"
     dialog:
       intro: "Blazy podpali mi chate ostatnio. Wez ich przekop."
       complete: "Dzięki Wielkie Bratku."
@@ -3484,16 +3498,16 @@ quest:
     reward:
       1:
         item: "paper"
-        name: "&eCzek &f&l< 2500 >"
+        name: "&eCzek &f&l< 1000 >"
         lore:
           - ""
           - "&fUzycie: &f&l<PPM>"
         enchant:
-          - "lure 9"
+          - "lure 8"
         amount:
-          min: "6"
-          max: "8"
-    rewardgui: ";x czeków[2500]"
+          min: "5"
+          max: "6"
+    rewardgui: ";x czeków[1000]"
     dialog:
       intro: "Ostatnio duzo mobów tu chodzi. Daj im nauczkę."
       complete: "Dzięki Wielkie Bratku."
@@ -3506,15 +3520,15 @@ quest:
       1:
         type: "ender dragon"
         amount:
-          min: "2"
-          max: "2"
+          min: "1"
+          max: "1"
     targetgui: "Pokonaj ;x smoków"
     reward:
       1:
         item: "diamond"
         amount:
-          min: "10"
-          max: "10"
+          min: "20"
+          max: "20"
       2:
         item: "paper"
         name: "&eCzek &f&l< 100 >"
@@ -3524,9 +3538,15 @@ quest:
         enchant:
           - "lure 7"
         amount:
-          min: "10"
-          max: "10"
-    rewardgui: ";x diamentow, ;x czeków[100]"
+          min: "20"
+          max: "20"
+      3:
+        item: "smooth red sandstone"
+        name: "&eSiarka"
+        amount:
+          min: "2"
+          max: "3"
+    rewardgui: ";x diamentow, ;x czeków[100], ;x Siarka"
     dialog:
       intro: "smok nasrał mi na wycieraczke NO WAY zrob z nim porządek"
       complete: "dziena tera zaden petung mi nie nasra"
@@ -3539,8 +3559,8 @@ quest:
       1:
         type: "enderman"
         amount:
-          min: "30"
-          max: "35"
+          min: "150"
+          max: "175"
     targetgui: "Pokonaj ;x endermanów"
     reward:
       1:
@@ -3557,18 +3577,18 @@ quest:
     rewardgui: ";x czeków[1000]"
     dialog:
       intro: "Endermany zajebali mi blok diaxów ostatnio. Wez ich przekop."
-      complete: "Dzięki Wielkie Bratku."
+      complete: "Dziena Maciuś."
   43:
     difficulty:
       lvl: "3"
       gui: "&c★ &c★ &c★ &7★"
     type: "find"
     cords:
-      x-min: "1800"
-      x-max: "-1800"
-      z-min: "1800"
-      z-max: "-1800"
-      world: "world"
+      x-min: "2000"
+      x-max: "-2000"
+      z-min: "2000"
+      z-max: "-2000"
+      world: "world_nether"
       enemies:
         1:
           type: "zombie"
@@ -3610,10 +3630,10 @@ quest:
           - ""
           - "&fUzycie: &f&l<PPM>"
         enchant:
-          - "lure 7"
+          - "lure 8"
         amount:
-          min: "3"
-          max: "3"
+          min: "4"
+          max: "4"
       2:
         item: "iron block"
         amount:
@@ -3629,11 +3649,11 @@ quest:
       gui: "&c★ &c★ &c★ &7★"
     type: "find"
     cords:
-      x-min: "1800"
-      x-max: "-1800"
-      z-min: "1800"
-      z-max: "-1800"
-      world: "world"
+      x-min: "2000"
+      x-max: "-2000"
+      z-min: "2000"
+      z-max: "-2000"
+      world: "world_the_end"
       enemies:
         1:
           type: "zombie"
@@ -3675,15 +3695,15 @@ quest:
           - ""
           - "&fUzycie: &f&l<PPM>"
         enchant:
-          - "lure 7"
+          - "lure 8"
         amount:
-          min: "3"
-          max: "3"
+          min: "5"
+          max: "5"
       2:
         item: "iron block"
         amount:
-          min: "4"
-          max: "5"
+          min: "8"
+          max: "10"
     rewardgui: ";x czeków[1000], ;x Bloków Zelaza"
     dialog:
       intro: "Siema, zgubiłem paczkę z zasobami, możesz ją znaleźć?"
@@ -3705,8 +3725,8 @@ quest:
       1:
         item: "netherite ingot"
         amount:
-          min: "40"
-          max: "40"
+          min: "20"
+          max: "20"
       2:
         item: "diamond block"
         amount:
@@ -3722,7 +3742,7 @@ quest:
           - "lure 9"
         amount:
           min: "6"
-          max: "8"
+          max: "7"
     rewardgui: ";x Sztabek Netheru, ;x Blokow Diamentu, ;x czeków[2500]"
     dialog:
       intro: "Potrzebujemy HQM mozesz nam to zalatwic"
@@ -3767,14 +3787,14 @@ quest:
         enchant:
           - "lure 9"
         amount:
-          min: "10"
+          min: "12"
           max: "15"
       2:
-        item: "diamond"
+        item: "diamond block"
         amount:
           min: "10"
           max: "12"
-    rewardgui: ";x czeków[2500], ;x Diamentów"
+    rewardgui: ";x czeków[2500], ;x Blocki Diamentów"
     dialog:
       intro: "Ostatnio zajebali mi ijust'a. Weź mi ogarnij coś w zamian. + przyniesc troche wody"
       complete: "Ale to chmurzy, jo dupia."
@@ -3795,8 +3815,8 @@ quest:
         item: "red chiseled sandstone"
         name: "&6Metal Wysokiej Jakosci"
         amount:
-          min: "4"
-          max: "4"
+          min: "5"
+          max: "7"
       2:
         item: "paper"
         name: "&eCzek &f&l< 2500 >"
@@ -3904,20 +3924,20 @@ quest:
         item: "red chiseled sandstone"
         name: "&6Metal Wysokiej Jakosci"
         amount:
-          min: "9"
+          min: "10"
           max: "10"
       2:
         item: "paper"
-        name: "&eCzek &f&l< 2500 >"
+        name: "&eCzek &f&l< 5000 >"
         lore:
           - ""
           - "&fUzycie: &f&l<PPM>"
         enchant:
-          - "lure 9"
+          - "lure 10"
         amount:
-          min: "10"
-          max: "15"
-    rewardgui: ";x HQM, ;x czeków[2500]"
+          min: "8"
+          max: "8"
+    rewardgui: ";x HQM, ;x czeków[5000]"
     dialog:
       intro: "Potrzebujemy Kolorowych wełn"
       complete: "Super Gratki za wytrwalosc"
@@ -3936,18 +3956,18 @@ quest:
     reward:
       1:
         item: "paper"
-        name: "&eCzek &f&l< 1000 >"
+        name: "&eCzek &f&l< 5000 >"
         lore:
           - ""
           - "&fUzycie: &f&l<PPM>"
         enchant:
-          - "lure 8"
+          - "lure 10"
         amount:
-          min: "20"
-          max: "20"
-    rewardgui: ";x czeków[1000]"
+          min: "4"
+          max: "5"
+    rewardgui: ";x czeków[5000]"
     dialog:
-      intro: "Chcemy zrespić Wither'a, ale brakuje nam głow szkieletów. Ogarniesz temat?"
+      intro: "Chcemy zrespić Wither'ów na giga rida, ale brakuje nam głow szkieletów. Ogarniesz temat?"
       complete: "Dzięki zaraz bedziemy go bić."
   50:
     difficulty:
@@ -3956,27 +3976,27 @@ quest:
     type: "kill"
     entity:
       1:
-        type: "shulker"
+        type: "villager"
         amount:
-          min: "15"
-          max: "20"
-    targetgui: "Pokonaj ;x Shulker"
+          min: "30"
+          max: "32"
+    targetgui: "Pokonaj ;x Villager"
     reward:
       1:
         item: "paper"
-        name: "&eCzek &f&l< 1000 >"
+        name: "&eCzek &f&l< 5000 >"
         lore:
           - ""
           - "&fUzycie: &f&l<PPM>"
         enchant:
-          - "lure 6"
+          - "lure 10"
         amount:
-          min: "20"
-          max: "25"
-    rewardgui: ";x czeków[1000]"
+          min: "5"
+          max: "6"
+    rewardgui: ";x czeków[5000]"
     dialog:
-      intro: "Musisz pokonac kilka shulkerów. Nasza satelita wykrywa, że tych skurwesynów jest coraz więcej."
-      complete: "Dzięki Wielkie Bratku."
+      intro: "Zrajdowali mi wioske w coin master teraz zrajduj ich wioske irl."
+      complete: "Mogles im odlaczyc kabel od internetu ale to tez bedzie dzialac."
   51:
     difficulty:
       lvl: "4"
@@ -3984,27 +4004,27 @@ quest:
     type: "kill"
     entity:
       1:
-        type: "blaze"
+        type: "elder guardian"
         amount:
-          min: "100"
-          max: "130"
-    targetgui: "Pokonaj ;x blazów"
+          min: "4"
+          max: "5"
+    targetgui: "Pokonaj ;x elder guardianów"
     reward:
       1:
         item: "paper"
-        name: "&eCzek &f&l< 1000 >"
+        name: "&eCzek &f&l< 5000 >"
         lore:
           - ""
           - "&fUzycie: &f&l<PPM>"
         enchant:
-          - "lure 7"
+          - "lure 10"
         amount:
-          min: "16"
-          max: "18"
-    rewardgui: ";x czeków[1000]"
+          min: "4"
+          max: "4"
+    rewardgui: ";x czeków[5000]"
     dialog:
-      intro: "Blazy podpali mi chate ostatnio. Wez ich przekop."
-      complete: "Dzięki Wielkie Bratku."
+      intro: "Mordo najeb skośno okich. Zajebali mi towar."
+      complete: "Dzięki Wielkie, a masz towar?"
   52:
     difficulty:
       lvl: "4"
@@ -4020,16 +4040,16 @@ quest:
     reward:
       1:
         item: "paper"
-        name: "&eCzek &f&l< 100 >"
+        name: "&eCzek &f&l< 1000 >"
         lore:
           - ""
           - "&fUzycie: &f&l<PPM>"
         enchant:
-          - "lure 6"
+          - "lure 8"
         amount:
-          min: "6"
-          max: "8"
-    rewardgui: ";x czeków[100]"
+          min: "20"
+          max: "30"
+    rewardgui: ";x czeków[1000]"
     dialog:
       intro: "Smok nasral mi na dywan. Wez ich przekop."
       complete: "Dzięki Wielkie Bratku."
@@ -4040,26 +4060,26 @@ quest:
     type: "kill"
     entity:
       1:
-        type: "enderman"
+        type: "iron golem"
         amount:
-          min: "130"
-          max: "135"
-    targetgui: "Pokonaj ;x Endermanów"
+          min: "50"
+          max: "55"
+    targetgui: "Pokonaj ;x Iron Golem"
     reward:
       1:
         item: "paper"
-        name: "&eCzek &f&l< 1000 >"
+        name: "&eCzek &f&l< 5000 >"
         lore:
           - ""
           - "&fUzycie: &f&l<PPM>"
         enchant:
-          - "lure 7"
+          - "lure 10"
         amount:
-          min: "16"
-          max: "18"
-    rewardgui: ";x czeków[100]"
+          min: "6"
+          max: "7"
+    rewardgui: ";x czeków[5000]"
     dialog:
-      intro: "Blazy podpali mi chate ostatnio. Wez ich przekop."
+      intro: "Golemy ojebaly mnie na ticketa. Wez ich przekop."
       complete: "Dzięki Wielkie Bratku."
   54:
     difficulty:
@@ -4076,16 +4096,16 @@ quest:
     reward:
       1:
         item: "paper"
-        name: "&eCzek &f&l< 1000 >"
+        name: "&eCzek &f&l< 5000 >"
         lore:
           - ""
           - "&fUzycie: &f&l<PPM>"
         enchant:
-          - "lure 7"
+          - "lure 10"
         amount:
-          min: "16"
-          max: "18"
-    rewardgui: ";x czeków[1000]"
+          min: "5"
+          max: "6"
+    rewardgui: ";x czeków[5000]"
     dialog:
       intro: "Wardeny podpali mi chate ostatnio. Wez ich przekop."
       complete: "Dzięki Wielkie Bratku."
@@ -4095,10 +4115,10 @@ quest:
       gui: "&4★ &4★ &4★ &4★"
     type: "find"
     cords:
-      x-min: "7000"
-      x-max: "-7000"
-      z-min: "7000"
-      z-max: "-7000"
+      x-min: "10000"
+      x-max: "-10000"
+      z-min: "10000"
+      z-max: "-10000"
       world: "random"
       enemies:
         1:
@@ -4160,10 +4180,10 @@ quest:
       gui: "&4★ &4★ &4★ &4★"
     type: "find"
     cords:
-      x-min: "7500"
-      x-max: "-7500"
-      z-min: "7500"
-      z-max: "-7500"
+      x-min: "10000"
+      x-max: "-10000"
+      z-min: "10000"
+      z-max: "-10000"
       world: "random"
       enemies:
         1:
@@ -4261,8 +4281,8 @@ quest:
         enchant:
           - "lure 10"
         lore:
-          - "Zagubiona nerka pewnego"
-          - "legendarnego zawodnika w F1."
+          - "&fZagubiona nerka pewnego"
+          - "&flegendarnego zawodnika w F1."
         amount:
           min: "64"
           max: "64"
@@ -4279,7 +4299,7 @@ quest:
           - "lure 9"  
         amount:
           min: "64"
-          max: "64"                
+          max: "64"              
       9:
         item: "rabbit hide"
         name: "&dJoint"
@@ -4290,6 +4310,9 @@ quest:
           - "&fjest często używana w celach rekreacyjnych."
         enchant:
           - "lure 8"
+        amount:
+          min: "64"
+          max: "64"
       10:
         item: "rabbit hide"
         name: "&dJabol"
@@ -4325,13 +4348,11 @@ quest:
         amount:
           min: "32"
           max: "32"
-    targetgui: "Zbierz ;x blokow diaxow, ;x blokow zelaza, ;x blokow zlota, ;x sztabek netheritu, ;x nether starow, ;x elytr, ;x nerek, ;x jaboli, ;x pak szlugów, ;x joinow, ;x aegisow, ;x butelek wody"
+    targetgui: "Zbierz ;x blokow diaxow, ;x blokow zelaza, ;x blokow zlota, ;x sztabek netheritu, ;x nether starow, ;x elytr, ;x nerek, ;x pak szlugów, ;x joinow, ;x jaboli, ;x aegisow, ;x butelek wody"
     reward:
       1:
-        item: "red chilesed sandstone"
+        item: "red chiseled sandstone"
         name: "&6Metal Wysokiej Jakosci"
-        lore:
-        enchant:
         amount:
           min: "64"
           max: "64"
@@ -4376,7 +4397,7 @@ quest:
         amount:
           min: "1337"
           max: "1337"
-    targetgui: "Pokonaj ;x Shulker"
+    targetgui: "Pokonaj ;x warden, ;x smok, ;x wither, ;x zombie"
     reward:
       1:
         item: "diamond blocks"
@@ -4384,7 +4405,7 @@ quest:
           min: "48"
           max: "48"
       2:
-        item: "red chilesed sandstone"
+        item: "red chiseled sandstone"
         name: "&6Metal Wysokiej Jakosci"
         amount:
           min: "35"
@@ -4585,10 +4606,14 @@ cpun:
           effect: "fire resistance"
           time: "400 seconds"
           power: "1"
-        3:
+        2:
           effect: "regeneration"
           time: "2 seconds"
           power: "5"
+        3:
+          effect: "darkness"
+          time: "5 seconds"
+          power: "1"
     7:
       item: "honey bottle"
       price: "15"
@@ -4600,15 +4625,11 @@ cpun:
       effects:
         1:
           effect: "fire resistance"
-          time: "800"
+          time: "800 seconds"
           power: "1"
         2:
-          effect: "darkness"
-          time: "5 seconds"
-          power: "1"
-        3:
           effect: "regeneration"
-          time: "5 seconds"
+          time: "2 seconds"
           power: "5"
     8:
       item: "honey bottle"
@@ -7716,6 +7737,7 @@ joe:
         buy:
           buy: "true"
           always-here: "true"
+          price: "2000"
     684:
       item: "rabbit hide"
       name: "&eWytrych"
@@ -8110,8 +8132,8 @@ joe:
       enchant:
         - "lure 10"
       lore:
-        - "Zagubiona nerka pewnego"
-        - "legendarnego zawodnika w F1."
+        - "&fZagubiona nerka pewnego"
+        - "&flegendarnego zawodnika w F1."
       price: "1000"
       wyjatek:
         sell:
@@ -8206,11 +8228,11 @@ joe:
           sell: "true"
     725:
       item: "red sandstone"
-      name: "&l&eTool Cupboard"
+      name: "&eTool Cupboard"
       price: "200"
       wyjatek:
         buy:
-          buy:
+          buy: "true"
           always-here: "true"
           price: "400"
     727:
@@ -8235,6 +8257,19 @@ joe:
           price: "1800"
         buy:
           buy: "true"
+    729:
+      item: "elytra"
+      name: "&f&lAngel Wings"
+      lore:
+        - "&fSkrzydła upadłego anioła."
+      enchant:
+        - "protection 10"
+        - "unbreaking 10"
+        - "mending 1"
+        - "fire protection 10"
+        - "projectile protection 10"
+        - "blast protection 10"
+      price: "150000"
 
 #                #
 #   --Totems--   #
@@ -8726,26 +8761,26 @@ totems:
           start-amount: "20"
     effects:
       1:
-        gui: "&cHero of the vilage &7< &f&l1 &7>"
-        effect: "Hero of the vilage"
+        gui: "&cHero of the village &7< &f&l1 &7>"
+        effect: "Hero of the village"
         power: "1"
         lvl: "25"
         money-multi: "0.05"
       2:
-        gui: "&cHero of the vilage &7< &f&l2 &7>"
-        effect: "Hero of the vilage"
+        gui: "&cHero of the village &7< &f&l2 &7>"
+        effect: "Hero of the village"
         power: "2"
         lvl: "30"
         money-multi: "0.1"
       3:
-        gui: "&cHero of the vilage &7< &f&l3 &7>"
-        effect: "Hero of the vilage"
+        gui: "&cHero of the village &7< &f&l3 &7>"
+        effect: "Hero of the village"
         power: "3"
         lvl: "35"
         money-multi: "0.2"
       4:
-        gui: "&cHero of the vilage &7< &4&lMAX LVL &7>"
-        effect: "Hero of the vilage"
+        gui: "&cHero of the village &7< &4&lMAX LVL &7>"
+        effect: "Hero of the village"
         power: "4"
         lvl: "50"
         money-multi: "0.3"
@@ -8756,7 +8791,7 @@ totems:
     target:
       gui:
         - "&6XP dostaniesz za:"
-        - "Stawianie Klocków"
+        - "&fStawianie Klocków"
         - ""
         - "&2obsidian &f-> &a3xp"
         - "&eSiarka &f-> &a5xp"
@@ -8924,7 +8959,7 @@ help:
         enchant:
           - respiration 5
     name: "&eRadiacja"
-    text: "&fWokół mapy znajduje się strefa wykluczenia, gdzie stopień promieniowania jest bardzo wysoki, i bez odpowiedniego przygotowania możesz umrzeć wchodząc tam. Aby przekroczyć granicę strefy, potrzebujesz &eAnty &eRad'a &flub kompletnego &eFullkit'a(End-Game'owy set)&f. Wewnątrz strefy radiacji znajdują się &especjalne &erudki&f. &eGPS &fpozwala śledzić odległość od strefy radiacji. Gdy zbliżasz się do strefy otrzymasz ostrzeżenie. &cRadiacja &cznajduje &csię &cw &ccałym &cEnd'ie"
+    text: "&fWokół mapy znajduje się strefa wykluczenia, gdzie stopień promieniowania jest bardzo wysoki, i bez odpowiedniego przygotowania możesz umrzeć wchodząc tam. Aby przekroczyć granicę strefy, potrzebujesz &eAnty &eRad'a &flub kompletnego &eFullkit'a(End-Game'owy &eset)&f. Wewnątrz strefy radiacji znajdują się &especjalne &erudki&f. &eGPS &fpozwala śledzić odległość od strefy radiacji. Gdy zbliżasz się do strefy otrzymasz ostrzeżenie. &cRadiacja &cznajduje &csię &cw &ccałym &cEnd'ie"
   6:
     icon:
       1:
@@ -8940,7 +8975,7 @@ help:
         enchant:
           - lure 10
     name: "&6Anty Rad"
-    text: "&4Anty &4Rad &fjest niezbędny do wejścia do End'u oraz eksplorowania &estrefy &eradiacji&f. Można go zdobyć z &ezrzutów &fznajdujących się w tej strefie, a także wytwarzając lub kupując go od handlarza &dCpun'a&f. Dostępne są trzy rodzaje &4Anty &4Radow&f, różniące się długością trwania. &c(Anty &cRad &ctrwa &c6x &cdłużej &cw &cend'ie)"
+    text: "&4Anty &4Rad &fjest niezbędny do wejścia do End'u oraz eksplorowania &estrefy &eradiacji&f. Można go zdobyć z &ezrzutów &fznajdujących się w tej strefie, a także wytwarzając lub kupując go od handlarza &dGrubego Joe'a&f. Dostępne są trzy rodzaje &4Anty &4Radow&f, różniące się długością trwania. &c(Anty &cRad &ctrwa &c6x &cdłużej &cw &cend'ie)"
   7:
     icon:
       1:
@@ -8954,7 +8989,7 @@ help:
       1:
         icon: "red nether brick wall"
     name: "&eSpiacy Gracze / Plecaki"
-    text: "Po wylogowaniu z serwera wszystkie przedmioty, które miałeś na sobie, zostają przekształcone w formę plecaka, który każdy na serwerze może zebrać. Jeśli nie zalogujesz się ponownie na spawnie w ciągu 20 minut, twoje przedmioty znikną (zostaną skradzione przez chciwego handlarza)."
+    text: "Po wylogowaniu z serwera wszystkie przedmioty, które miałeś na sobie, zostają przekształcone w formę plecaka, który każdy na serwerze może zebrać. Jeśli wylogujesz sie na spawn'ie i nie zalogujesz się ponownie w ciągu 30 minut, twoje przedmioty znikną (zostaną skradzione przez chciwego handlarza)."
   9:
     icon:
       1:
