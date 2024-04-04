@@ -1,6 +1,6 @@
 #Config for Survival++ bundle by NiewiadomyYYXX
 #Default Config by NiewiadomyYYXX
-#Ver. 6.0
+#Ver. 7.0
 
 #             #
 # --General-- #
@@ -9,12 +9,16 @@
 #server tag
 tag: "&7[ &4! &7]"
 
+#tablist info
+server-name: "&ePolishOhio"
+
 #dc
 dc: "https://discord.gg/cuQT7H9AJV"
 
 #lista niezniszczalnych, niewysadzalnych blokow
 god-blocks:
   - bedrock
+  - normal red sandstone block
   - end portal frame
   - command block
   - barrier
@@ -24,13 +28,26 @@ god-blocks:
   - smooth red sandstone stairs
   - red sandstone slab
   - smooth red sandstone slab
-  - smooth red sandstone
   - cut red sandstone slab
   - cut red sandstone
-  - red chiseled sandstone
   - red sandstone wall
   - red nether brick wall
   - red nether brick
+  - eastward red sandstone stair
+  - westward red sandstone stair
+  - southward red sandstone stair
+  - red sandstone stair
+  - eastward smooth red sandstone stair
+  - westward smooth red sandstone stair
+  - southward smooth red sandstone stair
+  - smooth red sandstone stair
+  - eastward red nether brick stair
+  - westward red nether brick stair
+  - southward red nether brick stair
+  - red nether brick stair
+
+no-repair:
+  - "&e&lNadajnik GPS"
 
 god-items:
   - "netherite helmet named &eWilk"
@@ -53,29 +70,36 @@ god-items:
   - "netherite shovel named &eŁopata"
   - "netherite axe named &4Topor Dariusa"
   - "netherite hoe named &eKosa"
+  - "netherite sword named &e&lNadajnik GPS"
+  - "netherite sword named &5Skull Scythe"
+  - "netherite helmet named &e&lHazmat"
+  - "netherite chestplate named &e&lHazmat"
+  - "netherite leggings named &e&lHazmat"
+  - "netherite boots named &e&lHazmat"
 
 txt:
-  download: "https://drive.google.com/uc?export=download&id=1o3LCuoeHvkQBYB-GyO7CagaENS2vVNCA"
-  hash: "3c889b5bc22690364a214bec08b339d49ab39a45"
+  download: "https://drive.google.com/uc?export=download&id=1l2rb2vfEHDgtqOeU6A3xMddc4NN2ZUx1"
+  hash: "17e12881470f79b6d3ddd8cd33c7e6b1cd4b6d66"
 
 wipe:
   start-mess: "08.03.2024r. (Piatek) o godz. 18:00"
   push: "30"
-  balance-team: "proDogePL, NiewiadomyYYXX"
+  balance-team: "Kotlet, kacuu(tf), NiewiadomyYYXX, proDogePL"
   models: "proDogePL"
   unix-data: "1709917200" #https://www.unixtimestamp.com
   block:
     tier: "24 hours"
     nether: "6 hours"
     end: "36 hours"
-    raid: "48 hours"
+    raid: "24 hours"
     pvp: "24 hours"
+    kit: "1 hour"
 
 pvp-block:
   time: "20 seconds"
   time-in-unix: "20"
 
-logintime: "120"
+logintime: "300"
 
 walka-time: "1 hour"
 
@@ -87,6 +111,13 @@ death-loc:
 death-box-despawn: "60 minutes"
 
 despawn-spawn-log: "30 minutes"
+
+hazmat:
+  chance: "33%" #szansa ze w ciagu jeden sekund spadnie 1 uzycie hazmata ( 33% czyli +- 1 uzycie na 3 sekund // hazmat ma 515 uzyc)
+
+xp-blik:
+  name: "&eKsięga XP'a"
+  max: "50" #max per item leveli
 
 enderchest:
   easy:
@@ -100,23 +131,23 @@ enderchest:
     unlock: "21"
   vhard:
     slot: "7"
-    shulker: "1"
     unlock: "26"
   premium:
     slot: "2"
-    shulker: "2"
+    shulker: "1"
+    unlock: "99"
   imposible:
     slot: "9"
-    shulker: "3"
+    shulker: "1"
     unlock: "28"
 
 spawn:
   world:
     cost: "10"
-    free-use: "3"
+    free-use: "4"
     free-use-cooldown:
       everyone: "1 hours"
-      vip: "20 minutes"
+      vip: "15 minutes"
   nether:
     cost: "50"
     free-use: "2"
@@ -140,28 +171,19 @@ tpr:
 
 home:
   world:
-    create:
-      everyone: "50"
-      vip: "25"
     tp:
       everyone: "10"
       vip: "3"
   nether:
-    create:
-      everyone: "100"
-      vip: "40"
     tp:
       everyone: "20"
       vip: "6"
   end:
-    create:
-      everyone: "500"
-      vip: "200"
     tp:
       everyone: "150"
       vip: "100"
 
-stats-number-of-stats: "8"
+stats-number-of-stats: "12"
 
 stats:
   czas:
@@ -241,6 +263,46 @@ stats:
       lore:
         - "&bRanking najwiekszego kopacza"
         - "&bsiarki na serwerze"
+  dia:
+    id: "9"
+    var: "dia"
+    unit: "blokow"
+    icon:
+      item: "diamond ore"
+      name: "&aRanking &f- &eWykopanych bloków &bDiamentów"
+      lore:
+        - "&bRanking najwiekszego kopacza"
+        - "&bdiamentów na serwerze"
+  kill:
+    id: "10"
+    var: "plkill"
+    unit: "graczy"
+    icon:
+      item: "player head"
+      name: "&aRanking &f- &eZabitych graczy"
+      lore:
+        - "&bRanking najwiekszego giga chada"
+        - "&bna serwerze"
+  km:
+    id: "11"
+    var: "km"
+    unit: "km"
+    icon:
+      item: "iron boots"
+      name: "&aRanking &f- &ePrzebiegnietych metrów"
+      lore:
+        - "&bRanking najwiekszego poszukiwacza"
+        - "&bna serwerze"
+  killen:
+    id: "12"
+    var: "killen"
+    unit: "mobów"
+    icon:
+      item: "spawner"
+      name: "&aRanking &f- &eZabitych Mobów"
+      lore:
+        - "&bRanking najwiekszego zabójcy mobów"
+        - "&bna serwerze"
 
 #             #
 #   --Rad--   #
@@ -253,11 +315,11 @@ stats:
 rad:
   world:
     startdmg: "6000"
-    warning: "5950"
+    warning: "5900"
     dmg: "2"
   world_nether:
     startdmg: "30000"
-    warning: "29950"
+    warning: "29900"
     dmg: "2"
   world_the_end:
     startdmg: "-1"
@@ -268,6 +330,7 @@ rad:
 Custom-Ores:
   gen-time: "45" #w sekundach
   y: "20"
+  dmg: "2"
   swapblocks:
     - "stone"
     - "deepslate"
@@ -277,7 +340,7 @@ Custom-Ores:
     - "andesite"
     - "dirt"
   HQM:
-    block: "red chiseled sandstone"
+    # block: "red chiseled sandstone"
     chance: "0.02%"
     vein:
       chance: "5%"
@@ -357,6 +420,7 @@ airdrop:
 tc:
   SpawnBlock: "135"
   CloseTC: "135"
+  min-y: "0"
   DropRaid: "2"
   swap-names:
     red chiseled sandstone: "&6Metal Wysokiej Jakosci"
@@ -529,7 +593,8 @@ wb:
 c4:
   raid-block: "5 minutes"
   raid-block-in-unix: "300"
-  power: "7"
+  power: "4"
+  time: "6 seconds"
   blocks:
     1:
       item: "water"
@@ -539,7 +604,7 @@ c4:
       chance: "100%"
     3:
       item: "obsidian"
-      chance: "33%"
+      chance: "15%"
     4:
       item: "ender chest"
       chance: "33%"
@@ -551,21 +616,79 @@ c4:
       chance: "33%"
     7:
       item: "crying obsidian"
-      chance: "33%"
+      chance: "15%"
     8:
       item: "ancient debris"
       chance: "33%"
     9:
       item: "netherite block"
       chance: "5%"
+    10:
+      item: "respawn anchor"
+      chance: "33%"
+    11:
+      item: "level 1 respawn anchor"
+      chance: "33%"
+    12:
+      item: "level 2 respawn anchor"
+      chance: "33%"
+    13:
+      item: "level 3 respawn anchor"
+      chance: "33%"
+    14:
+      item: "fully charged respawn anchor"
+      chance: "33%"
+
+captha:
+  1:
+    item: "red sandstone"
+    name: "&eTool Cupboard"
+  2:
+    item: "red sandstone stair"
+    name: "&eWB3"
+  3:
+    item: "smooth red sandstone stair"
+    name: "&eWB2"
+  4:
+    item: "red nether brick stairs"
+    name: "&eWB1"
+  5:
+    item: "red sandstone slab"
+    name: "&ePlanter"
+  6:
+    item: "red sandstone wall"
+    name: "&eGrob"
+  7:
+    item: "red chiseled sandstone"
+    name: "&eHQM"
+  8:
+    item: "red chiseled sandstone"
+    name: "&eHQM"
+  9:
+    item: "smooth red sandstone"
+    name: "&eSiarka"
+  10:
+    item: "red nether brick wall"
+    name: "&ePlecak"
+  11:
+    item: "cut red sandstone"
+    name: "&eLocked Crate"
+  12:
+    item: "cut red sandstone slab"
+    name: "&eAirdrop"
+  13:
+    item: "red nether brick"
+    name: "&eSkarb"
 
 guns:
   rev:
     name: "&c&lRevolver"
     type: "semi"
+    repair-cost: "300"
     ctd:
       normal: "1"
       zoom: "2"
+      reload: "3"
     ammo:
       ammo-in-chamber: "8"
       item: "rabbit foot"
@@ -579,20 +702,23 @@ guns:
     stats:
       pvp: "1.5"
       pve: "5"
+      durability: "80"
       velocity: "2.5"
-      recoil-horizontal: "0.1"
-      recoil-vertical: "0.1"
+      recoil-horizontal: "0.3"
+      recoil-vertical: "0.3"
       zoom:
-        recoil-horizontal: "0.05"
-        recoil-vertical: "0.05"
+        recoil-horizontal: "0.1"
+        recoil-vertical: "0.1"
       fire_rate: "5"
       reload_time: "3"
   CustomSMG:
     name: "&c&lCustomSMG"
     type: "auto"
+    repair-cost: "500"
     ctd:
-      normal: "3"
-      zoom: "4"
+      normal: "4"
+      zoom: "5"
+      reload: "6"
     ammo:
       ammo-in-chamber: "24"
       item: "rabbit foot"
@@ -604,22 +730,25 @@ guns:
       reload: "customsmg_reload"
       hit_mark: "hit_mark"
     stats:
-      pvp: "1"
+      pvp: "1.2"
       pve: "8"
-      velocity: "3.5"
-      recoil-horizontal: "0.25"
-      recoil-vertical: "0.25"
+      durability: "300"
+      velocity: "3"
+      recoil-horizontal: "0.3"
+      recoil-vertical: "0.3"
       zoom:
-        recoil-horizontal: "0.2"
-        recoil-vertical: "0.2"
-      fire_rate: "1.25"
+        recoil-horizontal: "0.15"
+        recoil-vertical: "0.15"
+      fire_rate: "1"
       reload_time: "3.5"
   sar:
     name: "&c&lSemi Auto Rifle"
     type: "semi"
+    repair-cost: "1000"
     ctd:
-      normal: "5"
-      zoom: "6"
+      normal: "7"
+      zoom: "8"
+      reload: "9"
     ammo:
       ammo-in-chamber: "16"
       item: "rabbit foot"
@@ -631,22 +760,25 @@ guns:
       reload: "sar_reload"
       hit_mark: "hit_mark"
     stats:
-      pvp: "5"
-      pve: "25"
+      pvp: "4"
+      pve: "20"
+      durability: "200"
       velocity: "5.5"
-      recoil-horizontal: "0.3"
-      recoil-vertical: "0.2"
+      recoil-horizontal: "0.6"
+      recoil-vertical: "0.6"
       zoom:
-        recoil-horizontal: "0.1"
-        recoil-vertical: "0.1"
-      fire_rate: "8"
+        recoil-horizontal: "0.15"
+        recoil-vertical: "0.15"
+      fire_rate: "7"
       reload_time: "3.7"
   AK:
     name: "&4&lAlien Red"
     type: "auto"
+    repair-cost: "1500"
     ctd:
-      normal: "7"
-      zoom: "8"
+      normal: "10"
+      zoom: "11"
+      reload: "12"
     ammo:
       ammo-in-chamber: "30"
       item: "rabbit foot"
@@ -660,20 +792,24 @@ guns:
     stats:
       pvp: "8"
       pve: "40"
+      durability: "250"
       velocity: "5"
-      recoil-horizontal: "0.15"
-      recoil-vertical: "0.10"
+      recoil-horizontal: "0.6"
+      recoil-vertical: "0.6"
       zoom:
-        recoil-horizontal: "0.05"
-        recoil-vertical: "0.1"
-      fire_rate: "1.5"
+        recoil-horizontal: "0.15"
+        recoil-vertical: "0.15"
+      fire_rate: "2"
       reload_time: "4"
   L96:
     name: "&4&lL96"
     type: "snipe"
+    repair-cost: "2000"
     ctd:
-      normal: "9"
-      zoom: "10"
+      normal: "13"
+      zoom: "14"
+      reload: "15"
+      reloadq: "16"
     ammo:
       ammo-in-chamber: "5"
       item: "rabbit foot"
@@ -685,16 +821,301 @@ guns:
       reload: "l9_reload"
       hit_mark: "hit_mark"
     stats:
-      pvp: "16"
-      pve: "80"
+      pvp: "14"
+      pve: "90"
+      durability: "150"
       velocity: "8"
-      recoil-horizontal: "0.15"
-      recoil-vertical: "0.10"
+      recoil-horizontal: "1"
+      recoil-vertical: "1"
       zoom:
-        recoil-horizontal: "0"
-        recoil-vertical: "0"
+        recoil-horizontal: "0.01"
+        recoil-vertical: "0.01"
       fire_rate: "26"
       reload_time: "5"
+  MP5:
+    name: "&4&lMP5"
+    type: "auto"
+    repair-cost: "1250"
+    ctd:
+      normal: "17"
+      zoom: "18"
+      reload: "19"
+    ammo:
+      ammo-in-chamber: "30"
+      item: "rabbit foot"
+      name: "&e9x18mm Ammo"
+      ctd: "6"
+    sound:
+      empty-clip: "mp5_empty-clip"
+      shot: "mp5_shot"
+      reload: "mp5_reload"
+      hit_mark: "hit_mark"
+    stats:
+      pvp: "3.5"
+      pve: "30"
+      durability: "300"
+      velocity: "3.5"
+      recoil-horizontal: "0.3"
+      recoil-vertical: "0.3"
+      zoom:
+        recoil-horizontal: "0.15"
+        recoil-vertical: "0.15"
+      fire_rate: "1.25"
+      reload_time: "3"
+  PUMP:
+    name: "&c&lPump"
+    type: "shotgun"
+    repair-cost: "1000"
+    ctd:
+      normal: "20"
+      zoom: "21"
+      reload: "22"
+      reloadq: "23"
+    ammo:
+      ammo-in-chamber: "6"
+      item: "rabbit foot"
+      name: "&e8ga Buckshot"
+      ctd: "7"
+      LessTimeBasedForAmountOfAmmo: "10%"
+      amount:
+        min: "14"
+        max: "14"
+    sound:
+      empty-clip: "pump_empty-clip"
+      shot: "pump_shot"
+      reload: "pump_reload"
+      reload_short: "pump_reload-short"
+      hit_mark: "hit_mark"
+    stats:
+      pvp: "1.5"
+      pve: "5"
+      durability: "200"
+      velocity: "2.5"
+      recoil-horizontal: "0.7"
+      recoil-vertical: "0.5"
+      zoom:
+        recoil-horizontal: "0.35"
+        recoil-vertical: "0.2"
+      fire_rate: "20"
+      reload_time: "4"
+  DB:
+    name: "&c&lDouble Barrel"
+    type: "shotgun"
+    repair-cost: "300"
+    ctd:
+      normal: "24"
+      zoom: "25"
+      reload: "26"
+    ammo:
+      ammo-in-chamber: "2"
+      item: "rabbit foot"
+      name: "&eHomemade shell"
+      ctd: "8"
+      LessTimeBasedForAmountOfAmmo: "40%"
+      amount:
+        min: "20"
+        max: "20"
+    sound:
+      empty-clip: "db_empty-clip"
+      shot: "db_shot"
+      reload: "db_reload"
+      hit_mark: "hit_mark"
+    stats:
+      pvp: "0.5"
+      pve: "2"
+      durability: "80"
+      velocity: "1.5"
+      recoil-horizontal: "1"
+      recoil-vertical: "0.5"
+      zoom:
+        recoil-horizontal: "0.5"
+        recoil-vertical: "0.2"
+      fire_rate: "5"
+      reload_time: "4"
+  M4:
+    name: "&4&lM4 Shotgun"
+    type: "shotgun"
+    repair-cost: "3000"
+    ctd:
+      normal: "27"
+      zoom: "28"
+      reload: "29"
+    ammo:
+      ammo-in-chamber: "8"
+      item: "rabbit foot"
+      name: "&e12ga Buckshot"
+      ctd: "9"
+      amount:
+        min: "14"
+        max: "14"
+    sound:
+      empty-clip: "m4_empty-clip"
+      shot: "m4_shot"
+      reload: "m4_reload"
+      hit_mark: "hit_mark"
+    stats:
+      pvp: "1.25"
+      pve: "3.5"
+      durability: "300"
+      velocity: "3.75"
+      recoil-horizontal: "0.5"
+      recoil-vertical: "0.4"
+      zoom:
+        recoil-horizontal: "0.1"
+        recoil-vertical: "0.05"
+      fire_rate: "8"
+      reload_time: "4"
+  SAP:
+    name: "&c&lSemi Auto Pistol"
+    type: "semi"
+    repair-cost: "500"
+    ctd:
+      normal: "30"
+      zoom: "31"
+      reload: "32"
+    ammo:
+      ammo-in-chamber: "10"
+      item: "rabbit foot"
+      name: "&e.22lr Ammo"
+      ctd: "10"
+    sound:
+      empty-clip: "p2_empty-clip"
+      shot: "p2_shot"
+      reload: "p2_reload"
+      hit_mark: "hit_mark"
+    stats:
+      pvp: "2"
+      pve: "10"
+      durability: "200"
+      velocity: "3"
+      recoil-horizontal: "0.1"
+      recoil-vertical: "0.1"
+      zoom:
+        recoil-horizontal: "0.05"
+        recoil-vertical: "0.05"
+      fire_rate: "7"
+      reload_time: "4"
+  PYTHON:
+    name: "&4&lPython"
+    type: "semi"
+    repair-cost: "750"
+    ctd:
+      normal: "33"
+      zoom: "34"
+      reload: "35"
+    ammo:
+      ammo-in-chamber: "6"
+      item: "rabbit foot"
+      name: "&eMagnum .45"
+      ctd: "11"
+    sound:
+      empty-clip: "python_empty-clip"
+      shot: "python_shot"
+      reload: "python_reload"
+      hit_mark: "hit_mark"
+    stats:
+      pvp: "8"
+      pve: "40"
+      durability: "160"
+      velocity: "3"
+      recoil-horizontal: "0.5"
+      recoil-vertical: "0.5"
+      zoom:
+        recoil-horizontal: "0.1"
+        recoil-vertical: "0.1"
+      fire_rate: "12"
+      reload_time: "4"
+  BERETA:
+    name: "&c&lM92 Pistol"
+    type: "semi"
+    repair-cost: "1000"
+    ctd:
+      normal: "36"
+      zoom: "37"
+      reload: "38"
+    ammo:
+      ammo-in-chamber: "15"
+      item: "rabbit foot"
+      name: "&e10x19mm Ammo"
+      ctd: "12"
+    sound:
+      empty-clip: "m92_empty-clip"
+      shot: "m92_shot"
+      reload: "m92_reload"
+      hit_mark: "hit_mark"
+    stats:
+      pvp: "3.5"
+      pve: "20"
+      durability: "200"
+      velocity: "3.5"
+      recoil-horizontal: "0.3"
+      recoil-vertical: "0.3"
+      zoom:
+        recoil-horizontal: "0.01"
+        recoil-vertical: "0.01"
+      fire_rate: "3"
+      reload_time: "4"
+  rl:
+    name: "&4&lRocket Launcher"
+    type: "rocket"
+    repair-cost: "2000"
+    ctd:
+      normal: "39"
+      zoom: "40"
+      reload: "41"
+    ammo:
+      ammo-in-chamber: "1"
+      item: "rabbit foot"
+      name: "&eRakieta"
+      ctd: "13"
+    sound:
+      empty-clip: "rl_empty-clip"
+      shot: "rl_shot"
+      reload: "rl_reload"
+      hit_mark: "hit_mark"
+    stats:
+      pvp: "25"
+      pve: "500"
+      durability: "40"
+      velocity: "3"
+      boom: "12"
+      recoil-horizontal: "0.02"
+      recoil-vertical: "0.02"
+      zoom:
+        recoil-horizontal: "0.01"
+        recoil-vertical: "0.01"
+      fire_rate: "20"
+      reload_time: "4"
+  m249:
+    name: "&4&lM249"
+    type: "auto"
+    repair-cost: "3000"
+    ctd:
+      normal: "42"
+      zoom: "43"
+      reload: "44"
+    ammo:
+      ammo-in-chamber: "100"
+      item: "rabbit foot"
+      name: "&e7.62x522 Ammo"
+      ctd: "14"
+    sound:
+      empty-clip: "m249_empty-clip"
+      shot: "m249_shot"
+      reload: "m249_reload"
+      hit_mark: "hit_mark"
+    stats:
+      pvp: "12"
+      pve: "60"
+      durability: "300"
+      velocity: "5.5"
+      recoil-horizontal: "0.5"
+      recoil-vertical: "0.5"
+      zoom:
+        recoil-horizontal: "0.1"
+        recoil-vertical: "0.1"
+      fire_rate: "0.05"
+      reload_time: "4"
 
 enchants:
   special:
@@ -733,11 +1154,26 @@ enchants:
         name: "&4&lButy"
         stats:
           anty-rad: "0.35"
+      9:
+        name: "&e&lHazmat"
+        stats:
+          anty-rad: "1"
+          armor: "0.1"
     tools:
       1:
         name: "&4&lJackhammer"
         enchant: "lure 4"
         dmg: "3"
+    dmg-enchanter:
+      1:
+        name: "&4&lTempered Sword"
+        dmg: "2"
+      2:
+        name: "&eJade Bow"
+        dmg: "4"
+      3:
+        name: "&eLegacy Bow"
+        dmg: "2"
   normal:
     1:
       name: "&eIce Pick"
@@ -775,11 +1211,16 @@ enchants:
       key: "1"
       enchant-name: "&eFire Aspect"
     8:
-      name: "&4&lTempered Sword"
-      enchant: "knockback 3"
+      name: "&6Dzida Panteona"
+      enchant: "channeling 1"
       key: "2"
-      enchant-name: "&6Knockback"
-
+      enchant-name: "&eChanneling"
+    9:
+      name: "&6Dzida Panteona"
+      enchant: "riptide 6"
+      key: "1"
+      enchant-name: "&eRiptide"
+      
 #              #
 #   --Flee--   #
 #              #
@@ -804,8 +1245,7 @@ flee:
 
 kit:
   boiler:
-    random: "15%"
-    cd: "10 minutes"
+    random: "5%"
     items:
       - tnt
   menel:
@@ -879,19 +1319,19 @@ mutant:
             dmg: "5" #dmg normalny + ta wartosc
             name: "&c&lRevolver" #nazwa broni jak bron nazywa sie np. &cRevolver to wjebac &cRevolver
           th:
-            chance: "20%"
+            chance: "0%"
             dmg: "5"
             name: "&c&lCustomSMG"
           sar:
-            chance: "20%"
+            chance: "0%"
             dmg: "15"
             name: "&c&lSemi Auto Rifle"
           ak:
-            chance: "33%"
+            chance: "0%"
             dmg: "20"
             name: "&c&lAlien Red"
           L9:
-            chance: "50%"
+            chance: "0%"
             dmg: "40"
             name: "&c&lL96"
         special:
@@ -903,6 +1343,9 @@ mutant:
           heal:
             chance: "1%"
             value: "30"
+          grab:
+            chance: "10%"
+            distance: "10"
         effects:
           1:
             effect: "speed"
@@ -951,23 +1394,23 @@ mutant:
         hp: "185"
         guns:
           rew: #tu id no value co tu piszesz ale cos musi byc
-            chance: "20%" #szansa
+            chance: "0%" #szansa
             dmg: "5" #dmg normalny + ta wartosc
             name: "&c&lRevolver" #nazwa broni jak bron nazywa sie np. &cRevolver to wjebac &cRevolver
           th:
-            chance: "20%"
+            chance: "0%"
             dmg: "5"
             name: "&c&lCustomSMG"
           sar:
-            chance: "20%"
-            dmg: "15"
+            chance: "0%"
+            dmg: "10"
             name: "&c&lSemi Auto Rifle"
           ak:
-            chance: "33%"
+            chance: "0%"
             dmg: "20"
             name: "&c&lAlien Red"
           L9:
-            chance: "50%"
+            chance: "0%"
             dmg: "40"
             name: "&c&lL96"
         special:
@@ -977,6 +1420,9 @@ mutant:
             power: "2"
             time: "2 seconds"
           tp: "10%"
+          grab:
+            chance: "10%"
+            distance: "10"
         effects:
           1:
             effect: "speed"
@@ -1028,19 +1474,19 @@ mutant:
             dmg: "5" #dmg normalny + ta wartosc
             name: "&c&lRevolver" #nazwa broni jak bron nazywa sie np. &cRevolver to wjebac &cRevolver
           th:
-            chance: "20%"
+            chance: "0%"
             dmg: "5"
             name: "&c&lCustomSMG"
           sar:
-            chance: "20%"
-            dmg: "15"
+            chance: "0%"
+            dmg: "5"
             name: "&c&lSemi Auto Rifle"
           ak:
-            chance: "33%"
+            chance: "0%"
             dmg: "20"
             name: "&c&lAlien Red"
           L9:
-            chance: "50%"
+            chance: "0%"
             dmg: "40"
             name: "&c&lL96"
         special:
@@ -1095,23 +1541,23 @@ mutant:
         hp: "600"
         guns:
           rew: #tu id no value co tu piszesz ale cos musi byc
-            chance: "15%" #szansa
+            chance: "0%" #szansa
             dmg: "10" #dmg normalny + ta wartosc
             name: "&c&lRevolver" #nazwa broni jak bron nazywa sie np. &cRevolver to wjebac &cRevolver
           th:
-            chance: "15%"
+            chance: "0%"
             dmg: "10"
             name: "&c&lCustomSMG"
           sar:
-            chance: "20%"
+            chance: "0%"
             dmg: "15"
             name: "&c&lSemi Auto Rifle"
           ak:
-            chance: "27%"
+            chance: "0%"
             dmg: "25"
             name: "&c&lAlien Red"
           L9:
-            chance: "45%"
+            chance: "0%"
             dmg: "50"
             name: "&c&lL96"
         special:
@@ -1123,6 +1569,9 @@ mutant:
           heal:
             chance: "2%"
             value: "35"
+          grab:
+            chance: "20%"
+            distance: "10"
         effects:
           1:
             effect: "speed"
@@ -1171,23 +1620,23 @@ mutant:
         hp: "400"
         guns:
           rew: #tu id no value co tu piszesz ale cos musi byc
-            chance: "15%" #szansa
+            chance: "0%" #szansa
             dmg: "10" #dmg normalny + ta wartosc
             name: "&c&lRevolver" #nazwa broni jak bron nazywa sie np. &cRevolver to wjebac &cRevolver
           th:
-            chance: "15%"
+            chance: "0%"
             dmg: "10"
             name: "&c&lCustomSMG"
           sar:
-            chance: "20%"
-            dmg: "15"
+            chance: "0%"
+            dmg: "10"
             name: "&c&lSemi Auto Rifle"
           ak:
-            chance: "27%"
+            chance: "0%"
             dmg: "25"
             name: "&c&lAlien Red"
           L9:
-            chance: "45%"
+            chance: "0%"
             dmg: "50"
             name: "&c&lL96"
         special:
@@ -1197,6 +1646,9 @@ mutant:
             power: "3"
             time: "2 seconds"
           tp: "20%"
+          grab:
+            chance: "20%"
+            distance: "10"
         effects:
           1:
             effect: "speed"
@@ -1244,23 +1696,23 @@ mutant:
         hp: "250"
         guns:
           rew: #tu id no value co tu piszesz ale cos musi byc
-            chance: "15%" #szansa
+            chance: "0%" #szansa
             dmg: "10" #dmg normalny + ta wartosc
             name: "&c&lRevolver" #nazwa broni jak bron nazywa sie np. &cRevolver to wjebac &cRevolver
           th:
-            chance: "15%"
+            chance: "0%"
             dmg: "10"
             name: "&c&lCustomSMG"
           sar:
-            chance: "20%"
-            dmg: "15"
+            chance: "0%"
+            dmg: "10"
             name: "&c&lSemi Auto Rifle"
           ak:
-            chance: "27%"
+            chance: "0%"
             dmg: "25"
             name: "&c&lAlien Red"
           L9:
-            chance: "45%"
+            chance: "0%"
             dmg: "50"
             name: "&c&lL96"
         special:
@@ -1315,22 +1767,22 @@ mutant:
         guns:
           rew: #tu id no value co tu piszesz ale cos musi byc
             chance: "15%" #szansa
-            dmg: "10" #dmg normalny + ta wartosc
+            dmg: "5" #dmg normalny + ta wartosc
             name: "&c&lRevolver" #nazwa broni jak bron nazywa sie np. &cRevolver to wjebac &cRevolver
           th:
-            chance: "15%"
-            dmg: "10"
+            chance: "0%"
+            dmg: "5"
             name: "&c&lCustomSMG"
           sar:
-            chance: "20%"
-            dmg: "15"
+            chance: "0%"
+            dmg: "10"
             name: "&c&lSemi Auto Rifle"
           ak:
-            chance: "27%"
+            chance: "0%"
             dmg: "25"
             name: "&c&lAlien Red"
           L9:
-            chance: "45%"
+            chance: "0%"
             dmg: "50"
             name: "&c&lL96"
         special:
@@ -1342,6 +1794,9 @@ mutant:
             chance: "20%"
             power: "5"
             time: "1.5 seconds"
+          grab:
+            chance: "20%"
+            distance: "10"
         effects:
           1:
             effect: "strength"
@@ -1385,23 +1840,23 @@ mutant:
         hp: "300"
         guns:
           rew: #tu id no value co tu piszesz ale cos musi byc
-            chance: "15%" #szansa
+            chance: "0%" #szansa
             dmg: "10" #dmg normalny + ta wartosc
             name: "&c&lRevolver" #nazwa broni jak bron nazywa sie np. &cRevolver to wjebac &cRevolver
           th:
-            chance: "15%"
+            chance: "0%"
             dmg: "10"
             name: "&c&lCustomSMG"
           sar:
-            chance: "20%"
+            chance: "0%"
             dmg: "15"
             name: "&c&lSemi Auto Rifle"
           ak:
-            chance: "27%"
+            chance: "0%"
             dmg: "25"
             name: "&c&lAlien Red"
           L9:
-            chance: "45%"
+            chance: "0%"
             dmg: "50"
             name: "&c&lL96"
         special:
@@ -1456,23 +1911,23 @@ mutant:
         hp: "1000"
         guns:
           rew: #tu id no value co tu piszesz ale cos musi byc
-            chance: "10%" #szansa
+            chance: "0%" #szansa
             dmg: "15" #dmg normalny + ta wartosc
             name: "&c&lRevolver" #nazwa broni jak bron nazywa sie np. &cRevolver to wjebac &cRevolver
           th:
-            chance: "10%"
+            chance: "0%"
             dmg: "15"
             name: "&c&lCustomSMG"
           sar:
-            chance: "20%"
+            chance: "0%"
             dmg: "35"
             name: "&c&lSemi Auto Rifle"
           ak:
-            chance: "20%"
+            chance: "0%"
             dmg: "30"
             name: "&c&lAlien Red"
           L9:
-            chance: "40%"
+            chance: "0%"
             dmg: "60"
             name: "&c&lL96"
         special:
@@ -1484,6 +1939,9 @@ mutant:
           heal:
             chance: "3%"
             value: "40"
+          grab:
+            chance: "30%"
+            distance: "10"
         effects:
           1:
             effect: "speed"
@@ -1532,23 +1990,23 @@ mutant:
         hp: "600"
         guns:
           rew: #tu id no value co tu piszesz ale cos musi byc
-            chance: "10%" #szansa
+            chance: "0%" #szansa
             dmg: "15" #dmg normalny + ta wartosc
             name: "&c&lRevolver" #nazwa broni jak bron nazywa sie np. &cRevolver to wjebac &cRevolver
           th:
-            chance: "10%"
+            chance: "0%"
             dmg: "15"
             name: "&c&lCustomSMG"
           sar:
-            chance: "20%"
+            chance: "0%"
             dmg: "35"
             name: "&c&lSemi Auto Rifle"
           ak:
-            chance: "20%"
+            chance: "0%"
             dmg: "30"
             name: "&c&lAlien Red"
           L9:
-            chance: "40%"
+            chance: "0%"
             dmg: "60"
             name: "&c&lL96"
         special:
@@ -1558,6 +2016,9 @@ mutant:
             power: "4"
             time: "2 seconds"
           tp: "30%"
+          grab:
+            chance: "30%"
+            distance: "10"
         effects:
           1:
             effect: "speed"
@@ -1605,23 +2066,23 @@ mutant:
         hp: "375"
         guns:
           rew: #tu id no value co tu piszesz ale cos musi byc
-            chance: "10%" #szansa
+            chance: "0%" #szansa
             dmg: "15" #dmg normalny + ta wartosc
             name: "&c&lRevolver" #nazwa broni jak bron nazywa sie np. &cRevolver to wjebac &cRevolver
           th:
-            chance: "10%"
-            dmg: "15"
+            chance: "0%"
+            dmg: "5"
             name: "&c&lCustomSMG"
           sar:
-            chance: "20%"
+            chance: "0%"
             dmg: "35"
             name: "&c&lSemi Auto Rifle"
           ak:
-            chance: "20%"
+            chance: "0%"
             dmg: "30"
             name: "&c&lAlien Red"
           L9:
-            chance: "40%"
+            chance: "0%"
             dmg: "60"
             name: "&c&lL96"
         special:
@@ -1675,23 +2136,23 @@ mutant:
         hp: "500"
         guns:
           rew: #tu id no value co tu piszesz ale cos musi byc
-            chance: "10%" #szansa
+            chance: "0%" #szansa
             dmg: "15" #dmg normalny + ta wartosc
             name: "&c&lRevolver" #nazwa broni jak bron nazywa sie np. &cRevolver to wjebac &cRevolver
           th:
-            chance: "10%"
+            chance: "0%"
             dmg: "15"
             name: "&c&lCustomSMG"
           sar:
-            chance: "20%"
+            chance: "0%"
             dmg: "35"
             name: "&c&lSemi Auto Rifle"
           ak:
-            chance: "20%"
+            chance: "0%"
             dmg: "30"
             name: "&c&lAlien Red"
           L9:
-            chance: "40%"
+            chance: "0%"
             dmg: "60"
             name: "&c&lL96"
         special:
@@ -1703,6 +2164,9 @@ mutant:
             chance: "40%"
             power: "5"
             time: "3 seconds"
+          grab:
+            chance: "30%"
+            distance: "10"
         effects:
           1:
             effect: "strength"
@@ -1746,23 +2210,23 @@ mutant:
         hp: "450"
         guns:
           rew: #tu id no value co tu piszesz ale cos musi byc
-            chance: "10%" #szansa
+            chance: "0%" #szansa
             dmg: "15" #dmg normalny + ta wartosc
             name: "&c&lRevolver" #nazwa broni jak bron nazywa sie np. &cRevolver to wjebac &cRevolver
           th:
-            chance: "10%"
+            chance: "0%"
             dmg: "15"
             name: "&c&lCustomSMG"
           sar:
-            chance: "20%"
+            chance: "0%"
             dmg: "35"
             name: "&c&lSemi Auto Rifle"
           ak:
-            chance: "20%"
+            chance: "0%"
             dmg: "30"
             name: "&c&lAlien Red"
           L9:
-            chance: "40%"
+            chance: "0%"
             dmg: "60"
             name: "&c&lL96"
         special:
@@ -1866,6 +2330,9 @@ mutant:
               max: "32"
           tp: "10%"
           locked-multiple: "3"
+          grab:
+            chance: "30%"
+            distance: "10"
         effects:
           1:
             effect: "strength"
@@ -1934,9 +2401,362 @@ locked:
 #   --NPC TRADER--   #
 #                    #
 
+bid:
+  # 0:
+  #   item: "dirt"
+  #   quantity: 
+  #     min: "1"
+  #     max: "4"
+  #   price: "3000"
+  1:
+    item: "paper"
+    name: "&eSchemat &7< &f&lbig_grin &r&7>"
+    lore:
+      - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
+      - ""
+      - "&aOdblokowuje:"
+      - "&2big_grin"
+      - ""
+      - "&fUzycie: &f&l<PPM>"
+    enchant:
+      - "fortune 4"
+    quantity: 
+      min: "1"
+      max: "1"
+    price: "8000"
+  2:
+    item: "paper"
+    name: "&eSchemat &7< &f&lklatat3 &r&7>"
+    lore:
+      - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
+      - ""
+      - "&aOdblokowuje:"
+      - "&2klatat3"
+      - ""
+      - "&fUzycie: &f&l<PPM>"
+    enchant:
+      - "fortune 4"
+    quantity: 
+      min: "1"
+      max: "1"
+    price: "8000"
+  3:
+    item: "paper"
+    name: "&eSchemat &7< &f&lspodniet3 &r&7>"
+    lore:
+      - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
+      - ""
+      - "&aOdblokowuje:"
+      - "&2spodniet3"
+      - ""
+      - "&fUzycie: &f&l<PPM>"
+    enchant:
+      - "fortune 4"
+    quantity: 
+      min: "1"
+      max: "1"
+    price: "8000"
+  3:
+    item: "paper"
+    name: "&eSchemat &7< &f&lbutyt3 &r&7>"
+    lore:
+      - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
+      - ""
+      - "&aOdblokowuje:"
+      - "&2butyt3"
+      - ""
+      - "&fUzycie: &f&l<PPM>"
+    enchant:
+      - "fortune 4"
+    quantity: 
+      min: "1"
+      max: "1"
+    price: "8000"
+  4:
+    item: "paper"
+    name: "&eSchemat &7< &f&ltempered_sword &r&7>"
+    lore:
+      - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
+      - ""
+      - "&aOdblokowuje:"
+      - "&2tempered_sword"
+      - ""
+      - "&fUzycie: &f&l<PPM>"
+    enchant:
+      - "fortune 4"
+    quantity: 
+      min: "1"
+      max: "1"
+    price: "8000"
+  5:
+    item: "paper"
+    name: "&eSchemat &7< &f&ljackhammer &r&7>"
+    lore:
+      - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
+      - ""
+      - "&aOdblokowuje:"
+      - "&2jackhammer"
+      - ""
+      - "&fUzycie: &f&l<PPM>"
+    enchant:
+      - "fortune 4"
+    quantity: 
+      min: "1"
+      max: "1"
+    price: "12000"
+  6:
+    item: "paper"
+    name: "&eSchemat &7< &f&lak &r&7>"
+    lore:
+      - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
+      - ""
+      - "&aOdblokowuje:"
+      - "&2ak"
+      - ""
+      - "&fUzycie: &f&l<PPM>"
+    enchant:
+      - "fortune 4"
+    quantity: 
+      min: "1"
+      max: "1"
+    price: "16000"
+  7:
+    item: "paper"
+    name: "&eSchemat &7< &f&ll9 &r&7>"
+    lore:
+      - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
+      - ""
+      - "&aOdblokowuje:"
+      - "&2l9"
+      - ""
+      - "&fUzycie: &f&l<PPM>"
+    enchant:
+      - "fortune 4"
+    quantity: 
+      min: "1"
+      max: "1"
+    price: "16000"
+  8:
+    item: "paper"
+    name: "&eSchemat &7< &f&lmp5 &r&7>"
+    lore:
+      - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
+      - ""
+      - "&aOdblokowuje:"
+      - "&2mp5"
+      - ""
+      - "&fUzycie: &f&l<PPM>"
+    enchant:
+      - "fortune 4"
+    quantity: 
+      min: "1"
+      max: "1"
+    price: "16000"
+  9:
+    item: "paper"
+    name: "&eSchemat &7< &f&lm4 &r&7>"
+    lore:
+      - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
+      - ""
+      - "&aOdblokowuje:"
+      - "&2m4"
+      - ""
+      - "&fUzycie: &f&l<PPM>"
+    enchant:
+      - "fortune 4"
+    quantity: 
+      min: "1"
+      max: "1"
+    price: "12000"
+  10:
+    item: "paper"
+    name: "&eSchemat &7< &f&lhazmat &r&7>"
+    lore:
+      - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
+      - ""
+      - "&aOdblokowuje:"
+      - "&2hazmat"
+      - ""
+      - "&fUzycie: &f&l<PPM>"
+    enchant:
+      - "fortune 4"
+    quantity: 
+      min: "1"
+      max: "1"
+    price: "5000"
+  11:
+    item: "diamond sword"
+    name: "&eSalvage Cleaver"
+    enchant:
+      - "sharpness 7"
+      - "unbreaking 5"
+      - "looting 5"
+      - "mending 1"
+    quantity: 
+      min: "1"
+      max: "1"
+    price: "8000"
+  12:
+    item: "diamond pickaxe"
+    name: "&eIce Pick"
+    enchant:
+      - "efficiency 7"
+      - "unbreaking 5"
+      - "fortune 6"
+      - "mending 1"
+    quantity: 
+      min: "1"
+      max: "1"
+    price: "9000"
+  13:
+    item: "diamond axe"
+    name: "&eSalvage Axe"
+    enchant:
+      - "efficiency 7"
+      - "unbreaking 5"
+      - "fortune 5"
+      - "mending 1"
+    quantity: 
+      min: "1"
+      max: "1"
+    price: "7000"
+  14:
+    item: "bow"
+    name: "&eJade Bow"
+    enchant:
+      - "power 7"
+      - "unbreaking 5"
+      - "infinity 1"
+      - "mending 1"
+    quantity: 
+      min: "1"
+      max: "1"
+    price: "8000"
+  15:
+    item: "wooden sword"
+    name: "&c&lCustomSMG"
+    ctd: "4"
+    lore:
+      - "&fRozjebana MP5 sklejona taśmą"
+    quantity: 
+      min: "1"
+      max: "1"
+    price: "10000"
+  16:
+    item: "wooden sword"
+    name: "&c&lSemi Auto Rifle"
+    ctd: "7"
+    lore:
+      - "&fUlubiona broń Grubego Joe'a"
+    quantity: 
+      min: "1"
+      max: "1"
+    price: "10000"
+  17:
+    item: "totem of undying"
+    name: "&5Zrzut Zaopatrzenia"
+    lore:
+      - "&fSluzy do wezwania Zrzutu Zaopatrzenia"
+      - ""
+      - "&fUzycie: &f&l<PPM>"
+    enchant:
+      - "lure 10"
+    quantity: 
+      min: "5"
+      max: "6"
+    price: "6000"
+  18:
+    item: "paper"
+    name: "&eSchemat &7< &f&lgps &r&7>"
+    lore:
+      - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
+      - ""
+      - "&aOdblokowuje:"
+      - "&2gps"
+      - ""
+      - "&fUzycie: &f&l<PPM>"
+    enchant:
+      - "fortune 4"
+    quantity: 
+      min: "1"
+      max: "1"
+    price: "2500"
+  19:
+    item: "paper"
+    name: "&eSchemat &7< &f&lsar &r&7>"
+    lore:
+      - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
+      - ""
+      - "&aOdblokowuje:"
+      - "&2sar"
+      - ""
+      - "&fUzycie: &f&l<PPM>"
+    enchant:
+      - "fortune 4"
+    quantity: 
+      min: "1"
+      max: "1"
+    price: "5000"
+  20:
+    item: "paper"
+    name: "&eSchemat &7< &f&lrocket &r&7>"
+    lore:
+      - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
+      - ""
+      - "&aOdblokowuje:"
+      - "&2rocket"
+      - ""
+      - "&fUzycie: &f&l<PPM>"
+    enchant:
+      - "fortune 4"
+    quantity: 
+      min: "1"
+      max: "1"
+    price: "50000"
+  21:
+    item: "paper"
+    name: "&eSchemat &7< &f&lc4 &r&7>"
+    lore:
+      - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
+      - ""
+      - "&aOdblokowuje:"
+      - "&2c4"
+      - ""
+      - "&fUzycie: &f&l<PPM>"
+    enchant:
+      - "fortune 4"
+    quantity: 
+      min: "1"
+      max: "1"
+    price: "50000"
+  22:
+    item: "paper"
+    name: "&eSchemat &7< &f&lrocket_launcher &r&7>"
+    lore:
+      - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
+      - ""
+      - "&aOdblokowuje:"
+      - "&2rocket_launcher"
+      - ""
+      - "&fUzycie: &f&l<PPM>"
+    enchant:
+      - "fortune 4"
+    quantity: 
+      min: "1"
+      max: "1"
+    price: "50000"
+
 traders:
   babucha:
     traderreset: "30"
+    bid:
+      random-min: "60" #co ile szansa na dropa ma sie prokowac
+      random-chance: "40%" #jak jest 0 graczy online <default wartosc>
+      random-increase: "5%" #wartosc dodawana za kazdego gracza
+      random-min-players: "1" #ile graczy online by event mogl cie zaczac
+      start: "300 seconds" #po ilu ma sie zaczynaC
+      unix: "300"
+      bid-up: "500" #kwota o ktora mozna przebic innego gracza
     name: "&5Gruby Joe"
     data: ",VillagerData:{type:swamp,profession:armorer,level:99}}"
     dialogs:
@@ -2087,10 +2907,10 @@ traders:
           5:
             item: "iron block"
             amount: "128"
-          5:
+          6:
             item: "copper block"
             amount: "128"
-          6:
+          7:
             item: "red brick block"
             amount: "384"
 
@@ -2120,11 +2940,11 @@ quest:
           min: "4"
           max: "4"
       2:
-        item: "iron ingot"
+        item: "iron block"
         amount:
-          min: "3"
+          min: "2"
           max: "4"
-    rewardgui: ";x czeków[10], ;x Sztabek Zelaza"
+    rewardgui: ";x czeki [10],;x bloki Zelaza"
     dialog:
       intro: "Zrobiła mi się dziura w dachu, weź mi przynieś trochę kamienia."
       complete: "Wreszcie nie będzie mi tak wiało."
@@ -2153,11 +2973,11 @@ quest:
           min: "4"
           max: "4"
       2:
-        item: "gold ingot"
+        item: "gold block"
         amount:
-          min: "3"
-          max: "4"
-    rewardgui: ";x czeków[10], ;x Sztabek Złota"
+          min: "2"
+          max: "2"
+    rewardgui: ";x czeki [10],;x bloki zlota"
     dialog:
       intro: "Zabrakło nam piasku na strzelnicy, ogranieś trochę?"
       complete: "Dzięki wielkie, to biorę się do roboty."
@@ -2189,14 +3009,14 @@ quest:
         enchant:
           - "lure 7"
         amount:
-          min: "10"
-          max: "10"
+          min: "6"
+          max: "8"
       2:
         item: "cooked porkchop"
         amount:
-          min: "6"
-          max: "7"
-    rewardgui: ";x czeków[100], ;x Porkchop"
+          min: "20"
+          max: "25"
+    rewardgui: ";x czeków[100],;x pieczonego miesa"
     dialog:
       intro: "Poszukaj mi nerki, wypadła mi."
       complete: "No i git."
@@ -2222,14 +3042,14 @@ quest:
         enchant:
           - "lure 5"
         amount:
-          min: "3"
-          max: "3"
+          min: "4"
+          max: "4"
       2:
-        item: "redstone"
+        item: "coal block"
         amount:
-          min: "12"
-          max: "20"
-    rewardgui: ";x czeków[20], ;x redstone"
+          min: "7"
+          max: "8"
+    rewardgui: ";x czeki [20],;x bloków węgla"
     dialog:
       intro: "Nasza wioska głoduje, przynieś nam trochę pszenicy."
       complete: "Wykarmiłeś kilka głodnych pysków."
@@ -2242,8 +3062,8 @@ quest:
       1:
         item: "raw iron"
         amount:
-          min: "8"
-          max: "10"
+          min: "10"
+          max: "15"
     targetgui: "Zbierz ;x surowe żelazo"
     reward:
       1:
@@ -2258,11 +3078,11 @@ quest:
           min: "3"
           max: "4"
       2:
-        item: "lapis lazuli"
+        item: "lapis block"
         amount:
-          min: "8"
-          max: "14"
-    rewardgui: ";x czeków[50], ;x lapis"
+          min: "10"
+          max: "10"
+    rewardgui: ";x czeki [50],;x bloków lapisu"
     dialog:
       intro: "Ostatnio rozjebało mi się kowadło, ogarnij trochę żelaza na jego naprawę."
       complete: "Zaraz to kowadło będzie jak nowe."
@@ -2288,14 +3108,14 @@ quest:
         enchant:
           - "lure 5"
         amount:
-          min: "4"
+          min: "5"
           max: "6"
       2:
-        item: "copper ingot"
+        item: "block of copper"
         amount:
-          min: "8"
-          max: "14"
-    rewardgui: ";x czeków[20], ;x miedz"
+          min: "10"
+          max: "10"
+    rewardgui: ";x czeków [20],;x bloki miedzi"
     dialog:
       intro: "W kuźni brakuje węgla do wypalania."
       complete: "Teraz będzie się grzało kurwa."
@@ -2308,9 +3128,9 @@ quest:
       1:
         item: "diorite"
         amount:
-          min: "16"
-          max: "24"
-    targetgui: "Zbierz ;x diorite"
+          min: "32"
+          max: "32"
+    targetgui: "Zbierz ;x dioritu"
     reward:
       1:
         item: "paper"
@@ -2321,17 +3141,17 @@ quest:
         enchant:
           - "lure 5"
         amount:
-          min: "4"
-          max: "5"
+          min: "3"
+          max: "4"
       2:
-        item: "torch"
+        item: "diamond"
         amount:
-          min: "8"
-          max: "14"
-    rewardgui: ";x czeków[20], ;x pochodnie"
+          min: "2"
+          max: "3"
+    rewardgui: ";x czeki [20],;x diamety"
     dialog:
       intro: "Znajdź mi jakiś ładny kamień."
-      complete: "Co to za gówno?!"
+      complete: "Niezłe gówno."
   8:
     difficulty:
       lvl: "1"
@@ -2341,8 +3161,8 @@ quest:
       1:
         type: "zombie"
         amount:
-          min: "8"
-          max: "10"
+          min: "12"
+          max: "15"
     targetgui: "Pokonaj ;x zombie"
     reward:
       1:
@@ -2354,9 +3174,14 @@ quest:
         enchant:
           - "lure 4"
         amount:
-          min: "4"
+          min: "5"
           max: "5"
-    rewardgui: ";x czeków[10]"
+      2:
+        item: "iron block"
+        amount:
+          min: "3"
+          max: "4"
+    rewardgui: ";x czeków[10],;x bloki żelaza"
     dialog:
       intro: "Dużo tego gówna rozniósłoby się po naszej wiosce. Zrób coś z tym."
       complete: "Od razu jakoś przestało śmierdzieć."
@@ -2369,7 +3194,7 @@ quest:
       1:
         type: "skeleton"
         amount:
-          min: "6"
+          min: "10"
           max: "12"
     targetgui: "Pokonaj ;x skeleton"
     reward:
@@ -2382,9 +3207,14 @@ quest:
         enchant:
           - "lure 5"
         amount:
+          min: "4"
+          max: "4"
+      2:
+        item: "iron block"
+        amount:
           min: "3"
           max: "4"
-    rewardgui: ";x czeków[20]"
+    rewardgui: ";x czeki [20],;x bloki żelaza"
     dialog:
       intro: "Pewne skurwysyny wybiły mi okno, pogadaj z nimi."
       complete: "Świetnie, jeszcze okno muszę wymienić..."
@@ -2397,8 +3227,8 @@ quest:
       1:
         type: "spider"
         amount:
-          min: "3"
-          max: "4"
+          min: "8"
+          max: "10"
     targetgui: "Pokonaj ;x spider"
     reward:
       1:
@@ -2410,9 +3240,14 @@ quest:
         enchant:
           - "lure 5"
         amount:
-          min: "1"
-          max: "2"
-    rewardgui: ";x czeków[20]"
+          min: "5"
+          max: "5"
+      2:
+        item: "iron block"
+        amount:
+          min: "3"
+          max: "4"
+    rewardgui: ";x czeków [20],;x bloki żelaza"
     dialog:
       intro: "Co oni kurwa myślą, że są Spider-Manem?"
       complete: "Teraz to już został tylko jeden prawdziwy."
@@ -2438,9 +3273,9 @@ quest:
         enchant:
           - "lure 5"
         amount:
-          min: "3"
-          max: "5"
-    rewardgui: ";x czeków[20]"
+          min: "7"
+          max: "7"
+    rewardgui: ";x czeków [20]"
     dialog:
       intro: "Potrzebujemy trochę mięsa z KFC."
       complete: "Teraz czarnuchy mają co jeść. Ale dalej nie mają wody."
@@ -2466,9 +3301,9 @@ quest:
         enchant:
           - "lure 5"
         amount:
-          min: "6"
+          min: "7"
           max: "7"
-    rewardgui: ";x czeków[20]"
+    rewardgui: ";x czeków [20]"
     dialog:
       intro: "U Turasa zabrakło mięsa."
       complete: "No i kebab bedzię sie kręcił."
@@ -2481,22 +3316,27 @@ quest:
       1:
         type: "creeper"
         amount:
-          min: "5"
-          max: "5"
+          min: "6"
+          max: "8"
     targetgui: "Pokonaj ;x creeper"
     reward:
       1:
         item: "paper"
-        name: "&eCzek &f&l< 50 >"
+        name: "&eCzek &f&l< 20 >"
         lore:
           - ""
           - "&fUzycie: &f&l<PPM>"
         enchant:
-          - "lure 6"
+          - "lure 5"
         amount:
-          min: "2"
-          max: "3"
-    rewardgui: ";x czeków[50]"
+          min: "4"
+          max: "5"
+      2:
+        item: "iron block"
+        amount:
+          min: "3"
+          max: "4"
+    rewardgui: ";x czeków [20],;x bloki żelaza"
     dialog:
       intro: "Trochę talibów spadło w naszej okolicy."
       complete: "Creeper oh men."
@@ -2522,9 +3362,9 @@ quest:
         enchant:
           - "lure 5"
         amount:
-          min: "6"
+          min: "7"
           max: "7"
-    rewardgui: ";x czeków[20]"
+    rewardgui: ";x czeków [20]"
     dialog:
       intro: "Potrzebujemy na szybko skóry z krowy."
       complete: "Enchant zaraz bedzię gotowy."
@@ -2582,14 +3422,14 @@ quest:
         enchant:
           - "lure 7"
         amount:
-          min: "1"
+          min: "2"
           max: "2"
       2:
-        item: "iron ingot"
+        item: "iron block"
         amount:
-          min: "6"
-          max: "8"
-    rewardgui: ";x czeków[100], ;x Sztabek Zelaza"
+          min: "3"
+          max: "4"
+    rewardgui: ";x czeki [100],;x bloki żelaza"
     dialog:
       intro: "Siema, zgubiłem paczkę z zasobami, możesz ją znaleźć?"
       complete: "Dzięki wielkie, ciekawe co jest w środku, jak to kurwa pusta."
@@ -2650,11 +3490,11 @@ quest:
           min: "2"
           max: "2"
       2:
-        item: "iron ingot"
+        item: "iron block"
         amount:
-          min: "6"
-          max: "8"
-    rewardgui: ";x czeków[100], ;x Sztabek Zelaza"
+          min: "3"
+          max: "4"
+    rewardgui: ";x czeki [100],;x bloki żelaza"
     dialog:
       intro: "Siema, zgubiłem paczkę z zasobami, możesz ją znaleźć?"
       complete: "Dzięki wielkie, ciekawe co jest w środku, jak to kurwa pusta."
@@ -2680,14 +3520,14 @@ quest:
         enchant:
           - "lure 7"
         amount:
-          min: "10"
-          max: "12"
+          min: "9"
+          max: "10"
       2:
-        item: "diamond"
+        item: "diamond block"
         amount:
           min: "1"
-          max: "2"
-    rewardgui: ";x czeków[100], ;x Diamenty"
+          max: "1"
+    rewardgui: ";x czeków [100],;x blok diamentu"
     dialog:
       intro: "Zabrakło mi materiałów do kuźni."
       complete: "Teraz będę mógł wytwarzać bronie."
@@ -2700,8 +3540,8 @@ quest:
       1:
         item: "oak log"
         amount:
-          min: "384"
-          max: "384"
+          min: "256"
+          max: "256"
     targetgui: "Zbierz ;x dębowego drewna"
     reward:
       1:
@@ -2713,14 +3553,14 @@ quest:
         enchant:
           - "lure 7"
         amount:
-          min: "3"
-          max: "4"
+          min: "5"
+          max: "6"
       2:
-        item: "gold ingot"
+        item: "gold block"
         amount:
-          min: "10"
-          max: "14"
-    rewardgui: ";x czeków[100], ;x Sztabek Złota"
+          min: "5"
+          max: "5"
+    rewardgui: ";x czeków [100],;x bloków złota"
     dialog:
       intro: "Mamy deficyt drewna, pomożesz nam z tym?"
       complete: "Dzięki wielkie"
@@ -2754,14 +3594,14 @@ quest:
         enchant:
           - "lure 8"
         amount:
-          min: "4"
-          max: "4"
+          min: "2"
+          max: "2"
       2:
-        item: "diamond sword"
+        item: "diamond block"
         amount:
           min: "1"
           max: "1"
-    rewardgui: ";x czeków[1000], ;x Diamentowy Miecz"
+    rewardgui: ";x czeki [1000],;x blok diamentu"
     dialog:
       intro: "Weź, kaj, pochytaj 2 skręty."
       complete: "No i bajka."
@@ -2774,8 +3614,8 @@ quest:
       1:
         item: "blaze rod"
         amount:
-          min: "8"
-          max: "12"
+          min: "20"
+          max: "25"
     targetgui: "Zbierz ;x pał blaze'ow"
     reward:
       1:
@@ -2787,14 +3627,14 @@ quest:
         enchant:
           - "lure 6"
         amount:
-          min: "2"
-          max: "3"
+          min: "6"
+          max: "10"
       2:
         item: "golden apple"
         amount:
-          min: "3"
-          max: "4"
-    rewardgui: ";x czeków[50], ;x Złote Jabłka"
+          min: "5"
+          max: "10"
+    rewardgui: ";x czeków [50],;x Złotych Jabłkek"
     dialog:
       intro: "Potrzebuje czegoś ciepłego."
       complete: "Dzięki teraz bedę miał ciepło w chacie"
@@ -2807,13 +3647,13 @@ quest:
       1:
         item: "lapis block"
         amount:
-          min: "16"
-          max: "20"
+          min: "10"
+          max: "12"
       2:
         item: "redstone block"
         amount:
-          min: "16"
-          max: "20"
+          min: "10"
+          max: "12"
     targetgui: "Zbierz ;x Bloków lapisu, ;x Bloków Redstone'a"
     reward:
       1:
@@ -2825,14 +3665,14 @@ quest:
         enchant:
           - "lure 5"
         amount:
-          min: "6"
-          max: "7"
+          min: "15"
+          max: "18"
       2:
-        item: "diamond"
+        item: "diamond block"
         amount:
-          min: "2"
-          max: "3"
-    rewardgui: ";x czeków[20], ;x Diamenty"
+          min: "1"
+          max: "1"
+    rewardgui: ";x czeków[20],;x blok diamentu"
     dialog:
       intro: "Na magazynie skończył nam się redstone i lapis, załatw trochę dla nas."
       complete: "Teraz już nie zabraknie."
@@ -2854,8 +3694,8 @@ quest:
         enchant:
           - "lure 9"
         amount:
-          min: "4"
-          max: "5"
+          min: "3"
+          max: "4"
     targetgui: "Zbierz ;x Paczek Szlugów"
     reward:
       1:
@@ -2867,9 +3707,14 @@ quest:
         enchant:
           - "lure 8"
         amount:
-          min: "5"
-          max: "6"
-    rewardgui: ";x czeków[1000]"
+          min: "2"
+          max: "3"
+      2:
+        item: "iron block"
+        amount:
+          min: "8"
+          max: "9"
+    rewardgui: ";x czeków [1000],;x bloków żelaza"
     dialog:
       intro: "Siema zajarać musze bo sie udusze!"
       complete: "Dzięki może nie skończe jak Grzesiu."
@@ -2882,8 +3727,8 @@ quest:
       1:
         item: "pumpkin"
         amount:
-          min: "16"
-          max: "24"
+          min: "12"
+          max: "16"
     targetgui: "Zbierz ;x Dyn"
     reward:
       1:
@@ -2895,14 +3740,14 @@ quest:
         enchant:
           - "lure 5"
         amount:
-          min: "5"
-          max: "6"
+          min: "10"
+          max: "12"
       2:
         item: "melon"
         amount:
-          min: "3"
-          max: "4"
-    rewardgui: ";x czeków[20], ;x Melon"
+          min: "32"
+          max: "48"
+    rewardgui: ";x czeków [20],;x Melonów"
     dialog:
       intro: "Siema potrzebujemy dyn do stworzenia golemów."
       complete: "Dzięki bardzo bratku."
@@ -2915,22 +3760,27 @@ quest:
       1:
         type: "zombie"
         amount:
-          min: "16"
-          max: "20"
+          min: "32"
+          max: "40"
     targetgui: "Pokonaj ;x zombie"
     reward:
       1:
         item: "paper"
-        name: "&eCzek &f&l< 10 >"
+        name: "&eCzek &f&l< 50 >"
         lore:
           - ""
           - "&fUzycie: &f&l<PPM>"
         enchant:
-          - "lure 4"
+          - "lure 6"
+        amount:
+          min: "7"
+          max: "8"
+      2:
+        item: "iron block"
         amount:
           min: "8"
-          max: "10"
-    rewardgui: ";x czeków[10]"
+          max: "9"
+    rewardgui: ";x czeków [50],;x bloków żelaza"
     dialog:
       intro: "Dużo tego gówna rozniósłoby się po naszej wiosce. Zrób coś z tym."
       complete: "Od razu jakoś przestało śmierdzieć."
@@ -2943,22 +3793,27 @@ quest:
       1:
         type: "skeleton"
         amount:
-          min: "12"
-          max: "24"
+          min: "32"
+          max: "35"
     targetgui: "Pokonaj ;x skeleton"
     reward:
       1:
         item: "paper"
-        name: "&eCzek &f&l< 20 >"
+        name: "&eCzek &f&l< 50 >"
         lore:
           - ""
           - "&fUzycie: &f&l<PPM>"
         enchant:
-          - "lure 5"
+          - "lure 6"
         amount:
-          min: "6"
-          max: "8"
-    rewardgui: ";x czeków[20]"
+          min: "7"
+          max: "7"
+    2:
+        item: "iron block"
+        amount:
+          min: "8"
+          max: "9"
+    rewardgui: ";x czeków [50],;x bloków żelaza"
     dialog:
       intro: "Pewne skurwysyny wybiły mi okno, pogadaj z nimi."
       complete: "Świetnie, jeszcze okno muszę wymienić..."
@@ -2971,8 +3826,8 @@ quest:
       1:
         type: "cave spider"
         amount:
-          min: "3"
-          max: "4"
+          min: "20"
+          max: "25"
     targetgui: "Pokonaj ;x cave spider"
     reward:
       1:
@@ -2984,9 +3839,14 @@ quest:
         enchant:
           - "lure 6"
         amount:
-          min: "3"
-          max: "4"
-    rewardgui: ";x czeków[20]"
+          min: "10"
+          max: "10"
+      2:
+        item: "iron block"
+        amount:
+          min: "9"
+          max: "10"
+    rewardgui: ";x czeków [50],;x bloków żelaza"
     dialog:
       intro: "Co oni kurwa myślą, że są Spider-Manem z jaskin?"
       complete: "Teraz to już został tylko jeden prawdziwy."
@@ -2999,8 +3859,8 @@ quest:
       1:
         type: "spider"
         amount:
-          min: "10"
-          max: "16"
+          min: "30"
+          max: "32"
     targetgui: "Pokonaj ;x spider"
     reward:
       1:
@@ -3012,9 +3872,14 @@ quest:
         enchant:
           - "lure 6"
         amount:
-          min: "6"
-          max: "10"
-    rewardgui: ";x czeków[50]"
+          min: "8"
+          max: "8"
+    2:
+        item: "iron block"
+        amount:
+          min: "8"
+          max: "9"
+    rewardgui: ";x czeków [50],;x bloków żelaza"
     dialog:
       intro: "Bambiki nam sie ladderuja przez mury zrób coś z tym."
       complete: "Teraz czarnuchy mają swoją nauczkę."
@@ -3027,8 +3892,8 @@ quest:
       1:
         type: "pig"
         amount:
-          min: "16"
-          max: "20"
+          min: "32"
+          max: "32"
     targetgui: "Pokonaj ;x świń"
     reward:
       1:
@@ -3040,9 +3905,14 @@ quest:
         enchant:
           - "lure 6"
         amount:
-          min: "3"
-          max: "4"
-    rewardgui: ";x czeków[50]"
+          min: "5"
+          max: "6"
+      2:
+        item: "gold block"
+        amount:
+          min: "7"
+          max: "7"
+    rewardgui: ";x czeków [50],;x bloków złota"
     dialog:
       intro: "Brakuje nam bekonu weź pomóż."
       complete: "No i grill musi teraz oddać."
@@ -3055,8 +3925,8 @@ quest:
       1:
         type: "creeper"
         amount:
-          min: "10"
-          max: "12"
+          min: "22"
+          max: "28"
     targetgui: "Pokonaj ;x creeper"
     reward:
       1:
@@ -3068,9 +3938,14 @@ quest:
         enchant:
           - "lure 6"
         amount:
-          min: "4"
-          max: "5"
-    rewardgui: ";x czeków[50]"
+          min: "6"
+          max: "7"
+    2:
+        item: "iron block"
+        amount:
+          min: "6"
+          max: "12"
+    rewardgui: ";x czeków [50],;x bloków żelaza"
     dialog:
       intro: "Trochę talibów spadło w naszej okolicy."
       complete: "Creeper oh men."
@@ -3083,8 +3958,8 @@ quest:
       1:
         type: "cow"
         amount:
-          min: "10"
-          max: "12"
+          min: "22"
+          max: "28"
     targetgui: "Pokonaj ;x krowy"
     reward:
       1:
@@ -3098,7 +3973,12 @@ quest:
         amount:
           min: "5"
           max: "6"
-    rewardgui: ";x czeków[50]"
+      2:
+        item: "gold block"
+        amount:
+          min: "5"
+          max: "9"
+    rewardgui: ";x czeków [50],;x bloków złota"
     dialog:
       intro: "Potrzebujemy na szybko skóry z krowy."
       complete: "Enchant zaraz bedzię gotowy."
@@ -3156,14 +4036,14 @@ quest:
         enchant:
           - "lure 8"
         amount:
-          min: "1"
+          min: "2"
           max: "2"
       2:
         item: "iron block"
         amount:
-          min: "2"
-          max: "3"
-    rewardgui: ";x czeków[1000], ;x Bloków Zelaza"
+          min: "7"
+          max: "9"
+    rewardgui: ";x czeki [1000],;x Bloków Zelaza"
     dialog:
       intro: "Siema, zgubiłem paczkę z zasobami, możesz ją znaleźć?"
       complete: "Dzięki wielkie, ciekawe co jest w środku, jak to kurwa pusta."
@@ -3221,14 +4101,14 @@ quest:
         enchant:
           - "lure 8"
         amount:
-          min: "3"
-          max: "3"
+          min: "2"
+          max: "2"
       2:
         item: "iron block"
         amount:
-          min: "4"
-          max: "5"
-    rewardgui: ";x czeków[1000], ;x Bloków Zelaza"
+          min: "10"
+          max: "12"
+    rewardgui: ";x czeki [1000],;x Bloków Zelaza"
     dialog:
       intro: "Siema, zgubiłem paczkę z zasobami, możesz ją znaleźć?"
       complete: "Dzięki wielkie, ciekawe co jest w środku, jak to kurwa pusta."
@@ -3261,14 +4141,14 @@ quest:
         enchant:
           - "lure 9"
         amount:
-          min: "3"
-          max: "4"
+          min: "2"
+          max: "2"
       2:
-        item: "diamond"
+        item: "diamond block"
         amount:
-          min: "6"
-          max: "8"
-    rewardgui: ";x czeków[2500], ;x Diamentów"
+          min: "5"
+          max: "6"
+    rewardgui: ";x czeki [2500],;x bloków diamentów"
     dialog:
       intro: "Za niedługo bedę mieć impreze. Potrzebuje trochę alko."
       complete: "Ale sie najebiemy."
@@ -3301,13 +4181,13 @@ quest:
           - "lure 9"
         amount:
           min: "2"
-          max: "3"
+          max: "2"
       2:
-        item: "diamond"
+        item: "diamond block"
         amount:
-          min: "10"
-          max: "12"
-    rewardgui: ";x czeków[2500], ;x Diamentów"
+          min: "5"
+          max: "6"
+    rewardgui: ";x czeki [2500],;x bloków diamentów"
     dialog:
       intro: "Ostatnio zajebali mi ijust'a. Weź mi ogarnij coś w zamian."
       complete: "Ale to chmurzy, jo dupia."
@@ -3327,8 +4207,8 @@ quest:
         enchant:
           - "lure 5"
         amount:
-          min: "12"
-          max: "14"
+          min: "10"
+          max: "12"
     targetgui: "Zbierz ;x Butelek wody"
     reward:
       1:
@@ -3340,14 +4220,14 @@ quest:
         enchant:
           - "lure 9"
         amount:
-          min: "4"
-          max: "5"
+          min: "2"
+          max: "2"
       2:
-        item: "diamond"
+        item: "diamond block"
         amount:
-          min: "14"
-          max: "16"
-    rewardgui: ";x czeków[2500], ;x Diamentów"
+          min: "6"
+          max: "6"
+    rewardgui: ";x czeki [2500],;x bloków diamentów"
     dialog:
       intro: "Moim czarnuchom zabrakło wody. Pomożesz?"
       complete: "Dzięki to więcej niz cała Afryka jest w stanie wygenerować przez rok."
@@ -3373,9 +4253,14 @@ quest:
         enchant:
           - "lure 8"
         amount:
-          min: "8"
-          max: "10"
-    rewardgui: ";x czeków[1000]"
+          min: "4"
+          max: "4"
+      2:
+        item: "gold block"
+        amount:
+          min: "12"
+          max: "16"
+    rewardgui: ";x czeki [1000],;x bloków złota"
     dialog:
       intro: "Potrzebujemy sporego zapasu melonów. Ogarnij tam troche."
       complete: "Dzięki teraz magazyn to sie nie domyka."
@@ -3402,13 +4287,13 @@ quest:
           - "lure 8"
         amount:
           min: "4"
-          max: "5"
+          max: "4"
       2:
-        item: "coal"
+        item: "coal block"
         amount:
-          min: "100"
-          max: "128"
-    rewardgui: ";x czeków[1000], ;x Coal"
+          min: "20"
+          max: "32"
+    rewardgui: ";x czeki [1000],;x bloków węgla"
     dialog:
       intro: "Chcemy zrespić Wither'a, ale brakuje nam głow szkieletów. Ogarniesz temat?"
       complete: "Dzięki zaraz bedziemy go bić."
@@ -3434,9 +4319,14 @@ quest:
         enchant:
           - "lure 8"
         amount:
-          min: "3"
-          max: "4"
-    rewardgui: ";x czeków[1000]"
+          min: "2"
+          max: "2"
+      2:
+        item: "gold block"
+        amount:
+          min: "8"
+          max: "9"
+    rewardgui: ";x czeki [1000],;x bloków złota"
     dialog:
       intro: "Musisz pokonac kilka shulkerów. Nasza satelita wykrywa, że tych skurwesynów jest coraz więcej."
       complete: "Dzięki Wielkie Bratku."
@@ -3449,8 +4339,8 @@ quest:
       1:
         type: "blaze"
         amount:
-          min: "100"
-          max: "135"
+          min: "128"
+          max: "128"
     targetgui: "Pokonaj ;x blazów"
     reward:
       1:
@@ -3462,9 +4352,14 @@ quest:
         enchant:
           - "lure 8"
         amount:
-          min: "20"
-          max: "30"
-    rewardgui: ";x czeków[1000]"
+          min: "3"
+          max: "4"
+      2:
+        item: "iron block"
+        amount:
+          min: "10"
+          max: "12"
+    rewardgui: ";x czeki [1000],;x bloków żelaza"
     dialog:
       intro: "Blazy podpali mi chate ostatnio. Wez ich przekop."
       complete: "Dzięki Wielkie Bratku."
@@ -3477,22 +4372,22 @@ quest:
       1:
         type: "zombie"
         amount:
-          min: "100"
+          min: "70"
           max: "125"
       2:
         type: "skeleton"
         amount:
-          min: "100"
+          min: "70"
           max: "125"
       3:
         type: "creeper"
         amount:
-          min: "100"
+          min: "70"
           max: "125"
       4:
         type: "spider"
         amount:
-          min: "100"
+          min: "70"
           max: "125"
     targetgui: "Pokonaj ;x zombie, ;x szkieletów, ;x creeperów, ;x pająków"
     reward:
@@ -3505,9 +4400,14 @@ quest:
         enchant:
           - "lure 8"
         amount:
-          min: "5"
-          max: "6"
-    rewardgui: ";x czeków[1000]"
+          min: "6"
+          max: "7"
+      2:
+        item: "netherite block"
+        amount:
+          min: "1"
+          max: "1"
+    rewardgui: ";x czeków [1000],;x blok netherytu"
     dialog:
       intro: "Ostatnio duzo mobów tu chodzi. Daj im nauczkę."
       complete: "Dzięki Wielkie Bratku."
@@ -3525,28 +4425,22 @@ quest:
     targetgui: "Pokonaj ;x smoków"
     reward:
       1:
-        item: "diamond"
+        item: "diamond block"
         amount:
-          min: "20"
-          max: "20"
+          min: "8"
+          max: "8"
       2:
         item: "paper"
-        name: "&eCzek &f&l< 100 >"
+        name: "&eCzek &f&l< 1000 >"
         lore:
           - ""
           - "&fUzycie: &f&l<PPM>"
         enchant:
-          - "lure 7"
+          - "lure 8"
         amount:
-          min: "20"
-          max: "20"
-      3:
-        item: "smooth red sandstone"
-        name: "&eSiarka"
-        amount:
-          min: "2"
-          max: "3"
-    rewardgui: ";x diamentow, ;x czeków[100], ;x Siarka"
+          min: "5"
+          max: "5"
+    rewardgui: ";x bloków diamentow,;x czeków [1000]"
     dialog:
       intro: "smok nasrał mi na wycieraczke NO WAY zrob z nim porządek"
       complete: "dziena tera zaden petung mi nie nasra"
@@ -3559,8 +4453,8 @@ quest:
       1:
         type: "enderman"
         amount:
-          min: "150"
-          max: "175"
+          min: "140"
+          max: "225"
     targetgui: "Pokonaj ;x endermanów"
     reward:
       1:
@@ -3573,8 +4467,13 @@ quest:
           - "lure 8"
         amount:
           min: "4"
-          max: "5"
-    rewardgui: ";x czeków[1000]"
+          max: "4"
+      2:
+        item: "gold block"
+        amount:
+          min: "12"
+          max: "16"
+    rewardgui: ";x czeków [1000],;x bloków złota"
     dialog:
       intro: "Endermany zajebali mi blok diaxów ostatnio. Wez ich przekop."
       complete: "Dziena Maciuś."
@@ -3632,14 +4531,14 @@ quest:
         enchant:
           - "lure 8"
         amount:
-          min: "4"
-          max: "4"
+          min: "5"
+          max: "6"
       2:
         item: "iron block"
         amount:
-          min: "4"
-          max: "5"
-    rewardgui: ";x czeków[1000], ;x Bloków Zelaza"
+          min: "15"
+          max: "20"
+    rewardgui: ";x czeków [1000],;x Bloków Zelaza"
     dialog:
       intro: "Siema, zgubiłem paczkę z zasobami, możesz ją znaleźć?"
       complete: "Dzięki wielkie, ciekawe co jest w środku, jak to kurwa pusta."
@@ -3702,9 +4601,9 @@ quest:
       2:
         item: "iron block"
         amount:
-          min: "8"
-          max: "10"
-    rewardgui: ";x czeków[1000], ;x Bloków Zelaza"
+          min: "22"
+          max: "26"
+    rewardgui: ";x czeków [1000],;x Bloków Zelaza"
     dialog:
       intro: "Siema, zgubiłem paczkę z zasobami, możesz ją znaleźć?"
       complete: "Dzięki wielkie, ciekawe co jest w środku, jak to kurwa pusta."
@@ -3723,15 +4622,15 @@ quest:
     targetgui: "Zbierz ;x HQM"
     reward:
       1:
-        item: "netherite ingot"
+        item: "netherite block"
         amount:
-          min: "20"
-          max: "20"
+          min: "1"
+          max: "1"
       2:
         item: "diamond block"
         amount:
-          min: "5"
-          max: "5"
+          min: "8"
+          max: "9"
       3:
         item: "paper"
         name: "&eCzek &f&l< 2500 >"
@@ -3741,9 +4640,9 @@ quest:
         enchant:
           - "lure 9"
         amount:
-          min: "6"
-          max: "7"
-    rewardgui: ";x Sztabek Netheru, ;x Blokow Diamentu, ;x czeków[2500]"
+          min: "5"
+          max: "5"
+    rewardgui: ";x block netheru,;x blokow diamentu,;x czeków [2500]"
     dialog:
       intro: "Potrzebujemy HQM mozesz nam to zalatwic"
       complete: "Dobra teraz nasza baza jest git."
@@ -3762,7 +4661,7 @@ quest:
         enchant:
           - "lure 6"
         amount:
-          min: "32"
+          min: "25"
           max: "32"
       2:
         item: "rabbit hide"
@@ -3774,7 +4673,7 @@ quest:
         enchant:
           - "lure 5"
         amount:
-          min: "32"
+          min: "25"
           max: "32"
     targetgui: "Zbierz ;x Aegis'y, ;x Butelek wody"
     reward:
@@ -3787,14 +4686,14 @@ quest:
         enchant:
           - "lure 9"
         amount:
-          min: "12"
-          max: "15"
+          min: "5"
+          max: "6"
       2:
         item: "diamond block"
         amount:
           min: "10"
           max: "12"
-    rewardgui: ";x czeków[2500], ;x Blocki Diamentów"
+    rewardgui: ";x czeków [2500],;x blocków diamentów"
     dialog:
       intro: "Ostatnio zajebali mi ijust'a. Weź mi ogarnij coś w zamian. + przyniesc troche wody"
       complete: "Ale to chmurzy, jo dupia."
@@ -3812,12 +4711,6 @@ quest:
     targetgui: "Zbierz ;x Beaconow"
     reward:
       1:
-        item: "red chiseled sandstone"
-        name: "&6Metal Wysokiej Jakosci"
-        amount:
-          min: "5"
-          max: "7"
-      2:
         item: "paper"
         name: "&eCzek &f&l< 2500 >"
         lore:
@@ -3826,9 +4719,14 @@ quest:
         enchant:
           - "lure 9"
         amount:
+          min: "5"
+          max: "6"
+      2:
+        item: "diamond block"
+        amount:
           min: "10"
-          max: "15"
-    rewardgui: ";x HQM, ;x czeków[2500]"
+          max: "12"
+    rewardgui: ";x czeków [2500],;x blocków diamentów"
     dialog:
       intro: "Potrzebujemy Beaconow mozesz nam to zalatwic"
       complete: "Dobra teraz baza bedzie sie swiecic jak psu jajca"
@@ -3921,12 +4819,6 @@ quest:
     targetgui: "Zbierz ;x Wszystkich kolorow wełny"
     reward:
       1:
-        item: "red chiseled sandstone"
-        name: "&6Metal Wysokiej Jakosci"
-        amount:
-          min: "10"
-          max: "10"
-      2:
         item: "paper"
         name: "&eCzek &f&l< 5000 >"
         lore:
@@ -3935,9 +4827,14 @@ quest:
         enchant:
           - "lure 10"
         amount:
-          min: "8"
-          max: "8"
-    rewardgui: ";x HQM, ;x czeków[5000]"
+          min: "2"
+          max: "2"
+      2:
+        item: "gold block"
+        amount:
+          min: "40"
+          max: "45"
+    rewardgui: ";x czeki [5000],;x blocków złota"
     dialog:
       intro: "Potrzebujemy Kolorowych wełn"
       complete: "Super Gratki za wytrwalosc"
@@ -3963,9 +4860,14 @@ quest:
         enchant:
           - "lure 10"
         amount:
-          min: "4"
-          max: "5"
-    rewardgui: ";x czeków[5000]"
+          min: "3"
+          max: "4"
+      2:
+        item: "gold block"
+        amount:
+          min: "40"
+          max: "48"
+    rewardgui: ";x czeki [5000],;x blocków diamentów"
     dialog:
       intro: "Chcemy zrespić Wither'ów na giga rida, ale brakuje nam głow szkieletów. Ogarniesz temat?"
       complete: "Dzięki zaraz bedziemy go bić."
@@ -3978,8 +4880,8 @@ quest:
       1:
         type: "villager"
         amount:
-          min: "30"
-          max: "32"
+          min: "32"
+          max: "48"
     targetgui: "Pokonaj ;x Villager"
     reward:
       1:
@@ -3991,9 +4893,14 @@ quest:
         enchant:
           - "lure 10"
         amount:
-          min: "5"
-          max: "6"
-    rewardgui: ";x czeków[5000]"
+          min: "2"
+          max: "2"
+      2:
+        item: "block of emerald"
+        amount:
+          min: "64"
+          max: "64"
+    rewardgui: ";x czeki [5000],;x blocków emeraldów"
     dialog:
       intro: "Zrajdowali mi wioske w coin master teraz zrajduj ich wioske irl."
       complete: "Mogles im odlaczyc kabel od internetu ale to tez bedzie dzialac."
@@ -4007,7 +4914,7 @@ quest:
         type: "elder guardian"
         amount:
           min: "4"
-          max: "5"
+          max: "4"
     targetgui: "Pokonaj ;x elder guardianów"
     reward:
       1:
@@ -4019,9 +4926,14 @@ quest:
         enchant:
           - "lure 10"
         amount:
-          min: "4"
-          max: "4"
-    rewardgui: ";x czeków[5000]"
+          min: "2"
+          max: "3"
+      2:
+        item: "sponge"
+        amount:
+          min: "12"
+          max: "20"
+    rewardgui: ";x czeki [5000],;x gąbek"
     dialog:
       intro: "Mordo najeb skośno okich. Zajebali mi towar."
       complete: "Dzięki Wielkie, a masz towar?"
@@ -4038,20 +4950,26 @@ quest:
           max: "5"
     targetgui: "Pokonaj ;x smoków endu"
     reward:
+    reward:
       1:
         item: "paper"
-        name: "&eCzek &f&l< 1000 >"
+        name: "&eCzek &f&l< 5000 >"
         lore:
           - ""
           - "&fUzycie: &f&l<PPM>"
         enchant:
-          - "lure 8"
+          - "lure 10"
         amount:
-          min: "20"
-          max: "30"
-    rewardgui: ";x czeków[1000]"
+          min: "3"
+          max: "3"
+      2:
+        item: "gold block"
+        amount:
+          min: "64"
+          max: "64"
+    rewardgui: ";x czeki [5000],;x blocków złota"
     dialog:
-      intro: "Smok nasral mi na dywan. Wez ich przekop."
+      intro: "Smoki nasrały mi na dywan. Wez ich przekop."
       complete: "Dzięki Wielkie Bratku."
   53:
     difficulty:
@@ -4062,8 +4980,8 @@ quest:
       1:
         type: "iron golem"
         amount:
-          min: "50"
-          max: "55"
+          min: "64"
+          max: "64"
     targetgui: "Pokonaj ;x Iron Golem"
     reward:
       1:
@@ -4075,9 +4993,14 @@ quest:
         enchant:
           - "lure 10"
         amount:
-          min: "6"
-          max: "7"
-    rewardgui: ";x czeków[5000]"
+          min: "3"
+          max: "3"
+      2:
+        item: "block of emerald"
+        amount:
+          min: "64"
+          max: "64"
+    rewardgui: ";x czeki [5000],;x blocków emeraldów"
     dialog:
       intro: "Golemy ojebaly mnie na ticketa. Wez ich przekop."
       complete: "Dzięki Wielkie Bratku."
@@ -4103,9 +5026,19 @@ quest:
         enchant:
           - "lure 10"
         amount:
-          min: "5"
-          max: "6"
-    rewardgui: ";x czeków[5000]"
+          min: "3"
+          max: "3"
+      2:
+        item: "lapis block"
+        amount:
+          min: "64"
+          max: "64"
+      3:
+        item: "redstone block"
+        amount:
+          min: "64"
+          max: "64"
+    rewardgui: ";x czeki [5000],;x blocków lapisu,;x bloków redstone'a"
     dialog:
       intro: "Wardeny podpali mi chate ostatnio. Wez ich przekop."
       complete: "Dzięki Wielkie Bratku."
@@ -4170,7 +5103,12 @@ quest:
         amount:
           min: "3"
           max: "3"
-    rewardgui: ";x czeków[5000]"
+      2:
+        item: "iron block"
+        amount:
+          min: "64"
+          max: "64"
+    rewardgui: ";x czeki [5000],;x blocków żelaza"
     dialog:
       intro: "Siema, zgubiłem paczkę z zasobami, możesz ją znaleźć?"
       complete: "Dzięki wielkie, ciekawe co jest w środku, jak to kurwa pusta."
@@ -4233,9 +5171,14 @@ quest:
         enchant:
           - "lure 10"
         amount:
-          min: "5"
-          max: "5"
-    rewardgui: ";x czeków[5000]"
+          min: "3"
+          max: "3"
+      2:
+        item: "iron block"
+        amount:
+          min: "64"
+          max: "64"
+    rewardgui: ";x czeki [5000],;x blocków żelaza"
     dialog:
       intro: "Siema, zgubiłem paczkę z zasobami, możesz ją znaleźć?"
       complete: "Dzięki wielkie, ciekawe co jest w środku, jak to kurwa pusta."
@@ -4271,11 +5214,6 @@ quest:
           min: "5"
           max: "5"
       6:
-        item: "elytra"
-        amount:
-          min: "5"
-          max: "5"
-      7:
         item: "rabbit hide"
         name: "&dNerka"
         enchant:
@@ -4286,7 +5224,7 @@ quest:
         amount:
           min: "64"
           max: "64"
-      8:
+      7:
         item: "rabbit hide"
         name: "&dPaka Szlogow"
         lore:
@@ -4300,7 +5238,7 @@ quest:
         amount:
           min: "64"
           max: "64"              
-      9:
+      8:
         item: "rabbit hide"
         name: "&dJoint"
         lore:
@@ -4313,7 +5251,7 @@ quest:
         amount:
           min: "64"
           max: "64"
-      10:
+      9:
         item: "rabbit hide"
         name: "&dJabol"
         lore:
@@ -4325,7 +5263,7 @@ quest:
         amount:
           min: "64"
           max: "64"
-      11:
+      10:
         item: "rabbit hide"
         name: "&dAegis"
         lore:
@@ -4336,7 +5274,7 @@ quest:
         amount:
           min: "32"
           max: "32"
-      12:
+      11:
         item: "rabbit hide"
         name: "&dButelka Wody"
         lore:
@@ -4351,12 +5289,6 @@ quest:
     targetgui: "Zbierz ;x blokow diaxow, ;x blokow zelaza, ;x blokow zlota, ;x sztabek netheritu, ;x nether starow, ;x elytr, ;x nerek, ;x pak szlugów, ;x joinow, ;x jaboli, ;x aegisow, ;x butelek wody"
     reward:
       1:
-        item: "red chiseled sandstone"
-        name: "&6Metal Wysokiej Jakosci"
-        amount:
-          min: "64"
-          max: "64"
-      2:
         item: "paper"
         name: "&eCzek &f&l< 5000 >"
         lore:
@@ -4365,9 +5297,9 @@ quest:
         enchant:
           - "lure 10"
         amount:
-          min: "10"
-          max: "10"
-    rewardgui: ";x HQM, ;x czeków[5000]"
+          min: "20"
+          max: "20"
+    rewardgui: ";x czeków [5000]"
     dialog:
       intro: "pomocy rajdują mnie giga zergi"
       complete: "ale stomp masz fuicy a zapłate"
@@ -4405,12 +5337,6 @@ quest:
           min: "48"
           max: "48"
       2:
-        item: "red chiseled sandstone"
-        name: "&6Metal Wysokiej Jakosci"
-        amount:
-          min: "35"
-          max: "40"
-      3:
         item: "paper"
         name: "&eCzek &f&l< 5000 >"
         lore:
@@ -4419,12 +5345,248 @@ quest:
         enchant:
           - "lure 10"
         amount:
-          min: "10"
-          max: "10"
-    rewardgui: ";x diamentow, ;x HQM, ;x czeków[5000]"
+          min: "12"
+          max: "12"
+    rewardgui: ";x bloków diamentów,;x czeków [5000]"
     dialog:
       intro: "pomocy rajdują mnie giga zergi"
       complete: "ale stomp masz fuicy a zapłate"
+  59:
+    difficulty:
+      lvl: "1"
+      gui: "&2★ &7★ &7★ &7★"
+    type: "collect"
+    items:
+      1:
+        item: "honey bottle"
+        amount:
+          min: "2"
+          max: "4"
+    targetgui: "zbierz ;x butelki miodu od pszczół"
+    reward:
+      1:
+        item: "paper"
+        name: "&eCzek &f&l< 20 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 5"
+        amount:
+          min: "2"
+          max: "3"
+      2:
+        item: "iron block"
+        amount:
+          min: "2"
+          max: "2"
+    rewardgui: ";x czeki [20],;x bloki zelaza"
+    dialog:
+      intro: "Ujebała mnie przczoła, musi ponieść kare"
+      complete: "Teraz jest fair"
+  60:
+    difficulty:
+      lvl: "1"
+      gui: "&2★ &7★ &7★ &7★"
+    type: "collect"
+    items:
+      1:
+        item: "brown mushroom"
+        amount:
+          min: "3"
+          max: "5"
+      2:
+        item: "red mushroom"
+        amount:
+          min: "5"
+          max: "3"
+    targetgui: "zbierz: ;x grzybków brązowych,;x grzybków czerwonych"
+    reward:
+      1:
+        item: "paper"
+        name: "&eCzek &f&l< 20 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 5"
+        amount:
+          min: "4"
+          max: "5"
+      2:
+        item: "gold block"
+        amount:
+          min: "2"
+          max: "2"
+    rewardgui: ";x czeki [20],;x bloki złota"
+    dialog:
+      intro: "Przynies mi pare grzybków do mojej grzybowej"
+      complete: "Dzięki, te czerwone sobie ususze"
+  61:
+    difficulty:
+      lvl: "1"
+      gui: "&2★ &7★ &7★ &7★"
+    type: "collect"
+    items:
+      1:
+        item: "salmon bucket"
+        amount:
+          min: "1"
+          max: "1"
+    targetgui: "zbierz ;x łososia w wiaderku"
+    reward:
+      1:
+        item: "paper"
+        name: "&eCzek &f&l< 20 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 5"
+        amount:
+          min: "4"
+          max: "4"
+      2:
+        item: "emerald block"
+        amount:
+          min: "2"
+          max: "2"
+    rewardgui: ";x czeki [20],;x bloki emeraldu"
+    dialog:
+      intro: "Jebany kot zjadl mi łososia z stawu ogarni mi nowego"
+      complete: "teraz rybka sobie pływa"
+  62:
+    difficulty:
+      lvl: "1"
+      gui: "&2★ &7★ &7★ &7★"
+    type: "collect"
+    items:
+      1:
+        item: "kelp"
+        amount:
+          min: "128"
+          max: "128"
+    targetgui: "zbierz ;x kelpów"
+    reward:
+      1:
+        item: "paper"
+        name: "&eCzek &f&l< 20 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 5"
+        amount:
+          min: "5"
+          max: "5"
+      2:
+        item: "gold block"
+        amount:
+          min: "2"
+          max: "3"
+    rewardgui: ";x czeki [20],;x bloki złota"
+    dialog:
+      intro: "podobno rosliny wodne są bardzo dobre, przynies mi trochu"
+      complete: "dzieki w chuj"
+  63:
+    difficulty:
+      lvl: "2"
+      gui: "&e★ &e★ &7★ &7★"
+    type: "collect"
+    items:
+      1:
+        item: "ametyst shard"
+        amount:
+          min: "16"
+          max: "20"
+    targetgui: "zbierz ;x odłamków ametystu"
+    reward:
+      1:
+        item: "paper"
+        name: "&eCzek &f&l< 100 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 7"
+        amount:
+          min: "9"
+          max: "10"
+      2:
+        item: "diamond block"
+        amount:
+          min: "1"
+          max: "1"
+    rewardgui: ";x czeków [100],;x blok diamentu"
+    dialog:
+      intro: "Gwiazdy akurat sie tak ułożyły że potrzebuje ametyst"
+      complete: "Dzięki fanie świeci"
+  64:
+    difficulty:
+      lvl: "3"
+      gui: "&c★ &c★ &c★ &7★"
+    type: "collect"
+    items:
+      1:
+        item: "axolotl bucket"
+        amount:
+          min: "4"
+          max: "5"
+    targetgui: "zbierz ;x wiaderek z axolotlami"
+    reward:
+      1:
+        item: "paper"
+        name: "&eCzek &f&l< 1000 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 8"
+        amount:
+          min: "4"
+          max: "4"
+      2:
+        item: "coal block"
+        amount:
+          min: "20"
+          max: "32"
+    rewardgui: ";x czeki [1000],;x bloków węgla"
+    dialog:
+      intro: "Widzialem na tictoku ciekawe moby z jaskini ogarni mi pare"
+      complete: "OMG ale cute"
+  65:
+    difficulty:
+      lvl: "3"
+      gui: "&c★ &c★ &c★ &7★"
+    type: "collect"
+    items:
+      1:
+        item: "bee nest"
+        amount:
+          min: "4"
+          max: "5"
+    targetgui: "zbierz ;x dzikich uli (pustych)"
+    reward:
+      1:
+        item: "paper"
+        name: "&eCzek &f&l< 1000 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 8"
+        amount:
+          min: "3"
+          max: "4"
+      2:
+        item: "gold block"
+        amount:
+          min: "10"
+          max: "12"
+    rewardgui: ";x czeki [1000],;x bloków złota"
+    dialog:
+      intro: "chce zostac pszczelarzem ale craftowane ule sa cringe, znajdz pare dzikich"
+      complete: "tera moge wychodowac bzuumi!"
 
 cpun:
   offers:
@@ -4485,10 +5647,6 @@ cpun:
           effect: "levitation"
           time: "10 seconds"
           power: "1"
-        13:
-          effect: "instant damage"
-          time: "2 seconds"
-          power: "1"
     2:
       item: "honey bottle"
       price: "25"
@@ -4507,10 +5665,6 @@ cpun:
           time: "20 seconds"
           power: "1"
         3:
-          effect: "night vision"
-          time: "400 seconds"
-          power: "1"
-        4:
           effect: "Dolphin's Grace"
           time: "400 seconds"
           power: "1"
@@ -4532,14 +5686,10 @@ cpun:
           time: "10 seconds"
           power: "1"
         3:
-          effect: "night vision"
-          time: "800 seconds"
-          power: "1"
-        4:
           effect: "poison"
           time: "5 seconds"
           power: "1"
-        5:
+        4:
           effect: "Dolphin's Grace"
           time: "800 seconds"
           power: "1"
@@ -4633,7 +5783,7 @@ cpun:
           power: "5"
     8:
       item: "honey bottle"
-      price: "20"
+      price: "10"
       name: "&f&lKokaina "
       lore:
         - "&dTy kurwa cukier puder."
@@ -4650,7 +5800,7 @@ cpun:
           power: "2"
     9:
       item: "honey bottle"
-      price: "50"
+      price: "25"
       name: "&f&lKokaina od polecanego dilera "
       lore:
         - "&dJest dobrze, jest tanio."
@@ -4676,7 +5826,7 @@ cpun:
       effects:
         1:
           effect: "Strength"
-          time: "180 seconds"
+          time: "300 seconds"
           power: "3"
         2:
           effect: "resistance"
@@ -4706,7 +5856,7 @@ cpun:
       effects:
         1:
           effect: "speed"
-          time: "240 seconds"
+          time: "300 seconds"
           power: "3"
     13:
       item: "honey bottle"
@@ -4719,7 +5869,7 @@ cpun:
       effects:
         1:
           effect: "regeneration"
-          time: "100 seconds"
+          time: "160 seconds"
           power: "2"
         2:
           effect: "haste"
@@ -4736,7 +5886,7 @@ cpun:
       effects:
         1:
           effect: "regeneration"
-          time: "240 seconds"
+          time: "300 seconds"
           power: "3"
         2:
           effect: "haste"
@@ -4841,11 +5991,11 @@ cpun:
       effects:
         1:
           effect: "Strength"
-          time: "300 seconds"
+          time: "600 seconds"
           power: "4"
         2:
           effect: "resistance"
-          time: "300 seconds"
+          time: "600 seconds"
           power: "3"
         3:
           effect: "night vision"
@@ -4861,11 +6011,11 @@ cpun:
           power: "30"
         6:
           effect: "regeneration"
-          time: "180 seconds"
-          power: "3"
+          time: "300 seconds"
+          power: "4"
         7:
           effect: "wither"
-          time: "30 seconds"
+          time: "15 seconds"
           power: "5"
 
 joe:
@@ -4873,6 +6023,7 @@ joe:
     price-buy: "1"
     price-sell: "0.5"
     price-sellall: "0.3"
+    max-shulker-per-sell-all: "5"
   items:
     # 0: #id item yaml
     #   item: "oak log" #item id
@@ -6763,8 +7914,6 @@ joe:
       wyjatek:
         sell:
           sell: "true"            
-        buy:
-          buy: "true"
     513:
       item: "firework"
       price: "5"
@@ -7027,7 +8176,7 @@ joe:
           buy: "true"
     583g:
       item: "enchanted golden apple"
-      price: "1800"
+      price: "4000"
       wyjatek:
         sell:
           sell: "true"
@@ -7936,7 +9085,7 @@ joe:
         sell:
           sell: "true"
     698:
-      item: "iron horse armor"
+      item: "wooden sword"
       name: "&c&lRevolver"
       ctd: "1"
       lore:
@@ -7956,9 +9105,9 @@ joe:
         sell:
           sell: "true"
     700:
-      item: "iron horse armor"
+      item: "wooden sword"
       name: "&c&lCustomSMG"
-      ctd: "3"
+      ctd: "4"
       lore:
         - "&fRozjebana MP5 sklejona taśmą"
       price: "20000"
@@ -7976,9 +9125,9 @@ joe:
         sell:
           sell: "true"
     702:
-      item: "iron horse armor"
+      item: "wooden sword"
       name: "&c&lSemi Auto Rifle"
-      ctd: "5"
+      ctd: "7"
       lore:
         - "&fUlubiona broń Grubego Joe'a"
       price: "25000"
@@ -8086,9 +9235,9 @@ joe:
         - "mending 1"
       price: "90000"
     712:
-      item: "iron horse armor"
+      item: "wooden sword"
       name: "&4&lAlien Red"
-      ctd: "7"
+      ctd: "10"
       lore:
         - "&fLegendarny karabin automatyczny z specjalnym malowaniem."
       price: "80000"
@@ -8100,9 +9249,9 @@ joe:
         - "&fAmunicja do &4&lAlien Red"
       price: ""
     714:
-      item: "iron horse armor"
+      item: "wooden sword"
       name: "&4&lL96"
-      ctd: "9"
+      ctd: "13"
       lore:
         - "&fMust-have każdego roofcampera."
       price: "140000"
@@ -8115,7 +9264,7 @@ joe:
         - "&fAmunicja do &4&lL96"
       price: "1000"
     716:
-      item: "compass"
+      item: "diamond sword"
       name: "&e&lNadajnik GPS"
       enchant:
         - "lure 10"
@@ -8126,6 +9275,25 @@ joe:
         buy:
           buy: "true"
           price: "2000"
+    716a:
+      item: "paper"
+      name: "&eSchemat &7< &f&lgps &r&7>"
+      lore:
+        - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
+        - ""
+        - "&aOdblokowuje:"
+        - "&2gps"
+        - ""
+        - "&fUzycie: &f&l<PPM>"
+      enchant:
+        - "fortune 4"
+      price: "500"
+      wyjatek:
+        sell:
+          sell: "true"
+        buy:
+          buy: "true"
+          price: "5000"
     717:
       item: "rabbit hide"
       name: "&dNerka"
@@ -8210,7 +9378,7 @@ joe:
         - "&fZajebania przysaidu na nią "
       enchant:
         - "lure 5"
-      price: "2000"
+      price: "1000"
       wyjatek:
         sell:
           sell: "true"
@@ -8238,25 +9406,19 @@ joe:
     727:
       item: "smooth red sandstone"
       name: "&eSiarka"
-      price: "1000"
+      price: "1200"
       wyjatek:
         sell:
           sell: "true"
           always-here: "true"
-          price: "600"
-        buy:
-          buy: "true"
     728:
       item: "red chiseled sandstone"
       name: "&6Metal Wysokiej Jakosci"
-      price: "3000"
+      price: "3600"
       wyjatek:
         sell:
           sell: "true"
           always-here: "true"
-          price: "1800"
-        buy:
-          buy: "true"
     729:
       item: "elytra"
       name: "&f&lAngel Wings"
@@ -8710,8 +9872,8 @@ totems:
               przelej: "0.1"
             xp: "1"
         stats:
-          startxp: "300"
-          nextlvladdxp: "350"
+          startxp: "1000"
+          nextlvladdxp: "500"
           HugeDropEvery: "5"
           lvlcap: "50"
     items:
@@ -8736,7 +9898,7 @@ totems:
           start-amount: "1"
         3:
           item: "gold ingot"
-          start-amount: "10"
+          start-amount: "1"
       huge:
         1:
           item: "paper"
@@ -8758,7 +9920,7 @@ totems:
           start-amount: "1"
         3:
           item: "gold block"
-          start-amount: "20"
+          start-amount: "3"
     effects:
       1:
         gui: "&cHero of the village &7< &f&l1 &7>"
@@ -8809,12 +9971,15 @@ totems:
             3:
               item: "red chiseled sandstone"
               xp: "10"
+            4:
+              item: "bedrock"
+              xp: "99999"
             any:
               item: "any"
               xp: "2"
         stats:
           startxp: "100"
-          nextlvladdxp: "100"
+          nextlvladdxp: "75"
           HugeDropEvery: "5"
           lvlcap: "50"
     items:
@@ -8864,6 +10029,7 @@ totems:
         gui: "&cSpeed &7< &4&lMAX LVL &7>"
         effect: "speed"
         power: "2"
+        fly: "true"
         lvl: "50"
 
 #Jak to czytasz to milego dzionka ~06.03.22 Edit1: Jeszcze troche i styknie rok :) ~10.02.23 Edit2: jo babyn zara skrypt bedzie mial 2.5 roku gdzies ~ 03.05.23 Edit3: Whats up nigga ~ 16.12.2023r. Edit4: Im still standing ~01.01.24
@@ -9101,7 +10267,7 @@ help:
         enchant:
           - respiration 4
     name: "&cBlokady"
-    text: "Po starcie edycji nie można wejść do Netheru przez pierwsze &c6 &cgodzin&f, a do Endu przez pierwsze &c36 &cgodzin&f. Przez pierwsze &c24 &cgodziny &fnie można prowadzić walki PvP bez obustronnej zgody. Przez pierwsze &c48 &cgodzin &fnie można otwierać skrzynek innych graczy, chyba że dana osoba dodała cię do znajomych."
+    text: "Po starcie edycji nie można wejść do Netheru przez pierwsze &c6 &cgodzin&f, a do Endu przez pierwsze &c36 &cgodzin&f. Przez pierwsze &c24 &cgodziny &fnie można prowadzić walki PvP bez obustronnej zgody. Przez pierwsze &c24 &cgodzin &fnie można otwierać skrzynek innych graczy, chyba że dana osoba dodała cię do znajomych, ani grifować,niszczyc budowli innych graczy."
   20:
     icon:
       1:
@@ -9113,6 +10279,38 @@ help:
   21:
     icon:
       1:
+        icon: "iron horse armor"
+        enchant:
+          - lure 10
+      2:
+        icon: "iron horse armor"
+        enchant:
+          - lure 9
+      3:
+        icon: "iron horse armor"
+        enchant:
+          - lure 8
+    name: "&eHome'y"
+    text: "Aby ustawić punkt, do którego chcesz się później teleportować &e(/home)&f, należy w &eWB &fwytworzyć &cSleeping &cBag'a&f (odpowiedniego dla danego świata) i następnie położyć go w dowolnym miejscu (możesz kliknąć na niego PPM, aby zmienić jego nazwę). Po postawieniu możesz się do niego teleportować, chyba że ktoś go zniszczy."
+  22:
+    icon:
+      1:
+        icon: "paper"
+        enchant:
+          - fortune 4
+    name: "&eBlueprint'y"
+    text: "Niektórych rzeczy nie można craftować bez posiadania specjalnego schematu, który możesz otrzymać z &elicytacji, &eLocked Crate lub &eAirdropów. &fPo otrzymaniu schematu kliknij go prawym przyciskiem myszy, aby na stałe przypisać go do konta. Możesz również stworzyć schemat z przedmiotu za pomocą &eWB."
+  23:
+    icon:
+      1:
+        icon: "paper"
+        enchant:
+          - luck of the sea 5
+    name: "&eLicytacja"
+    text: "Co jakiś czas u &dGrubego &dJoe &fpojawi się licytacja, która zostanie poprzedzona wiadomością na czacie. Po 300 sekundach gracze mogą przebijać swoje oferty, a gdy któryś z graczy będzie liderem licytacji przez 60 sekund, wygrywa dany przedmiot za kwotę, którą licytował."
+  24:
+    icon:
+      1:
         icon: "kelp"
         enchant:
           - respiration 9
@@ -9121,9 +10319,7 @@ help:
     special-case: "1"
     special-text:
       - "&e/spawn &7- &fTeleportuje cię na spawn."
-      - "&e/sethome <nazwa> &7- Ustawiasz sobie miejsce do teleportacji."
       - "&e/home <nazwa> &7- Teleportujesz się do miejsca, które wcześniej ustawiłeś."
-      - "&e/delhome <nazwa> &7- Usuwasz jeden z swoich home'ów."
       - "&e/tpr <nick> &7- &fWysyłasz prośbę o teleportację do gracza."
       - "&e/tpd &7- &fAkceptujesz prośbę o teleportację."
       - "&e/tpa &7- &fAnulujesz prośbę o teleportację."
@@ -9131,9 +10327,7 @@ help:
       - "&e/quest &7- &fPodgląd postępu misji."
       - "&e/bank &7- &fAktualny stan konta oraz komendy związane z przelewami gotówki."
       - "&e/bloki &7- &fMożesz sobie wybrać bloki budowlane, które dostałeś za postęp w talizmanie &dBudowniczy."
-      - "&e/znajomy dodaj <nick> &7- &fDodaj gracza do znajomych, aby mógł otwierać skrzynki i beczki."
-      - "&e/znajomy usun <nick> &7- &fUsuń gracza z znajomych, aby nie mógł już otwierać skrzynek i beczek."
-      - "&e/znajomy lista &7- &fLista znajomych."
+      - "&e/clan &7- &fTworzenie druzyny, która bedzie mogła niszczyć twoje skrzynki, jak je otwierac <Więcej na /clan>"
       - "&e/lock &7- &fZamyka daną skrzynkę, dzięki czemu tylko ty możesz ją otwierać, nawet osoby dodane do twoich znajomych. &cWymaga rangi: &6VIP."
       - "&e/unlock &7- &fOdblokowuje daną skrzynkę, dzięki czemu tylko ty i twoi znajomi mogą ją odwierać. &cWymaga rangi: &6VIP."
       - "&e/flee &7- &fRynek graczy."
@@ -9147,7 +10341,7 @@ help:
       - "&e/kit &7- &fZestawy dla graczy, które można odebrać co jakiś czas."
       - "&e/tc &7- &fPozwala sprawdzić, czy możesz postawić TC w miejscu, w którym się znajdujesz."
       - "&e/tip &7- &fZarządzanie wiadomościami na chacie [TIP]."
-  22:
+  25:
     icon:
       1:
         icon: "writable book"
