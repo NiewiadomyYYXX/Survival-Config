@@ -1,6 +1,489 @@
 #lootable for Survival++ bundle by NiewiadomyYYXX
 #Default lootable by NiewiadomyYYXX
-#Ver. 6.0
+#Ver. 7.0
+
+# tabelka itemów  do kopiowania do innych czesci yamala #
+
+specialne-przedmioty-do-kopiowania:
+  1:
+    item: "amethyst shard"
+    lore:
+      - ""
+      - "&fJestes w stanie z fragmentow stworzyc"
+      - "&fdowolna wersje sprawnego talizmanu"
+    name: "&5&lFragment talizmanu JackaPlacka"
+    ctd: "1"
+  2:
+    item: "diamond pickaxe"
+    name: "&ePickaxe"
+    enchant:
+      - "efficiency 6"
+      - "unbreaking 4"
+      - "fortune 4"
+  3:
+    item: "diamond sword"
+    name: "&eSalvage Sword"
+    enchant:
+      - "sharpness 6"
+      - "unbreaking 4"
+      - "looting 4"
+  4:
+    item: "diamond axe"
+    name: "&eHachet"
+    enchant:
+      - "efficiency 6"
+      - "unbreaking 4"
+      - "fortune 4"
+  5:
+    item: "diamond shovel"
+    name: "&ePaddle"
+    enchant:
+      - "efficiency 6"
+      - "unbreaking 4"
+      - "fortune 4"
+  6:
+    item: "diamond axe"
+    name: "&eTopor Dariusa"
+    enchant:
+      - "sharpness 7"
+      - "unbreaking 4"
+      - "fire aspect 4"
+  7:
+    item: "bow"
+    name: "&eLegacy Bow"
+    enchant:
+      - "power 6"
+      - "unbreaking 4"
+      - "infinity 1"
+  8:
+    item: "diamond hoe"
+    name: "&eSierp"
+    enchant:
+      - "efficiency 6"
+      - "unbreaking 4"
+      - "fortune 4"
+  9:
+    item: "diamond helmet"
+    name: "&eWilk"
+    enchant:
+      - "protection 5"
+      - "unbreaking 4"
+      - "aqua affinity 1"
+  10:
+    item: "diamond chestplate"
+    name: "&ePoncho"
+    enchant:
+      - "protection 5"
+      - "unbreaking 4"
+  11:
+    item: "diamond leggings"
+    name: "&ePants"
+    enchant:
+      - "protection 5"
+      - "unbreaking 4"
+  12:
+    item: "diamond boots"
+    name: "&eKapcie"
+    enchant:
+      - "protection 5"
+      - "unbreaking 4"
+      - "feather falling 4"
+  13:
+    item: "rabbit hide"
+    name: "&e&lLom"
+    lore:
+      - ""
+      - "&fSluzy do otwarcia &4Locked Crate'a"
+    ctd: "10"
+  14:
+    item: "rabbit hide"
+    name: "&eWytrych"
+    lore:
+      - ""
+      - "&fSluzy do otwarcia &4Locked Crate'a"
+    enchant:
+      - "mending 10"
+  15:
+    item: "honey bottle"
+    name: "&6&lAntyRad &7< &f&l20 &7>"
+    lore:
+      - "&fSluzy do przebywania w strefie radiacji"
+      - ""
+      - "&fDlugosc Trwania: &f&l20 minut"
+    enchant:
+      - "lure 10"
+  16:
+    item: "honey bottle"
+    name: "&6&lAntyRad &7< &f&l10 &7>"
+    lore:
+      - "&fSluzy do przebywania w strefie radiacji"
+      - ""
+      - "&fDlugosc Trwania: &f&l10 minut"
+    enchant:
+      - "lure 9"
+  17:
+    item: "honey bottle"
+    name: "&6&lAntyRad &7< &f&l5 &7>"
+    lore:
+      - "&fSluzy do przebywania w strefie radiacji"
+      - ""
+      - "&fDlugosc Trwania: &f&l5 minut"
+    enchant:
+      - "lure 8"
+  18:
+    item: "diamond helmet"
+    name: "&eCoffe Can"
+    enchant:
+      - "protection 6"
+      - "unbreaking 4"
+      - "aqua affinity 1"
+      - "fire protection 4"
+      - "respiration 3"
+      - "mending 1"
+    lore:
+      - ""
+      - "&cGuns Resistance: &45%"
+      - ""
+  19:
+    item: "diamond chestplate"
+    name: "&eRoad Sign Vest"
+    enchant:
+      - "protection 6"
+      - "unbreaking 4"
+      - "fire protection 4"
+      - "mending 1"
+    lore:
+      - ""
+      - "&cGuns Resistance: &48%"
+      - ""
+  20:
+    item: "diamond leggings"
+    name: "&eSpodnie ze Znaków"
+    enchant:
+      - "protection 6"
+      - "unbreaking 4"
+      - "mending 1"
+      - "fire protection 4"
+      - "swift sneak 3"
+    lore:
+      - ""
+      - "&cGuns Resistance: &44%"
+      - ""
+  21:
+    item: "diamond boots"
+    name: "&eTrampki"
+    enchant:
+      - "protection 6"
+      - "unbreaking 4"
+      - "mending 1"
+      - "fire protection 4"
+      - "feather falling 6"
+      - "depth strider 4"
+    lore:
+      - ""
+      - "&cGuns Resistance: &43%"
+      - ""
+  22:
+    item: "diamond sword"
+    name: "&eSalvage Cleaver"
+    enchant:
+      - "sharpness 7"
+      - "unbreaking 5"
+      - "looting 5"
+      - "mending 1"
+  23:
+    item: "diamond pickaxe"
+    name: "&eIce Pick"
+    enchant:
+      - "efficiency 7"
+      - "unbreaking 5"
+      - "fortune 6"
+      - "mending 1"
+  24:
+    item: "diamond axe"
+    name: "&eSalvage Axe"
+    enchant:
+      - "efficiency 7"
+      - "unbreaking 5"
+      - "fortune 5"
+      - "mending 1"
+  25:
+    item: "diamond shovel"
+    name: "&eŁopata"
+    enchant:
+      - "efficiency 7"
+      - "unbreaking 5"
+      - "fortune 5"
+      - "mending 1"
+  26:
+    item: "diamond hoe"
+    name: "&eKosa"
+    enchant:
+      - "efficiency 7"
+      - "unbreaking 5"
+      - "fortune 5"
+      - "mending 1"
+  27:
+    item: "bow"
+    name: "&eJade Bow"
+    enchant:
+      - "power 7"
+      - "unbreaking 5"
+      - "infinity 1"
+      - "mending 1"
+  28:
+    item: "wooden sword"
+    name: "&c&lRevolver"
+    ctd: "1"
+    lore:
+      - "&fKultowa replica revolveru z czasu Westernu"
+  29:
+    item: "rabbit foot"
+    name: "&eMagnum .44"
+    ctd: "1"
+    lore:
+      - "&fAmunicja do &cRevolver'a"
+  30:
+    item: "wooden sword"
+    name: "&c&lCustomSMG"
+    ctd: "4"
+    lore:
+      - "&fRozjebana MP5 sklejona taśmą"
+  31:
+    item: "rabbit foot"
+    name: "&e9x19mm Ammo"
+    ctd: "2"
+    lore:
+      - "&fAmunicja do &c&lCustomSMG"
+  32:
+    item: "wooden sword"
+    name: "&c&lSemi Auto Rifle"
+    ctd: "7"
+    lore:
+      - "&fUlubiona broń Grubego Joe'a"
+  33:
+    item: "rabbit foot"
+    name: "&e5.56 Ammo"
+    ctd: "3"
+    lore:
+      - "&fAmunicja do &c&lSar'a"
+  34:
+    item: "netherite helmet"
+    name: "&4&lBig Grin"
+    enchant:
+      - "protection 10"
+      - "unbreaking 10"
+      - "aqua affinity 1"
+      - "respiration 7"
+      - "fire protection 7"
+      - "projectile protection 7"
+      - "blast protection 7"
+      - "mending 1"
+    lore:
+      - ""
+      - "&cGuns Resistance: &420%"
+      - "&eRad Resistance: &65%"
+      - ""
+  35:
+    item: "netherite chestplate"
+    name: "&4&lMetal Chestplate"
+    enchant:
+      - "protection 10"
+      - "unbreaking 10"
+      - "fire protection 7"
+      - "projectile protection 7"
+      - "blast protection 7"
+      - "mending 1"
+    lore:
+      - ""
+      - "&cGuns Resistance: &430%"
+      - "&eRad Resistance: &610%"
+      - ""
+  36:
+    item: "netherite leggings"
+    name: "&4&lArmored Spodnie"
+    enchant:
+      - "protection 10"
+      - "unbreaking 10"
+      - "fire protection 7"
+      - "projectile protection 7"
+      - "blast protection 7"
+      - "mending 1"
+      - "Swift Sneak 7"
+    lore:
+      - ""
+      - "&eRad Resistance: &650%"
+      - ""
+  37:
+    item: "netherite boots"
+    name: "&4&lButy"
+    enchant:
+      - "protection 10"
+      - "unbreaking 10"
+      - "mending 1"
+      - "feather falling 7"
+      - "depth strider 7"
+      - "fire protection 7"
+      - "projectile protection 7"
+      - "blast protection 7"
+      - "soul speed 7"
+    lore:
+      - ""
+      - "&eRad Resistance: &635%"
+      - ""
+  38:
+    item: "netherite sword"
+    name: "&4&lTempered Sword"
+    enchant:
+      - "sharpness 10"
+      - "unbreaking 10"
+      - "fire aspect 7"
+      - "smite 10"
+      - "bane of arthropods 10"
+      - "sweeping edge 7"
+      - "looting 7"
+      - "mending 1"
+  39:
+    item: "netherite pickaxe"
+    name: "&4&lJackhammer"
+    enchant:
+      - "efficiency 10"
+      - "unbreaking 10"
+      - "fortune 7"
+      - "mending 1"
+  40:
+    item: "wooden sword"
+    name: "&4&lAlien Red"
+    ctd: "10"
+    lore:
+      - "&fLegendarny karabin automatyczny z specjalnym malowaniem."
+  41:
+    item: "rabbit foot"
+    name: "&e7.62x39mm Ammo"
+    ctd: "400"
+    lore:
+      - "&fAmunicja do &4&lAlien Red"
+  42:
+    item: "wooden sword"
+    name: "&4&lL96"
+    ctd: "13"
+    lore:
+      - "&fMust-have każdego roofcampera."
+  43:
+    item: "rabbit foot"
+    name: "&e.308 Ammo"
+    ctd: "5"
+    amount: "2"
+    lore:
+      - "&fAmunicja do &4&lL96"
+  44:
+    item: "diamond sword"
+    name: "&e&lNadajnik GPS"
+    enchant:
+      - "lure 10"
+  45:
+    item: "rabbit hide"
+    name: "&dNerka"
+    enchant:
+      - "lure 10"
+    lore:
+      - "&fZagubiona nerka pewnego"
+      - "&flegendarnego zawodnika w F1."
+  46:
+    item: "rabbit hide"
+    name: "&dPaka Szlogow"
+    lore:
+      - "&fPaczka papierosów Marlboro to"
+      - "&fklasyczne opakowanie"
+      - "&fz czerwonym logo i nazwą"
+      - "&fmarki na białym tle."
+      - "&fIdealnie pasuje z coca-colą."
+    enchant:
+      - "lure 9"
+  47:
+    item: "rabbit hide"
+    name: "&dJoint"
+    lore:
+      - "&fJoint to forma papierosa"
+      - "&fskręconego z papieru i wypełnionego"
+      - "&fsuszem konopi indyjskich, która"
+      - "&fjest często używana w celach rekreacyjnych."
+    enchant:
+      - "lure 8"
+  48:
+    item: "rabbit hide"
+    name: "&dJabol"
+    lore:
+      - "&fJabol to slangowe określenie taniego"
+      - "&fwina o niskiej jakości zwykle"
+      - "&fotrzymywanego z niedojrzałych winogron."
+    enchant:
+      - "lure 7"
+  49:
+    item: "jungle button"
+    name: "&c&lC4"
+    lore:
+      - ""
+      - "&fSluzy do wysadzania baz wroga."
+  50:
+    item: "rabbit hide"
+    name: "&dAegis"
+    lore:
+      - "&fEpapieros typu Box"
+      - "&fPizga niezła chmure oraz po płucach"
+    enchant:
+      - "lure 6"
+  51:
+    item: "rabbit hide"
+    name: "&dButelka Wody"
+    lore:
+      - "&fPół litra wody cristal  "
+      - "&fWoda służąca do napojenia się bądz"
+      - "&fZajebania przysaidu na nią "
+    enchant:
+      - "lure 5"
+  52:
+    item: "bow"
+    name: "&f&lJan"
+    lore:
+      - "&fLegendarny złoty łuk papierza &fpol&caka"
+      - "&fNapewno jest warty sporą sumkę."
+    enchant:
+      - "power 2"
+  53:
+    item: "red sandstone"
+    name: "&eTool Cupboard"
+  54:
+    item: "smooth red sandstone"
+    name: "&eSiarka"
+  55:
+    item: "red chiseled sandstone"
+    name: "&6Metal Wysokiej Jakosci"
+  56:
+    item: "elytra"
+    name: "&f&lAngel Wings"
+    lore:
+      - "&fSkrzydła upadłego anioła."
+    enchant:
+      - "protection 10"
+      - "unbreaking 10"
+      - "mending 1"
+      - "fire protection 10"
+      - "projectile protection 10"
+      - "blast protection 10"
+  57:
+    item: "paper"
+    name: "&eSchemat &7< &f&lnazwa &r&7>"
+    lore:
+      - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
+      - ""
+      - "&aOdblokowuje:"
+      - "&2nazwa"
+      - ""
+      - "&fUzycie: &f&l<PPM>"
+    enchant:
+      - "fortune 4"
+
 
 #             #
 # --Airdrop-- #
@@ -294,13 +777,20 @@ airdrop:
       min: "1"
       max: "2"
   28:
-    item: "compass"
+    item: "paper"
     chance:
       default: "15%"
       vip: "20%"
-    name: "&e&lNadajnik GPS"
+    name: "&eSchemat &7< &f&lgps &r&7>"
+    lore:
+      - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
+      - ""
+      - "&aOdblokowuje:"
+      - "&2gps"
+      - ""
+      - "&fUzycie: &f&l<PPM>"
     enchant:
-        - "lure 10"
+      - "fortune 4"
     quantity:
       min: "1"
       max: "1"
@@ -367,16 +857,20 @@ airdrop:
       min: "1"
       max: "2"
   33:
-    item: "jungle button"
+    item: "paper"
     chance:
       default: "2%"
       vip: "4%"
-    name: "&c&lC4"
+    name: "&eSchemat &7< &f&lc4 &r&7>"
     lore:
+      - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
       - ""
-      - "&fSluzy do wysadzania baz"
+      - "&aOdblokowuje:"
+      - "&2c4"
       - ""
-      - "&fUżycie: &f&l<LPM>"
+      - "&fUzycie: &f&l<PPM>"
+    enchant:
+      - "fortune 4"
     quantity:
       min: "1"
       max: "2"
@@ -705,6 +1199,31 @@ airdrop:
     quantity:
       min: "2"
       max: "8"
+  69:
+    item: "rabbit foot"
+    chance:
+      default: "2%"
+      vip: "4%"
+    name: "&e.22lr Ammo"
+    ctd: "10"
+    lore:
+      - "&fAmunicja do &cSemi Auto Pistol"
+    quantity:
+      min: "20"
+      max: "32"
+  70:
+    item: "rabbit foot"
+    chance:
+      default: "2%"
+      vip: "4%"
+    name: "&eHomemade shell"
+    ctd: "8"
+    lore:
+      - "&fAmunicja do &cDouble Barrel"
+    quantity:
+      min: "6"
+      max: "12"
+
 
 #             #
 #  --Craft--  #
@@ -729,6 +1248,11 @@ wb:
         - "&cGuns Resistance: &420%"
         - "&eRad Resistance: &65%"
         - ""
+      bp: "big_grin"
+      bpbench:
+        price: "5000"
+      repair:
+        price: "2000"
       amount: "1"
       price:
         gui:
@@ -771,6 +1295,11 @@ wb:
         - "blast protection 7"
         - "mending 1"
       amount: "1"
+      bp: "klatat3"
+      bpbench:
+        price: "5000"
+      repair:
+        price: "2000"
       lore:
         - ""
         - "&cGuns Resistance: &430%"
@@ -818,6 +1347,11 @@ wb:
         - "mending 1"
         - "Swift Sneak 7"
       amount: "1"
+      bp: "spodniet3"
+      bpbench:
+        price: "5000"
+      repair:
+        price: "2000"
       lore:
         - ""
         - "&eRad Resistance: &650%"
@@ -866,6 +1400,11 @@ wb:
         - "blast protection 7"
         - "soul speed 7"
       amount: "1"
+      bp: "butyt3"
+      bpbench:
+        price: "5000"
+      repair:
+        price: "2000"
       lore:
         - ""
         - "&eRad Resistance: &635%"
@@ -903,6 +1442,11 @@ wb:
     5:
       item: "netherite sword"
       name: "&4&lTempered Sword"
+      bp: "tempered_sword"
+      bpbench:
+        price: "5000"
+      repair:
+        price: "2000"
       enchant:
         - "sharpness 10"
         - "unbreaking 10"
@@ -952,6 +1496,11 @@ wb:
         - "fortune 7"
         - "mending 1"
       amount: "1"
+      bp: "jackhammer"
+      bpbench:
+        price: "5000"
+      repair:
+        price: "2000"
       price:
         gui:
           - "&f25x &6Metal Wysokiej Jakosci"
@@ -979,128 +1528,6 @@ wb:
             name: "&6Metal Wysokiej Jakosci"
             amount: "25"
     7:
-      item: "iron horse armor"
-      name: "&4&lAlien Red"
-      ctd: "7"
-      amount: "1"
-      lore:
-        - "&fLegendarny karabin automatyczny z specjalnym malowaniem."
-      price:
-        gui:
-          - "&f30x &6Metal Wysokiej Jakosci"
-          - "&f128x Iron Block"
-          - "&f420x Oak Log"
-          - "&f256x Obsidian"
-          - "&f1x Netherite Block"
-          - "&e30 &6lvl XP"
-        xp: "30"
-        items:
-          1:
-            item: "iron block"
-            amount: "128"
-          2:
-            item: "oak log"
-            amount: "420"
-          3:
-            item: "netherite block"
-            amount: "1"
-          4:
-            item: "obsidian"
-            amount: "256"
-          5:
-            item: "red chiseled sandstone"
-            name: "&6Metal Wysokiej Jakosci"
-            amount: "30"
-    8:
-      item: "rabbit foot"
-      name: "&e7.62x39mm Ammo"
-      ctd: "4"
-      amount: "16"
-      lore:
-        - "&fAmunicja do &4&lAlien Red"
-      price:
-        gui:
-          - "&f6x Copper Block"
-          - "&f2x &6Metal Wysokiej Jakosci"
-          - "&f4x &eSiarki"
-          - "&f24x Gunpowder"
-        items:
-          1:
-            item: "copper block"
-            amount: "6"
-          2:
-            item: "gunpowder"
-            amount: "24"
-          3:
-            item: "smooth red sandstone"
-            name: "&eSiarka"
-            amount: "4"
-          4:
-            item: "red chiseled sandstone"
-            name: "&6Metal Wysokiej Jakosci"
-            amount: "2"
-    9:
-      item: "iron horse armor"
-      name: "&4&lL96"
-      ctd: "9"
-      amount: "1"
-      lore:
-        - "&fMust-have każdego roofcampera."
-      price:
-        gui:
-          - "&f45x &6Metal Wysokiej Jakosci"
-          - "&f128x Iron Block"
-          - "&f12x Diamond Block"
-          - "&f500x Obsidian"
-          - "&f1x Netherite Block"
-          - "&e45 &6lvl XP"
-        xp: "45"
-        items:
-          1:
-            item: "iron block"
-            amount: "128"
-          2:
-            item: "diamond block"
-            amount: "12"
-          3:
-            item: "netherite block"
-            amount: "1"
-          4:
-            item: "obsidian"
-            amount: "500"
-          5:
-            item: "red chiseled sandstone"
-            name: "&6Metal Wysokiej Jakosci"
-            amount: "45"
-    10:
-      item: "rabbit foot"
-      name: "&e.308 Ammo"
-      ctd: "5"
-      amount: "2"
-      lore:
-        - "&fAmunicja do &4&lL96"
-      price:
-        gui:
-          - "&f6x Copper Block"
-          - "&f2x &6Metal Wysokiej Jakosci"
-          - "&f4x &eSiarki"
-          - "&f24x Gunpowder"
-        items:
-          1:
-            item: "copper block"
-            amount: "6"
-          2:
-            item: "gunpowder"
-            amount: "24"
-          3:
-            item: "smooth red sandstone"
-            name: "&eSiarka"
-            amount: "4"
-          4:
-            item: "red chiseled sandstone"
-            name: "&6Metal Wysokiej Jakosci"
-            amount: "2"
-    11:
       item: "honey bottle"
       name: "&6&lAntyRad &7< &f&l20 &7>"
       lore:
@@ -1129,7 +1556,418 @@ wb:
           4:
             item: "glistering melon slice"
             amount: "1"
+    8:
+      item: "wooden sword"
+      name: "&4&lAlien Red"
+      ctd: "10"
+      amount: "1"
+      bp: "ak"
+      bpbench:
+        price: "5000"
+      lore:
+        - "&fLegendarny karabin automatyczny z specjalnym malowaniem."
+      price:
+        gui:
+          - "&f30x &6Metal Wysokiej Jakosci"
+          - "&f128x Iron Block"
+          - "&f420x Oak Log"
+          - "&f256x Obsidian"
+          - "&f1x Netherite Block"
+          - "&e30 &6lvl XP"
+        xp: "30"
+        items:
+          1:
+            item: "iron block"
+            amount: "128"
+          2:
+            item: "oak log"
+            amount: "420"
+          3:
+            item: "netherite block"
+            amount: "1"
+          4:
+            item: "obsidian"
+            amount: "256"
+          5:
+            item: "red chiseled sandstone"
+            name: "&6Metal Wysokiej Jakosci"
+            amount: "30"
+    9:
+      item: "rabbit foot"
+      name: "&e7.62x39mm Ammo"
+      ctd: "4"
+      amount: "16"
+      lore:
+        - "&fAmunicja do &4&lAlien Red"
+      price:
+        gui:
+          - "&f6x Copper Block"
+          - "&f2x &6Metal Wysokiej Jakosci"
+          - "&f4x &eSiarki"
+          - "&f24x Gunpowder"
+        items:
+          1:
+            item: "copper block"
+            amount: "6"
+          2:
+            item: "gunpowder"
+            amount: "24"
+          3:
+            item: "smooth red sandstone"
+            name: "&eSiarka"
+            amount: "4"
+          4:
+            item: "red chiseled sandstone"
+            name: "&6Metal Wysokiej Jakosci"
+            amount: "2"
+    10:
+      item: "wooden sword"
+      name: "&4&lL96"
+      ctd: "13"
+      amount: "1"
+      bp: "l9"
+      bpbench:
+        price: "5000"
+      lore:
+        - "&fMust-have każdego roofcampera."
+      price:
+        gui:
+          - "&f45x &6Metal Wysokiej Jakosci"
+          - "&f128x Iron Block"
+          - "&f12x Diamond Block"
+          - "&f500x Obsidian"
+          - "&f1x Netherite Block"
+          - "&e45 &6lvl XP"
+        xp: "45"
+        items:
+          1:
+            item: "iron block"
+            amount: "128"
+          2:
+            item: "diamond block"
+            amount: "12"
+          3:
+            item: "netherite block"
+            amount: "1"
+          4:
+            item: "obsidian"
+            amount: "500"
+          5:
+            item: "red chiseled sandstone"
+            name: "&6Metal Wysokiej Jakosci"
+            amount: "45"
+    11:
+      item: "rabbit foot"
+      name: "&e.308 Ammo"
+      ctd: "5"
+      amount: "2"
+      lore:
+        - "&fAmunicja do &4&lL96"
+      price:
+        gui:
+          - "&f6x Copper Block"
+          - "&f2x &6Metal Wysokiej Jakosci"
+          - "&f4x &eSiarki"
+          - "&f24x Gunpowder"
+        items:
+          1:
+            item: "copper block"
+            amount: "6"
+          2:
+            item: "gunpowder"
+            amount: "24"
+          3:
+            item: "smooth red sandstone"
+            name: "&eSiarka"
+            amount: "4"
+          4:
+            item: "red chiseled sandstone"
+            name: "&6Metal Wysokiej Jakosci"
+            amount: "2"
     12:
+      item: "wooden sword"
+      name: "&4&lMP5"
+      ctd: "17"
+      amount: "1"
+      bp: "mp5"
+      bpbench:
+        price: "30000"
+      lore:
+        - "&fLegendarny pm do beamowania"
+      price:
+        gui:
+          - "&f20x &6Metal Wysokiej Jakosci"
+          - "&f128x Gold Block"
+          - "&f600x cobblestone"
+          - "&f256x Obsidian"
+          - "&f1x Netherite Block"
+          - "&e30 &6lvl XP"
+        xp: "30"
+        items:
+          1:
+            item: "gold block"
+            amount: "128"
+          2:
+            item: "cobblestone"
+            amount: "600"
+          3:
+            item: "netherite block"
+            amount: "1"
+          4:
+            item: "obsidian"
+            amount: "256"
+          5:
+            item: "red chiseled sandstone"
+            name: "&6Metal Wysokiej Jakosci"
+            amount: "20"
+    13:
+      item: "rabbit foot"
+      name: "&e9x18mm Ammo"
+      ctd: "6"
+      amount: "16"
+      lore:
+        - "&fAmunicja do &4&lMP5"
+      price:
+        gui:
+          - "&f6x Copper Block"
+          - "&f2x &6Metal Wysokiej Jakosci"
+          - "&f4x &eSiarki"
+          - "&f24x Gunpowder"
+        items:
+          1:
+            item: "copper block"
+            amount: "6"
+          2:
+            item: "gunpowder"
+            amount: "24"
+          3:
+            item: "smooth red sandstone"
+            name: "&eSiarka"
+            amount: "4"
+          4:
+            item: "red chiseled sandstone"
+            name: "&6Metal Wysokiej Jakosci"
+            amount: "2"
+    14:
+      item: "wooden sword"
+      name: "&4&lM4 Shotgun"
+      ctd: "27"
+      amount: "1"
+      bp: "m4"
+      bpbench:
+        price: "5000"
+      lore:
+        - "&fLegendarny shotgun na daleko"
+      price:
+        gui:
+          - "&f20x &6Metal Wysokiej Jakosci"
+          - "&f128x Gold Block"
+          - "&f600x cobblestone"
+          - "&f256x Obsidian"
+          - "&f1x Netherite Block"
+          - "&e30 &6lvl XP"
+        xp: "30"
+        items:
+          1:
+            item: "gold block"
+            amount: "128"
+          2:
+            item: "cobblestone"
+            amount: "600"
+          3:
+            item: "netherite block"
+            amount: "1"
+          4:
+            item: "obsidian"
+            amount: "256"
+          5:
+            item: "red chiseled sandstone"
+            name: "&6Metal Wysokiej Jakosci"
+            amount: "20"
+    15:
+      item: "rabbit foot"
+      name: "&e12ga Buckshot"
+      ctd: "9"
+      amount: "2"
+      lore:
+        - "&fAmunicja do &4&lM4"
+      price:
+        gui:
+          - "&f10x Copper Block"
+          - "&f2x &6Metal Wysokiej Jakosci"
+          - "&f4x &eSiarki"
+          - "&f24x Gunpowder"
+        items:
+          1:
+            item: "copper block"
+            amount: "10"
+          2:
+            item: "gunpowder"
+            amount: "24"
+          3:
+            item: "smooth red sandstone"
+            name: "&eSiarka"
+            amount: "4"
+          4:
+            item: "red chiseled sandstone"
+            name: "&6Metal Wysokiej Jakosci"
+            amount: "2"
+    16:
+      item: "wooden sword"
+      name: "&4&lPython"
+      ctd: "33"
+      amount: "1"
+      lore:
+        - "&fGiga Rewolwer, taki idealny do turreta"
+      price:
+        gui:
+          - "&f10x &6Metal Wysokiej Jakosci"
+          - "&f64x Iron Block"
+          - "&f128x Oak Log"
+          - "&f256x Obsidian"
+          - "&f1x Netherite Block"
+          - "&e25 &6lvl XP"
+        xp: "25"
+        items:
+          1:
+            item: "iron block"
+            amount: "64"
+          2:
+            item: "oak log"
+            amount: "128"
+          3:
+            item: "netherite block"
+            amount: "1"
+          4:
+            item: "obsidian"
+            amount: "256"
+          5:
+            item: "red chiseled sandstone"
+            name: "&6Metal Wysokiej Jakosci"
+            amount: "10"
+    17:
+      item: "rabbit foot"
+      name: "&eMagnum .45"
+      ctd: "11"
+      amount: "2"
+      lore:
+        - "&fAmunicja do &4&lPython"
+      price:
+        gui:
+          - "&f2x Copper Block"
+          - "&f1x &6Metal Wysokiej Jakosci"
+          - "&f2x &eSiarki"
+          - "&f10x Gunpowder"
+        items:
+          1:
+            item: "copper block"
+            amount: "2"
+          2:
+            item: "gunpowder"
+            amount: "10"
+          3:
+            item: "smooth red sandstone"
+            name: "&eSiarka"
+            amount: "2"
+          4:
+            item: "red chiseled sandstone"
+            name: "&6Metal Wysokiej Jakosci"
+            amount: "1"
+    18:
+      item: "wooden sword"
+      name: "&4&lRocket Launcher"
+      ctd: "39"
+      amount: "1"
+      bp: "rocket_launcher"
+      bpbench:
+        price: "50000"
+      lore:
+        - "&fStrzela rakietami nieco dalej niż Korea Północna."
+      price:
+        gui:
+          - "&f40x &6Metal Wysokiej Jakosci"
+          - "&f128x Gold Block"
+          - "&f16x Diamond Block"
+          - "&f512x Obsidian"
+          - "&f1x Netherite Block"
+          - "&e50 &6lvl XP"
+        xp: "50"
+        items:
+          1:
+            item: "gold block"
+            amount: "128"
+          2:
+            item: "diamond block"
+            amount: "16"
+          3:
+            item: "netherite block"
+            amount: "1"
+          4:
+            item: "obsidian"
+            amount: "512"
+          5:
+            item: "red chiseled sandstone"
+            name: "&6Metal Wysokiej Jakosci"
+            amount: "40"
+    19:
+      item: "rabbit foot"
+      name: "&eRakieta"
+      ctd: "13"
+      amount: "1"
+      bp: "rocket"
+      bpbench:
+        price: "50000"
+      lore:
+        - "&fAmunicja do &4&lRocket Launcher"
+      price:
+        gui:
+          - "&f6x Gold block"
+          - "&f64x Gunpowder"
+          - "&e9x &eSiarka"
+        items:
+          1:
+            item: "gold block"
+            amount: "6"
+          2:
+            item: "gunpowder"
+            amount: "64"
+          4:
+            item: "smooth red sandstone"
+            name: "&eSiarka"
+            amount: "9"
+    20:
+      item: "jungle button"
+      name: "&c&lC4"
+      lore:
+        - ""
+        - "&fSluzy do wysadzania baz"
+        - ""
+        - "&fUżycie: &f&l<LPM>"
+      amount: "1"
+      bp: "c4"
+      bpbench:
+        price: "50000"
+      price:
+        gui:
+          - "&f6x Gold block"
+          - "&f36x Gunpowder"
+          - "&f6x Slime Ball"
+          - "&e10x &eSiarka"
+        items:
+          1:
+            item: "gold block"
+            amount: "6"
+          2:
+            item: "gunpowder"
+            amount: "36"
+          3:
+            item: "slime ball"
+            amount: "6"
+          4:
+            item: "smooth red sandstone"
+            name: "&eSiarka"
+            amount: "10"
+    21:
       item: "totem of undying"
       name: "&5Zrzut Mutanta"
       lore:
@@ -1160,36 +1998,7 @@ wb:
             item: "smooth red sandstone"
             name: "&eSiarka"
             amount: "4"
-    13:
-      item: "jungle button"
-      name: "&c&lC4"
-      lore:
-        - ""
-        - "&fSluzy do wysadzania baz"
-        - ""
-        - "&fUżycie: &f&l<LPM>"
-      amount: "1"
-      price:
-        gui:
-          - "&f6x Gold block"
-          - "&f36x Gunpowder"
-          - "&f6x Slime Ball"
-          - "&e10x &eSiarka"
-        items:
-          1:
-            item: "gold block"
-            amount: "6"
-          2:
-            item: "gunpowder"
-            amount: "36"
-          3:
-            item: "slime ball"
-            amount: "6"
-          4:
-            item: "smooth red sandstone"
-            name: "&eSiarka"
-            amount: "10"
-    14:
+    22:
       item: "gold horse armor"
       name: "&5&lTalizman JackaPlacka"
       ctd: "4"
@@ -1198,14 +2007,14 @@ wb:
       amount: "1"
       price:
         gui:
-          - "&f6x Fragment talizmanu JackaPlacka"
+          - "&f12x Fragment talizmanu JackaPlacka"
         items:
           1:
             item: "amethyst shard"
             name: "&5&lFragment talizmanu JackaPlacka"
-            amount: "6"
+            amount: "12"
             ctd: "1"
-    15:
+    23:
       item: "gold horse armor"
       name: "&5&lTalizman JackaPlacka"
       ctd: "5"
@@ -1214,13 +2023,91 @@ wb:
       amount: "1"
       price:
         gui:
-          - "&f6x Fragment talizmanu JackaPlacka"
+          - "&f15x Fragment talizmanu JackaPlacka"
         items:
           1:
             item: "amethyst shard"
             name: "&5&lFragment talizmanu JackaPlacka"
-            amount: "6"
+            amount: "15"
             ctd: "1"
+    24:
+      item: "iron horse armor"
+      name: "&aSleeping Bag"
+      lore:
+        - "&fPo postawieniu pozwala na teleportację do niego," 
+        - "&fbez względu na to, gdzie się znajdujesz"
+        - "&f(chyba że jesteś na obszarze obcego TC)."
+        - ""
+        - "&4! &4Można postawić jedynie w Endzie &c!"
+      amount: "1"
+      enchant:
+        - "lure 10"
+      price:
+        gui:
+          - "&f16x obsydian"
+          - "&f16x ender pearl"
+          - "&f1x enchanted golden apple"
+          - "&e15 &6lvl XP"
+        xp: "15"
+        items:
+          1:
+            item: "obsydian"
+            amount: "16"
+          2:
+            item: "enderpearl"
+            amount: "16"
+          3:
+            item: "enchanted golden apple"
+            amount: "1"
+    25:
+      item: "diamond chestplate"
+      name: "&e&lHazmat"
+      lore:
+        - ""
+        - "&cGuns Resistance: &410%"
+        - "&eRad Resistance: &6100%"
+        - ""
+      amount: "1"
+      bp: "hazmat"
+      repair:
+        price: "500"
+      bpbench:
+        price: "5000"
+      enchant:
+        - "lure 10"
+        - "protection 5"
+        - "unbreaking 6"
+      price:
+        gui:
+          - "&f10x &6Metal Wysokiej Jakosci"
+          - "&f64x Iron Block"
+          - "&f128x White Wool"
+          - "&f128x Obsidian"
+          - "&f16x Diamond Block"
+          - "&f15x &eSiarki"
+          - "&e25 &6lvl XP"
+        xp: "25"
+        items:
+          1:
+            item: "iron block"
+            amount: "64"
+          2:
+            item: "white wool"
+            amount: "128"
+          3:
+            item: "obsidian"
+            amount: "128"
+          4:
+            item: "diamond block"
+            amount: "16"
+          5:
+            item: "red chiseled sandstone"
+            name: "&6Metal Wysokiej Jakosci"
+            amount: "10"
+          6:
+            item: "smooth red sandstone"
+            name: "&eSiarka"
+            amount: "15"
   t2:
     1:
       item: "diamond helmet"
@@ -1586,9 +2473,9 @@ wb:
             name: "&6Metal Wysokiej Jakosci"
             amount: "6"
     11:
-      item: "iron horse armor"
+      item: "wooden sword"
       name: "&c&lCustomSMG"
-      ctd: "3"
+      ctd: "4"
       amount: "1"
       lore:
         - "&fRozjebana MP5 sklejona taśmą"
@@ -1642,10 +2529,13 @@ wb:
             name: "&eSiarka"
             amount: "2"
     13:
-      item: "iron horse armor"
+      item: "wooden sword"
       name: "&c&lSemi Auto Rifle"
-      ctd: "5"
+      ctd: "7"
       amount: "1"
+      bp: "sar"
+      bpbench:
+        price: "2500"
       lore:
         - "&fUlubiona broń Grubego Joe'a"
       price:
@@ -1698,6 +2588,118 @@ wb:
             name: "&eSiarka"
             amount: "3"
     15:
+      item: "wooden sword"
+      name: "&c&lM92 Pistol"
+      ctd: "36"
+      amount: "1"
+      lore:
+        - "&fProsto od Cobalt Corp."
+      price:
+        gui:
+          - "&f10x &6Metal Wysokiej Jakosci"
+          - "&f48x gold Block"
+          - "&f36x Oak Log"
+          - "&f4x Diamond Block"
+          - "&e10 &6lvl XP"
+        xp: "10"
+        items:
+          1:
+            item: "gold block"
+            amount: "48"
+          2:
+            item: "oak log"
+            amount: "36"
+          3:
+            item: "diamond block"
+            amount: "4"
+          4:
+            item: "red chiseled sandstone"
+            name: "&6Metal Wysokiej Jakosci"
+            amount: "10"
+    16:
+      item: "rabbit foot"
+      name: "&e10x19mm Ammo"
+      ctd: "12"
+      amount: "8"
+      lore:
+        - "&fAmunicja do &c&lM92 Pistol"
+      price:
+        gui:
+          - "&f3x Iron Block"
+          - "&f4x Copper Block"
+          - "&f2x &eSiarki"
+          - "&f10x Gunpowder"
+        items:
+          1:
+            item: "iron block"
+            amount: "3"
+          2:
+            item: "copper block"
+            amount: "4"
+          3:
+            item: "gunpowder"
+            amount: "10"
+          4:
+            item: "smooth red sandstone"
+            name: "&eSiarka"
+            amount: "2"
+    17:
+      item: "wooden sword"
+      name: "&c&lPump"
+      ctd: "20"
+      amount: "1"
+      lore:
+        - "&fTypowa Pompa co tu dużo mówić"
+      price:
+        gui:
+          - "&f12x &6Metal Wysokiej Jakosci"
+          - "&f48x emerald Block"
+          - "&f48x Oak Log"
+          - "&f5x Diamond Block"
+          - "&e15 &6lvl XP"
+        xp: "15"
+        items:
+          1:
+            item: "emerald block"
+            amount: "48"
+          2:
+            item: "oak log"
+            amount: "48"
+          3:
+            item: "diamond block"
+            amount: "5"
+          4:
+            item: "red chiseled sandstone"
+            name: "&6Metal Wysokiej Jakosci"
+            amount: "12"
+    18:
+      item: "rabbit foot"
+      name: "&e8ga Buckshot"
+      ctd: "7"
+      amount: "2"
+      lore:
+        - "&fAmunicja do &c&lPump"
+      price:
+        gui:
+          - "&f2x Iron Block"
+          - "&f6x Slime ball"
+          - "&f4x &eSiarki"
+          - "&f16x Gunpowder"
+        items:
+          1:
+            item: "iron block"
+            amount: "2"
+          2:
+            item: "slime ball"
+            amount: "6"
+          3:
+            item: "gunpowder"
+            amount: "16"
+          4:
+            item: "smooth red sandstone"
+            name: "&eSiarka"
+            amount: "4"
+    19:
       item: "honey bottle"
       name: "&6&lAntyRad &7< &f&l10 &7>"
       lore:
@@ -1726,7 +2728,7 @@ wb:
           4:
             item: "glistering melon slice"
             amount: "1"
-    16:
+    20:
       item: "totem of undying"
       name: "&5Zrzut Zaopatrzenia"
       lore:
@@ -1756,7 +2758,7 @@ wb:
             item: "smooth red sandstone"
             name: "&eSiarka"
             amount: "4"
-    17:
+    21:
       item: "gold horse armor"
       name: "&5&lTalizman JackaPlacka"
       ctd: "2"
@@ -1772,7 +2774,7 @@ wb:
             name: "&5&lFragment talizmanu JackaPlacka"
             amount: "3"
             ctd: "1"
-    18:
+    22:
       item: "gold horse armor"
       name: "&5&lTalizman JackaPlacka"
       ctd: "3"
@@ -1788,6 +2790,164 @@ wb:
             name: "&5&lFragment talizmanu JackaPlacka"
             amount: "3"
             ctd: "1"
+    23:
+      item: "diamond sword"
+      name: "&e&lNadajnik GPS"
+      bp: "gps"
+      repair:
+        price: "1000"
+      bpbench:
+        price: "1500"
+      enchant:
+        - "lure 10"
+      amount: "1"
+      price:
+        gui:
+          - "&f5x Iron Block"
+          - "&f6x Copper Block"
+          - "&f2x &eSiarki"
+          - "&f16x Gunpowder"
+        items:
+          1:
+            item: "iron block"
+            amount: "5"
+          2:
+            item: "copper block"
+            amount: "6"
+          3:
+            item: "gunpowder"
+            amount: "16"
+          4:
+            item: "smooth red sandstone"
+            name: "&eSiarka"
+            amount: "2"
+    24:
+      item: "honey bottle"
+      name: "&2&lMedical Syringe"
+      lore:
+      - "&fNatychmiastowo ulecza część twojego"
+      - "&fzdrowia i stopniowo leczy resztę."
+      - ""
+      - "&2Instant Heal: &e2 &2Serc" #serca
+      - "&aHealing: &e5 &2Serc" #serca
+      - ""
+      - "&fUzycie: &f&l<PPM>"
+      enchant:
+        - "luck of the sea 5"
+      amount: "1"
+      price:
+        gui:
+          - "&f6x honey bottle"
+          - "&f2x iron block"
+        items:
+          1:
+            item: "honey bottle"
+            amount: "6"
+          2:
+            item: "iron block"
+            amount: "1"
+    25:
+      item: "trident"
+      name: "&6Dzida Panteona"
+      amount: "1"
+      enchant:
+        - "loyalty 5"
+        - "chanelling 1"
+        - "riptide 6"
+        - "impaling 8"
+        - "unbreaking 10"
+        - "mending 1"
+        - "sharpness 7"
+      price:
+        gui:
+          - "&f5x &6Metal Wysokiej Jakości"
+          - "&f12x Iron Block"
+          - "&f32x Obsidian"
+          - "&f5x Diamond Block"
+          - "&f2x Netherite ingot"
+          - "&e20 &6lvl XP"
+        xp: "20"
+        items:
+          1:
+            item: "iron block"
+            amount: "32"
+          2:
+            item: "obsidian"
+            amount: "32"
+          3:
+            item: "diamond block"
+            amount: "4"
+          4:
+            item: "red chiseled sandstone"
+            name: "&6Metal Wysokiej Jakosci"
+            amount: "5"
+          5:
+            item: "netherite ingot"
+            amount: "2"
+    26:
+      item: "diamond sword"
+      name: "&5Skull Scythe"
+      lore:
+        - "&fIdealne do rzezi i ścinania głów całych hord."
+      enchant:
+        - "sweeping edge 10"
+        - "smite 10"
+        - "bane of arthropods 10"
+        - "looting 6"
+        - "unbreaking 10"
+        - "mending 1"
+      amount: "1"
+      price:
+        gui:
+          - "&f10x &6Metal Wysokiej Jakosci"
+          - "&f24x Iron Block"
+          - "&f5x Diamond Block"
+          - "&f2x Netherite ingot"
+          - "&e20 &6lvl XP"
+        xp: "20"
+        items:
+          1:
+            item: "iron block"
+            amount: "24"
+          2:
+            item: "diamond block"
+            amount: "3"
+          3:
+            item: "red chiseled sandstone"
+            name: "&6Metal Wysokiej Jakosci"
+            amount: "10"
+          4:
+            item: "netherite ingot"
+            amount: "2"
+    27:
+      item: "iron horse armor"
+      name: "&aSleeping Bag"
+      lore:
+        - "&fPo postawieniu pozwala na teleportację do niego," 
+        - "&fbez względu na to, gdzie się znajdujesz"
+        - "&f(chyba że jesteś na obszarze obcego TC)."
+        - ""
+        - "&4! &4Można postawić jedynie w Netherze &c!"
+      amount: "1"
+      enchant:
+        - "lure 9"
+      price:
+        gui:
+          - "&f3x gold block"
+          - "&f16x quardz block"
+          - "&f1x golden apple"
+          - "&e10 &6lvl XP"
+        xp: "10"
+        items:
+          1:
+            item: "gold block"
+            amount: "3"
+          2:
+            item: "quardz block"
+            amount: "16"
+          3:
+            item: "golden apple"
+            amount: "1"
   t1:
     1:
       item: "diamond helmet"
@@ -2110,7 +3270,7 @@ wb:
             item: "diamond block"
             amount: "2"
     11:
-      item: "iron horse armor"
+      item: "wooden sword"
       name: "&c&lRevolver"
       ctd: "1"
       amount: "1"
@@ -2118,7 +3278,7 @@ wb:
         - "&fKultowa replica revolveru z czasu Westernu"
       price:
         gui:
-          - "&f32x Iron Block"
+          - "&f16x Iron Block"
           - "&f64x Oak Log"
           - "&f2x Diamond Block"
           - "&e15 &6lvl XP"
@@ -2126,7 +3286,7 @@ wb:
         items:
           1:
             item: "iron block"
-            amount: "32"
+            amount: "16"
           2:
             item: "oak log"
             amount: "64"
@@ -2156,6 +3316,98 @@ wb:
             item: "gunpowder"
             amount: "16"
     13:
+      item: "wooden sword"
+      name: "&c&lDouble Barrel"
+      ctd: "24"
+      amount: "1"
+      lore:
+        - "&fUlubiona broń Grab'ów"
+      price:
+        gui:
+          - "&f12x Gold Block"
+          - "&f64x Oak Log"
+          - "&f2x Diamond Block"
+          - "&e16 &6lvl XP"
+        xp: "16"
+        items:
+          1:
+            item: "gold block"
+            amount: "12"
+          2:
+            item: "oak log"
+            amount: "64"
+          3:
+            item: "diamond block"
+            amount: "2"
+    14:
+      item: "rabbit foot"
+      name: "&eHomemade shell"
+      ctd: "8"
+      amount: "2"
+      lore:
+        - "&fAmunicja do &cDouble Barrel"
+      price:
+        gui:
+          - "&f2x Iron Block"
+          - "&f2x Gold block"
+          - "&f16x Gunpowder"
+        items:
+          1:
+            item: "iron block"
+            amount: "2"
+          2:
+            item: "gold block"
+            amount: "2"
+          3:
+            item: "gunpowder"
+            amount: "16"
+    15:
+      item: "wooden sword"
+      name: "&c&lSemi Auto Pistol"
+      ctd: "30"
+      amount: "1"
+      lore:
+        - "&fSar tylko to pistolet"
+      price:
+        gui:
+          - "&f16x Emerald block"
+          - "&f32x Oak Log"
+          - "&f1x Diamond Block"
+          - "&e10 &6lvl XP"
+        xp: "10"
+        items:
+          1:
+            item: "emerald block"
+            amount: "16"
+          2:
+            item: "oak log"
+            amount: "32"
+          3:
+            item: "diamond block"
+            amount: "1"
+    16:
+      item: "rabbit foot"
+      name: "&e.22lr Ammo"
+      ctd: "10"
+      amount: "4"
+      lore:
+        - "&fAmunicja do &cSemi Auto Pistol"
+      price:
+        gui:
+          - "&f2x Iron Block"
+          - "&f2x Emerald block"
+          - "&f16x Gunpowder"
+        items:
+          1:
+            item: "iron block"
+            amount: "2"
+          2:
+            item: "emerald block"
+            amount: "2"
+          3:
+            item: "gunpowder"
+            amount: "8"
+    17:
       item: "honey bottle"
       name: "&6&lAntyRad &7< &f&l5 &7>"
       lore:
@@ -2184,7 +3436,7 @@ wb:
           4:
             item: "glistering melon slice"
             amount: "1"
-    14:
+    18:
       item: "rabbit hide"
       name: "&eWytrych"
       lore:
@@ -2208,7 +3460,7 @@ wb:
           3:
             item: "diamond"
             amount: "2"
-    15:
+    19:
       item: "gold horse armor"
       name: "&5&lTalizman JackaPlacka"
       ctd: "6"
@@ -2224,7 +3476,80 @@ wb:
             name: "&5&lFragment talizmanu JackaPlacka"
             amount: "1"
             ctd: "1"
-
+    20:
+      item: "iron horse armor"
+      name: "&eKsięga XP'a"
+      lore:
+        - "&fPozwala na przechowanie XP'a"
+      amount: "1"
+      enchant:
+        - "piercing 10"
+      price:
+        gui:
+          - "&f16x leather"
+          - "&f32x paper"
+          - "&e10 &6lvl XP"
+        xp: "10"
+        items:
+          1:
+            item: "leather"
+            amount: "16"
+          2:
+            item: "paper"
+            amount: "32"
+    21:
+      item: "honey bottle"
+      name: "&a&lBandaz"
+      lore:
+      - "&fBandaże są narzędziami medycznymi, które"
+      - "&fleczą małą ilość zdrowia."
+      - ""
+      - "&aHealing: &e2 &aSerc" #serca
+      - ""
+      - "&fUzycie: &f&l<PPM>"
+      enchant:
+        - "luck of the sea 4"
+      amount: "1"
+      price:
+        gui:
+          - "&f5x paper"
+          - "&f2x honeycomb"
+        items:
+          1:
+            item: "paper"
+            amount: "5"
+          1:
+            item: "paper"
+            amount: "2"
+    22:
+      item: "iron horse armor"
+      name: "&aSleeping Bag"
+      lore:
+        - "&fPo postawieniu pozwala na teleportację do niego," 
+        - "&fbez względu na to, gdzie się znajdujesz"
+        - "&f(chyba że jesteś na obszarze obcego TC)."
+        - ""
+        - "&4! &4Można postawić jedynie w Zwykłym Swiecie &c!"
+      amount: "1"
+      enchant:
+        - "lure 8"
+      price:
+        gui:
+          - "&f16x white wool"
+          - "&f16x oak wood"
+          - "&f2x apple"
+          - "&e5 &6lvl XP"
+        xp: "5"
+        items:
+          1:
+            item: "white wool"
+            amount: "16"
+          2:
+            item: "oak wood"
+            amount: "16"
+          3:
+            item: "apple"
+            amount: "2"
 #                #
 #   --Locked--   #
 #                #
@@ -2539,7 +3864,7 @@ locked:
         min: "20"
         max: "100"
     29:
-      item: "iron horse armor"
+      item: "wooden sword"
       name: "&c&lRevolver"
       ctd: "1"
       lore:
@@ -2664,6 +3989,17 @@ locked:
         - "&fNapewno jest warty sporą sumkę."
       enchant:
         - "power 2"
+      amount:
+        min: "1"
+        max: "1"
+    38:
+      item: "paper"
+      typ: "random-bp"
+      chance:
+        default: "2.5%"
+        vip: "5%"
+      enchant:
+        - "fortune 4"
       amount:
         min: "1"
         max: "1"
@@ -3137,7 +4473,7 @@ locked:
         min: "1"
         max: "1"
     40:
-      item: "iron horse armor"
+      item: "wooden sword"
       name: "&c&lRevolver"
       ctd: "1"
       lore:
@@ -3161,9 +4497,9 @@ locked:
         min: "10"
         max: "18"
     42:
-      item: "iron horse armor"
+      item: "wooden sword"
       name: "&c&lCustomSMG"
-      ctd: "3"
+      ctd: "4"
       lore:
         - "&fRozjebana MP5 sklejona taśmą"
       chance:
@@ -3185,9 +4521,9 @@ locked:
         min: "8"
         max: "16"
     44:
-      item: "iron horse armor"
+      item: "wooden sword"
       name: "&c&lSemi Auto Rifle"
-      ctd: "5"
+      ctd: "7"
       lore:
         - "&fUlubiona broń Grubego Joe'a"
       chance:
@@ -3319,6 +4655,17 @@ locked:
         - "&fNapewno jest warty sporą sumkę."
       enchant:
         - "power 2"
+      amount:
+        min: "1"
+        max: "1"
+    54:
+      item: "paper"
+      typ: "random-bp"
+      chance:
+        default: "2.5%"
+        vip: "5%"
+      enchant:
+        - "fortune 4"
       amount:
         min: "1"
         max: "1"
@@ -3651,7 +4998,7 @@ locked:
         min: "1"
         max: "1"
     28:
-      item: "iron horse armor"
+      item: "wooden sword"
       name: "&c&lRevolver"
       ctd: "1"
       lore:
@@ -3675,9 +5022,9 @@ locked:
         min: "10"
         max: "18"
     30:
-      item: "iron horse armor"
+      item: "wooden sword"
       name: "&c&lCustomSMG"
-      ctd: "3"
+      ctd: "4"
       lore:
         - "&fRozjebana MP5 sklejona taśmą"
       chance:
@@ -3699,9 +5046,9 @@ locked:
         min: "8"
         max: "16"
     32:
-      item: "iron horse armor"
+      item: "wooden sword"
       name: "&c&lSemi Auto Rifle"
-      ctd: "5"
+      ctd: "7"
       lore:
         - "&fUlubiona broń Grubego Joe'a"
       chance:
@@ -3803,16 +5150,20 @@ locked:
         min: "2"
         max: "6"
     40:
-      item: "jungle button"
+      item: "paper"
       chance:
         default: "10%"
         vip: "20%"
-      name: "&c&lC4"
+      name: "&eSchemat &7< &f&lc4 &r&7>"
       lore:
+        - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
         - ""
-        - "&fSluzy do wysadzania baz"
+        - "&aOdblokowuje:"
+        - "&2c4"
         - ""
-        - "&fUżycie: &f&l<LPM>"
+        - "&fUzycie: &f&l<PPM>"
+      enchant:
+        - "fortune 4"
       amount:
         min: "2"
         max: "3"
@@ -3892,9 +5243,9 @@ locked:
         min: "1"
         max: "1"
     46:
-      item: "iron horse armor"
+      item: "wooden sword"
       name: "&4&lAlien Red"
-      ctd: "7"
+      ctd: "10"
       lore:
         - "&fLegendarny karabin automatyczny z specjalnym malowaniem."
       chance:
@@ -3904,9 +5255,9 @@ locked:
         min: "1"
         max: "1"
     47:
-      item: "iron horse armor"
+      item: "wooden sword"
       name: "&4&lL96"
-      ctd: "9"
+      ctd: "13"
       lore:
         - "&fMust-have każdego roofcampera."
       chance:
@@ -3954,6 +5305,17 @@ locked:
       chance:
         default: "0.5%"
         vip: "1%"
+      amount:
+        min: "1"
+        max: "1"
+    51:
+      item: "paper"
+      typ: "random-bp"
+      chance:
+        default: "2.5%"
+        vip: "5%"
+      enchant:
+        - "fortune 4"
       amount:
         min: "1"
         max: "1"
@@ -4347,129 +5709,129 @@ paid-roll:
     items:
       0:
         chance: "10%"
-        item: "netherite helmet"
-        name: "&4&lBig Grin"
-        enchant:
-          - "protection 10"
-          - "unbreaking 10"
-          - "aqua affinity 1"
-          - "respiration 7"
-          - "fire protection 7"
-          - "projectile protection 7"
-          - "blast protection 7"
-          - "mending 1"
+        item: "paper"
+        name: "&eSchemat &7< &f&lbig_grin &r&7>"
         lore:
+          - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
           - ""
-          - "&cGuns Resistance: &420%"
-          - "&eRad Resistance: &65%"
+          - "&aOdblokowuje:"
+          - "&2big_grin"
           - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "fortune 4"
         amount:
           min: "1"
           max: "1"
       1:
         chance: "10%"
-        item: "netherite chestplate"
-        name: "&4&lMetal Chestplate"
-        enchant:
-          - "protection 10"
-          - "unbreaking 10"
-          - "fire protection 7"
-          - "projectile protection 7"
-          - "blast protection 7"
-          - "mending 1"
+        item: "paper"
+        name: "&eSchemat &7< &f&lklatat3 &r&7>"
         lore:
+          - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
           - ""
-          - "&cGuns Resistance: &430%"
-          - "&eRad Resistance: &610%"
+          - "&aOdblokowuje:"
+          - "&2klatat3"
           - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "fortune 4"
         amount:
           min: "1"
           max: "1"
       2:
         chance: "10%"
-        item: "netherite leggings"
-        name: "&4&lArmored Spodnie"
-        enchant:
-          - "protection 10"
-          - "unbreaking 10"
-          - "fire protection 7"
-          - "projectile protection 7"
-          - "blast protection 7"
-          - "mending 1"
-          - "Swift Sneak 7"
+        item: "paper"
+        name: "&eSchemat &7< &f&lspodniet3 &r&7>"
         lore:
+          - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
           - ""
-          - "&eRad Resistance: &650%"
+          - "&aOdblokowuje:"
+          - "&2spodniet3"
           - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "fortune 4"
         amount:
           min: "1"
           max: "1"
       3:
         chance: "10%"
-        item: "netherite boots"
-        name: "&4&lButy"
-        enchant:
-          - "protection 10"
-          - "unbreaking 10"
-          - "mending 1"
-          - "feather falling 7"
-          - "depth strider 7"
-          - "fire protection 7"
-          - "projectile protection 7"
-          - "blast protection 7"
-          - "soul speed 7"
+        item: "paper"
+        name: "&eSchemat &7< &f&lbutyt3 &r&7>"
         lore:
+          - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
           - ""
-          - "&eRad Resistance: &635%"
+          - "&aOdblokowuje:"
+          - "&2butyt3"
           - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "fortune 4"
         amount:
           min: "1"
           max: "1"
       4:
         chance: "10%"
-        item: "netherite sword"
-        name: "&4&lTempered Sword"
+        item: "paper"
+        name: "&eSchemat &7< &f&lbig_grin &r&7>"
+        lore:
+          - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
+          - ""
+          - "&aOdblokowuje:"
+          - "&2big_grin"
+          - ""
+          - "&fUzycie: &f&l<PPM>"
         enchant:
-          - "sharpness 10"
-          - "unbreaking 10"
-          - "fire aspect 7"
-          - "smite 10"
-          - "bane of arthropods 10"
-          - "sweeping edge 7"
-          - "looting 7"
-          - "mending 1"
+          - "fortune 4"
         amount:
           min: "1"
           max: "1"
       5:
         chance: "10%"
-        item: "netherite pickaxe"
-        name: "&4&lJackhammer"
+        item: "paper"
+        name: "&eSchemat &7< &f&ljackhammer &r&7>"
+        lore:
+          - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
+          - ""
+          - "&aOdblokowuje:"
+          - "&2jackhammer"
+          - ""
+          - "&fUzycie: &f&l<PPM>"
         enchant:
-          - "efficiency 10"
-          - "unbreaking 10"
-          - "fortune 7"
-          - "mending 1"
+          - "fortune 4"
         amount:
           min: "1"
           max: "1"
       6:
         chance: "15%"
-        item: "iron horse armor"
-        name: "&4&lAlien Red"
-        ctd: "7"
+        item: "paper"
+        name: "&eSchemat &7< &f&lak &r&7>"
         lore:
-          - "&fLegendarny karabin automatyczny z specjalnym malowaniem."
+          - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
+          - ""
+          - "&aOdblokowuje:"
+          - "&2ak"
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "fortune 4"
         amount:
           min: "1"
           max: "1"
       7:
         chance: "10%"
-        item: "iron horse armor"
-        name: "&4&lL96"
-        ctd: "9"
+        item: "paper"
+        name: "&eSchemat &7< &f&ll9 &r&7>"
         lore:
-          - "&fMust-have każdego roofcampera."
+          - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
+          - ""
+          - "&aOdblokowuje:"
+          - "&2l9"
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "fortune 4"
         amount:
           min: "1"
           max: "1"
@@ -4512,42 +5874,49 @@ paid-roll:
     items:
       0:
         chance: "20%"
-        item: "netherite helmet"
-        name: "&4&lBig Grin"
-        enchant:
-          - "protection 10"
-          - "unbreaking 10"
-          - "aqua affinity 1"
-          - "respiration 7"
-          - "fire protection 7"
-          - "projectile protection 7"
-          - "blast protection 7"
-          - "mending 1"
+        item: "paper"
+        name: "&eSchemat &7< &f&lbig_grin &r&7>"
         lore:
+          - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
           - ""
-          - "&cGuns Resistance: &420%"
-          - "&eRad Resistance: &65%"
+          - "&aOdblokowuje:"
+          - "&2big_grin"
           - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "fortune 4"
         amount:
           min: "1"
           max: "1"
       1:
         chance: "40%"
-        item: "iron horse armor"
-        name: "&4&lAlien Red"
-        ctd: "7"
+        item: "paper"
+        name: "&eSchemat &7< &f&lak &r&7>"
         lore:
-          - "&fLegendarny karabin automatyczny z specjalnym malowaniem."
+          - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
+          - ""
+          - "&aOdblokowuje:"
+          - "&2ak"
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "fortune 4"
         amount:
           min: "1"
           max: "1"
       2:
         chance: "30%"
-        item: "iron horse armor"
-        name: "&4&lL96"
-        ctd: "9"
+        item: "paper"
+        name: "&eSchemat &7< &f&ll9 &r&7>"
         lore:
-          - "&fMust-have każdego roofcampera."
+          - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
+          - ""
+          - "&aOdblokowuje:"
+          - "&2l9"
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "fortune 4"
         amount:
           min: "1"
           max: "1"
@@ -4568,23 +5937,17 @@ paid-roll:
     icon-customdata: "9"
     items:
       0:
-        chance: "50%"
-        item: "netherite helmet"
-        name: "&4&lBig Grin"
-        enchant:
-          - "protection 10"
-          - "unbreaking 10"
-          - "aqua affinity 1"
-          - "respiration 7"
-          - "fire protection 7"
-          - "projectile protection 7"
-          - "blast protection 7"
-          - "mending 1"
+        item: "paper"
+        name: "&eSchemat &7< &f&lbig_grin &r&7>"
         lore:
+          - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
           - ""
-          - "&cGuns Resistance: &420%"
-          - "&eRad Resistance: &65%"
+          - "&aOdblokowuje:"
+          - "&2big_grin"
           - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "fortune 4"
         amount:
           min: "1"
           max: "1"
@@ -4754,7 +6117,7 @@ paid-roll:
           min: "1"
           max: "1"
       11:
-        item: "iron horse armor"
+        item: "wooden sword"
         name: "&c&lRevolver"
         ctd: "1"
         lore:
@@ -4764,9 +6127,9 @@ paid-roll:
           min: "1"
           max: "1"
       12:
-        item: "iron horse armor"
+        item: "wooden sword"
         name: "&c&lCustomSMG"
-        ctd: "3"
+        ctd: "4"
         lore:
           - "&fRozjebana MP5 sklejona taśmą"
         chance: "5%"
@@ -4774,12 +6137,18 @@ paid-roll:
           min: "1"
           max: "1"
       13:
-        item: "iron horse armor"
-        name: "&c&lSemi Auto Rifle"
-        ctd: "5"
-        lore:
-          - "&fUlubiona broń Grubego Joe'a"
         chance: "5%"
+        item: "paper"
+        name: "&eSchemat &7< &f&lsar &r&7>"
+        lore:
+          - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
+          - ""
+          - "&aOdblokowuje:"
+          - "&2sar"
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "fortune 4"
         amount:
           min: "1"
           max: "1"
@@ -4878,7 +6247,7 @@ paid-roll:
     icon-customdata: "13"
     items:
       0:
-        chance: "2.5%"
+        chance: "0.5%"
         item: "netherite pickaxe"
         name: "&4&lJackhammer"
         enchant:
@@ -4890,6 +6259,22 @@ paid-roll:
           min: "1"
           max: "1"
       1:
+        chance: "2.5%"
+        item: "paper"
+        name: "&eSchemat &7< &f&ljackhammer &r&7>"
+        lore:
+          - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
+          - ""
+          - "&aOdblokowuje:"
+          - "&2jackhammer"
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "fortune 4"
+        amount:
+          min: "1"
+          max: "1"
+      2:
         chance: "7.5%"
         item: "diamond pickaxe"
         name: "&eIce Pick"
@@ -4901,7 +6286,7 @@ paid-roll:
         amount:
           min: "1"
           max: "1"
-      2:
+      3:
         chance: "20%"
         item: "diamond pickaxe"
         name: "&ePickaxe"
@@ -4912,14 +6297,14 @@ paid-roll:
         amount:
           min: "1"
           max: "1"
-      3:
+      4:
         chance: "30%"
         item: "diamond pickaxe"
         amount:
           min: "1"
           max: "2"
-      4:
-        chance: "40%"
+      5:
+        chance: "39.5%"
         item: "iron pickaxe"
         amount:
           min: "1"
@@ -5096,13 +6481,17 @@ paid-roll:
     items:
       0:
         chance: "5%"
-        item: "jungle button"
-        name: "&c&lC4"
+        item: "paper"
+        name: "&eSchemat &7< &f&lc4 &r&7>"
         lore:
+          - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
           - ""
-          - "&fSluzy do wysadzania baz"
+          - "&aOdblokowuje:"
+          - "&2c4"
           - ""
-          - "&fUżycie: &f&l<LPM>"
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "fortune 4"
         amount:
           min: "1"
           max: "1"
@@ -5370,44 +6759,56 @@ paid-roll:
     items:
       1:
         chance: "2.5%"
-        item: "iron horse armor"
-        name: "&4&lAlien Red"
-        ctd: "7"
+        item: "paper"
+        name: "&eSchemat &7< &f&lak &r&7>"
         lore:
-          - "&fLegendarny karabin automatyczny z specjalnym malowaniem."
+          - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
+          - ""
+          - "&aOdblokowuje:"
+          - "&2ak"
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "fortune 4"
         amount:
           min: "1"
           max: "1"
       2:
         chance: "2.5%"
-        item: "iron horse armor"
-        name: "&4&lL96"
-        ctd: "9"
+        item: "paper"
+        name: "&eSchemat &7< &f&ll9 &r&7>"
         lore:
-          - "&fMust-have każdego roofcampera."
+          - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
+          - ""
+          - "&aOdblokowuje:"
+          - "&2l9"
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "fortune 4"
         amount:
           min: "1"
           max: "1"
       3:
         chance: "2.5%"
-        item: "netherite sword"
-        name: "&4&lTempered Sword"
+        item: "paper"
+        name: "&eSchemat &7< &f&ltempered_sword &r&7>"
+        lore:
+          - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
+          - ""
+          - "&aOdblokowuje:"
+          - "&2tempered_sword"
+          - ""
+          - "&fUzycie: &f&l<PPM>"
         enchant:
-          - "sharpness 10"
-          - "unbreaking 10"
-          - "fire aspect 7"
-          - "smite 10"
-          - "bane of arthropods 10"
-          - "sweeping edge 7"
-          - "looting 7"
-          - "mending 1"
+          - "fortune 4"
         amount:
           min: "1"
           max: "1"
       4:
-        item: "iron horse armor"
+        item: "wooden sword"
         name: "&c&lCustomSMG"
-        ctd: "3"
+        ctd: "4"
         lore:
           - "&fRozjebana MP5 sklejona taśmą"
         chance: "5%"
@@ -5415,17 +6816,23 @@ paid-roll:
           min: "1"
           max: "1"
       5:
-        item: "iron horse armor"
-        name: "&c&lSemi Auto Rifle"
-        ctd: "5"
+        item: "paper"
+        name: "&eSchemat &7< &f&lsar &r&7>"
         lore:
-          - "&fUlubiona broń Grubego Joe'a"
+          - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
+          - ""
+          - "&aOdblokowuje:"
+          - "&2sar"
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "fortune 4"
         chance: "5%"
         amount:
           min: "1"
           max: "1"
       6:
-        item: "iron horse armor"
+        item: "wooden sword"
         name: "&c&lRevolver"
         ctd: "1"
         lore:
@@ -5475,9 +6882,9 @@ paid-roll:
     icon-customdata: "23"
     items:
       1:
-        item: "iron horse armor"
+        item: "wooden sword"
         name: "&c&lCustomSMG"
-        ctd: "3"
+        ctd: "4"
         lore:
           - "&fRozjebana MP5 sklejona taśmą"
         chance: "25%"
@@ -5485,11 +6892,17 @@ paid-roll:
           min: "1"
           max: "1"
       2:
-        item: "iron horse armor"
-        name: "&c&lSemi Auto Rifle"
-        ctd: "5"
+        item: "paper"
+        name: "&eSchemat &7< &f&lsar &r&7>"
         lore:
-          - "&fUlubiona broń Grubego Joe'a"
+          - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
+          - ""
+          - "&aOdblokowuje:"
+          - "&2sar"
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "fortune 4"
         chance: "25%"
         amount:
           min: "1"
@@ -5627,5 +7040,23 @@ building-blocks:
 - Flower Pot
 - Armor Stand
 - Candle
+
+#Radtown
+
+baran:
+  name: "&4Baranek Bombardier"
+  spawn-rate: "1%"
+  amount: 
+    min: "1"
+    max: "8"
+  special-case:
+    1:
+      name: "&eRakieta"
+      chance: "25%"
+      amount: "1"
+    2:
+      name: "&e7.62x522 Ammo"
+      chance: "25%"
+      amount: "4"
 
 #-------------------------- End of lootable -------------------------------------#
