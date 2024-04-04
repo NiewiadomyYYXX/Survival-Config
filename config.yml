@@ -340,7 +340,7 @@ Custom-Ores:
     - "andesite"
     - "dirt"
   HQM:
-    # block: "red chiseled sandstone"
+    block: "red chiseled sandstone"
     chance: "0.02%"
     vein:
       chance: "5%"
