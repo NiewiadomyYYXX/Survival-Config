@@ -82,11 +82,11 @@ txt:
   hash: "17e12881470f79b6d3ddd8cd33c7e6b1cd4b6d66"
 
 wipe:
-  start-mess: "08.03.2024r. (Piatek) o godz. 18:00"
+  start-mess: "19.04.2024r. (Piatek) o godz. 18:00"
   push: "30"
   balance-team: "Kotlet, kacuu(tf), NiewiadomyYYXX, proDogePL"
   models: "proDogePL"
-  unix-data: "1709917200" #https://www.unixtimestamp.com
+  unix-data: "1713542400" #https://www.unixtimestamp.com
   block:
     tier: "24 hours"
     nether: "6 hours"
@@ -9432,7 +9432,165 @@ joe:
         - "projectile protection 10"
         - "blast protection 10"
       price: "150000"
-
+    730:
+      item: "wooden sword"
+      name: "&c&lDouble Barrel"
+      ctd: "24"
+      amount: "1"
+      lore:
+        - "&fUlubiona broń Grab'ów"
+      price: "3500"
+    731:
+      item: "rabbit foot"
+      name: "&eHomemade shell"
+      ctd: "8"
+      amount: "2"
+      lore:
+        - "&fAmunicja do &cDouble Barrel"
+      price: "80"
+    732:
+      item: "wooden sword"
+      name: "&c&lSemi Auto Pistol"
+      ctd: "30"
+      amount: "1"
+      lore:
+        - "&fSar tylko to pistolet"
+      price: "4000"
+    733:
+      item: "rabbit foot"
+      name: "&e.22lr Ammo"
+      ctd: "10"
+      amount: "4"
+      lore:
+        - "&fAmunicja do &cSemi Auto Pistol"
+      price: "60"
+    734:
+      item: "wooden sword"
+      name: "&c&lM92 Pistol"
+      ctd: "36"
+      amount: "1"
+      lore:
+        - "&fProsto od Cobalt Corp."
+      price: "25000"
+    735:
+      item: "rabbit foot"
+      name: "&e10x19mm Ammo"
+      ctd: "12"
+      amount: "8"
+      lore:
+        - "&fAmunicja do &c&lM92 Pistol"
+      price: "150"
+    736:
+      item: "wooden sword"
+      name: "&c&lPump"
+      ctd: "20"
+      amount: "1"
+      lore:
+        - "&fTypowa Pompa co tu dużo mówić"
+      price: "30000"
+    737:
+      item: "rabbit foot"
+      name: "&e8ga Buckshot"
+      ctd: "7"
+      amount: "2"
+      lore:
+        - "&fAmunicja do &c&lPump"
+      price: "200"
+    738:
+      item: "diamond chestplate"
+      name: "&e&lHazmat"
+      lore:
+        - ""
+        - "&cGuns Resistance: &410%"
+        - "&eRad Resistance: &6100%"
+        - ""
+      amount: "1"
+      bp: "hazmat"
+      repair:
+        price: "500"
+      bpbench:
+        price: "5000"
+      enchant:
+        - "lure 10"
+        - "protection 5"
+        - "unbreaking 6"
+      price: "90000"
+    739:
+      item: "wooden sword"
+      name: "&4&lMP5"
+      ctd: "17"
+      amount: "1"
+      bp: "mp5"
+      bpbench:
+        price: "30000"
+      lore:
+        - "&fLegendarny pm do beamowania"
+      price: "90000"
+    740:
+      item: "rabbit foot"
+      name: "&e9x18mm Ammo"
+      ctd: "6"
+      amount: "16"
+      lore:
+        - "&fAmunicja do &4&lMP5"
+      price: "400"
+    741:
+      item: "wooden sword"
+      name: "&4&lM4 Shotgun"
+      ctd: "27"
+      amount: "1"
+      bp: "m4"
+      bpbench:
+        price: "5000"
+      lore:
+        - "&fLegendarny shotgun na daleko"
+      price: "90000"
+    742:
+      item: "rabbit foot"
+      name: "&e12ga Buckshot"
+      ctd: "9"
+      amount: "2"
+      lore:
+        - "&fAmunicja do &4&lM4"
+      price: "600"
+    743:
+      item: "wooden sword"
+      name: "&4&lPython"
+      ctd: "33"
+      amount: "1"
+      lore:
+        - "&fGiga Rewolwer, taki idealny do turreta"
+      price: "80000"
+    744:
+      item: "rabbit foot"
+      name: "&eMagnum .45"
+      ctd: "11"
+      amount: "2"
+      lore:
+        - "&fAmunicja do &4&lPython"
+      price: "500"
+    745:
+      item: "wooden sword"
+      name: "&4&lRocket Launcher"
+      ctd: "39"
+      amount: "1"
+      bp: "rocket_launcher"
+      bpbench:
+        price: "50000"
+      lore:
+        - "&fStrzela rakietami nieco dalej niż Korea Północna."
+      price: "125000"
+    746:
+      item: "rabbit foot"
+      name: "&eRakieta"
+      ctd: "13"
+      amount: "1"
+      bp: "rocket"
+      bpbench:
+        price: "50000"
+      lore:
+        - "&fAmunicja do &4&lRocket Launcher"
+      price: "5000"
 #                #
 #   --Totems--   #
 #                #
@@ -10071,6 +10229,9 @@ tip:
   19: "Możesz zabrać przedmioty/zabić śpiącego gracza za pomocą menu, które możesz otworzyć klikając na plecak śpiącego gracza."
   20: "Poziom trudności bossów zależy od dnia od startu wipe'a."
   21: "U handlarza Grubego Joe możesz sprzedać przedmioty, które są w rotacji lub sprzedać każdy przedmiot, który nie jest w rotacji po niższej cenie."
+  22: "Z piwkiem na serwer mozna"
+  23: "Jak kupujesz w empire to jestes frajer"
+  24: "10zł u babuchy to 1 free airdrop (musisz miec paragon)"
 
 #help
 help:
@@ -10354,14 +10515,15 @@ help:
 Reg:
   1: "&cNie mozna zmieniac nazw itemow specialnych (np. cuboid lub lom) bo przestana dzialac. Administracja nie zwroci ich"
   2: "&cZa oszukiwanie, lagowanie serwera równa się banem na dzień/pernamentnie"
-  3: "&cNie zgłaszanie błędów i wykorzystywanie ich spowoduje pernamentnego bana"
+  3: "&cNie zgłaszanie błędów i wykorzystywanie ich spowoduje bana/clear konta/usunięcie bazy"
   4: "&cPróby niszczenia ekonomi serwera i wykorzystywanie to na swoją korzyść poskutkuje banem i wyzerowaniem całego dobytku na serwerze"
   5: "&cJeśli będziesz chciał odwołać się od bana i wytłumaczyć się z zaistniałej sytuacji zgłaszasz się do nas poprzez discorda"
   6: "&cRegulamin w każdym momencie może zostać zmieniony bez poinformowania was z jakiego powodu zaistniała taka sytuacja"
   7: "&cKupując rangi Premium nie masz możliwości zwrócenia pieniędzy których wydałeś na to"
-  8: "&cWchodząc na serwer musisz zaakceptować regulamin. Nie zaakceptowania go poskutkuje karami"
+  8: "&cWchodząc na serwer akceptujesz regulamin."
   9: "&cNie można przez pierwsze 24 godziny okradać innych graczy oraz zabijać"
-  10: "&cZakaz rajdów przez pierwsze 48 godzin, nie posłuchanie poskutkuje banem"
+  10: "&cZakaz rajdów przez pierwsze 24 godzin, nie posłuchanie poskutkuje banem"
   11: "&cZakaz rajdowania/niszczenia/griefowania baz lub innych obiektow za pomoca mutanta"
-  12: "&cZakaz budowania bazy na biomie Badlands (czerwona pustynia). Zlamanie zakazania skutkuje usunieciem bazy"
+  12: "&cGracz może umieścić kolorową wełnę przed swoją bazą: czerwoną (chcąc brać udział w rajdach online lub być ich celem), białą (niechcąc brać udziału w rajdach ani być celem) lub czarną (chcąc być celem rajdów offline). Osoby posiadające czerwoną wełnę mogą brać udział w rajdach oraz być celem rajdów graczy z czerwoną/czarną wełną, a także być celem rajdów ze strony takich graczy. Osoby posiadające czarną wełnę to ci, którzy mieli białą wełnę i dokonali rajdu na innym graczem lub naruszyli regulamin. Osoby posiadające białą wełnę to ci, którzy po prostu preferują pokojową grę. Informacje bedą na discordzie (gracze z czarna wełna mają na dc wypisane kordy bazy)"
+
 #-------------------------- End of Config -------------------------------------
