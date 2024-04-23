@@ -19,6 +19,7 @@ dc: "https://discord.gg/cuQT7H9AJV"
 god-blocks:
   - bedrock
   - normal red sandstone block
+  - red sandstone block
   - end portal frame
   - command block
   - barrier
@@ -45,6 +46,8 @@ god-blocks:
   - westward red nether brick stair
   - southward red nether brick stair
   - red nether brick stair
+  - red chiseled sandstone
+  - smooth red sandstone
 
 no-repair:
   - "&e&lNadajnik GPS"
@@ -82,17 +85,17 @@ txt:
   hash: "17e12881470f79b6d3ddd8cd33c7e6b1cd4b6d66"
 
 wipe:
-  start-mess: "19.04.2024r. (Piatek) o godz. 18:00"
+  start-mess: "12.04.2024r. (Piatek) o godz. 18:00"
   push: "30"
   balance-team: "Kotlet, kacuu(tf), NiewiadomyYYXX, proDogePL"
   models: "proDogePL"
-  unix-data: "1713542400" #https://www.unixtimestamp.com
+  unix-data: "1712937600" #https://www.unixtimestamp.com
   block:
     tier: "24 hours"
-    nether: "6 hours"
-    end: "36 hours"
+    nether: "4 hours"
+    end: "48 hours"
     raid: "24 hours"
-    pvp: "24 hours"
+    pvp: "6 hours"
     kit: "1 hour"
 
 pvp-block:
@@ -100,8 +103,6 @@ pvp-block:
   time-in-unix: "20"
 
 logintime: "300"
-
-walka-time: "1 hour"
 
 death-loc:
   vip: "28"
@@ -113,7 +114,8 @@ death-box-despawn: "60 minutes"
 despawn-spawn-log: "30 minutes"
 
 hazmat:
-  chance: "33%" #szansa ze w ciagu jeden sekund spadnie 1 uzycie hazmata ( 33% czyli +- 1 uzycie na 3 sekund // hazmat ma 515 uzyc)
+  chance: "25%" #szansa ze w ciagu jeden sekund spadnie 1 uzycie hazmata ( 33% czyli +- 1 uzycie na 3 sekund // hazmat ma 515 uzyc)
+  not-world-chance: "10%"
 
 xp-blik:
   name: "&eKsięga XP'a"
@@ -172,16 +174,16 @@ tpr:
 home:
   world:
     tp:
-      everyone: "10"
+      everyone: "5"
       vip: "3"
   nether:
     tp:
-      everyone: "20"
+      everyone: "10"
       vip: "6"
   end:
     tp:
-      everyone: "150"
-      vip: "100"
+      everyone: "20"
+      vip: "10"
 
 stats-number-of-stats: "12"
 
@@ -315,11 +317,11 @@ stats:
 rad:
   world:
     startdmg: "6000"
-    warning: "5900"
+    warning: "5800"
     dmg: "2"
   world_nether:
-    startdmg: "30000"
-    warning: "29900"
+    startdmg: "10000"
+    warning: "9800"
     dmg: "2"
   world_the_end:
     startdmg: "-1"
@@ -328,7 +330,7 @@ rad:
   multi: "6"
 
 Custom-Ores:
-  gen-time: "45" #w sekundach
+  gen-time: "30" #w sekundach
   y: "20"
   dmg: "2"
   swapblocks:
@@ -341,10 +343,12 @@ Custom-Ores:
     - "dirt"
   HQM:
     block: "red chiseled sandstone"
-    chance: "0.02%"
+    chance: "0.03%"
+    turbo-chance: "0.06%"
+    turbo-time: "20 minute"
     vein:
-      chance: "5%"
-      max: "3"
+      chance: "7.5%"
+      max: "4"
     mining:
       time: "30 seconds"
       tools:
@@ -370,10 +374,12 @@ Custom-Ores:
           dmg: "125"
   Sulfur:
     block: "smooth red sandstone"
-    chance: "0.04%"
+    chance: "0.05%"
+    turbo-chance: "0.1%"
+    turbo-time: "20 minute"
     vein:
       chance: "20%"
-      max: "6"
+      max: "8"
     mining:
       time: "30 seconds"
       tools:
@@ -409,6 +415,7 @@ airdrop:
   z:
     min: "-6000"
     max: "6000"
+  per-tier-increase: "2.5%"
   random-min: "45" #co ile szansa na dropa ma sie prokowac
   random-chance: "20%" #jak jest 0 graczy online <default wartosc>
   random-increase: "15%" #wartosc dodawana za kazdego gracza
@@ -464,6 +471,7 @@ tc:
       icon: "diamond block"
       size: "48"
       price:
+        - 5 red chiseled sandstone
         - 8 diamond block
         - 1 netherite ingot
         - 16 gold block
@@ -478,6 +486,7 @@ tc:
       icon: "bedrock"
       size: "64"
       price:
+        - 20 red chiseled sandstone
         - 1 netherite block
         - 64 gold block
         - 32 emerald block
@@ -593,7 +602,7 @@ wb:
 c4:
   raid-block: "5 minutes"
   raid-block-in-unix: "300"
-  power: "4"
+  power: "6"
   time: "6 seconds"
   blocks:
     1:
@@ -638,6 +647,9 @@ c4:
     14:
       item: "fully charged respawn anchor"
       chance: "33%"
+    15:
+      item: "reinforced deepslate"
+      chance: "1%"
 
 captha:
   1:
@@ -744,7 +756,7 @@ guns:
   sar:
     name: "&c&lSemi Auto Rifle"
     type: "semi"
-    repair-cost: "1000"
+    repair-cost: "1500"
     ctd:
       normal: "7"
       zoom: "8"
@@ -774,7 +786,7 @@ guns:
   AK:
     name: "&4&lAlien Red"
     type: "auto"
-    repair-cost: "1500"
+    repair-cost: "3000"
     ctd:
       normal: "10"
       zoom: "11"
@@ -804,7 +816,7 @@ guns:
   L96:
     name: "&4&lL96"
     type: "snipe"
-    repair-cost: "2000"
+    repair-cost: "5000"
     ctd:
       normal: "13"
       zoom: "14"
@@ -821,7 +833,7 @@ guns:
       reload: "l9_reload"
       hit_mark: "hit_mark"
     stats:
-      pvp: "14"
+      pvp: "20"
       pve: "90"
       durability: "150"
       velocity: "8"
@@ -835,7 +847,7 @@ guns:
   MP5:
     name: "&4&lMP5"
     type: "auto"
-    repair-cost: "1250"
+    repair-cost: "2000"
     ctd:
       normal: "17"
       zoom: "18"
@@ -858,8 +870,8 @@ guns:
       recoil-horizontal: "0.3"
       recoil-vertical: "0.3"
       zoom:
-        recoil-horizontal: "0.15"
-        recoil-vertical: "0.15"
+        recoil-horizontal: "0.1"
+        recoil-vertical: "0.1"
       fire_rate: "1.25"
       reload_time: "3"
   PUMP:
@@ -935,7 +947,7 @@ guns:
   M4:
     name: "&4&lM4 Shotgun"
     type: "shotgun"
-    repair-cost: "3000"
+    repair-cost: "4000"
     ctd:
       normal: "27"
       zoom: "28"
@@ -998,7 +1010,7 @@ guns:
   PYTHON:
     name: "&4&lPython"
     type: "semi"
-    repair-cost: "750"
+    repair-cost: "1000"
     ctd:
       normal: "33"
       zoom: "34"
@@ -1028,7 +1040,7 @@ guns:
   BERETA:
     name: "&c&lM92 Pistol"
     type: "semi"
-    repair-cost: "1000"
+    repair-cost: "1250"
     ctd:
       normal: "36"
       zoom: "37"
@@ -1058,7 +1070,7 @@ guns:
   rl:
     name: "&4&lRocket Launcher"
     type: "rocket"
-    repair-cost: "2000"
+    repair-cost: "10000"
     ctd:
       normal: "39"
       zoom: "40"
@@ -1074,7 +1086,7 @@ guns:
       reload: "rl_reload"
       hit_mark: "hit_mark"
     stats:
-      pvp: "25"
+      pvp: "50"
       pve: "500"
       durability: "40"
       velocity: "3"
@@ -1089,7 +1101,7 @@ guns:
   m249:
     name: "&4&lM249"
     type: "auto"
-    repair-cost: "3000"
+    repair-cost: "10000"
     ctd:
       normal: "42"
       zoom: "43"
@@ -1107,7 +1119,7 @@ guns:
     stats:
       pvp: "12"
       pve: "60"
-      durability: "300"
+      durability: "450"
       velocity: "5.5"
       recoil-horizontal: "0.5"
       recoil-vertical: "0.5"
@@ -1123,19 +1135,19 @@ enchants:
       1:
         name: "&eCoffe Can"
         stats:
-          armor: "0.05"
+          armor: "0.10"
       2:
         name: "&eRoad Sign Vest"
         stats:
-          armor: "0.08"
+          armor: "0.12"
       3:
         name: "&eSpodnie"
         stats:
-          armor: "0.04"
+          armor: "0.05"
       4:
         name: "&eTrampki"
         stats:
-          armor: "0.03"
+          armor: "0.04"
       5:
         name: "&4&lBig Grin"
         stats:
@@ -1149,31 +1161,54 @@ enchants:
       7:
         name: "&4&lArmored Spodnie"
         stats:
+          armor: "0.1"
           anty-rad: "0.5"
       8:
         name: "&4&lButy"
         stats:
+          armor: "0.05"
           anty-rad: "0.35"
       9:
         name: "&e&lHazmat"
         stats:
           anty-rad: "1"
           armor: "0.1"
+      10:
+        name: "&f&lAngel Wings"
+        stats:
+          anty-rad: "0.1"
+          armor: "0.1"
+      11:
+        name: "&eWilk"
+        stats:
+          armor: "0.04"
+      12:
+        name: "&ePoncho"
+        stats:
+          armor: "0.03"
+      13:
+        name: "&ePants"
+        stats:
+          armor: "0.02"
+      14:
+        name: "&eKapcie"
+        stats:
+          armor: "0.01"
     tools:
       1:
         name: "&4&lJackhammer"
         enchant: "lure 4"
-        dmg: "3"
+        dmg: "2"
     dmg-enchanter:
       1:
         name: "&4&lTempered Sword"
         dmg: "2"
       2:
         name: "&eJade Bow"
-        dmg: "4"
+        dmg: "3"
       3:
         name: "&eLegacy Bow"
-        dmg: "2"
+        dmg: "1.5"
   normal:
     1:
       name: "&eIce Pick"
@@ -2299,6 +2334,10 @@ mutant:
             chance: "5%"
             dmg: "60"
             name: "&c&lL96"
+          rl:
+            chance: "100%"
+            dmg: "-1000"
+            name: "&4&lRocket Launcher"
         special:
           tnt: "60%"
           achilles:
@@ -2408,343 +2447,410 @@ bid:
   #     min: "1"
   #     max: "4"
   #   price: "3000"
-  1:
-    item: "paper"
-    name: "&eSchemat &7< &f&lbig_grin &r&7>"
-    lore:
-      - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
-      - ""
-      - "&aOdblokowuje:"
-      - "&2big_grin"
-      - ""
-      - "&fUzycie: &f&l<PPM>"
-    enchant:
-      - "fortune 4"
-    quantity: 
-      min: "1"
-      max: "1"
-    price: "8000"
-  2:
-    item: "paper"
-    name: "&eSchemat &7< &f&lklatat3 &r&7>"
-    lore:
-      - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
-      - ""
-      - "&aOdblokowuje:"
-      - "&2klatat3"
-      - ""
-      - "&fUzycie: &f&l<PPM>"
-    enchant:
-      - "fortune 4"
-    quantity: 
-      min: "1"
-      max: "1"
-    price: "8000"
-  3:
-    item: "paper"
-    name: "&eSchemat &7< &f&lspodniet3 &r&7>"
-    lore:
-      - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
-      - ""
-      - "&aOdblokowuje:"
-      - "&2spodniet3"
-      - ""
-      - "&fUzycie: &f&l<PPM>"
-    enchant:
-      - "fortune 4"
-    quantity: 
-      min: "1"
-      max: "1"
-    price: "8000"
-  3:
-    item: "paper"
-    name: "&eSchemat &7< &f&lbutyt3 &r&7>"
-    lore:
-      - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
-      - ""
-      - "&aOdblokowuje:"
-      - "&2butyt3"
-      - ""
-      - "&fUzycie: &f&l<PPM>"
-    enchant:
-      - "fortune 4"
-    quantity: 
-      min: "1"
-      max: "1"
-    price: "8000"
-  4:
-    item: "paper"
-    name: "&eSchemat &7< &f&ltempered_sword &r&7>"
-    lore:
-      - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
-      - ""
-      - "&aOdblokowuje:"
-      - "&2tempered_sword"
-      - ""
-      - "&fUzycie: &f&l<PPM>"
-    enchant:
-      - "fortune 4"
-    quantity: 
-      min: "1"
-      max: "1"
-    price: "8000"
-  5:
-    item: "paper"
-    name: "&eSchemat &7< &f&ljackhammer &r&7>"
-    lore:
-      - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
-      - ""
-      - "&aOdblokowuje:"
-      - "&2jackhammer"
-      - ""
-      - "&fUzycie: &f&l<PPM>"
-    enchant:
-      - "fortune 4"
-    quantity: 
-      min: "1"
-      max: "1"
-    price: "12000"
-  6:
-    item: "paper"
-    name: "&eSchemat &7< &f&lak &r&7>"
-    lore:
-      - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
-      - ""
-      - "&aOdblokowuje:"
-      - "&2ak"
-      - ""
-      - "&fUzycie: &f&l<PPM>"
-    enchant:
-      - "fortune 4"
-    quantity: 
-      min: "1"
-      max: "1"
-    price: "16000"
-  7:
-    item: "paper"
-    name: "&eSchemat &7< &f&ll9 &r&7>"
-    lore:
-      - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
-      - ""
-      - "&aOdblokowuje:"
-      - "&2l9"
-      - ""
-      - "&fUzycie: &f&l<PPM>"
-    enchant:
-      - "fortune 4"
-    quantity: 
-      min: "1"
-      max: "1"
-    price: "16000"
-  8:
-    item: "paper"
-    name: "&eSchemat &7< &f&lmp5 &r&7>"
-    lore:
-      - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
-      - ""
-      - "&aOdblokowuje:"
-      - "&2mp5"
-      - ""
-      - "&fUzycie: &f&l<PPM>"
-    enchant:
-      - "fortune 4"
-    quantity: 
-      min: "1"
-      max: "1"
-    price: "16000"
-  9:
-    item: "paper"
-    name: "&eSchemat &7< &f&lm4 &r&7>"
-    lore:
-      - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
-      - ""
-      - "&aOdblokowuje:"
-      - "&2m4"
-      - ""
-      - "&fUzycie: &f&l<PPM>"
-    enchant:
-      - "fortune 4"
-    quantity: 
-      min: "1"
-      max: "1"
-    price: "12000"
-  10:
-    item: "paper"
-    name: "&eSchemat &7< &f&lhazmat &r&7>"
-    lore:
-      - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
-      - ""
-      - "&aOdblokowuje:"
-      - "&2hazmat"
-      - ""
-      - "&fUzycie: &f&l<PPM>"
-    enchant:
-      - "fortune 4"
-    quantity: 
-      min: "1"
-      max: "1"
-    price: "5000"
-  11:
-    item: "diamond sword"
-    name: "&eSalvage Cleaver"
-    enchant:
-      - "sharpness 7"
-      - "unbreaking 5"
-      - "looting 5"
-      - "mending 1"
-    quantity: 
-      min: "1"
-      max: "1"
-    price: "8000"
-  12:
-    item: "diamond pickaxe"
-    name: "&eIce Pick"
-    enchant:
-      - "efficiency 7"
-      - "unbreaking 5"
-      - "fortune 6"
-      - "mending 1"
-    quantity: 
-      min: "1"
-      max: "1"
-    price: "9000"
-  13:
-    item: "diamond axe"
-    name: "&eSalvage Axe"
-    enchant:
-      - "efficiency 7"
-      - "unbreaking 5"
-      - "fortune 5"
-      - "mending 1"
-    quantity: 
-      min: "1"
-      max: "1"
-    price: "7000"
-  14:
-    item: "bow"
-    name: "&eJade Bow"
-    enchant:
-      - "power 7"
-      - "unbreaking 5"
-      - "infinity 1"
-      - "mending 1"
-    quantity: 
-      min: "1"
-      max: "1"
-    price: "8000"
-  15:
-    item: "wooden sword"
-    name: "&c&lCustomSMG"
-    ctd: "4"
-    lore:
-      - "&fRozjebana MP5 sklejona taśmą"
-    quantity: 
-      min: "1"
-      max: "1"
-    price: "10000"
-  16:
-    item: "wooden sword"
-    name: "&c&lSemi Auto Rifle"
-    ctd: "7"
-    lore:
-      - "&fUlubiona broń Grubego Joe'a"
-    quantity: 
-      min: "1"
-      max: "1"
-    price: "10000"
-  17:
-    item: "totem of undying"
-    name: "&5Zrzut Zaopatrzenia"
-    lore:
-      - "&fSluzy do wezwania Zrzutu Zaopatrzenia"
-      - ""
-      - "&fUzycie: &f&l<PPM>"
-    enchant:
-      - "lure 10"
-    quantity: 
-      min: "5"
-      max: "6"
-    price: "6000"
-  18:
-    item: "paper"
-    name: "&eSchemat &7< &f&lgps &r&7>"
-    lore:
-      - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
-      - ""
-      - "&aOdblokowuje:"
-      - "&2gps"
-      - ""
-      - "&fUzycie: &f&l<PPM>"
-    enchant:
-      - "fortune 4"
-    quantity: 
-      min: "1"
-      max: "1"
-    price: "2500"
-  19:
-    item: "paper"
-    name: "&eSchemat &7< &f&lsar &r&7>"
-    lore:
-      - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
-      - ""
-      - "&aOdblokowuje:"
-      - "&2sar"
-      - ""
-      - "&fUzycie: &f&l<PPM>"
-    enchant:
-      - "fortune 4"
-    quantity: 
-      min: "1"
-      max: "1"
-    price: "5000"
-  20:
-    item: "paper"
-    name: "&eSchemat &7< &f&lrocket &r&7>"
-    lore:
-      - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
-      - ""
-      - "&aOdblokowuje:"
-      - "&2rocket"
-      - ""
-      - "&fUzycie: &f&l<PPM>"
-    enchant:
-      - "fortune 4"
-    quantity: 
-      min: "1"
-      max: "1"
-    price: "50000"
-  21:
-    item: "paper"
-    name: "&eSchemat &7< &f&lc4 &r&7>"
-    lore:
-      - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
-      - ""
-      - "&aOdblokowuje:"
-      - "&2c4"
-      - ""
-      - "&fUzycie: &f&l<PPM>"
-    enchant:
-      - "fortune 4"
-    quantity: 
-      min: "1"
-      max: "1"
-    price: "50000"
-  22:
-    item: "paper"
-    name: "&eSchemat &7< &f&lrocket_launcher &r&7>"
-    lore:
-      - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
-      - ""
-      - "&aOdblokowuje:"
-      - "&2rocket_launcher"
-      - ""
-      - "&fUzycie: &f&l<PPM>"
-    enchant:
-      - "fortune 4"
-    quantity: 
-      min: "1"
-      max: "1"
-    price: "50000"
+  t3:
+    1:
+      item: "totem of undying"
+      name: "&eSchemat &7< &f&lbig_grin &r&7>"
+      lore:
+        - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
+        - ""
+        - "&aOdblokowuje:"
+        - "&2big_grin"
+        - ""
+        - "&fUzycie: &f&l<PPM>"
+      enchant:
+        - "fortune 4"
+      quantity: 
+        min: "1"
+        max: "1"
+      price: "8000"
+    2:
+      item: "totem of undying"
+      name: "&eSchemat &7< &f&lklatat3 &r&7>"
+      lore:
+        - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
+        - ""
+        - "&aOdblokowuje:"
+        - "&2klatat3"
+        - ""
+        - "&fUzycie: &f&l<PPM>"
+      enchant:
+        - "fortune 4"
+      quantity: 
+        min: "1"
+        max: "1"
+      price: "8000"
+    3:
+      item: "totem of undying"
+      name: "&eSchemat &7< &f&lspodniet3 &r&7>"
+      lore:
+        - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
+        - ""
+        - "&aOdblokowuje:"
+        - "&2spodniet3"
+        - ""
+        - "&fUzycie: &f&l<PPM>"
+      enchant:
+        - "fortune 4"
+      quantity: 
+        min: "1"
+        max: "1"
+      price: "8000"
+    3:
+      item: "totem of undying"
+      name: "&eSchemat &7< &f&lbutyt3 &r&7>"
+      lore:
+        - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
+        - ""
+        - "&aOdblokowuje:"
+        - "&2butyt3"
+        - ""
+        - "&fUzycie: &f&l<PPM>"
+      enchant:
+        - "fortune 4"
+      quantity: 
+        min: "1"
+        max: "1"
+      price: "8000"
+    4:
+      item: "totem of undying"
+      name: "&eSchemat &7< &f&ltempered_sword &r&7>"
+      lore:
+        - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
+        - ""
+        - "&aOdblokowuje:"
+        - "&2tempered_sword"
+        - ""
+        - "&fUzycie: &f&l<PPM>"
+      enchant:
+        - "fortune 4"
+      quantity: 
+        min: "1"
+        max: "1"
+      price: "8000"
+    5:
+      item: "totem of undying"
+      name: "&eSchemat &7< &f&ljackhammer &r&7>"
+      lore:
+        - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
+        - ""
+        - "&aOdblokowuje:"
+        - "&2jackhammer"
+        - ""
+        - "&fUzycie: &f&l<PPM>"
+      enchant:
+        - "fortune 4"
+      quantity: 
+        min: "1"
+        max: "1"
+      price: "12000"
+    6:
+      item: "totem of undying"
+      name: "&eSchemat &7< &f&lak &r&7>"
+      lore:
+        - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
+        - ""
+        - "&aOdblokowuje:"
+        - "&2ak"
+        - ""
+        - "&fUzycie: &f&l<PPM>"
+      enchant:
+        - "fortune 4"
+      quantity: 
+        min: "1"
+        max: "1"
+      price: "16000"
+    7:
+      item: "totem of undying"
+      name: "&eSchemat &7< &f&ll9 &r&7>"
+      lore:
+        - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
+        - ""
+        - "&aOdblokowuje:"
+        - "&2l9"
+        - ""
+        - "&fUzycie: &f&l<PPM>"
+      enchant:
+        - "fortune 4"
+      quantity: 
+        min: "1"
+        max: "1"
+      price: "16000"
+    8:
+      item: "totem of undying"
+      name: "&eSchemat &7< &f&lmp5 &r&7>"
+      lore:
+        - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
+        - ""
+        - "&aOdblokowuje:"
+        - "&2mp5"
+        - ""
+        - "&fUzycie: &f&l<PPM>"
+      enchant:
+        - "fortune 4"
+      quantity: 
+        min: "1"
+        max: "1"
+      price: "16000"
+    9:
+      item: "totem of undying"
+      name: "&eSchemat &7< &f&lm4 &r&7>"
+      lore:
+        - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
+        - ""
+        - "&aOdblokowuje:"
+        - "&2m4"
+        - ""
+        - "&fUzycie: &f&l<PPM>"
+      enchant:
+        - "fortune 4"
+      quantity: 
+        min: "1"
+        max: "1"
+      price: "12000"
+    10:
+      item: "totem of undying"
+      name: "&eSchemat &7< &f&lhazmat &r&7>"
+      lore:
+        - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
+        - ""
+        - "&aOdblokowuje:"
+        - "&2hazmat"
+        - ""
+        - "&fUzycie: &f&l<PPM>"
+      enchant:
+        - "fortune 4"
+      quantity: 
+        min: "1"
+        max: "1"
+      price: "5000"
+    11:
+      item: "diamond sword"
+      name: "&eSalvage Cleaver"
+      enchant:
+        - "sharpness 7"
+        - "unbreaking 5"
+        - "looting 5"
+        - "mending 1"
+      quantity: 
+        min: "1"
+        max: "1"
+      price: "8000"
+    12:
+      item: "diamond pickaxe"
+      name: "&eIce Pick"
+      enchant:
+        - "efficiency 7"
+        - "unbreaking 5"
+        - "fortune 6"
+        - "mending 1"
+      quantity: 
+        min: "1"
+        max: "1"
+      price: "9000"
+    13:
+      item: "diamond axe"
+      name: "&eSalvage Axe"
+      enchant:
+        - "efficiency 7"
+        - "unbreaking 5"
+        - "fortune 5"
+        - "mending 1"
+      quantity: 
+        min: "1"
+        max: "1"
+      price: "7000"
+    14:
+      item: "bow"
+      name: "&eJade Bow"
+      enchant:
+        - "power 7"
+        - "unbreaking 5"
+        - "infinity 1"
+        - "mending 1"
+      quantity: 
+        min: "1"
+        max: "1"
+      price: "8000"
+    15:
+      item: "wooden sword"
+      name: "&c&lCustomSMG"
+      ctd: "4"
+      lore:
+        - "&fRozjebana MP5 sklejona taśmą"
+      quantity: 
+        min: "1"
+        max: "1"
+      price: "10000"
+    16:
+      item: "wooden sword"
+      name: "&c&lSemi Auto Rifle"
+      ctd: "7"
+      lore:
+        - "&fUlubiona broń Grubego Joe'a"
+      quantity: 
+        min: "1"
+        max: "1"
+      price: "10000"
+    17:
+      item: "totem of undying"
+      name: "&5Zrzut Zaopatrzenia"
+      lore:
+        - "&fSluzy do wezwania Zrzutu Zaopatrzenia"
+        - ""
+        - "&fUzycie: &f&l<PPM>"
+      enchant:
+        - "lure 10"
+      quantity: 
+        min: "5"
+        max: "6"
+      price: "6000"
+    18:
+      item: "totem of undying"
+      name: "&eSchemat &7< &f&lgps &r&7>"
+      lore:
+        - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
+        - ""
+        - "&aOdblokowuje:"
+        - "&2gps"
+        - ""
+        - "&fUzycie: &f&l<PPM>"
+      enchant:
+        - "fortune 4"
+      quantity: 
+        min: "1"
+        max: "1"
+      price: "2500"
+    19:
+      item: "totem of undying"
+      name: "&eSchemat &7< &f&lsar &r&7>"
+      lore:
+        - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
+        - ""
+        - "&aOdblokowuje:"
+        - "&2sar"
+        - ""
+        - "&fUzycie: &f&l<PPM>"
+      enchant:
+        - "fortune 4"
+      quantity: 
+        min: "1"
+        max: "1"
+      price: "5000"
+    20:
+      item: "totem of undying"
+      name: "&eSchemat &7< &f&lrocket &r&7>"
+      lore:
+        - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
+        - ""
+        - "&aOdblokowuje:"
+        - "&2rocket"
+        - ""
+        - "&fUzycie: &f&l<PPM>"
+      enchant:
+        - "fortune 4"
+      quantity: 
+        min: "1"
+        max: "1"
+      price: "50000"
+    21:
+      item: "totem of undying"
+      name: "&eSchemat &7< &f&lc4 &r&7>"
+      lore:
+        - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
+        - ""
+        - "&aOdblokowuje:"
+        - "&2c4"
+        - ""
+        - "&fUzycie: &f&l<PPM>"
+      enchant:
+        - "fortune 4"
+      quantity: 
+        min: "1"
+        max: "1"
+      price: "50000"
+    22:
+      item: "totem of undying"
+      name: "&eSchemat &7< &f&lrocket_launcher &r&7>"
+      lore:
+        - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
+        - ""
+        - "&aOdblokowuje:"
+        - "&2rocket_launcher"
+        - ""
+        - "&fUzycie: &f&l<PPM>"
+      enchant:
+        - "fortune 4"
+      quantity: 
+        min: "1"
+        max: "1"
+      price: "50000"
+  t2:
+    1:
+      item: "totem of undying"
+      name: "&eSchemat &7< &f&lrocket_launcher &r&7>"
+      lore:
+        - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
+        - ""
+        - "&aOdblokowuje:"
+        - "&2rocket_launcher"
+        - ""
+        - "&fUzycie: &f&l<PPM>"
+      enchant:
+        - "fortune 4"
+      quantity: 
+        min: "1"
+        max: "1"
+      price: "333"    
+    2:
+      item: "dirt"
+      name: "&eSchemat &7< &f&lrocket_launcher &r&7>"
+      lore:
+        - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
+        - ""
+        - "&aOdblokowuje:"
+        - "&2rocket_launcher"
+        - ""
+        - "&fUzycie: &f&l<PPM>"
+      enchant:
+        - "fortune 4"
+      quantity: 
+        min: "1"
+        max: "1"
+      price: "3333"    
+  t1:
+    1:
+      item: "totem of undying"
+      name: "&eSchemat &7< &f&lrocket_launcher &r&7>"
+      lore:
+        - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
+        - ""
+        - "&aOdblokowuje:"
+        - "&2rocket_launcher"
+        - ""
+        - "&fUzycie: &f&l<PPM>"
+      enchant:
+        - "fortune 4"
+      quantity: 
+        min: "1"
+        max: "1"
+      price: "1333"    
+    2:
+      item: "dirt"
+      name: "&eSchemat &7< &f&lrocket_launcher &r&7>"
+      lore:
+        - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
+        - ""
+        - "&aOdblokowuje:"
+        - "&2rocket_launcher"
+        - ""
+        - "&fUzycie: &f&l<PPM>"
+      enchant:
+        - "fortune 4"
+      quantity: 
+        min: "1"
+        max: "1"
+      price: "1133"    
 
 traders:
   babucha:
@@ -4667,7 +4773,7 @@ quest:
         item: "rabbit hide"
         name: "&dButelka Wody"
         lore:
-          - "&fPół litra wody cristal  "
+          - "&fPół litra wody cristal"
           - "&fWoda służąca do napojenia się bądz"
           - "&fZajebania przysaidu na nią "
         enchant:
@@ -5668,6 +5774,10 @@ cpun:
           effect: "Dolphin's Grace"
           time: "400 seconds"
           power: "1"
+        4:
+          effect: "night vision"
+          time: "200 seconds"
+          power: "1"
     3:
       item: "honey bottle"
       price: "75"
@@ -5692,6 +5802,10 @@ cpun:
         4:
           effect: "Dolphin's Grace"
           time: "800 seconds"
+          power: "1"
+        5:
+          effect: "night vision"
+          time: "400 seconds"
           power: "1"
     4:
       item: "honey bottle"
@@ -8835,6 +8949,10 @@ joe:
     679:
       item: "diamond helmet"
       name: "&eWilk"
+      lore:
+        - ""
+        - "&cGuns Resistance: &44%"
+        - ""
       enchant:
         - "protection 5"
         - "unbreaking 4"
@@ -8846,6 +8964,10 @@ joe:
     680:
       item: "diamond chestplate"
       name: "&ePoncho"
+      lore:
+        - ""
+        - "&cGuns Resistance: &43%"
+        - ""
       enchant:
         - "protection 5"
         - "unbreaking 4"
@@ -8856,6 +8978,10 @@ joe:
     681:
       item: "diamond leggings"
       name: "&ePants"
+      lore:
+        - ""
+        - "&cGuns Resistance: &42%"
+        - ""
       enchant:
         - "protection 5"
         - "unbreaking 4"
@@ -8866,6 +8992,10 @@ joe:
     682:
       item: "diamond boots"
       name: "&eKapcie"
+      lore:
+        - ""
+        - "&cGuns Resistance: &41%"
+        - ""
       enchant:
         - "protection 5"
         - "unbreaking 4"
@@ -8955,7 +9085,7 @@ joe:
         - "mending 1"
       lore:
         - ""
-        - "&cGuns Resistance: &45%"
+        - "&cGuns Resistance: &410%"
         - ""
       price: "12000"
       wyjatek:
@@ -8971,7 +9101,7 @@ joe:
         - "mending 1"
       lore:
         - ""
-        - "&cGuns Resistance: &48%"
+        - "&cGuns Resistance: &412%"
         - ""
       price: "12000"
       wyjatek:
@@ -8988,7 +9118,7 @@ joe:
         - "swift sneak 3"
       lore:
         - ""
-        - "&cGuns Resistance: &44%"
+        - "&cGuns Resistance: &45%"
         - ""
       price: "12000"
       wyjatek:
@@ -9006,7 +9136,7 @@ joe:
         - "depth strider 4"
       lore:
         - ""
-        - "&cGuns Resistance: &43%"
+        - "&cGuns Resistance: &44%"
         - ""
       price: "12000"
       wyjatek:
@@ -9104,6 +9234,16 @@ joe:
       wyjatek:
         sell:
           sell: "true"
+    699a:
+      item: "rabbit foot"
+      name: "&eMagnum .44"
+      ctd: "1"
+      lore:
+        - "&fAmunicja do &c&lRevolver"
+      price: "80"
+      wyjatek:
+        sell:
+          sell: "true"
     700:
       item: "wooden sword"
       name: "&c&lCustomSMG"
@@ -9140,6 +9280,16 @@ joe:
       ctd: "3"
       lore:
         - "&fAmunicja do &c&lSar'a"
+      price: "300"
+      wyjatek:
+        sell:
+          sell: "true"
+    704:
+      item: "rabbit foot"
+      name: "&e5.56 Ammo"
+      ctd: "3"
+      lore:
+        - "&fAmunicja do &c&lSemi Auto Rifle"
       price: "300"
       wyjatek:
         sell:
@@ -9191,6 +9341,7 @@ joe:
         - "Swift Sneak 7"
       lore:
         - ""
+        - "&cGuns Resistance: &410%"
         - "&eRad Resistance: &650%"
         - ""
       price: "100000"
@@ -9209,6 +9360,7 @@ joe:
         - "soul speed 7"
       lore:
         - ""
+        - "&cGuns Resistance: &45%"
         - "&eRad Resistance: &635%"
         - ""
       price: "100000"
@@ -9244,10 +9396,10 @@ joe:
     713:
       item: "rabbit foot"
       name: "&e7.62x39mm Ammo"
-      ctd: "400"
+      ctd: "4"
       lore:
         - "&fAmunicja do &4&lAlien Red"
-      price: ""
+      price: "400"
     714:
       item: "wooden sword"
       name: "&4&lL96"
@@ -9274,9 +9426,9 @@ joe:
           sell: "true"
         buy:
           buy: "true"
-          price: "2000"
+          price: "5000"
     716a:
-      item: "paper"
+      item: "totem of undying"
       name: "&eSchemat &7< &f&lgps &r&7>"
       lore:
         - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
@@ -9436,7 +9588,6 @@ joe:
       item: "wooden sword"
       name: "&c&lDouble Barrel"
       ctd: "24"
-      amount: "1"
       lore:
         - "&fUlubiona broń Grab'ów"
       price: "3500"
@@ -9444,25 +9595,36 @@ joe:
       item: "rabbit foot"
       name: "&eHomemade shell"
       ctd: "8"
-      amount: "2"
       lore:
         - "&fAmunicja do &cDouble Barrel"
+      price: "80"
+    731a:
+      item: "rabbit foot"
+      name: "&eHomemade shell"
+      ctd: "8"
+      lore:
+        - "&fAmunicja do &c&lDouble Barrel"
       price: "80"
     732:
       item: "wooden sword"
       name: "&c&lSemi Auto Pistol"
-      ctd: "30"
-      amount: "1"
+      ctd: "10"
       lore:
         - "&fSar tylko to pistolet"
-      price: "4000"
+      price: "400"
     733:
       item: "rabbit foot"
       name: "&e.22lr Ammo"
       ctd: "10"
-      amount: "4"
       lore:
         - "&fAmunicja do &cSemi Auto Pistol"
+      price: "60"
+    733a:
+      item: "rabbit foot"
+      name: "&e.22lr Ammo"
+      ctd: "10"
+      lore:
+        - "&fAmunicja do &c&lSemi Auto Pistol"
       price: "60"
     734:
       item: "wooden sword"
@@ -9476,7 +9638,6 @@ joe:
       item: "rabbit foot"
       name: "&e10x19mm Ammo"
       ctd: "12"
-      amount: "8"
       lore:
         - "&fAmunicja do &c&lM92 Pistol"
       price: "150"
@@ -9538,10 +9699,6 @@ joe:
       item: "wooden sword"
       name: "&4&lM4 Shotgun"
       ctd: "27"
-      amount: "1"
-      bp: "m4"
-      bpbench:
-        price: "5000"
       lore:
         - "&fLegendarny shotgun na daleko"
       price: "90000"
@@ -9549,9 +9706,8 @@ joe:
       item: "rabbit foot"
       name: "&e12ga Buckshot"
       ctd: "9"
-      amount: "2"
       lore:
-        - "&fAmunicja do &4&lM4"
+        - "&fAmunicja do &4&lM4 Shotgun"
       price: "600"
     743:
       item: "wooden sword"
@@ -9565,7 +9721,6 @@ joe:
       item: "rabbit foot"
       name: "&eMagnum .45"
       ctd: "11"
-      amount: "2"
       lore:
         - "&fAmunicja do &4&lPython"
       price: "500"
@@ -10134,7 +10289,7 @@ totems:
               xp: "99999"
             any:
               item: "any"
-              xp: "2"
+              xp: "5"
         stats:
           startxp: "100"
           nextlvladdxp: "75"
@@ -10428,7 +10583,7 @@ help:
         enchant:
           - respiration 4
     name: "&cBlokady"
-    text: "Po starcie edycji nie można wejść do Netheru przez pierwsze &c6 &cgodzin&f, a do Endu przez pierwsze &c36 &cgodzin&f. Przez pierwsze &c24 &cgodziny &fnie można prowadzić walki PvP bez obustronnej zgody. Przez pierwsze &c24 &cgodzin &fnie można otwierać skrzynek innych graczy, chyba że dana osoba dodała cię do znajomych, ani grifować,niszczyc budowli innych graczy."
+    text: "Po starcie edycji nie można wejść do Netheru przez pierwsze &c4 &cgodzin&f, a do Endu przez pierwsze &c48 &cgodzin&f. Przez pierwsze &c6 &cgodziny &fnie można prowadzić walki PvP bez obustronnej zgody. Przez pierwsze &c24 &cgodzin &fnie można otwierać skrzynek innych graczy, chyba że dana osoba dodała cię do znajomych, ani grifować,niszczyc budowli innych graczy, ani okradać baz"
   20:
     icon:
       1:
@@ -10521,9 +10676,11 @@ Reg:
   6: "&cRegulamin w każdym momencie może zostać zmieniony bez poinformowania was z jakiego powodu zaistniała taka sytuacja"
   7: "&cKupując rangi Premium nie masz możliwości zwrócenia pieniędzy których wydałeś na to"
   8: "&cWchodząc na serwer akceptujesz regulamin."
-  9: "&cNie można przez pierwsze 24 godziny okradać innych graczy oraz zabijać"
-  10: "&cZakaz rajdów przez pierwsze 24 godzin, nie posłuchanie poskutkuje banem"
+  9: "&cNie można przez pierwsze 6 godziny okradać innych graczy oraz zabijać ich."
+  10: "&cZakaz rajdów(grifów bazy, okradania bazy, niszczenia terenu niedaleko bazy) przez pierwsze 24 godzin, nie posłuchanie poskutkuje banem"
   11: "&cZakaz rajdowania/niszczenia/griefowania baz lub innych obiektow za pomoca mutanta"
-  12: "&cGracz może umieścić kolorową wełnę przed swoją bazą: czerwoną (chcąc brać udział w rajdach online lub być ich celem), białą (niechcąc brać udziału w rajdach ani być celem) lub czarną (chcąc być celem rajdów offline). Osoby posiadające czerwoną wełnę mogą brać udział w rajdach oraz być celem rajdów graczy z czerwoną/czarną wełną, a także być celem rajdów ze strony takich graczy. Osoby posiadające czarną wełnę to ci, którzy mieli białą wełnę i dokonali rajdu na innym graczem lub naruszyli regulamin. Osoby posiadające białą wełnę to ci, którzy po prostu preferują pokojową grę. Informacje bedą na discordzie (gracze z czarna wełna mają na dc wypisane kordy bazy)"
+  12: "&cTC musi znajdować się w centrum twojej bazy (tam gdzie trzymasz swoję najlepsze itemy)"
+  13: "&cJeśli twoja baza znajduje się pod ziemią musisz ją w jakiś sposób oznaczyć np. beacon, wieża"
+  14: "&cJeśli planujesz zbudować coś ładnego i nie chcesz aby ta budowla została zniszczona, możesz się ubiegać o Złote TC (discord), które nie może zostać zrajdowane (Zasadą jest to ze w takiej bazie nie może znajdować się żaden loot)"
 
 #-------------------------- End of Config -------------------------------------
