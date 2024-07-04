@@ -1,0 +1,1123 @@
+junkpile1:
+  RANGE: 7
+  LIST:
+  - coarse dirt block;-2.02;-1.5;-2.8
+  - coarse dirt block;-1.02;-1.5;-2.8
+  - dirt block;-0.02;-1.5;-2.8
+  - coarse dirt block;0.98;-1.5;-2.8
+  - coarse dirt block;1.98;-1.5;-2.8
+  - coarse dirt block;-2.02;-1.5;-1.8
+  - dirt block;-1.02;-1.5;-1.8
+  - dirt block;-0.02;-1.5;-1.8
+  - dirt block;0.98;-1.5;-1.8
+  - coarse dirt block;1.98;-1.5;-1.8
+  - coarse dirt block;-2.02;-1.5;-0.8
+  - dirt block;-1.02;-1.5;-0.8
+  - dirt block;-0.02;-1.5;-0.8
+  - dirt block;0.98;-1.5;-0.8
+  - coarse dirt block;1.98;-1.5;-0.8
+  - coarse dirt block;-2.02;-1.5;0.2
+  - dirt block;-1.02;-1.5;0.2
+  - dirt block;-0.02;-1.5;0.2
+  - dirt block;0.98;-1.5;0.2
+  - dirt block;1.98;-1.5;0.2
+  - dirt block;-2.02;-1.5;1.2
+  - dirt block;-1.02;-1.5;1.2
+  - coarse dirt block;-0.02;-1.5;1.2
+  - dirt block;0.98;-1.5;1.2
+  - dirt block;1.98;-1.5;1.2
+  - dirt block;-2.02;-1.5;2.2
+  - dirt block;-1.02;-1.5;2.2
+  - coarse dirt block;-0.02;-1.5;2.2
+  - dirt block;0.98;-1.5;2.2
+  - coarse dirt block;1.98;-1.5;2.2
+  - oak wood slab;-1.02;-0.5;-2.8
+  - oak wood slab;-2.02;-0.5;-1.8
+  - oak wood slab;-1.02;-0.5;-1.8
+  - tuff;-0.02;-0.5;-1.8
+  - tuff;0.98;-0.5;-1.8
+  - tuff;1.98;-0.5;-1.8
+  - tuff;-1.02;-0.5;-0.8
+  - mangrove root;-0.02;-0.5;-0.8
+  - tuff;0.98;-0.5;-0.8
+  - tuff;-1.02;-0.5;0.2
+  - tuff;-0.02;-0.5;0.2
+  - tuff;0.98;-0.5;0.2
+  - granite slab;1.98;-0.5;0.2
+  - tuff;-1.02;-0.5;1.2
+  - granite slab;0.98;-0.5;1.2
+  - granite slab;1.98;-0.5;1.2
+  - granite slab;0.98;-0.5;2.2
+  - mangrove root;-0.02;0.5;-0.8
+  - mangrove root;0.98;1.5;-1.8
+  - mangrove root;-0.02;1.5;-0.8
+  - mangrove root;0.98;2.5;-2.8
+  - mangrove root;-1.02;2.5;-1.8
+  - mangrove root;0.98;2.5;-1.8
+  - mangrove root;-1.02;2.5;-0.8
+  - mangrove root;-0.02;2.5;0.2
+  - mangrove root;-1.02;3.5;-1.8
+
+junkpile2:
+  RANGE: 7
+  LIST:
+  - dirt block;-1.95;-0.38;-2.96
+  - coarse dirt block;-0.95;-0.38;-2.96
+  - cyan stained hardened clay;0.05;-0.38;-2.96
+  - dirt block;1.05;-0.38;-2.96
+  - coarse dirt block;2.05;-0.38;-2.96
+  - coarse dirt block;-1.95;-0.38;-1.96
+  - dirt block;-0.95;-0.38;-1.96
+  - dirt block;0.05;-0.38;-1.96
+  - dirt block;1.05;-0.38;-1.96
+  - dirt block;2.05;-0.38;-1.96
+  - dirt block;-1.95;-0.38;-0.96
+  - tuff;-0.95;-0.38;-0.96
+  - dirt block;0.05;-0.38;-0.96
+  - dirt block;1.05;-0.38;-0.96
+  - coarse dirt block;2.05;-0.38;-0.96
+  - coarse dirt block;-1.95;-0.38;0.04
+  - tuff;-0.95;-0.38;0.04
+  - dirt block;0.05;-0.38;0.04
+  - tuff;1.05;-0.38;0.04
+  - coarse dirt block;2.05;-0.38;0.04
+  - coarse dirt block;-1.95;-0.38;1.04
+  - cyan stained hardened clay;-0.95;-0.38;1.04
+  - tuff;0.05;-0.38;1.04
+  - coarse dirt block;1.05;-0.38;1.04
+  - dirt block;2.05;-0.38;1.04
+  - coarse dirt block;-1.95;-0.38;2.04
+  - coarse dirt block;-0.95;-0.38;2.04
+  - dirt block;0.05;-0.38;2.04
+  - coarse dirt block;1.05;-0.38;2.04
+  - dirt block;2.05;-0.38;2.04
+  - red stained hardened clay;-0.95;0.62;-1.96
+  - tuff;0.05;0.62;-1.96
+  - lime stained hardened clay;1.05;0.62;-1.96
+  - cyan stained hardened clay;0.05;0.62;-0.96
+  - lime stained hardened clay;1.05;0.62;-0.96
+  - tuff;0.05;0.62;0.04
+  - black stained hardened clay;1.05;0.62;2.04
+  - black stained hardened clay;2.05;0.62;2.04
+  - red stained hardened clay;-0.95;1.62;-1.96
+
+junkpile3:
+  RANGE: 7
+  LIST:
+  - coarse dirt block;-1.45;-0.31;-2.5
+  - dirt block;-0.45;-0.31;-2.5
+  - dirt block;0.55;-0.31;-2.5
+  - coarse dirt block;1.55;-0.31;-2.5
+  - coarse dirt block;2.55;-0.31;-2.5
+  - dirt block;-1.45;-0.31;-1.5
+  - tuff;-0.45;-0.31;-1.5
+  - coarse dirt block;0.55;-0.31;-1.5
+  - tuff;1.55;-0.31;-1.5
+  - coarse dirt block;2.55;-0.31;-1.5
+  - tuff;-1.45;-0.31;-0.5
+  - tuff;-0.45;-0.31;-0.5
+  - tuff;0.55;-0.31;-0.5
+  - dirt block;1.55;-0.31;-0.5
+  - tuff;2.55;-0.31;-0.5
+  - dirt block;-1.45;-0.31;0.5
+  - coarse dirt block;-0.45;-0.31;0.5
+  - dirt block;0.55;-0.31;0.5
+  - tuff;1.55;-0.31;0.5
+  - coarse dirt block;2.55;-0.31;0.5
+  - coarse dirt block;-1.45;-0.31;1.5
+  - tuff;-0.45;-0.31;1.5
+  - tuff;0.55;-0.31;1.5
+  - tuff;1.55;-0.31;1.5
+  - coarse dirt block;2.55;-0.31;1.5
+  - coarse dirt block;-1.45;-0.31;2.5
+  - coarse dirt block;-0.45;-0.31;2.5
+  - coarse dirt block;0.55;-0.31;2.5
+  - coarse dirt block;1.55;-0.31;2.5
+  - dirt block;2.55;-0.31;2.5
+  - stone brick;0.55;0.69;-2.5
+  - stone brick;0.55;0.69;-1.5
+  - mossy stone brick;0.55;0.69;-0.5
+  - stone brick;-1.45;0.69;0.5
+  - cracked stone brick;-0.45;0.69;0.5
+  - stone brick;0.55;0.69;0.5
+  - mossy cobblestone block;-1.45;0.69;1.5
+  - mossy stone brick;2.55;0.69;2.5
+  - mossy stone brick;0.55;1.69;-1.5
+  - cracked stone brick;0.55;1.69;-0.5
+  - mossy cobblestone block;-0.45;1.69;0.5
+  - cracked stone brick;0.55;1.69;0.5
+  - stone brick;0.55;2.69;-0.5
+
+junkpile4:
+  RANGE: 7
+  LIST:
+  - coarse dirt block;-2.95;-0.5;-2.03
+  - dirt block;-1.95;-0.5;-2.03
+  - coarse dirt block;-0.95;-0.5;-2.03
+  - dirt block;0.05;-0.5;-2.03
+  - coarse dirt block;1.05;-0.5;-2.03
+  - dirt block;2.05;-0.5;-2.03
+  - coarse dirt block;3.05;-0.5;-2.03
+  - coarse dirt block;-2.95;-0.5;-1.03
+  - dirt block;-1.95;-0.5;-1.03
+  - dirt block;-0.95;-0.5;-1.03
+  - coarse dirt block;0.05;-0.5;-1.03
+  - dirt block;1.05;-0.5;-1.03
+  - coarse dirt block;2.05;-0.5;-1.03
+  - dirt block;3.05;-0.5;-1.03
+  - coarse dirt block;-2.95;-0.5;-0.03
+  - coarse dirt block;-1.95;-0.5;-0.03
+  - coarse dirt block;-0.95;-0.5;-0.03
+  - coarse dirt block;0.05;-0.5;-0.03
+  - coarse dirt block;1.05;-0.5;-0.03
+  - dirt block;2.05;-0.5;-0.03
+  - tuff;3.05;-0.5;-0.03
+  - coarse dirt block;-2.95;-0.5;0.97
+  - tuff;-1.95;-0.5;0.97
+  - coarse dirt block;-0.95;-0.5;0.97
+  - dirt block;0.05;-0.5;0.97
+  - dirt block;1.05;-0.5;0.97
+  - coarse dirt block;2.05;-0.5;0.97
+  - tuff;3.05;-0.5;0.97
+  - tuff;-2.95;-0.5;1.97
+  - tuff;-1.95;-0.5;1.97
+  - tuff;-0.95;-0.5;1.97
+  - tuff;0.05;-0.5;1.97
+  - coarse dirt block;1.05;-0.5;1.97
+  - dirt block;2.05;-0.5;1.97
+  - coarse dirt block;3.05;-0.5;1.97
+  - coarse dirt block;-2.95;-0.5;2.97
+  - tuff;-1.95;-0.5;2.97
+  - tuff;-0.95;-0.5;2.97
+  - tuff;0.05;-0.5;2.97
+  - tuff;1.05;-0.5;2.97
+  - coarse dirt block;2.05;-0.5;2.97
+  - dirt block;3.05;-0.5;2.97
+  - birch wood slab;-2.95;0.5;-2.03
+  - spruce wood fence;-0.95;0.5;-2.03
+  - spruce wood fence;2.05;0.5;-2.03
+  - birch wood slab;-2.95;0.5;-1.03
+  - southward unlit campfire;-0.95;0.5;-1.03
+  - birch wood slab;1.05;0.5;-0.03
+  - birch wood slab;0.05;0.5;0.97
+  - spruce wood fence;2.05;0.5;1.97
+  - spruce wood fence;-2.95;0.5;2.97
+  - spruce wood fence;-0.95;1.5;-2.03
+  - southwestward skeleton skull;2.05;1.5;-2.03
+  - spruce wood fence;2.05;1.5;1.97
+  - skeleton skull item;-2.95;1.5;2.97
+  - south-southeastward skeleton skull;-0.95;2.5;-2.03
+  - northwestward skeleton skull;2.05;2.5;1.97
+
+junkpile5:
+  RANGE: 7
+  LIST:
+  - dirt block;-3.09;-1;-1.98
+  - coarse dirt block;-2.09;-1;-1.98
+  - dirt block;-1.09;-1;-1.98
+  - coarse dirt block;-0.09;-1;-1.98
+  - coarse dirt block;0.91;-1;-1.98
+  - dirt block;1.91;-1;-1.98
+  - coarse dirt block;-3.09;-1;-0.98
+  - dirt block;-2.09;-1;-0.98
+  - coarse dirt block;-1.09;-1;-0.98
+  - dirt block;-0.09;-1;-0.98
+  - coarse dirt block;0.91;-1;-0.98
+  - coarse dirt block;1.91;-1;-0.98
+  - dirt block;-3.09;-1;0.02
+  - coarse dirt block;-2.09;-1;0.02
+  - dirt block;-1.09;-1;0.02
+  - dirt block;-0.09;-1;0.02
+  - tuff;0.91;-1;0.02
+  - dirt block;1.91;-1;0.02
+  - coarse dirt block;-3.09;-1;1.02
+  - dirt block;-2.09;-1;1.02
+  - dirt block;-1.09;-1;1.02
+  - dirt block;-0.09;-1;1.02
+  - coarse dirt block;0.91;-1;1.02
+  - dirt block;1.91;-1;1.02
+  - coarse dirt block;-3.09;-1;2.02
+  - dirt block;-2.09;-1;2.02
+  - dirt block;-1.09;-1;2.02
+  - coarse dirt block;-0.09;-1;2.02
+  - coarse dirt block;0.91;-1;2.02
+  - coarse dirt block;1.91;-1;2.02
+  - dirt block;-3.09;-1;3.02
+  - coarse dirt block;-2.09;-1;3.02
+  - coarse dirt block;-1.09;-1;3.02
+  - coarse dirt block;-0.09;-1;3.02
+  - coarse dirt block;0.91;-1;3.02
+  - dirt block;1.91;-1;3.02
+  - mud bricks;-3.09;0;-1.98
+  - mud bricks;-2.09;0;-1.98
+  - mud brick slab;-1.09;0;-1.98
+  - mud brick stairs;-3.09;0;-0.98
+  - tuff;-0.09;0;-0.98
+  - mud bricks;-3.09;0;0.02
+  - tuff;-1.09;0;0.02
+  - mud brick slab;-0.09;0;0.02
+  - mud brick slab;1.91;0;0.02
+  - mud brick slab;-3.09;0;1.02
+  - tuff;-2.09;0;1.02
+  - tuff;-1.09;0;1.02
+  - tuff;-0.09;0;1.02
+  - mud brick stairs;1.91;0;1.02
+  - mud bricks;-3.09;0;2.02
+  - mud brick slab;-2.09;0;2.02
+  - tuff;-1.09;0;2.02
+  - mud bricks;1.91;0;2.02
+  - mud brick slab;-3.09;0;3.02
+  - mud brick slab;1.91;0;3.02
+  - mud brick stairs;-3.09;1;-1.98
+  - top mud brick slab;-3.09;1;-0.98
+  - mud bricks;-3.09;1;0.02
+  - mud brick stairs;-3.09;1;2.02
+  - double mud brick slab;-3.09;2;-0.98
+  - mud bricks;-3.09;2;0.02
+  - mud brick slab;-3.09;2;1.02
+  - mud brick slab;-3.09;3;0.02
+
+junkpile6:
+  RANGE: 7
+  LIST:
+  - dirt block;-2.98;-0.5;-3.84
+  - dirt block;-1.98;-0.5;-3.84
+  - coarse dirt block;-0.98;-0.5;-3.84
+  - dirt block;0.02;-0.5;-3.84
+  - dirt block;1.02;-0.5;-3.84
+  - coarse dirt block;2.02;-0.5;-3.84
+  - coarse dirt block;3.02;-0.5;-3.84
+  - dirt block;-2.98;-0.5;-2.84
+  - dirt block;-1.98;-0.5;-2.84
+  - dirt block;-0.98;-0.5;-2.84
+  - dirt block;0.02;-0.5;-2.84
+  - dirt block;1.02;-0.5;-2.84
+  - dirt block;2.02;-0.5;-2.84
+  - coarse dirt block;3.02;-0.5;-2.84
+  - coarse dirt block;-2.98;-0.5;-1.84
+  - dirt block;-1.98;-0.5;-1.84
+  - coarse dirt block;-0.98;-0.5;-1.84
+  - tuff;0.02;-0.5;-1.84
+  - tuff;1.02;-0.5;-1.84
+  - dirt block;2.02;-0.5;-1.84
+  - coarse dirt block;3.02;-0.5;-1.84
+  - coarse dirt block;-2.98;-0.5;-0.84
+  - coarse dirt block;-1.98;-0.5;-0.84
+  - tuff;-0.98;-0.5;-0.84
+  - dirt block;0.02;-0.5;-0.84
+  - coarse dirt block;1.02;-0.5;-0.84
+  - coarse dirt block;2.02;-0.5;-0.84
+  - coarse dirt block;3.02;-0.5;-0.84
+  - coarse dirt block;-2.98;-0.5;0.16
+  - dirt block;-1.98;-0.5;0.16
+  - coarse dirt block;-0.98;-0.5;0.16
+  - tuff;0.02;-0.5;0.16
+  - tuff;1.02;-0.5;0.16
+  - dirt block;2.02;-0.5;0.16
+  - dirt block;3.02;-0.5;0.16
+  - dirt block;-2.98;-0.5;1.16
+  - coarse dirt block;-1.98;-0.5;1.16
+  - dirt block;-0.98;-0.5;1.16
+  - tuff;0.02;-0.5;1.16
+  - tuff;1.02;-0.5;1.16
+  - dirt block;2.02;-0.5;1.16
+  - coarse dirt block;3.02;-0.5;1.16
+  - coarse dirt block;-2.98;-0.5;2.16
+  - tuff;-1.98;-0.5;2.16
+  - coarse dirt block;-0.98;-0.5;2.16
+  - dirt block;0.02;-0.5;2.16
+  - tuff;1.02;-0.5;2.16
+  - dirt block;2.02;-0.5;2.16
+  - dirt block;3.02;-0.5;2.16
+  - dirt block;-2.98;-0.5;3.16
+  - dirt block;-1.98;-0.5;3.16
+  - dirt block;-0.98;-0.5;3.16
+  - dirt block;0.02;-0.5;3.16
+  - dirt block;1.02;-0.5;3.16
+  - dirt block;2.02;-0.5;3.16
+  - coarse dirt block;3.02;-0.5;3.16
+  - coarse dirt block;-2.98;-0.5;4.16
+  - coarse dirt block;-1.98;-0.5;4.16
+  - coarse dirt block;-0.98;-0.5;4.16
+  - coarse dirt block;0.02;-0.5;4.16
+  - coarse dirt block;1.02;-0.5;4.16
+  - coarse dirt block;2.02;-0.5;4.16
+  - coarse dirt block;3.02;-0.5;4.16
+  - oak log;-1.98;0.5;-2.84
+  - oak wood wooden planks;-0.98;0.5;-2.84
+  - oak wood wooden planks;1.02;0.5;-2.84
+  - oak log;2.02;0.5;-2.84
+  - oak wood wooden planks;-1.98;0.5;-1.84
+  - oak wood wooden planks;2.02;0.5;-1.84
+  - oak wood wooden planks;-1.98;0.5;-0.84
+  - oak wood wooden planks;2.02;0.5;0.16
+  - oak wood wooden planks;2.02;0.5;1.16
+  - oak wood wooden planks;2.02;0.5;2.16
+  - oak log;-1.98;0.5;3.16
+  - oak wood wooden planks;-0.98;0.5;3.16
+  - oak wood wooden planks;0.02;0.5;3.16
+  - oak wood wooden planks;1.02;0.5;3.16
+  - oak log;2.02;0.5;3.16
+  - oak log;-1.98;1.5;-2.84
+  - oak wood wooden planks;1.02;1.5;-2.84
+  - oak log;2.02;1.5;-2.84
+  - oak wood wooden planks;-1.98;1.5;-1.84
+  - oak wood wooden planks;2.02;1.5;-1.84
+  - oak wood wooden planks;2.02;1.5;0.16
+  - oak wood wooden planks;2.02;1.5;1.16
+  - oak wood wooden planks;2.02;1.5;2.16
+  - oak wood wooden planks;-0.98;1.5;3.16
+  - spruce wood fence;0.02;1.5;3.16
+  - oak wood wooden planks;1.02;1.5;3.16
+  - oak log;2.02;1.5;3.16
+  - oak log;-1.98;2.5;-2.84
+  - oak log;2.02;2.5;-2.84
+  - oak wood wooden planks;2.02;2.5;-1.84
+  - oak wood wooden planks;2.02;2.5;-0.84
+  - oak wood wooden planks;2.02;2.5;0.16
+  - oak wood wooden planks;2.02;2.5;1.16
+  - oak wood wooden planks;2.02;2.5;2.16
+  - oak wood wooden planks;0.02;2.5;3.16
+  - oak wood wooden planks;1.02;2.5;3.16
+  - oak log;2.02;2.5;3.16
+
+junkpile7:
+  RANGE: 7
+  LIST:
+  - dirt block;-2.91;-0.5;-2.62
+  - coarse dirt block;-1.91;-0.5;-2.62
+  - dirt block;-0.91;-0.5;-2.62
+  - coarse dirt block;0.09;-0.5;-2.62
+  - coarse dirt block;1.09;-0.5;-2.62
+  - coarse dirt block;2.09;-0.5;-2.62
+  - coarse dirt block;3.09;-0.5;-2.62
+  - coarse dirt block;-2.91;-0.5;-1.62
+  - tuff;-1.91;-0.5;-1.62
+  - dirt block;-0.91;-0.5;-1.62
+  - dirt block;0.09;-0.5;-1.62
+  - dirt block;1.09;-0.5;-1.62
+  - dirt block;2.09;-0.5;-1.62
+  - coarse dirt block;3.09;-0.5;-1.62
+  - coarse dirt block;-2.91;-0.5;-0.62
+  - tuff;-1.91;-0.5;-0.62
+  - tuff;-0.91;-0.5;-0.62
+  - tuff;0.09;-0.5;-0.62
+  - tuff;1.09;-0.5;-0.62
+  - dirt block;2.09;-0.5;-0.62
+  - coarse dirt block;3.09;-0.5;-0.62
+  - dirt block;-2.91;-0.5;0.38
+  - coarse dirt block;-1.91;-0.5;0.38
+  - tuff;-0.91;-0.5;0.38
+  - tuff;0.09;-0.5;0.38
+  - tuff;1.09;-0.5;0.38
+  - dirt block;2.09;-0.5;0.38
+  - coarse dirt block;3.09;-0.5;0.38
+  - coarse dirt block;-2.91;-0.5;1.38
+  - coarse dirt block;-1.91;-0.5;1.38
+  - coarse dirt block;-0.91;-0.5;1.38
+  - dirt block;0.09;-0.5;1.38
+  - dirt block;1.09;-0.5;1.38
+  - dirt block;2.09;-0.5;1.38
+  - coarse dirt block;3.09;-0.5;1.38
+  - coarse dirt block;-1.91;-0.5;2.38
+  - coarse dirt block;-0.91;-0.5;2.38
+  - coarse dirt block;0.09;-0.5;2.38
+  - dirt block;1.09;-0.5;2.38
+  - dirt block;2.09;-0.5;2.38
+  - coarse dirt block;3.09;-0.5;2.38
+  - lime stained hardened clay;-0.91;0.5;-1.62
+  - dark green concrete;0.09;0.5;-1.62
+  - lime stained hardened clay;1.09;0.5;-1.62
+  - lime stained hardened clay;2.09;0.5;-1.62
+  - lime stained hardened clay;2.09;0.5;-0.62
+  - lime stained hardened clay;2.09;0.5;0.38
+  - dark green concrete;-1.91;0.5;1.38
+  - lime stained hardened clay;-0.91;0.5;1.38
+  - dark green concrete;0.09;0.5;1.38
+  - dark green concrete;1.09;0.5;1.38
+  - lime stained hardened clay;2.09;0.5;1.38
+  - dark green concrete;-0.91;1.5;-1.62
+  - lime stained hardened clay;0.09;1.5;-1.62
+  - lime stained hardened clay;1.09;1.5;-1.62
+  - lime stained hardened clay;2.09;1.5;-1.62
+  - dark green concrete;2.09;1.5;-0.62
+  - lime stained hardened clay;2.09;1.5;0.38
+  - lime stained hardened clay;-0.91;1.5;1.38
+  - dark green concrete;0.09;1.5;1.38
+  - lime stained hardened clay;1.09;1.5;1.38
+  - lime stained hardened clay;2.09;1.5;1.38
+  - dark green concrete;-1.91;2.5;-1.62
+  - dark green concrete;-0.91;2.5;-1.62
+  - dark green concrete;0.09;2.5;-1.62
+  - lime stained hardened clay;1.09;2.5;-1.62
+  - lime stained hardened clay;2.09;2.5;-1.62
+  - structure void;-1.91;2.5;-0.62
+  - structure void;-0.91;2.5;-0.62
+  - structure void;0.09;2.5;-0.62
+  - structure void;1.09;2.5;-0.62
+  - lime stained hardened clay;2.09;2.5;-0.62
+  - structure void;-0.91;2.5;0.38
+  - structure void;0.09;2.5;0.38
+  - structure void;1.09;2.5;0.38
+  - dark green concrete;2.09;2.5;0.38
+  - lime stained hardened clay;-1.91;2.5;1.38
+  - dark green concrete;-0.91;2.5;1.38
+  - lime stained hardened clay;0.09;2.5;1.38
+  - lime stained hardened clay;1.09;2.5;1.38
+  - lime stained hardened clay;2.09;2.5;1.38
+  - dark green carpet;-1.91;3.5;-1.62
+  - dark green carpet;-0.91;3.5;-1.62
+  - dark green carpet;0.09;3.5;-1.62
+  - dark green carpet;1.09;3.5;-1.62
+  - dark green carpet;2.09;3.5;-1.62
+  - dark green carpet;-1.91;3.5;-0.62
+  - dark green carpet;-0.91;3.5;-0.62
+  - dark green carpet;0.09;3.5;-0.62
+  - dark green carpet;1.09;3.5;-0.62
+  - dark green carpet;2.09;3.5;-0.62
+  - dark green carpet;-0.91;3.5;0.38
+  - dark green carpet;0.09;3.5;0.38
+  - dark green carpet;1.09;3.5;0.38
+  - dark green carpet;2.09;3.5;0.38
+  - dark green carpet;-0.91;3.5;1.38
+  - dark green carpet;0.09;3.5;1.38
+  - dark green carpet;1.09;3.5;1.38
+  - dark green carpet;2.09;3.5;1.38
+
+junkpile8:
+  RANGE: 7
+  LIST:
+  - coarse dirt block;-1.96;-1.5;-2.2
+  - moss block;-0.96;-1.5;-2.2
+  - coarse dirt block;0.04;-1.5;-2.2
+  - coarse dirt block;1.04;-1.5;-2.2
+  - moss block;2.04;-1.5;-2.2
+  - moss block;3.04;-1.5;-2.2
+  - dirt block;-1.96;-1.5;-1.2
+  - moss block;-0.96;-1.5;-1.2
+  - tuff;0.04;-1.5;-1.2
+  - tuff;1.04;-1.5;-1.2
+  - moss block;2.04;-1.5;-1.2
+  - coarse dirt block;3.04;-1.5;-1.2
+  - moss block;-1.96;-1.5;-0.2
+  - dirt block;-0.96;-1.5;-0.2
+  - dirt block;0.04;-1.5;-0.2
+  - tuff;1.04;-1.5;-0.2
+  - tuff;2.04;-1.5;-0.2
+  - coarse dirt block;3.04;-1.5;-0.2
+  - coarse dirt block;-1.96;-1.5;0.8
+  - dirt block;-0.96;-1.5;0.8
+  - dirt block;0.04;-1.5;0.8
+  - tuff;1.04;-1.5;0.8
+  - tuff;2.04;-1.5;0.8
+  - moss block;3.04;-1.5;0.8
+  - moss block;-1.96;-1.5;1.8
+  - tuff;-0.96;-1.5;1.8
+  - dirt block;0.04;-1.5;1.8
+  - tuff;1.04;-1.5;1.8
+  - moss block;2.04;-1.5;1.8
+  - coarse dirt block;3.04;-1.5;1.8
+  - coarse dirt block;-1.96;-1.5;2.8
+  - coarse dirt block;-0.96;-1.5;2.8
+  - coarse dirt block;0.04;-1.5;2.8
+  - moss block;1.04;-1.5;2.8
+  - coarse dirt block;2.04;-1.5;2.8
+  - coarse dirt block;3.04;-1.5;2.8
+  - pointed dripstone;3.04;-0.5;-2.2
+  - pointed dripstone;-0.96;-0.5;-1.2
+  - tuff;-0.96;-0.5;-0.2
+  - tuff;0.04;-0.5;-0.2
+  - tuff;-0.96;-0.5;0.8
+  - spruce log;0.04;-0.5;0.8
+  - pointed dripstone;-1.96;-0.5;1.8
+  - tuff;0.04;-0.5;1.8
+  - pointed dripstone;2.04;-0.5;1.8
+  - spruce log;0.04;0.5;0.8
+  - spruce log;0.04;1.5;0.8
+  - cobweb;-0.96;2.5;-0.2
+  - mangrove root;0.04;2.5;-0.2
+  - oak leaf;1.04;2.5;-0.2
+  - oak leaf;-0.96;2.5;0.8
+  - spruce log;0.04;2.5;0.8
+  - oak leaf;1.04;2.5;0.8
+  - mangrove root;-0.96;2.5;1.8
+  - oak leaf;0.04;2.5;1.8
+  - mangrove root;1.04;2.5;1.8
+  - mangrove root;-0.96;3.5;-0.2
+  - mangrove root;0.04;3.5;-0.2
+  - cobweb;1.04;3.5;-0.2
+  - mangrove root;-0.96;3.5;0.8
+  - spruce log;0.04;3.5;0.8
+  - oak leaf;1.04;3.5;0.8
+  - persistent oak leaf;-0.96;3.5;1.8
+  - mangrove root;0.04;3.5;1.8
+  - oak leaf;1.04;3.5;1.8
+  - oak leaf;0.04;4.5;-0.2
+  - mangrove root;-0.96;4.5;0.8
+  - oak leaf;0.04;4.5;0.8
+  - mangrove root;1.04;4.5;0.8
+  - cobweb;0.04;4.5;1.8
+  - oak leaf;0.04;5.5;0.8
+
+junkpile9:
+  RANGE: 7
+  LIST:
+  - coarse dirt block;-2.83;-0.5;-2.2
+  - dirt block;-1.83;-0.5;-2.2
+  - coarse dirt block;-0.83;-0.5;-2.2
+  - dirt block;0.17;-0.5;-2.2
+  - coarse dirt block;1.17;-0.5;-2.2
+  - dirt block;2.17;-0.5;-2.2
+  - coarse dirt block;3.17;-0.5;-2.2
+  - coarse dirt block;-2.83;-0.5;-1.2
+  - dirt block;-1.83;-0.5;-1.2
+  - dirt block;-0.83;-0.5;-1.2
+  - tuff;0.17;-0.5;-1.2
+  - dirt block;1.17;-0.5;-1.2
+  - coarse dirt block;2.17;-0.5;-1.2
+  - coarse dirt block;3.17;-0.5;-1.2
+  - coarse dirt block;-2.83;-0.5;-0.2
+  - coarse dirt block;-1.83;-0.5;-0.2
+  - tuff;-0.83;-0.5;-0.2
+  - tuff;0.17;-0.5;-0.2
+  - coarse dirt block;1.17;-0.5;-0.2
+  - tuff;2.17;-0.5;-0.2
+  - dirt block;3.17;-0.5;-0.2
+  - coarse dirt block;-2.83;-0.5;0.8
+  - tuff;-1.83;-0.5;0.8
+  - tuff;-0.83;-0.5;0.8
+  - dirt block;0.17;-0.5;0.8
+  - dirt block;1.17;-0.5;0.8
+  - tuff;2.17;-0.5;0.8
+  - coarse dirt block;3.17;-0.5;0.8
+  - dirt block;-2.83;-0.5;1.8
+  - dirt block;-1.83;-0.5;1.8
+  - coarse dirt block;-0.83;-0.5;1.8
+  - tuff;0.17;-0.5;1.8
+  - coarse dirt block;1.17;-0.5;1.8
+  - dirt block;2.17;-0.5;1.8
+  - coarse dirt block;3.17;-0.5;1.8
+  - coarse dirt block;-2.83;-0.5;2.8
+  - coarse dirt block;-1.83;-0.5;2.8
+  - dirt block;-0.83;-0.5;2.8
+  - coarse dirt block;0.17;-0.5;2.8
+  - dirt block;1.17;-0.5;2.8
+  - coarse dirt block;2.17;-0.5;2.8
+  - coarse dirt block;3.17;-0.5;2.8
+  - dead grass;2.17;0.5;-2.2
+  - dead grass;-0.83;0.5;-1.2
+  - tuff;1.17;0.5;-0.2
+  - dead grass;3.17;0.5;-0.2
+  - stripped spruce log;0.17;0.5;0.8
+  - tuff;1.17;0.5;0.8
+  - dead grass;-1.83;0.5;1.8
+  - tuff;0.17;0.5;1.8
+  - tuff;1.17;0.5;1.8
+  - dead grass;1.17;0.5;2.8
+  - stripped spruce log;0.17;1.5;0.8
+  - stripped spruce log;0.17;2.5;0.8
+  - spruce wood fence;0.17;2.5;1.8
+  - spruce wood fence;0.17;3.5;-0.2
+  - spruce wood fence;-0.83;3.5;0.8
+  - stripped spruce log;0.17;3.5;0.8
+  - spruce wood fence;1.17;3.5;0.8
+  - spruce wood fence;2.17;3.5;0.8
+  - spruce wood fence;0.17;3.5;1.8
+  - spruce wood fence;0.17;4.5;-1.2
+  - spruce wood fence;0.17;4.5;-0.2
+  - spruce wood fence;-0.83;4.5;0.8
+  - spruce wood fence;2.17;4.5;0.8
+  - spruce wood fence;0.17;4.5;1.8
+  - spruce wood fence;0.17;4.5;2.8
+  - spruce wood fence;0.17;5.5;-1.2
+  - spruce wood fence;-1.83;5.5;0.8
+  - spruce wood fence;-0.83;5.5;0.8
+  - spruce wood fence;0.17;5.5;1.8
+  - spruce wood fence;-0.83;6.5;0.8
+
+junkpile10:
+  RANGE: 7
+  LIST:
+  - dirt block;-2.55;-0.5;-4
+  - coarse dirt block;-1.55;-0.5;-4
+  - dirt block;-0.55;-0.5;-4
+  - dirt block;0.45;-0.5;-4
+  - dirt block;1.45;-0.5;-4
+  - coarse dirt block;2.45;-0.5;-4
+  - coarse dirt block;3.45;-0.5;-4
+  - dirt block;-2.55;-0.5;-3
+  - coarse dirt block;-1.55;-0.5;-3
+  - dirt block;-0.55;-0.5;-3
+  - dirt block;0.45;-0.5;-3
+  - coarse dirt block;1.45;-0.5;-3
+  - dirt block;2.45;-0.5;-3
+  - coarse dirt block;3.45;-0.5;-3
+  - coarse dirt block;-2.55;-0.5;-2
+  - dirt block;-1.55;-0.5;-2
+  - coarse dirt block;-0.55;-0.5;-2
+  - tuff;0.45;-0.5;-2
+  - tuff;1.45;-0.5;-2
+  - dirt block;2.45;-0.5;-2
+  - coarse dirt block;3.45;-0.5;-2
+  - coarse dirt block;-2.55;-0.5;-1
+  - coarse dirt block;-1.55;-0.5;-1
+  - tuff;-0.55;-0.5;-1
+  - tuff;0.45;-0.5;-1
+  - coarse dirt block;1.45;-0.5;-1
+  - coarse dirt block;2.45;-0.5;-1
+  - coarse dirt block;3.45;-0.5;-1
+  - coarse dirt block;-2.55;-0.5;-0
+  - dirt block;-1.55;-0.5;-0
+  - coarse dirt block;-0.55;-0.5;-0
+  - tuff;0.45;-0.5;-0
+  - tuff;1.45;-0.5;-0
+  - coarse dirt block;2.45;-0.5;-0
+  - dirt block;3.45;-0.5;-0
+  - dirt block;-2.55;-0.5;1
+  - coarse dirt block;-1.55;-0.5;1
+  - tuff;-0.55;-0.5;1
+  - tuff;0.45;-0.5;1
+  - coarse dirt block;1.45;-0.5;1
+  - dirt block;2.45;-0.5;1
+  - coarse dirt block;3.45;-0.5;1
+  - coarse dirt block;-2.55;-0.5;2
+  - tuff;-1.55;-0.5;2
+  - coarse dirt block;-0.55;-0.5;2
+  - tuff;0.45;-0.5;2
+  - tuff;1.45;-0.5;2
+  - dirt block;2.45;-0.5;2
+  - dirt block;3.45;-0.5;2
+  - dirt block;-2.55;-0.5;3
+  - dirt block;-1.55;-0.5;3
+  - coarse dirt block;-0.55;-0.5;3
+  - dirt block;0.45;-0.5;3
+  - dirt block;1.45;-0.5;3
+  - dirt block;2.45;-0.5;3
+  - coarse dirt block;3.45;-0.5;3
+  - coarse dirt block;-2.55;-0.5;4
+  - coarse dirt block;-1.55;-0.5;4
+  - dirt block;-0.55;-0.5;4
+  - coarse dirt block;0.45;-0.5;4
+  - coarse dirt block;1.45;-0.5;4
+  - coarse dirt block;2.45;-0.5;4
+  - coarse dirt block;3.45;-0.5;4
+  - mud brick slab;-0.55;0.5;-4
+  - mud bricks;0.45;0.5;-4
+  - mud bricks;2.45;0.5;-2
+  - mud bricks;-2.55;0.5;-0
+  - mud bricks;-1.55;0.5;-0
+  - mud brick slab;-2.55;0.5;1
+  - mud brick slab;1.45;0.5;3
+  - mud bricks;2.45;0.5;3
+  - mud brick wall;-0.55;0.5;4
+  - mud brick wall;0.45;1.5;-4
+  - mud brick wall;2.45;1.5;-2
+  - mud bricks;-2.55;1.5;-0
+  - mud bricks;2.45;1.5;3
+  - jungle wood fence;-0.55;1.5;4
+  - mud brick wall;0.45;2.5;-4
+  - jungle wood fence;2.45;2.5;-2
+  - mud bricks;-2.55;2.5;-0
+  - mud brick wall;2.45;2.5;3
+  - jungle wood fence;0.45;3.5;-4
+  - mud brick wall;-2.55;3.5;-0
+  - mud brick wall;2.45;3.5;3
+  - mud brick wall;-2.55;4.5;-0
+  - jungle wood fence;2.45;4.5;3
+  - jungle wood fence;-2.55;5.5;-0
+
+junkpile12:
+  RANGE: 7
+  LIST:
+  - dirt block;-2.99;-0.5;-3.55
+  - coarse dirt block;-1.99;-0.5;-3.55
+  - dirt block;-0.99;-0.5;-3.55
+  - dirt block;0.01;-0.5;-3.55
+  - dirt block;1.01;-0.5;-3.55
+  - coarse dirt block;2.01;-0.5;-3.55
+  - coarse dirt block;3.01;-0.5;-3.55
+  - dirt block;-2.99;-0.5;-2.55
+  - dirt block;-1.99;-0.5;-2.55
+  - dirt block;-0.99;-0.5;-2.55
+  - dirt block;0.01;-0.5;-2.55
+  - coarse dirt block;1.01;-0.5;-2.55
+  - dirt block;2.01;-0.5;-2.55
+  - coarse dirt block;3.01;-0.5;-2.55
+  - coarse dirt block;-2.99;-0.5;-1.55
+  - dirt block;-1.99;-0.5;-1.55
+  - dirt block;-0.99;-0.5;-1.55
+  - tuff;0.01;-0.5;-1.55
+  - coarse dirt block;1.01;-0.5;-1.55
+  - dirt block;2.01;-0.5;-1.55
+  - coarse dirt block;3.01;-0.5;-1.55
+  - coarse dirt block;-2.99;-0.5;-0.55
+  - tuff;-1.99;-0.5;-0.55
+  - tuff;-0.99;-0.5;-0.55
+  - tuff;0.01;-0.5;-0.55
+  - dirt block;1.01;-0.5;-0.55
+  - dirt block;2.01;-0.5;-0.55
+  - coarse dirt block;3.01;-0.5;-0.55
+  - dirt block;-2.99;-0.5;0.45
+  - tuff;-1.99;-0.5;0.45
+  - dirt block;-0.99;-0.5;0.45
+  - coarse dirt block;0.01;-0.5;0.45
+  - coarse dirt block;1.01;-0.5;0.45
+  - coarse dirt block;2.01;-0.5;0.45
+  - dirt block;3.01;-0.5;0.45
+  - coarse dirt block;-2.99;-0.5;1.45
+  - coarse dirt block;-1.99;-0.5;1.45
+  - tuff;-0.99;-0.5;1.45
+  - tuff;0.01;-0.5;1.45
+  - tuff;1.01;-0.5;1.45
+  - dirt block;2.01;-0.5;1.45
+  - coarse dirt block;3.01;-0.5;1.45
+  - coarse dirt block;-2.99;-0.5;2.45
+  - tuff;-1.99;-0.5;2.45
+  - tuff;-0.99;-0.5;2.45
+  - dirt block;0.01;-0.5;2.45
+  - dirt block;1.01;-0.5;2.45
+  - coarse dirt block;2.01;-0.5;2.45
+  - coarse dirt block;3.01;-0.5;2.45
+  - dirt block;-2.99;-0.5;3.45
+  - tuff;-1.99;-0.5;3.45
+  - dirt block;-0.99;-0.5;3.45
+  - dirt block;0.01;-0.5;3.45
+  - dirt block;1.01;-0.5;3.45
+  - dirt block;2.01;-0.5;3.45
+  - dirt block;3.01;-0.5;3.45
+  - coarse dirt block;-2.99;-0.5;4.45
+  - coarse dirt block;-1.99;-0.5;4.45
+  - coarse dirt block;-0.99;-0.5;4.45
+  - dirt block;0.01;-0.5;4.45
+  - dirt block;1.01;-0.5;4.45
+  - coarse dirt block;2.01;-0.5;4.45
+  - coarse dirt block;3.01;-0.5;4.45
+  - diorite slab;-1.99;0.5;-3.55
+  - diorite slab;-0.99;0.5;-3.55
+  - diorite slab;-2.99;0.5;-2.55
+  - raw diorite;-1.99;0.5;-2.55
+  - raw diorite;-0.99;0.5;-2.55
+  - diorite slab;0.01;0.5;-2.55
+  - diorite slab;-2.99;0.5;-1.55
+  - raw diorite;-1.99;0.5;-1.55
+  - raw diorite;-0.99;0.5;-1.55
+  - campfire;2.01;0.5;-1.55
+  - raw diorite;0.01;0.5;2.45
+  - raw diorite;1.01;0.5;2.45
+  - diorite slab;2.01;0.5;2.45
+  - diorite slab;-0.99;0.5;3.45
+  - raw diorite;0.01;0.5;3.45
+  - raw diorite;1.01;0.5;3.45
+  - raw diorite;2.01;0.5;3.45
+  - diorite slab;0.01;0.5;4.45
+  - double diorite slab;1.01;0.5;4.45
+  - diorite slab;2.01;0.5;4.45
+  - raw diorite;-1.99;1.5;-2.55
+  - diorite slab;-1.99;1.5;-1.55
+  - diorite slab;-0.99;1.5;-1.55
+  - diorite slab;0.01;1.5;2.45
+  - diorite slab;1.01;1.5;2.45
+  - double diorite slab;0.01;1.5;3.45
+  - raw diorite;1.01;1.5;3.45
+  - raw diorite;1.01;2.5;3.45
+  - diorite wall;1.01;3.5;3.45
+
+junkpile13:
+  RANGE: 7
+  LIST:
+  - dirt block;-2.96;-1.5;-3.92
+  - coarse dirt block;-1.96;-1.5;-3.92
+  - dirt block;-0.96;-1.5;-3.92
+  - coarse dirt block;0.04;-1.5;-3.92
+  - dirt block;1.04;-1.5;-3.92
+  - coarse dirt block;2.04;-1.5;-3.92
+  - coarse dirt block;3.04;-1.5;-3.92
+  - coarse dirt block;-2.96;-1.5;-2.92
+  - dirt block;-1.96;-1.5;-2.92
+  - coarse dirt block;-0.96;-1.5;-2.92
+  - coarse dirt block;0.04;-1.5;-2.92
+  - coarse dirt block;1.04;-1.5;-2.92
+  - dirt block;2.04;-1.5;-2.92
+  - coarse dirt block;3.04;-1.5;-2.92
+  - coarse dirt block;-2.96;-1.5;-1.92
+  - dirt block;-1.96;-1.5;-1.92
+  - dirt block;-0.96;-1.5;-1.92
+  - dirt block;0.04;-1.5;-1.92
+  - dirt block;1.04;-1.5;-1.92
+  - dirt block;2.04;-1.5;-1.92
+  - coarse dirt block;3.04;-1.5;-1.92
+  - coarse dirt block;-2.96;-1.5;-0.92
+  - dirt block;-1.96;-1.5;-0.92
+  - dirt block;-0.96;-1.5;-0.92
+  - dirt block;0.04;-1.5;-0.92
+  - dirt block;1.04;-1.5;-0.92
+  - dirt block;2.04;-1.5;-0.92
+  - coarse dirt block;3.04;-1.5;-0.92
+  - dirt block;-2.96;-1.5;0.08
+  - dirt block;-1.96;-1.5;0.08
+  - dirt block;-0.96;-1.5;0.08
+  - dirt block;0.04;-1.5;0.08
+  - dirt block;1.04;-1.5;0.08
+  - dirt block;2.04;-1.5;0.08
+  - dirt block;3.04;-1.5;0.08
+  - coarse dirt block;-2.96;-1.5;1.08
+  - coarse dirt block;-1.96;-1.5;1.08
+  - dirt block;-0.96;-1.5;1.08
+  - dirt block;0.04;-1.5;1.08
+  - dirt block;1.04;-1.5;1.08
+  - dirt block;2.04;-1.5;1.08
+  - coarse dirt block;3.04;-1.5;1.08
+  - coarse dirt block;-2.96;-1.5;2.08
+  - dirt block;-1.96;-1.5;2.08
+  - dirt block;-0.96;-1.5;2.08
+  - dirt block;0.04;-1.5;2.08
+  - dirt block;1.04;-1.5;2.08
+  - coarse dirt block;2.04;-1.5;2.08
+  - coarse dirt block;3.04;-1.5;2.08
+  - dirt block;-2.96;-1.5;3.08
+  - dirt block;-1.96;-1.5;3.08
+  - dirt block;-0.96;-1.5;3.08
+  - dirt block;0.04;-1.5;3.08
+  - dirt block;1.04;-1.5;3.08
+  - dirt block;2.04;-1.5;3.08
+  - dirt block;3.04;-1.5;3.08
+  - coarse dirt block;-2.96;-1.5;4.08
+  - coarse dirt block;-1.96;-1.5;4.08
+  - coarse dirt block;-0.96;-1.5;4.08
+  - dirt block;0.04;-1.5;4.08
+  - dirt block;1.04;-1.5;4.08
+  - coarse dirt block;2.04;-1.5;4.08
+  - coarse dirt block;3.04;-1.5;4.08
+  - oak wood block;2.04;-0.5;-3.92
+  - oak wood block;2.04;-0.5;-2.92
+  - cobblestone block;-1.96;-0.5;-1.92
+  - cobblestone block;-0.96;-0.5;-1.92
+  - cobblestone block;0.04;-0.5;-1.92
+  - cobblestone slab;1.04;-0.5;-1.92
+  - oak wood block;2.04;-0.5;-1.92
+  - cobblestone block;-1.96;-0.5;-0.92
+  - tuff;-0.96;-0.5;-0.92
+  - tuff;0.04;-0.5;-0.92
+  - cobblestone slab;1.04;-0.5;-0.92
+  - cobblestone slab;2.04;-0.5;-0.92
+  - cobblestone block;-1.96;-0.5;0.08
+  - cobblestone block;-0.96;-0.5;0.08
+  - tuff;0.04;-0.5;0.08
+  - tuff;1.04;-0.5;0.08
+  - cobblestone slab;2.04;-0.5;0.08
+  - cobblestone block;-1.96;-0.5;1.08
+  - tuff;-0.96;-0.5;1.08
+  - cobblestone block;0.04;-0.5;1.08
+  - tuff;1.04;-0.5;1.08
+  - cobblestone slab;2.04;-0.5;1.08
+  - cobblestone block;-1.96;-0.5;2.08
+  - tuff;-0.96;-0.5;2.08
+  - tuff;0.04;-0.5;2.08
+  - cobblestone block;1.04;-0.5;2.08
+  - cobblestone block;2.04;-0.5;2.08
+  - cobblestone block;-1.96;-0.5;3.08
+  - cobblestone block;-0.96;-0.5;3.08
+  - cobblestone block;0.04;-0.5;3.08
+  - cobblestone block;1.04;-0.5;3.08
+  - cobblestone block;2.04;-0.5;3.08
+  - oak log;-1.96;0.5;-1.92
+  - oak wood wooden planks;-0.96;0.5;-1.92
+  - oak wood wooden planks;0.04;0.5;-1.92
+  - oak wood wooden planks;-1.96;0.5;-0.92
+  - oak wood wooden planks;-1.96;0.5;0.08
+  - oak wood wooden planks;-1.96;0.5;1.08
+  - oak wood wooden planks;-1.96;0.5;2.08
+  - oak log;-1.96;0.5;3.08
+  - oak wood wooden planks;-0.96;0.5;3.08
+  - oak wood wooden planks;0.04;0.5;3.08
+  - oak wood wooden planks;1.04;0.5;3.08
+  - oak log;2.04;0.5;3.08
+  - oak log;-1.96;1.5;-1.92
+  - oak wood wooden planks;-0.96;1.5;-1.92
+  - oak wood slab;0.04;1.5;-1.92
+  - oak wood wooden planks;-1.96;1.5;-0.92
+  - oak wood fence;-1.96;1.5;0.08
+  - oak wood fence;-1.96;1.5;1.08
+  - oak wood wooden planks;-1.96;1.5;2.08
+  - oak log;-1.96;1.5;3.08
+  - oak wood wooden planks;-0.96;1.5;3.08
+  - oak wood wooden planks;0.04;1.5;3.08
+  - oak wood slab;1.04;1.5;3.08
+  - oak log;2.04;1.5;3.08
+  - oak wood slab;-1.96;2.5;0.08
+  - oak wood wooden planks;-1.96;2.5;1.08
+  - oak wood wooden planks;-1.96;2.5;2.08
+  - oak log;-1.96;2.5;3.08
+  - oak wood wooden planks;-0.96;2.5;3.08
+  - oak wood slab;-1.96;3.5;2.08
+  - oak log;-1.96;3.5;3.08
+
+junkpile14:
+  RANGE: 7
+  LIST:
+  - dirt block;-2.94;-0.5;-3.72
+  - coarse dirt block;-1.94;-0.5;-3.72
+  - coarse dirt block;-0.94;-0.5;-3.72
+  - coarse dirt block;0.06;-0.5;-3.72
+  - dirt block;1.06;-0.5;-3.72
+  - coarse dirt block;2.06;-0.5;-3.72
+  - coarse dirt block;3.06;-0.5;-3.72
+  - coarse dirt block;-2.94;-0.5;-2.72
+  - dirt block;-1.94;-0.5;-2.72
+  - coarse dirt block;-0.94;-0.5;-2.72
+  - tuff;0.06;-0.5;-2.72
+  - coarse dirt block;1.06;-0.5;-2.72
+  - coarse dirt block;2.06;-0.5;-2.72
+  - dirt block;3.06;-0.5;-2.72
+  - coarse dirt block;-2.94;-0.5;-1.72
+  - tuff;-1.94;-0.5;-1.72
+  - tuff;-0.94;-0.5;-1.72
+  - tuff;0.06;-0.5;-1.72
+  - coarse dirt block;1.06;-0.5;-1.72
+  - tuff;2.06;-0.5;-1.72
+  - coarse dirt block;3.06;-0.5;-1.72
+  - coarse dirt block;-2.94;-0.5;-0.72
+  - dirt block;-1.94;-0.5;-0.72
+  - dirt block;-0.94;-0.5;-0.72
+  - tuff;0.06;-0.5;-0.72
+  - dirt block;1.06;-0.5;-0.72
+  - coarse dirt block;2.06;-0.5;-0.72
+  - coarse dirt block;3.06;-0.5;-0.72
+  - dirt block;-2.94;-0.5;0.28
+  - tuff;-1.94;-0.5;0.28
+  - tuff;-0.94;-0.5;0.28
+  - dirt block;0.06;-0.5;0.28
+  - tuff;1.06;-0.5;0.28
+  - dirt block;2.06;-0.5;0.28
+  - dirt block;3.06;-0.5;0.28
+  - coarse dirt block;-2.94;-0.5;1.28
+  - coarse dirt block;-1.94;-0.5;1.28
+  - tuff;-0.94;-0.5;1.28
+  - tuff;0.06;-0.5;1.28
+  - dirt block;1.06;-0.5;1.28
+  - tuff;2.06;-0.5;1.28
+  - coarse dirt block;3.06;-0.5;1.28
+  - coarse dirt block;-2.94;-0.5;2.28
+  - dirt block;-1.94;-0.5;2.28
+  - dirt block;-0.94;-0.5;2.28
+  - dirt block;0.06;-0.5;2.28
+  - dirt block;1.06;-0.5;2.28
+  - tuff;2.06;-0.5;2.28
+  - coarse dirt block;3.06;-0.5;2.28
+  - dirt block;-2.94;-0.5;3.28
+  - dirt block;-1.94;-0.5;3.28
+  - dirt block;-0.94;-0.5;3.28
+  - dirt block;0.06;-0.5;3.28
+  - dirt block;1.06;-0.5;3.28
+  - dirt block;2.06;-0.5;3.28
+  - dirt block;3.06;-0.5;3.28
+  - coarse dirt block;-2.94;-0.5;4.28
+  - coarse dirt block;-1.94;-0.5;4.28
+  - coarse dirt block;-0.94;-0.5;4.28
+  - dirt block;0.06;-0.5;4.28
+  - dirt block;1.06;-0.5;4.28
+  - coarse dirt block;2.06;-0.5;4.28
+  - coarse dirt block;3.06;-0.5;4.28
+  - end stone brick;-1.94;0.5;-2.72
+  - end stone brick slab;-0.94;0.5;-2.72
+  - end stone brick slab;-1.94;0.5;-1.72
+  - end stone brick;-1.94;0.5;-0.72
+  - end stone brick;-1.94;0.5;2.28
+  - end stone brick;-1.94;1.5;-2.72
+  - end stone brick;-1.94;1.5;-0.72
+  - end stone brick;-0.94;1.5;2.28
+  - end stone brick;0.06;1.5;2.28
+  - end stone brick slab;1.06;1.5;2.28
+  - end stone brick;-1.94;2.5;-2.72
+  - end stone brick;-0.94;2.5;-0.72
+  - end stone brick slab;0.06;2.5;-0.72
+  - end stone brick;-0.94;3.5;-2.72
+  - end stone brick;0.06;4.5;-2.72
+  - end stone brick slab;1.06;4.5;-2.72
+
+junkpile15:
+  RANGE: 7
+  LIST:
+  - dirt block;-3.1;-0.5;-4.09
+  - coarse dirt block;-2.1;-0.5;-4.09
+  - coarse dirt block;-1.1;-0.5;-4.09
+  - coarse dirt block;-0.1;-0.5;-4.09
+  - dirt block;0.9;-0.5;-4.09
+  - coarse dirt block;1.9;-0.5;-4.09
+  - coarse dirt block;2.9;-0.5;-4.09
+  - coarse dirt block;-3.1;-0.5;-3.09
+  - dirt block;-2.1;-0.5;-3.09
+  - coarse dirt block;-1.1;-0.5;-3.09
+  - purple stained hardened clay;-0.1;-0.5;-3.09
+  - coarse dirt block;0.9;-0.5;-3.09
+  - coarse dirt block;1.9;-0.5;-3.09
+  - yellow stained hardened clay;2.9;-0.5;-3.09
+  - coarse dirt block;-3.1;-0.5;-2.09
+  - dirt block;-2.1;-0.5;-2.09
+  - dirt block;-1.1;-0.5;-2.09
+  - dirt block;-0.1;-0.5;-2.09
+  - coarse dirt block;0.9;-0.5;-2.09
+  - coarse dirt block;1.9;-0.5;-2.09
+  - coarse dirt block;2.9;-0.5;-2.09
+  - coarse dirt block;-3.1;-0.5;-1.09
+  - black concrete;-2.1;-0.5;-1.09
+  - dirt block;-1.1;-0.5;-1.09
+  - dirt block;-0.1;-0.5;-1.09
+  - tuff;0.9;-0.5;-1.09
+  - coarse dirt block;1.9;-0.5;-1.09
+  - coarse dirt block;2.9;-0.5;-1.09
+  - dirt block;-3.1;-0.5;-0.09
+  - coarse dirt block;-2.1;-0.5;-0.09
+  - dirt block;-1.1;-0.5;-0.09
+  - tuff;-0.1;-0.5;-0.09
+  - tuff;0.9;-0.5;-0.09
+  - dirt block;1.9;-0.5;-0.09
+  - dirt block;2.9;-0.5;-0.09
+  - coarse dirt block;-3.1;-0.5;0.91
+  - coarse dirt block;-2.1;-0.5;0.91
+  - dirt block;-1.1;-0.5;0.91
+  - dirt block;-0.1;-0.5;0.91
+  - dirt block;0.9;-0.5;0.91
+  - dirt block;1.9;-0.5;0.91
+  - coarse dirt block;2.9;-0.5;0.91
+  - coarse dirt block;-3.1;-0.5;1.91
+  - dirt block;-2.1;-0.5;1.91
+  - tuff;-1.1;-0.5;1.91
+  - dirt block;-0.1;-0.5;1.91
+  - tuff;0.9;-0.5;1.91
+  - dirt block;1.9;-0.5;1.91
+  - coarse dirt block;2.9;-0.5;1.91
+  - dirt block;-3.1;-0.5;2.91
+  - light blue concrete;-2.1;-0.5;2.91
+  - coarse dirt block;-1.1;-0.5;2.91
+  - dirt block;-0.1;-0.5;2.91
+  - coarse dirt block;0.9;-0.5;2.91
+  - dirt block;1.9;-0.5;2.91
+  - purple stained hardened clay;2.9;-0.5;2.91
+  - coarse dirt block;-3.1;-0.5;3.91
+  - coarse dirt block;-2.1;-0.5;3.91
+  - coarse dirt block;-1.1;-0.5;3.91
+  - dirt block;-0.1;-0.5;3.91
+  - dirt block;0.9;-0.5;3.91
+  - coarse dirt block;1.9;-0.5;3.91
+  - coarse dirt block;2.9;-0.5;3.91
+  - red stained hardened clay;-2.1;0.5;-3.09
+  - orange stained hardened clay;-2.1;0.5;-2.09
+  - tuff;-0.1;0.5;-2.09
+  - tuff;-1.1;0.5;-1.09
+  - tuff;-0.1;0.5;-1.09
+  - tuff;-1.1;0.5;-0.09
+  - yellow stained hardened clay;1.9;0.5;-0.09
+  - light blue stained hardened clay;-2.1;0.5;0.91
+  - tuff;-1.1;0.5;0.91
+  - tuff;-0.1;0.5;0.91
+  - tuff;0.9;0.5;0.91
+  - brown stained hardened clay;1.9;0.5;0.91
+  - light blue stained hardened clay;-2.1;0.5;1.91
+  - tuff;-0.1;0.5;1.91
+  - brown stained hardened clay;1.9;0.5;1.91
+  - cyan concrete;-0.1;0.5;3.91
+  - cyan concrete;0.9;0.5;3.91
+  - red stained hardened clay;-2.1;1.5;-3.09
+  - orange stained hardened clay;-2.1;1.5;-2.09
+  - yellow stained hardened clay;1.9;1.5;-0.09
