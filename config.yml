@@ -27,7 +27,6 @@ god-blocks:
   - red sandstone stairs
   - red nether brick stairs
   - smooth red sandstone stairs
-  - red sandstone slab
   - smooth red sandstone slab
   - cut red sandstone slab
   - cut red sandstone
@@ -48,6 +47,7 @@ god-blocks:
   - red nether brick stair
   - red chiseled sandstone
   - smooth red sandstone
+  - red sandstone slab
 
 no-repair:
   - "&e&lNadajnik GPS"
@@ -81,15 +81,16 @@ god-items:
   - "netherite boots named &e&lHazmat"
 
 txt:
-  download: "https://drive.google.com/uc?export=download&id=1l2rb2vfEHDgtqOeU6A3xMddc4NN2ZUx1"
-  hash: "17e12881470f79b6d3ddd8cd33c7e6b1cd4b6d66"
+  download: "https://drive.google.com/uc?export=download&id=1ES2AtmoXKFcaoYQ_8KcL7-f5CrzA9WVS"
+  hash: "14dcd6b4de13d83e578eb3d83249e9a7654739e5"
 
 wipe:
-  start-mess: "12.04.2024r. (Piatek) o godz. 18:00"
+  start-mess: "26.07.2024r. (Piatek) o godz. 18:00"
   push: "30"
-  balance-team: "Kotlet, kacuu(tf), NiewiadomyYYXX, proDogePL"
+  push-tp: "40"
+  balance-team: "NiewiadomyYYXX, proDogePL"
   models: "proDogePL"
-  unix-data: "1712937600" #https://www.unixtimestamp.com
+  unix-data: "1722009600" #https://www.unixtimestamp.com
   block:
     tier: "24 hours"
     nether: "4 hours"
@@ -155,7 +156,7 @@ spawn:
     free-use: "2"
     free-use-cooldown:
       everyone: "2 hours"
-      vip: " 40 minutes"
+      vip: "40 minutes"
   end:
     cost: "100"
     free-use: "1"
@@ -167,7 +168,7 @@ tpr:
   world:
     cost: "10"
   nether:
-    cost: "25"
+    cost: "45"
   end:
     cost: "150"
 
@@ -185,7 +186,7 @@ home:
       everyone: "20"
       vip: "10"
 
-stats-number-of-stats: "12"
+stats-number-of-stats: "15"
 
 stats:
   czas:
@@ -305,6 +306,217 @@ stats:
       lore:
         - "&bRanking najwiekszego zabójcy mobów"
         - "&bna serwerze"
+  scav:
+    id: "13"
+    var: "scav"
+    unit: "Scavów"
+    icon:
+      item: "crossbow"
+      name: "&aRanking &f- &eZabitych Scavów"
+      lore:
+        - "&bRanking najwiekszego zabójcy scavów"
+        - "&bna serwerze"
+  crate:
+    id: "14"
+    var: "crate"
+    unit: "Cratów"
+    icon:
+      item: "barrel"
+      name: "&aRanking &f- &eOtwartych Cratów"
+      lore:
+        - "&bRanking otwieracza Cratów"
+        - "&bna serwerze"
+  brad:
+    id: "15"
+    var: "brad"
+    unit: "Bradley"
+    icon:
+      item: "blaze powder"
+      name: "&aRanking &f- &eZniszczony Bradley"
+      lore:
+        - "&bRanking najwiekszego zniszczonych bradley"
+        - "&bna serwerze"
+
+#                  #
+#   --Rad Town--   #
+#                  #
+
+junkpile:
+  gen-chance: "0.3%"
+  random-amount: "15" #ilosc roznych rodzaji junkpile
+  tiers:
+    1: "-1"
+    2: "3000"
+    3: "5000"
+  reset: "1 hour"
+  tier:
+    1:
+      name: "&eScav T1"
+      hp: "30"
+      weapon: "lure 21"
+      gun-stats:
+        dmg: "1"
+        ammo: "6"
+        velocity: "3"
+        recoil-horizontal: "0.4"
+        recoil-vertical: "0.4"
+        fire_rate: "3"
+        reload_time: "3.5"
+        sound:
+          shot: "customsmg_shot"
+          reload: "customsmg_reload"
+          hit: "hit_mark"
+    2:
+      name: "&eScav T2"
+      hp: "45"
+      weapon: "lure 22"
+      gun-stats:
+        dmg: "2.5"
+        ammo: "8"
+        velocity: "3.5"
+        recoil-horizontal: "0.4"
+        recoil-vertical: "0.4"
+        fire_rate: "5"
+        reload_time: "3"
+        sound:
+          shot: "mp5_shot"
+          reload: "mp5_reload"
+          hit: "hit_mark"
+    3:
+      name: "&eScav T3"
+      hp: "60"
+      weapon: "lure 20"
+      gun-stats:
+        dmg: "6.5"
+        ammo: "10"
+        velocity: "5"
+        recoil-horizontal: "0.4"
+        recoil-vertical: "0.4"
+        fire_rate: "6"
+        reload_time: "4"
+        sound:
+          shot: "ak_shot"
+          reload: "ak_reload"
+          hit: "hit_mark"
+    4:
+      name: "&eScav T4"
+      hp: "75"
+      weapon: "lure 23"
+      gun-stats:
+        dmg: "7"
+        ammo: "12"
+        velocity: "5"
+        recoil-horizontal: "0.3"
+        recoil-vertical: "0.3"
+        fire_rate: "6"
+        reload_time: "3"
+        sound:
+          shot: "lr_shot"
+          reload: "lr_reload"
+          hit: "hit_mark"
+    5:
+      name: "&eScav T5"
+      hp: "100"
+      weapon: "lure 24"
+      gun-stats:
+        dmg: "7"
+        ammo: "15"
+        velocity: "5.5"
+        recoil-horizontal: "0.3"
+        recoil-vertical: "0.3"
+        fire_rate: "6"
+        reload_time: "3"
+        sound:
+          shot: "m249_shot"
+          reload: "m249_reload"
+          hit: "hit_mark"
+
+radtown:
+  rad:
+    dmg: "6"
+    warning: "100"
+  random-min: "30" #co ile szansa na dropa ma sie prokowac
+  random-chance: "30%" #jak jest 0 graczy online <default wartosc>
+  random-increase: "15%" #wartosc dodawana za kazdego gracza
+  bradley:
+    random-min: "90" #co ile szansa na dropa ma sie prokowac
+    random-chance: "30%" #jak jest 0 graczy online <default wartosc>
+    random-increase: "15%" #wartosc dodawana za kazdego gracza
+    hp: "800"    
+    attack-range: "50" 
+    guns:
+      rl:
+        name: "&4&lRocket Launcher"
+        dmg: "100" 
+      m2:
+        name: "&4&lM249"
+        dmg: "8"
+    gun-stats:
+      rl:
+        cooldown: "20 seconds"
+        amount: "3"
+        dmg: "6"
+        velocity: "3"
+        boom: "12" #moc wybuchu
+        boom-dmg: "3"
+        boom-range: "6"
+        recoil-horizontal: "0.02"
+        recoil-vertical: "0.02"
+        fire_rate: "10"
+        reload_time: "10"
+        sound:
+          shot: "rl_shot"
+          hit: "hit_mark"
+      dmg: "1.5"
+      ammo: "10"
+      velocity: "3"
+      recoil-horizontal: "0.5"
+      recoil-vertical: "0.5"
+      fire_rate: "4"
+      reload_time: "1"
+      sound:
+        shot: "m249_shot"
+        hit: "hit_mark"
+    gain:
+      tools:
+        1:
+          name: "&4&lJackhammer" #10
+          dmg: "100"
+        2:
+          name: "&eIce Pick" #5
+          dmg: "200"
+        3:
+          name: "&ePickaxe" #4
+          dmg: "300"
+        4:
+          item: "netherite pickaxe" #3
+          dmg: "400"
+        5:
+          item: "diamond pickaxe" #2
+          dmg: "500"
+      drops:
+        1:
+          item: "coal"
+          amount:
+            min: "8"
+            max: "16"            
+        2:
+          item: "charcoal"
+          amount:
+            min: "16"
+            max: "32"            
+        3:
+          item: "iron block"
+          amount:
+            min: "8"
+            max: "16"            
+        4:
+          item: "red chiseled sandstone"
+          name: "&6Metal Wysokiej Jakosci"
+          amount:
+            min: "1"
+            max: "2"            
+
 
 #             #
 #   --Rad--   #
@@ -345,7 +557,9 @@ Custom-Ores:
     block: "red chiseled sandstone"
     chance: "0.03%"
     turbo-chance: "0.06%"
-    turbo-time: "20 minute"
+    turbo-vein:
+      chance: "10%"
+      max: "6"
     vein:
       chance: "7.5%"
       max: "4"
@@ -376,7 +590,9 @@ Custom-Ores:
     block: "smooth red sandstone"
     chance: "0.05%"
     turbo-chance: "0.1%"
-    turbo-time: "20 minute"
+    turbo-vein:
+      chance: "25%"
+      max: "12"
     vein:
       chance: "20%"
       max: "8"
@@ -603,53 +819,55 @@ c4:
   raid-block: "5 minutes"
   raid-block-in-unix: "300"
   power: "6"
+  boom-dmg: "100"
+  boom-range: "4"
   time: "6 seconds"
   blocks:
     1:
       item: "water"
-      chance: "100%"
+      hp: "0"
     2:
       item: "lava"
-      chance: "100%"
+      hp: "0"
     3:
       item: "obsidian"
-      chance: "15%"
+      hp: "100"
     4:
       item: "ender chest"
-      chance: "33%"
+      hp: "125"
     5:
       item: "anvil"
-      chance: "33%"
+      hp: "150"
     6:
       item: "enchanting table"
-      chance: "33%"
+      hp: "125"
     7:
       item: "crying obsidian"
-      chance: "15%"
+      hp: "150"
     8:
       item: "ancient debris"
-      chance: "33%"
+      hp: "250"
     9:
       item: "netherite block"
-      chance: "5%"
+      hp: "1000"
     10:
       item: "respawn anchor"
-      chance: "33%"
+      hp: "100"
     11:
       item: "level 1 respawn anchor"
-      chance: "33%"
+      hp: "100"
     12:
       item: "level 2 respawn anchor"
-      chance: "33%"
+      hp: "100"
     13:
       item: "level 3 respawn anchor"
-      chance: "33%"
+      hp: "100"
     14:
       item: "fully charged respawn anchor"
-      chance: "33%"
+      hp: "100"
     15:
       item: "reinforced deepslate"
-      chance: "1%"
+      hp: "5000"
 
 captha:
   1:
@@ -712,8 +930,8 @@ guns:
       reload: "rev_reload"
       hit_mark: "hit_mark"
     stats:
-      pvp: "1.5"
-      pve: "5"
+      pvp: "2"
+      pve: "6"
       durability: "80"
       velocity: "2.5"
       recoil-horizontal: "0.3"
@@ -742,8 +960,8 @@ guns:
       reload: "customsmg_reload"
       hit_mark: "hit_mark"
     stats:
-      pvp: "1.2"
-      pve: "8"
+      pvp: "2"
+      pve: "9"
       durability: "300"
       velocity: "3"
       recoil-horizontal: "0.3"
@@ -833,7 +1051,7 @@ guns:
       reload: "l9_reload"
       hit_mark: "hit_mark"
     stats:
-      pvp: "20"
+      pvp: "33"
       pve: "90"
       durability: "150"
       velocity: "8"
@@ -863,7 +1081,7 @@ guns:
       reload: "mp5_reload"
       hit_mark: "hit_mark"
     stats:
-      pvp: "3.5"
+      pvp: "5.5"
       pve: "30"
       durability: "300"
       velocity: "3.5"
@@ -902,7 +1120,7 @@ guns:
       pvp: "1.5"
       pve: "5"
       durability: "200"
-      velocity: "2.5"
+      velocity: "2"
       recoil-horizontal: "0.7"
       recoil-vertical: "0.5"
       zoom:
@@ -933,7 +1151,7 @@ guns:
       reload: "db_reload"
       hit_mark: "hit_mark"
     stats:
-      pvp: "0.5"
+      pvp: "0.51"
       pve: "2"
       durability: "80"
       velocity: "1.5"
@@ -1035,7 +1253,7 @@ guns:
       zoom:
         recoil-horizontal: "0.1"
         recoil-vertical: "0.1"
-      fire_rate: "12"
+      fire_rate: "9"
       reload_time: "4"
   BERETA:
     name: "&c&lM92 Pistol"
@@ -1046,7 +1264,7 @@ guns:
       zoom: "37"
       reload: "38"
     ammo:
-      ammo-in-chamber: "15"
+      ammo-in-chamber: "12"
       item: "rabbit foot"
       name: "&e10x19mm Ammo"
       ctd: "12"
@@ -1056,7 +1274,7 @@ guns:
       reload: "m92_reload"
       hit_mark: "hit_mark"
     stats:
-      pvp: "3.5"
+      pvp: "2.5"
       pve: "20"
       durability: "200"
       velocity: "3.5"
@@ -1090,7 +1308,10 @@ guns:
       pve: "500"
       durability: "40"
       velocity: "3"
-      boom: "12"
+      boom: "12" #moc wybuchu
+      boom-dmg: "75"
+      boom-range: "6"
+      bradley-aoe: "12.5"
       recoil-horizontal: "0.02"
       recoil-vertical: "0.02"
       zoom:
@@ -2463,7 +2684,7 @@ bid:
       quantity: 
         min: "1"
         max: "1"
-      price: "8000"
+      price: "15000"
     2:
       item: "totem of undying"
       name: "&eSchemat &7< &f&lklatat3 &r&7>"
@@ -2479,7 +2700,7 @@ bid:
       quantity: 
         min: "1"
         max: "1"
-      price: "8000"
+      price: "15000"
     3:
       item: "totem of undying"
       name: "&eSchemat &7< &f&lspodniet3 &r&7>"
@@ -2495,7 +2716,7 @@ bid:
       quantity: 
         min: "1"
         max: "1"
-      price: "8000"
+      price: "15000"
     3:
       item: "totem of undying"
       name: "&eSchemat &7< &f&lbutyt3 &r&7>"
@@ -2511,7 +2732,7 @@ bid:
       quantity: 
         min: "1"
         max: "1"
-      price: "8000"
+      price: "15000"
     4:
       item: "totem of undying"
       name: "&eSchemat &7< &f&ltempered_sword &r&7>"
@@ -2527,7 +2748,7 @@ bid:
       quantity: 
         min: "1"
         max: "1"
-      price: "8000"
+      price: "15000"
     5:
       item: "totem of undying"
       name: "&eSchemat &7< &f&ljackhammer &r&7>"
@@ -2543,7 +2764,7 @@ bid:
       quantity: 
         min: "1"
         max: "1"
-      price: "12000"
+      price: "20000"
     6:
       item: "totem of undying"
       name: "&eSchemat &7< &f&lak &r&7>"
@@ -2559,7 +2780,7 @@ bid:
       quantity: 
         min: "1"
         max: "1"
-      price: "16000"
+      price: "24000"
     7:
       item: "totem of undying"
       name: "&eSchemat &7< &f&ll9 &r&7>"
@@ -2575,7 +2796,7 @@ bid:
       quantity: 
         min: "1"
         max: "1"
-      price: "16000"
+      price: "24000"
     8:
       item: "totem of undying"
       name: "&eSchemat &7< &f&lmp5 &r&7>"
@@ -2591,7 +2812,7 @@ bid:
       quantity: 
         min: "1"
         max: "1"
-      price: "16000"
+      price: "8000"
     9:
       item: "totem of undying"
       name: "&eSchemat &7< &f&lm4 &r&7>"
@@ -2607,7 +2828,7 @@ bid:
       quantity: 
         min: "1"
         max: "1"
-      price: "12000"
+      price: "24000"
     10:
       item: "totem of undying"
       name: "&eSchemat &7< &f&lhazmat &r&7>"
@@ -2635,7 +2856,7 @@ bid:
       quantity: 
         min: "1"
         max: "1"
-      price: "8000"
+      price: "6000"
     12:
       item: "diamond pickaxe"
       name: "&eIce Pick"
@@ -2647,7 +2868,7 @@ bid:
       quantity: 
         min: "1"
         max: "1"
-      price: "9000"
+      price: "7000"
     13:
       item: "diamond axe"
       name: "&eSalvage Axe"
@@ -2659,7 +2880,7 @@ bid:
       quantity: 
         min: "1"
         max: "1"
-      price: "7000"
+      price: "6000"
     14:
       item: "bow"
       name: "&eJade Bow"
@@ -2671,7 +2892,7 @@ bid:
       quantity: 
         min: "1"
         max: "1"
-      price: "8000"
+      price: "5000"
     15:
       item: "wooden sword"
       name: "&c&lCustomSMG"
@@ -2681,7 +2902,7 @@ bid:
       quantity: 
         min: "1"
         max: "1"
-      price: "10000"
+      price: "3000"
     16:
       item: "wooden sword"
       name: "&c&lSemi Auto Rifle"
@@ -2691,7 +2912,7 @@ bid:
       quantity: 
         min: "1"
         max: "1"
-      price: "10000"
+      price: "4000"
     17:
       item: "totem of undying"
       name: "&5Zrzut Zaopatrzenia"
@@ -2704,7 +2925,7 @@ bid:
       quantity: 
         min: "5"
         max: "6"
-      price: "6000"
+      price: "3999"
     18:
       item: "totem of undying"
       name: "&eSchemat &7< &f&lgps &r&7>"
@@ -2736,7 +2957,7 @@ bid:
       quantity: 
         min: "1"
         max: "1"
-      price: "5000"
+      price: "2000"
     20:
       item: "totem of undying"
       name: "&eSchemat &7< &f&lrocket &r&7>"
@@ -2752,7 +2973,7 @@ bid:
       quantity: 
         min: "1"
         max: "1"
-      price: "50000"
+      price: "100000"
     21:
       item: "totem of undying"
       name: "&eSchemat &7< &f&lc4 &r&7>"
@@ -2768,7 +2989,7 @@ bid:
       quantity: 
         min: "1"
         max: "1"
-      price: "50000"
+      price: "100000"
     22:
       item: "totem of undying"
       name: "&eSchemat &7< &f&lrocket_launcher &r&7>"
@@ -2784,16 +3005,43 @@ bid:
       quantity: 
         min: "1"
         max: "1"
+      price: "100000"
+    23:
+      item: "golden horse armor"
+      name: "&cCzerwona Karta"
+      lore:
+        - "&fKarta z wyższymi uprawnieniami."
+        - "&fPozwala na wejście do magazynu w laboratorium"
+        - ""
+        - "&fUzycie: &f&l<PPM>"
+      enchant:
+        - "lure 6"
+      quantity: 
+        min: "1"
+        max: "1"
+      price: "300000"
+    24:
+      item: "golden horse armor"
+      name: "&eKarta wejścia"
+      lore:
+        - "&fPozwala na wejście do laboratorium"
+        - ""
+        - "&fUzycie: &f&l<PPM>"
+      enchant:
+        - "lure 5"
+      quantity: 
+        min: "1"
+        max: "1"
       price: "50000"
   t2:
     1:
       item: "totem of undying"
-      name: "&eSchemat &7< &f&lrocket_launcher &r&7>"
+      name: "&eSchemat &7< &f&lhazmat &r&7>"
       lore:
         - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
         - ""
         - "&aOdblokowuje:"
-        - "&2rocket_launcher"
+        - "&2hazmat"
         - ""
         - "&fUzycie: &f&l<PPM>"
       enchant:
@@ -2801,15 +3049,96 @@ bid:
       quantity: 
         min: "1"
         max: "1"
-      price: "333"    
+      price: "10000"
     2:
-      item: "dirt"
-      name: "&eSchemat &7< &f&lrocket_launcher &r&7>"
+      item: "diamond sword"
+      name: "&eSalvage Cleaver"
+      enchant:
+        - "sharpness 7"
+        - "unbreaking 5"
+        - "looting 5"
+        - "mending 1"
+      quantity: 
+        min: "1"
+        max: "1"
+      price: "6000"
+    3:
+      item: "diamond pickaxe"
+      name: "&eIce Pick"
+      enchant:
+        - "efficiency 7"
+        - "unbreaking 5"
+        - "fortune 6"
+        - "mending 1"
+      quantity: 
+        min: "1"
+        max: "1"
+      price: "7000"
+    4:
+      item: "diamond axe"
+      name: "&eSalvage Axe"
+      enchant:
+        - "efficiency 7"
+        - "unbreaking 5"
+        - "fortune 5"
+        - "mending 1"
+      quantity: 
+        min: "1"
+        max: "1"
+      price: "6000"
+    5:
+      item: "bow"
+      name: "&eJade Bow"
+      enchant:
+        - "power 7"
+        - "unbreaking 5"
+        - "infinity 1"
+        - "mending 1"
+      quantity: 
+        min: "1"
+        max: "1"
+      price: "5000"
+    6:
+      item: "wooden sword"
+      name: "&c&lCustomSMG"
+      ctd: "4"
+      lore:
+        - "&fRozjebana MP5 sklejona taśmą"
+      quantity: 
+        min: "1"
+        max: "1"
+      price: "3000"
+    7:
+      item: "wooden sword"
+      name: "&c&lSemi Auto Rifle"
+      ctd: "7"
+      lore:
+        - "&fUlubiona broń Grubego Joe'a"
+      quantity: 
+        min: "1"
+        max: "1"
+      price: "4000"
+    8:
+      item: "totem of undying"
+      name: "&5Zrzut Zaopatrzenia"
+      lore:
+        - "&fSluzy do wezwania Zrzutu Zaopatrzenia"
+        - ""
+        - "&fUzycie: &f&l<PPM>"
+      enchant:
+        - "lure 10"
+      quantity: 
+        min: "5"
+        max: "6"
+      price: "3999"
+    9:
+      item: "totem of undying"
+      name: "&eSchemat &7< &f&lgps &r&7>"
       lore:
         - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
         - ""
         - "&aOdblokowuje:"
-        - "&2rocket_launcher"
+        - "&2gps"
         - ""
         - "&fUzycie: &f&l<PPM>"
       enchant:
@@ -2817,16 +3146,45 @@ bid:
       quantity: 
         min: "1"
         max: "1"
-      price: "3333"    
+      price: "3000"
+    10:
+      item: "totem of undying"
+      name: "&eSchemat &7< &f&lsar &r&7>"
+      lore:
+        - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
+        - ""
+        - "&aOdblokowuje:"
+        - "&2sar"
+        - ""
+        - "&fUzycie: &f&l<PPM>"
+      enchant:
+        - "fortune 4"
+      quantity: 
+        min: "1"
+        max: "1"
+      price: "2000"    
+    11:
+      item: "golden horse armor"
+      name: "&eKarta wejścia"
+      lore:
+        - "&fPozwala na wejście do laboratorium"
+        - ""
+        - "&fUzycie: &f&l<PPM>"
+      enchant:
+        - "lure 5"
+      quantity: 
+        min: "1"
+        max: "1"
+      price: "100000"
   t1:
     1:
       item: "totem of undying"
-      name: "&eSchemat &7< &f&lrocket_launcher &r&7>"
+      name: "&eSchemat &7< &f&lhazmat &r&7>"
       lore:
         - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
         - ""
         - "&aOdblokowuje:"
-        - "&2rocket_launcher"
+        - "&2hazmat"
         - ""
         - "&fUzycie: &f&l<PPM>"
       enchant:
@@ -2834,15 +3192,96 @@ bid:
       quantity: 
         min: "1"
         max: "1"
-      price: "1333"    
+      price: "20000"
     2:
-      item: "dirt"
-      name: "&eSchemat &7< &f&lrocket_launcher &r&7>"
+      item: "diamond sword"
+      name: "&eSalvage Cleaver"
+      enchant:
+        - "sharpness 7"
+        - "unbreaking 5"
+        - "looting 5"
+        - "mending 1"
+      quantity: 
+        min: "1"
+        max: "1"
+      price: "12000"
+    3:
+      item: "diamond pickaxe"
+      name: "&eIce Pick"
+      enchant:
+        - "efficiency 7"
+        - "unbreaking 5"
+        - "fortune 6"
+        - "mending 1"
+      quantity: 
+        min: "1"
+        max: "1"
+      price: "14000"
+    4:
+      item: "diamond axe"
+      name: "&eSalvage Axe"
+      enchant:
+        - "efficiency 7"
+        - "unbreaking 5"
+        - "fortune 5"
+        - "mending 1"
+      quantity: 
+        min: "1"
+        max: "1"
+      price: "12000"
+    5:
+      item: "bow"
+      name: "&eJade Bow"
+      enchant:
+        - "power 7"
+        - "unbreaking 5"
+        - "infinity 1"
+        - "mending 1"
+      quantity: 
+        min: "1"
+        max: "1"
+      price: "10000"
+    6:
+      item: "wooden sword"
+      name: "&c&lCustomSMG"
+      ctd: "4"
+      lore:
+        - "&fRozjebana MP5 sklejona taśmą"
+      quantity: 
+        min: "1"
+        max: "1"
+      price: "6000"
+    7:
+      item: "wooden sword"
+      name: "&c&lSemi Auto Rifle"
+      ctd: "7"
+      lore:
+        - "&fUlubiona broń Grubego Joe'a"
+      quantity: 
+        min: "1"
+        max: "1"
+      price: "8000"
+    8:
+      item: "totem of undying"
+      name: "&5Zrzut Zaopatrzenia"
+      lore:
+        - "&fSluzy do wezwania Zrzutu Zaopatrzenia"
+        - ""
+        - "&fUzycie: &f&l<PPM>"
+      enchant:
+        - "lure 10"
+      quantity: 
+        min: "5"
+        max: "6"
+      price: "8999"
+    9:
+      item: "totem of undying"
+      name: "&eSchemat &7< &f&lgps &r&7>"
       lore:
         - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
         - ""
         - "&aOdblokowuje:"
-        - "&2rocket_launcher"
+        - "&2gps"
         - ""
         - "&fUzycie: &f&l<PPM>"
       enchant:
@@ -2850,7 +3289,36 @@ bid:
       quantity: 
         min: "1"
         max: "1"
-      price: "1133"    
+      price: "4500"
+    10:
+      item: "totem of undying"
+      name: "&eSchemat &7< &f&lsar &r&7>"
+      lore:
+        - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
+        - ""
+        - "&aOdblokowuje:"
+        - "&2sar"
+        - ""
+        - "&fUzycie: &f&l<PPM>"
+      enchant:
+        - "fortune 4"
+      quantity: 
+        min: "1"
+        max: "1"
+      price: "4000"    
+    11:
+      item: "golden horse armor"
+      name: "&eKarta wejścia"
+      lore:
+        - "&fPozwala na wejście do laboratorium"
+        - ""
+        - "&fUzycie: &f&l<PPM>"
+      enchant:
+        - "lure 5"
+      quantity: 
+        min: "1"
+        max: "1"
+      price: "150000"   
 
 traders:
   babucha:
@@ -2870,6 +3338,7 @@ traders:
         - "Impostor z empire wtf??"
         - "Jo dupia"
         - "Ale urwał"
+        - "Ahhhhh..."
       sellsuccess:
         - "Babucha ON TOP"
         - "Moze ja sie robie menel ale to nie wydaje sie ostre"
@@ -2993,8 +3462,10 @@ traders:
           - "384x &r&fBrick Block"
           - "&e&l45 &r&6lvl XP"
           - "&e&l5000x &r&6Maticoin'ow"
+          - "&cUkonczony 21 Quest u Generała Borsuka"
         price-xp: "45"
         price-coin: "5000"
+        quest: "21"
         price:
           1:
             item: "smooth red sandstone stair"
@@ -3019,6 +3490,37 @@ traders:
           7:
             item: "red brick block"
             amount: "384"
+  story:
+    name: "&3Dzordzo"
+    data: ",VillagerData:{type:swamp,profession:cleric,level:99}}"
+    dialogs:
+      hurt:
+        - "Ty kurwo jebana"
+        - "Kurwa"
+        - "Kurwa nie wiem"
+        - "Gdzie kurwa z łapami"
+        - "Wygwizdaj sie"
+        - "Henduj sie"
+        - "Jak bedziesz coś chciał to spierdalaj"
+        - "Cmoknij mnie w ukraińskiego fiuta"
+      success:
+        - "Dzieki i spierdalaj"
+        - "Hmmm Oj da"
+      fail:
+        - "Skibii toilet Aura -999999999"
+        - "klasykiem polece twoja babka kurwa byla..."
+  scav:
+    name: "&9Scav"
+    data: ",VillagerData:{type:swamp,profession:shepherd,level:99}}"
+    dialogs:
+      hurt:
+        - "Łot hui"
+        - "Oj da oj da"
+        - "Trachaja"
+        - "Blyat Aja moja naga"
+        - "Mhuj hui"
+      e:
+        - "Ivan nic mam do ciebie do roboty. Mozesz spierdalać."
 
 quest:
   1:
@@ -4933,8 +5435,8 @@ quest:
         enchant:
           - "lure 10"
         amount:
-          min: "2"
-          max: "2"
+          min: "6"
+          max: "10"
       2:
         item: "gold block"
         amount:
@@ -4999,8 +5501,8 @@ quest:
         enchant:
           - "lure 10"
         amount:
-          min: "2"
-          max: "2"
+          min: "4"
+          max: "6"
       2:
         item: "block of emerald"
         amount:
@@ -5320,6 +5822,11 @@ quest:
           min: "5"
           max: "5"
       6:
+        item: "elytra"
+        amount:
+          min: "5"
+          max: "5"
+      7:
         item: "rabbit hide"
         name: "&dNerka"
         enchant:
@@ -5330,7 +5837,7 @@ quest:
         amount:
           min: "64"
           max: "64"
-      7:
+      8:
         item: "rabbit hide"
         name: "&dPaka Szlogow"
         lore:
@@ -5344,7 +5851,7 @@ quest:
         amount:
           min: "64"
           max: "64"              
-      8:
+      9:
         item: "rabbit hide"
         name: "&dJoint"
         lore:
@@ -5357,7 +5864,7 @@ quest:
         amount:
           min: "64"
           max: "64"
-      9:
+      10:
         item: "rabbit hide"
         name: "&dJabol"
         lore:
@@ -5369,7 +5876,7 @@ quest:
         amount:
           min: "64"
           max: "64"
-      10:
+      11:
         item: "rabbit hide"
         name: "&dAegis"
         lore:
@@ -5380,11 +5887,11 @@ quest:
         amount:
           min: "32"
           max: "32"
-      11:
+      12:
         item: "rabbit hide"
         name: "&dButelka Wody"
         lore:
-          - "&fPół litra wody cristal  "
+          - "&fPół litra wody cristal"
           - "&fWoda służąca do napojenia się bądz"
           - "&fZajebania przysaidu na nią "
         enchant:
@@ -5396,16 +5903,16 @@ quest:
     reward:
       1:
         item: "paper"
-        name: "&eCzek &f&l< 5000 >"
+        name: "&eCzek &f&l< 250000 >"
         lore:
           - ""
           - "&fUzycie: &f&l<PPM>"
         enchant:
-          - "lure 10"
+          - "lure 11"
         amount:
-          min: "20"
-          max: "20"
-    rewardgui: ";x czeków [5000]"
+          min: "1"
+          max: "1"
+    rewardgui: ";x czeków [250000]"
     dialog:
       intro: "pomocy rajdują mnie giga zergi"
       complete: "ale stomp masz fuicy a zapłate"
@@ -5435,7 +5942,13 @@ quest:
         amount:
           min: "1337"
           max: "1337"
-    targetgui: "Pokonaj ;x warden, ;x smok, ;x wither, ;x zombie"
+      5:
+        type: "skeleton"
+        name: "&eScav T5"
+        amount:
+          min: "50"
+          max: "50"
+    targetgui: "Pokonaj ;x warden, ;x smok, ;x wither, ;x zombie, ;x Scav T5"
     reward:
       1:
         item: "diamond blocks"
@@ -5444,16 +5957,16 @@ quest:
           max: "48"
       2:
         item: "paper"
-        name: "&eCzek &f&l< 5000 >"
+        name: "&eCzek &f&l< 250000 >"
         lore:
           - ""
           - "&fUzycie: &f&l<PPM>"
         enchant:
-          - "lure 10"
+          - "lure 11"
         amount:
-          min: "12"
-          max: "12"
-    rewardgui: ";x bloków diamentów,;x czeków [5000]"
+          min: "4"
+          max: "4"
+    rewardgui: ";x bloków diamentów,;x czeków [250000]"
     dialog:
       intro: "pomocy rajdują mnie giga zergi"
       complete: "ale stomp masz fuicy a zapłate"
@@ -5506,7 +6019,7 @@ quest:
         amount:
           min: "5"
           max: "3"
-    targetgui: "zbierz: ;x grzybków brązowych,;x grzybków czerwonych"
+    targetgui: "Zbierz ;x grzybków brązowych,;x grzybków czerwonych"
     reward:
       1:
         item: "paper"
@@ -5693,12 +6206,101 @@ quest:
     dialog:
       intro: "chce zostac pszczelarzem ale craftowane ule sa cringe, znajdz pare dzikich"
       complete: "tera moge wychodowac bzuumi!"
+  66:
+    difficulty:
+      lvl: "2"
+      gui: "&e★ &e★ &7★ &7★"
+    type: "kill"
+    entity:
+      1:
+        type: "skeleton"
+        name: "&eScav T1"
+        amount:
+          min: "3"
+          max: "4"
+    targetgui: "Pokonaj ;x Scav T1"
+    reward:
+      1:
+        item: "paper"
+        name: "&eCzek &f&l< 1000 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 8"
+        amount:
+          min: "2"
+          max: "2"
+    rewardgui: ";x czeków [1000]"
+    dialog:
+      intro: "Scavy mnie wkurwiaja najeb im"
+      complete: "ale stomp masz luz masz zapłate"
+  67:
+    difficulty:
+      lvl: "3"
+      gui: "&c★ &c★ &c★ &7★"
+    type: "kill"
+    entity:
+      1:
+        type: "skeleton"
+        name: "&eScav T2"
+        amount:
+          min: "6"
+          max: "8"
+    targetgui: "Pokonaj ;x Scav T2"
+    reward:
+      1:
+        item: "paper"
+        name: "&eCzek &f&l< 5000 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 10"
+        amount:
+          min: "1"
+          max: "1"
+    rewardgui: ";x czeków [5000]"
+    dialog:
+      intro: "Scavy mnie wkurwiaja najeb im"
+      complete: "ale stomp masz luz masz zapłate"
+  68:
+    difficulty:
+      lvl: "4"
+      gui: "&4★ &4★ &4★ &4★"
+    type: "kill"
+    entity:
+      1:
+        type: "skeleton"
+        name: "&eScav T3"
+        amount:
+          min: "12"
+          max: "14"
+    targetgui: "Pokonaj ;x Scav T3"
+    reward:
+      1:
+        item: "paper"
+        name: "&eCzek &f&l< 5000 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 10"
+        amount:
+          min: "3"
+          max: "4"
+    rewardgui: ";x czeków [5000]"
+    dialog:
+      intro: "Scavy mnie wkurwiaja najeb im"
+      complete: "ale stomp masz luz masz zapłate"
 
 cpun:
   offers:
     1:
       item: "honey bottle"
-      price: "1"
+      price:
+        buy: "1"
+        sell: "0"
       name: "&f&lKrokodil"
       lore:
         - "&dChyba to będzie pierwsze i ostatnie spróbowanie tego gowna."
@@ -5755,7 +6357,9 @@ cpun:
           power: "1"
     2:
       item: "honey bottle"
-      price: "25"
+      price:
+        buy: "25"
+        sell: "12.5"
       name: "&f&lLewy Mefedron"
       lore:
         - "&dZbawienie pływaka - wersja menel"
@@ -5780,7 +6384,9 @@ cpun:
           power: "1"
     3:
       item: "honey bottle"
-      price: "75"
+      price:
+        buy: "75"
+        sell: "37.5"
       name: "&f&lMefedron Od Cpuna"
       lore:
         - "&dZbawienie pływaka - wersja Premium"
@@ -5809,7 +6415,9 @@ cpun:
           power: "1"
     4:
       item: "honey bottle"
-      price: "40"
+      price:
+        buy: "40"
+        sell: "20"
       name: "&f&lMarichuana od krzywego ziomka"
       lore:
         - "&dJakieś skruszone suche wióry. Pewnie maczane?"
@@ -5834,7 +6442,9 @@ cpun:
           power: "1"
     5:
       item: "honey bottle"
-      price: "80"
+      price:
+        buy: "80"
+        sell: "40"
       name: "&f&lMarichuana od tłusto włosego"
       lore:
         - "&dTowar, którego nawet Snoop Dogg by się nie powstydził."
@@ -5859,7 +6469,9 @@ cpun:
           power: "1"
     6:
       item: "honey bottle"
-      price: "10"
+      price:
+        buy: "10"
+        sell: "5"
       name: "&f&lAmfetamina od cygana"
       lore:
         - "&dWygląda niczym tynk ze ściany."
@@ -5880,7 +6492,9 @@ cpun:
           power: "1"
     7:
       item: "honey bottle"
-      price: "15"
+      price:
+        buy: "15"
+        sell: "7.5"
       name: "&f&lAmfetamina dobrej jakości"
       lore:
         - "&dŚnieżnobiały proszek. Wygląda jak dobre gówno"
@@ -5897,7 +6511,9 @@ cpun:
           power: "5"
     8:
       item: "honey bottle"
-      price: "10"
+      price:
+        buy: "10"
+        sell: "5"
       name: "&f&lKokaina "
       lore:
         - "&dTy kurwa cukier puder."
@@ -5914,7 +6530,9 @@ cpun:
           power: "2"
     9:
       item: "honey bottle"
-      price: "25"
+      price:
+        buy: "25"
+        sell: "12.5"
       name: "&f&lKokaina od polecanego dilera "
       lore:
         - "&dJest dobrze, jest tanio."
@@ -5931,7 +6549,9 @@ cpun:
           power: "3"
     10:
       item: "honey bottle"
-      price: "250"
+      price:
+        buy: "250"
+        sell: "125"
       name: "&f&lKokaina Od Bossa Cartelu z Kolumbii "
       lore:
         - "&dKox z podpisem Pablo Escobar"
@@ -5948,7 +6568,9 @@ cpun:
           power: "3"
     11:
       item: "honey bottle"
-      price: "10"
+      price:
+        buy: "10"
+        sell: "5"
       name: "&f&lEnergol"
       lore:
         - "&dMocny monsterek"
@@ -5961,7 +6583,9 @@ cpun:
           power: "1"
     12:
       item: "honey bottle"
-      price: "40"
+      price:
+        buy: "40"
+        sell: "20"
       name: "&f&lPrzedtreningówa"
       lore:
         - "&dMocne pierdolnięcie energii."
@@ -5974,7 +6598,9 @@ cpun:
           power: "3"
     13:
       item: "honey bottle"
-      price: "50"
+      price:
+        buy: "50"
+        sell: "25"
       name: "&f&lŚmieszne piguły"
       lore:
         - "&dWygląda niczym APAP"
@@ -5991,7 +6617,9 @@ cpun:
           power: "1"
     14:
       item: "honey bottle"
-      price: "80"
+      price:
+        buy: "80"
+        sell: "40"
       name: "&f&lPoważne piguły"
       lore:
         - "&dRzeczy dla poważnych ludzi"
@@ -6008,7 +6636,9 @@ cpun:
           power: "1"
     15:
       item: "honey bottle"
-      price: "200"
+      price:
+        buy: "200"
+        sell: "100"
       name: "&f&lKacuu miks - mały"
       lore:
         - "&dMały miks różnego rodzaju dragów i innych zasobów kuchni."
@@ -6037,7 +6667,9 @@ cpun:
           power: "1"
     16:
       item: "honey bottle"
-      price: "400"
+      price:
+        buy: "400"
+        sell: "200"
       name: "&f&lKacuu miks - duży"
       lore:
         - "&dDuzy miks różnego rodzaju dragów i innych zasobów kuchni."
@@ -6066,7 +6698,9 @@ cpun:
           power: "1"
     17:
       item: "honey bottle"
-      price: "600"
+      price:
+        buy: "600"
+        sell: "300"
       name: "&f&lKacuu miks - XXL"
       lore:
         - "&dMiks kacaa wersja kebab mieso mieszana mieszana"
@@ -6095,7 +6729,9 @@ cpun:
           power: "1"
     18:
       item: "honey bottle"
-      price: "5000"
+      price:
+        buy: "4000"
+        sell: "2000"
       name: "&f&lSARS-27012"
       lore:
         - "&dDziwka strzykawka, zajebana z jakiegoś"
@@ -6106,7 +6742,7 @@ cpun:
         1:
           effect: "Strength"
           time: "600 seconds"
-          power: "4"
+          power: "3"
         2:
           effect: "resistance"
           time: "600 seconds"
@@ -6122,7 +6758,7 @@ cpun:
         5:
           effect: "absorption"
           time: "800 seconds"
-          power: "30"
+          power: "15"
         6:
           effect: "regeneration"
           time: "300 seconds"
@@ -6131,6 +6767,102 @@ cpun:
           effect: "wither"
           time: "15 seconds"
           power: "5"
+    19:
+      item: "totem of undying"
+      name: "&eSchemat &7< &f&lplanter &r&7>"
+      price:
+        buy: "3000"
+        sell: "1000"
+      lore:
+        - "&aSłuży do odblokowania wytwarzania danego przedmiotu"
+        - ""
+        - "&aOdblokowuje:"
+        - "&2planter"
+        - ""
+        - "&fUzycie: &f&l<PPM>"
+      enchant:
+        - "fortune 4"
+    20:
+      item: "rabbit foot"
+      name: "&eNasiona Konopii"
+      max: "64"
+      price:
+        sell: "20"
+      lore:
+        - "&aGeny: &2Nieznane"
+      enchant:
+        - "unbreaking 8"
+    21:
+      item: "rabbit foot"
+      name: "&eSusz z Konopii"
+      max: "64"
+      price:
+        sell: "350"
+      lore:
+        - "&aZbióry konopii"
+      enchant:
+        - "unbreaking 9"
+
+plants:
+  drop-seeds:
+    1:
+      name: "&eKosa"
+      chance: "10%"
+    2:
+      name: "&eSierp"
+      chance: "7.5%"
+    3:
+      type: "netherite hoe"
+      chance: "6%"
+    4:
+      type: "diamond hoe"
+      chance: "3%"
+    5:
+      type: "iron hoe"
+      chance: "1%"
+    6:
+      type: "stone hoe"
+      chance: "0.5%"
+  water:
+    max: "9000"
+    bucket: "3000"
+  stats:
+    default:
+      water: "45" #per minute
+      growTime: "50"
+      yield: "6"
+      yield-clon: "2"
+      hp: "10"
+  genes:
+    Y:
+      yield: "20%"
+    G:
+      time: "15%"
+    H:
+      water: "20%"
+      hp: "20%"
+    W:
+      water: "20%"
+  healing:
+    dmg: "2"
+    healing: "2"
+    chance: "20%"
+  stages:
+    Seedling:
+      yield: "100%"
+      yield-clon: "100%"  
+    Crossbreeding:
+      yield: "80%"
+      yield-clon: "100%"  
+    Frutting:
+      yield: "50%"
+      yield-clon: "0%"  
+    Ripe:
+      yield: "0%"
+      yield-clon: "50%"  
+    Dead:
+      yield: "72%"
+      yield-clon: "50%"  
 
 joe:
   stats:
@@ -9746,6 +10478,52 @@ joe:
       lore:
         - "&fAmunicja do &4&lRocket Launcher"
       price: "5000"
+    747:
+      item: "wooden sword"
+      name: "&4&lM249"
+      ctd: "42"
+      amount: "1"
+      lore:
+        - "&fDuże obrażenia, wysoka szybkostrzelność, duży zasięg - lekki karabin maszynowy z taśmowym zasilaniem."
+      price: "250000"
+    748:
+      item: "rabbit foot"
+      name: "&e7.62x522 Ammo"
+      ctd: "14"
+      amount: "1"
+      lore:
+        - "&fAmunicja do &4&lM249"
+      price: "1000"
+    748a:
+      item: "rabbit foot"
+      name: "&e7.62x522 Ammo"
+      ctd: "14"
+      amount: "1"
+      price: "1000"
+    749:
+      item: "golden horse armor"
+      name: "&cCzerwona Karta"
+      lore:
+        - "&fKarta z wyższymi uprawnieniami."
+        - "&fPozwala na wejście do magazynu w laboratorium"
+        - ""
+        - "&fUzycie: &f&l<PPM>"
+      enchant:
+        - "lure 6"
+      amount: "1"
+      price: "300000"
+    750:
+      item: "golden horse armor"
+      name: "&eKarta wejścia"
+      lore:
+        - "&fPozwala na wejście do laboratorium"
+        - ""
+        - "&fUzycie: &f&l<PPM>"
+      enchant:
+        - "lure 5"
+      amount: "1"
+      price: "50000"
+
 #                #
 #   --Totems--   #
 #                #
@@ -9763,12 +10541,12 @@ totems:
         - "&fŚmierci oraz zjedzone jedzenie"
         - ""
         - "&2Smierc &f-> &a5xp"
-        - "&2Refil &f-> &a65xp"
-        - "&2Złota Marchewka &f-> &a25xp"
-        - "&2Rozdymka &f-> &a750xp"
-        - "&2Zgniły Ziemniak &f-> &a1000xp"
+        - "&2Refil &f-> &a10xp"
+        - "&2Złota Marchewka &f-> &a5xp"
+        - "&2Rozdymka &f-> &a5000xp"
+        - "&2Zgniły Ziemniak &f-> &a5000xp"
         - "&2Kox &f-> &a99999xp"
-        - "&2Każde Jedzenie &f-> &a5xp"
+        - "&2Każde Jedzenie &f-> &a25xp"
       xp:
         gain:
           food:
@@ -9777,24 +10555,24 @@ totems:
               xp: "99999"
             2:
               item: "golden apple"
-              xp: "65"
+              xp: "10"
             3:
               item: "golden carrot"
-              xp: "25"
+              xp: "5"
             4:
               item: "poisonous potato"
-              xp: "1000"
+              xp: "5000"
             5:
               item: "pufferfish"
-              xp: "750"
+              xp: "5000"
             any-food:
               item: "any-food"
-              xp: "5"
+              xp: "25"
           death:
             xp: "5"
         stats:
           startxp: "150"
-          nextlvladdxp: "200"
+          nextlvladdxp: "100"
           HugeDropEvery: "5"
           lvlcap: "50"
     items:
@@ -9871,11 +10649,13 @@ totems:
         - "&fZa wykopane bloki"
         - ""
         - "&2kamień &f-> &a2xp"
+        - "&2deepslate &f-> &a2.5xp"
         - "&2Obsydian &f-> &a15xp"
         - "&2Crying Obsydian &f-> &a40xp"
         - "&eSiarka &f-> &a50xp"
         - "&2Shrieker &f-> &a75xp"
         - "&6Metal Wysokiej Jakosci &f-> &a100xp"
+        - "&2Reinforced Deepslate &f-> &a99999xp"
         - "&2Kazdy Blok &f-> &a1xp"
         - "&2Każda Ruda &f-> &a9xp"
       xp:
@@ -9885,9 +10665,12 @@ totems:
               item: "stone"
               xp: "2"
             2:
+              item: "deepslate"
+              xp: "2.5"
+            3:
               item: "obsidian"
               xp: "15"
-            3:
+            4:
               item: "crying obsidian"
               xp: "40"
             5:
@@ -9899,6 +10682,9 @@ totems:
             7:
               item: "smooth red sandstone"
               xp: "50"
+            8:
+              item: "reinforced deepslate"
+              xp: "99999"
             any:
               item: "any"
               xp: "1"
@@ -9906,8 +10692,8 @@ totems:
               item: "any-ore"
               xp: "9"
         stats:
-          startxp: "600"
-          nextlvladdxp: "300"
+          startxp: "300"
+          nextlvladdxp: "175"
           HugeDropEvery: "5"
           lvlcap: "50"
     items:
@@ -9967,11 +10753,13 @@ totems:
         gui: "&cHaste &7< &f&l3 &7>"
         effect: "haste"
         power: "3"
+        mine: "1"
         lvl: "30"
       4:
         gui: "&cHaste &7< &4&lMAX LVL &7>"
         effect: "haste"
         power: "4"
+        mine: "2"
         lvl: "50"
   Wojownik:
     type: "Wojownik"
@@ -9997,6 +10785,11 @@ totems:
         - "&2Boss Ahmed &f-> &a2000xp &7( XP jest mnożony przez TIER Bossa &7)"
         - "&2Boss Hunter &f-> &a1500xp &7( XP jest mnożony przez TIER Bossa &7)"
         - "&2Boss Techno Zul &f-> &a3000xp &7( XP jest mnożony przez TIER Bossa &7)"
+        - "&eScav T1 &f-> 200xp"
+        - "&eScav T2 &f-> 300xp"
+        - "&eScav T3 &f-> 400xp"
+        - "&eScav T4 &f-> 800xp"
+        - "&eScav T5 &f-> 1500xp"
         - "&2Player &f-> &a10xp"
         - "&2Każdy Mob &f-> &a1xp"
       xp:
@@ -10083,23 +10876,43 @@ totems:
               name: "&4Techno Zul &7< &e★ &e★ &e★ &7>"
               xp: "5000"
             23:
+              type: "skeleton"
+              name: "&eScav T1"
+              xp: "200"
+            24:
+              type: "skeleton"
+              name: "&eScav T2"
+              xp: "300"
+            25:
+              type: "skeleton"
+              name: "&eScav T3"
+              xp: "400"
+            26:
+              type: "skeleton"
+              name: "&eScav T4"
+              xp: "800"
+            27:
+              type: "skeleton"
+              name: "&eScav T5"
+              xp: "1500"
+            28:
               type: "player"
               xp: "10"
-            24:
+            29:
               type: "husk"
               xp: "1.2"
-            25:
+            30:
               type: "stray"
               xp: "1.5"
-            26:
+            31:
               type: "drowned"
               xp: "1.2"
             any:
               type: "any"
               xp: "1"
         stats:
-          startxp: "500"
-          nextlvladdxp: "400"
+          startxp: "350"
+          nextlvladdxp: "250"
           HugeDropEvery: "5"
           lvlcap: "50"
     items:
@@ -10149,21 +10962,25 @@ totems:
         gui: "&cSiła &7< &f&l1 &7>"
         effect: "strength"
         power: "1"
+        woj: "0.01"
         lvl: "10"
       2:
         gui: "&cSiła &7< &f&l2 &7>"
         effect: "strength"
         power: "2"
+        woj: "0.02"
         lvl: "20"
       3:
         gui: "&cSiła &7< &f&l3 &7>"
         effect: "strength"
         power: "3"
+        woj: "0.03"
         lvl: "30"
       4:
         gui: "&cSiła &7< &4&lMAX LVL &7>"
         effect: "strength"
         power: "4"
+        woj: "0.06"
         lvl: "50"
   Zyd:
     type: "Zyd"
@@ -10175,18 +10992,18 @@ totems:
         - "&6XP dostaniesz za:"
         - "&fTranzakcje pieniężne"
         - ""
-        - "&21 wydana moneta &f-> &a1xp"
+        - "&21 wydana moneta &f-> &a0.5xp"
       xp:
         gain:
           money:
-            xp-transfer: "300"
+            xp-transfer: "500"
             debuff:
-              flee: "0.5" #kupno na flee, nie dziala jak sprzedajesz bo to by bylo chujowe fest
-              przelej: "0.1"
-            xp: "1"
+              flee: "0" #kupno na flee, nie dziala jak sprzedajesz bo to by bylo chujowe fest
+              przelej: "0"
+            xp: "0.5"
         stats:
-          startxp: "1000"
-          nextlvladdxp: "500"
+          startxp: "2000"
+          nextlvladdxp: "1000"
           HugeDropEvery: "5"
           lvlcap: "50"
     items:
@@ -10215,21 +11032,21 @@ totems:
       huge:
         1:
           item: "paper"
+          name: "&eCzek &f&l< 50 >"
+          lore:
+            - ""
+            - "&fUzycie: &f&l<PPM>"
+          enchant:
+            - "lure 6"
+          start-amount: "1"
+        2:
+          item: "paper"
           name: "&eCzek &f&l< 100 >"
           lore:
             - ""
             - "&fUzycie: &f&l<PPM>"
           enchant:
             - "lure 7"
-          start-amount: "1"
-        2:
-          item: "paper"
-          name: "&eCzek &f&l< 1000 >"
-          lore:
-            - ""
-            - "&fUzycie: &f&l<PPM>"
-          enchant:
-            - "lure 8"
           start-amount: "1"
         3:
           item: "gold block"
@@ -10239,26 +11056,26 @@ totems:
         gui: "&cHero of the village &7< &f&l1 &7>"
         effect: "Hero of the village"
         power: "1"
-        lvl: "25"
-        money-multi: "0.05"
+        lvl: "10"
+        money-multi: "0.03"
       2:
         gui: "&cHero of the village &7< &f&l2 &7>"
         effect: "Hero of the village"
         power: "2"
-        lvl: "30"
-        money-multi: "0.1"
+        lvl: "20"
+        money-multi: "0.05"
       3:
         gui: "&cHero of the village &7< &f&l3 &7>"
         effect: "Hero of the village"
         power: "3"
-        lvl: "35"
-        money-multi: "0.2"
+        lvl: "30"
+        money-multi: "0.15"
       4:
         gui: "&cHero of the village &7< &4&lMAX LVL &7>"
         effect: "Hero of the village"
         power: "4"
         lvl: "50"
-        money-multi: "0.3"
+        money-multi: "0.25"
   Builder:
     type: "Builder"
     name: "&eTyp: Builder"
@@ -10269,9 +11086,9 @@ totems:
         - "&fStawianie Klocków"
         - ""
         - "&2obsidian &f-> &a3xp"
-        - "&eSiarka &f-> &a5xp"
-        - "&6Metal Wysokiej Jakośći &f-> &a10xp"
-        - "&2Każdy Blok &f-> &a2xp"
+        - "&eSiarka &f-> &a25xp"
+        - "&6Metal Wysokiej Jakośći &f-> &a50xp"
+        - "&2Każdy Blok &f-> &a1xp"
       xp:
         gain:
           build:
@@ -10280,45 +11097,45 @@ totems:
               xp: "3"
             2:
               item: "smooth red sandstone"
-              xp: "5"
+              xp: "25"
             3:
               item: "red chiseled sandstone"
-              xp: "10"
+              xp: "50"
             4:
               item: "bedrock"
               xp: "99999"
             any:
               item: "any"
-              xp: "5"
+              xp: "1"
         stats:
-          startxp: "100"
-          nextlvladdxp: "75"
+          startxp: "50"
+          nextlvladdxp: "100"
           HugeDropEvery: "5"
           lvlcap: "50"
     items:
       average:
         1:
           item: "paper"
-          name: "&eKupon na 64x Bloki budowalne"
+          name: "&eKupon na 8x Bloki budowalne"
           enchant:
             - "mending 10"
           start-amount: "1"
         2:
           item: "paper"
-          name: "&eKupon na 128x Bloki budowalne"
+          name: "&eKupon na 16x Bloki budowalne"
           enchant:
             - "mending 10"
           start-amount: "1"
       huge:
         1:
           item: "paper"
-          name: "&eKupon na 500x Bloki budowalne"
+          name: "&eKupon na 32x Bloki budowalne"
           enchant:
             - "mending 10"
           start-amount: "1"
         2:
           item: "paper"
-          name: "&eKupon na 1000x Bloki budowalne"
+          name: "&eKupon na 64x Bloki budowalne"
           enchant:
             - "mending 10"
           start-amount: "1"
@@ -10329,14 +11146,16 @@ totems:
         power: "1"
         lvl: "10"
       2:
-        gui: "&cSpeed &7< &f&l1 &7>"
+        gui: "&cSpeed &7< &f&l2 &7>"
         effect: "speed"
         power: "1"
+        fly: "true"
         lvl: "20"
       3:
         gui: "&cSpeed &7< &f&l3 &7>"
         effect: "speed"
         power: "1"
+        fly: "true"
         lvl: "30"
       4:
         gui: "&cSpeed &7< &4&lMAX LVL &7>"
@@ -10562,21 +11381,29 @@ help:
         enchant:
           - infinity 7
     name: "&dCpun"
-    text: "To handlarz, u którego możesz kupić dragi, które dają efekty na krótki czas. Im droższy drag, tym lepsze i dłuższe efekty."
+    text: "To handlarz, u którego możesz kupić/sprzedać dragi lub zielsko, które dają efekty na krótki czas. Im droższy drag, tym lepsze i dłuższe efekty."
   17:
+    icon:
+      1:
+        icon: "golden horse armor"
+        enchant:
+          - lure 5
+    name: "&dDzordzo"
+    text: "To handlarz, u którego możesz wykonywać różne zadania, które pomogą ci zrozumieć serwer, a także wyjaśnia fabułę serwera."
+  18:
     icon:
       1:
         icon: "lectern"
     name: "&eFlee"
     text: "Jest to rynek graczy, gdzie każdy gracz może bezpiecznie wystawić swoje przedmioty na sprzedaż lub bezpiecznie je kupić. Aby otworzyć rynek, użyj komendy &d/flee&f. Możesz również użyć komendy &d/flee &d?&f, aby dowiedzieć się, jak wystawić przedmioty. Po pewnym czasie, jeśli nikt nie kupi twoich przedmiotów, znikną one z flee, a ty będziesz mógł je odebrać z menu flee. Możesz również ulepszyć swoje flee, aby twoje przedmioty były dłużej na rynku i abyś mógł wystawić więcej przedmiotów na raz."
-  18:
+  19:
     icon:
       1:
         icon: "popped chorus fruit"
         ctd: "1"
     name: "&eRoll"
     text: "Tutaj możesz odebrać swoje &edarmowe &eroll'e&f, z których możesz wylosować przedmioty, a także możesz kupić dodatkowe roll'e, aby mieć szansę wygrać niesamowite przedmioty &c(pamiętaj, &cże &cistnieje &cryzyko &cprzegranej &ccałej &cswojej &ckasy)."
-  19:
+  20:
     icon:
       1:
         icon: "kelp"
@@ -10584,7 +11411,7 @@ help:
           - respiration 4
     name: "&cBlokady"
     text: "Po starcie edycji nie można wejść do Netheru przez pierwsze &c4 &cgodzin&f, a do Endu przez pierwsze &c48 &cgodzin&f. Przez pierwsze &c6 &cgodziny &fnie można prowadzić walki PvP bez obustronnej zgody. Przez pierwsze &c24 &cgodzin &fnie można otwierać skrzynek innych graczy, chyba że dana osoba dodała cię do znajomych, ani grifować,niszczyc budowli innych graczy, ani okradać baz"
-  20:
+  21:
     icon:
       1:
         icon: "rabbit foot"
@@ -10592,7 +11419,7 @@ help:
           - unbreaking 6
     name: "&6Rangi"
     text: "Na serwerze są dwie rangi: &2OG &fi &6VIP&f. Rangę &2OG&f można zdobyć grając aktywnie w poprzedniej edycji lub zapraszając dużą liczbę osób na aktualną edycję. Ta ranga zapewnia kilka dodatkowych komend i inne udogodnienia. Rangę &6VIP&f można zakupić poprzez kontakt z administracją na Discordzie. &6VIP&f posiada dodatkowe komendy, nieco zwiększone szanse na drop i inne udogodnienia."
-  21:
+  22:
     icon:
       1:
         icon: "iron horse armor"
@@ -10608,15 +11435,15 @@ help:
           - lure 8
     name: "&eHome'y"
     text: "Aby ustawić punkt, do którego chcesz się później teleportować &e(/home)&f, należy w &eWB &fwytworzyć &cSleeping &cBag'a&f (odpowiedniego dla danego świata) i następnie położyć go w dowolnym miejscu (możesz kliknąć na niego PPM, aby zmienić jego nazwę). Po postawieniu możesz się do niego teleportować, chyba że ktoś go zniszczy."
-  22:
+  23:
     icon:
       1:
-        icon: "paper"
+        icon: "totem of undying"
         enchant:
           - fortune 4
     name: "&eBlueprint'y"
-    text: "Niektórych rzeczy nie można craftować bez posiadania specjalnego schematu, który możesz otrzymać z &elicytacji, &eLocked Crate lub &eAirdropów. &fPo otrzymaniu schematu kliknij go prawym przyciskiem myszy, aby na stałe przypisać go do konta. Możesz również stworzyć schemat z przedmiotu za pomocą &eWB."
-  23:
+    text: "Niektórych rzeczy nie można craftować bez posiadania specjalnego schematu, który możesz otrzymać z &elicytacji, &eLocked &eCrate, &eAirdropów, &eScav'ów, &eCrate'ow. &fPo otrzymaniu schematu kliknij go prawym przyciskiem myszy, aby na stałe przypisać go do konta. Możesz również stworzyć schemat z przedmiotu za pomocą &eWB."
+  24:
     icon:
       1:
         icon: "paper"
@@ -10624,7 +11451,52 @@ help:
           - luck of the sea 5
     name: "&eLicytacja"
     text: "Co jakiś czas u &dGrubego &dJoe &fpojawi się licytacja, która zostanie poprzedzona wiadomością na czacie. Po 300 sekundach gracze mogą przebijać swoje oferty, a gdy któryś z graczy będzie liderem licytacji przez 60 sekund, wygrywa dany przedmiot za kwotę, którą licytował."
-  24:
+  25:
+    icon:
+      1:
+        icon: "diamond chestplate"
+        enchant:
+          - lure 10
+    name: "&eMiejscówka"
+    text: "Na świecie znajduje się duży obiekt, do którego możesz wejść dopiero po wykonaniu pewnych questów fabularnych od &dDzordzo. &fNa tej miejscówce znajduje się wiele &ecratów&f (specjalnych skrzynek, z których możesz otrzymać przedmioty. Im lepszy typ skrzynki, tym lepsze przedmioty). Obiekt jest jednak pilnowany przez &4Scavów i &4Bradleya. Do niektórych miejsc możesz potrzebować &eKarty wejścia &flub nawet &eCzerwonej karty."
+  26:
+    icon:
+      1:
+        icon: "bow"
+        enchant:
+          - lure 22
+    name: "&eJunkpile"
+    text: "Na świecie, w losowych miejscach, możesz spotkać &eJunkpile &f, czyli hałdy śmieci, na których co jakiś czas pojawiają się &eScavy &flub/i &eCraty"
+  27:
+    icon:
+      1:
+        icon: "bow"
+        enchant:
+          - lure 23
+    name: "&eScav"
+    text: "Scavy to przeciwnicy, którzy jako nieliczni strzelają z broni palnej. Istnieją różne poziomy trudności Scavów, zależne od odległości od spawnu. Specjalne Scavy znajdują się również na miejscówce. Po wystrzeleniu całego magazynka muszą przeładować, więc wtedy jest najlepsza okazja do walki z nimi. Po pokonaniu dropią różne przedmioty, zależnie od poziomu. Mają też szansę na dropnięcie karty do miejscówki."
+  28:
+    icon:
+      1:
+        icon: "cut red sandstone slab"
+        ctd: "96"
+    name: "&eCrate"
+    text: "Są to specjalne skrzynki, które pojawiają się tylko w pobliżu Scavów i zawierają bardzo dobre przedmioty. Istnieją 4 rodzaje skrzynek: Crate, Military Crate, Elite Crate i Bradley Crate. Skrzynek nie można otworzyć, gdy się palą."
+  29:
+    icon:
+      1:
+        icon: "wooden sword"
+        ctd: "42"
+    name: "&4Bradley"
+    text: "Jest to specjalny czołg, który strzela z działka oraz co jakiś czas z rakiet. Otrzymuje obrażenia jedynie od &eM249 &foraz &eRocket Launchera&f. Po pokonaniu pozostaje wrak, który można wykopać po tym, jak przestanie się palić, oraz skrzynki, które są najlepszymi skrzynkami na serwerze."
+  30:
+    icon:
+      1:
+        icon: "cut red sandstone slab"
+        ctd: "90"
+    name: "&4Recycler"
+    text: "Jest to maszyna, do której możesz włożyć przedmioty, aby otrzymać komponenty, z których te przedmioty były stworzone. Znajduje się gdzieś na miejscówce."
+  31:
     icon:
       1:
         icon: "kelp"
@@ -10657,7 +11529,7 @@ help:
       - "&e/kit &7- &fZestawy dla graczy, które można odebrać co jakiś czas."
       - "&e/tc &7- &fPozwala sprawdzić, czy możesz postawić TC w miejscu, w którym się znajdujesz."
       - "&e/tip &7- &fZarządzanie wiadomościami na chacie [TIP]."
-  25:
+  32:
     icon:
       1:
         icon: "writable book"
