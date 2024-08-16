@@ -124,7 +124,7 @@ airdrop:
     name: "&ePoncho"
     lore:
       - ""
-      - "&cGuns Resistance: &43%"
+      - "&cGuns Resistance: &44%"
       - ""
     enchant:
       - "protection 5"
@@ -417,9 +417,9 @@ airdrop:
       vip: "25%"
     name: "&dButelka Wody"
     lore:
-      - "&fPół litra wody cristal  "
+      - "&fPół litra wody cristal"
       - "&fWoda służąca do napojenia się bądz"
-      - "&fZajebania przysaidu na nią "
+      - "&fZajebania przysaidu na nią"
     enchant:
       - "lure 5"
     quantity:
@@ -561,34 +561,18 @@ airdrop:
     chance:
       default: "4%"
       vip: "8%"
-    name: "&eMagnum .44"
-    ctd: "1"
-    lore:
-      - "&fAmunicja do &cRevolver'a"
+    name: "&ePistol Ammo"
+    ctd: "12"
     quantity:
-      min: "12"
-      max: "24"
-  66:
-    item: "rabbit foot"
-    chance:
-      default: "2%"
-      vip: "4%"
-    name: "&e9x19mm Ammo"
-    ctd: "2"
-    lore:
-      - "&fAmunicja do &cCustomSMG"
-    quantity:
-      min: "20"
+      min: "24"
       max: "32"
   67:
     item: "rabbit foot"
     chance:
       default: "2%"
       vip: "4%"
-    name: "&e5.56 Ammo"
-    ctd: "3"
-    lore:
-      - "&fAmunicja do &cSar'a"
+    name: "&eRifle Ammo"
+    ctd: "4"
     quantity:
       min: "8"
       max: "16"
@@ -600,50 +584,37 @@ airdrop:
     quantity:
       min: "2"
       max: "8"
-  69:
-    item: "rabbit foot"
-    chance:
-      default: "2%"
-      vip: "4%"
-    name: "&e.22lr Ammo"
-    ctd: "10"
-    lore:
-      - "&fAmunicja do &cSemi Auto Pistol"
-    quantity:
-      min: "20"
-      max: "32"
+ 
   70:
     item: "rabbit foot"
     chance:
       default: "2%"
       vip: "4%"
-    name: "&eHomemade shell"
-    ctd: "8"
-    lore:
-      - "&fAmunicja do &cDouble Barrel"
+    name: "&eBuckshot"
+    ctd: "7"
     quantity:
-      min: "6"
-      max: "12"
-71:
-  item: "diamond helmet"
-  name: "&eCoffe Can"
-  enchant:
-    - "protection 6"
-    - "unbreaking 4"
-    - "aqua affinity 1"
-    - "fire protection 4"
-    - "respiration 3"
-    - "mending 1"
-  lore:
-    - ""
-    - "&cGuns Resistance: &45%"
-    - ""
-  chance:
-    default: "-2.5%"
-    vip: "-2%"
-  amount:
-    min: "1"
-    max: "1"
+      min: "16"
+      max: "24"
+  71:
+    item: "diamond helmet"
+    name: "&eCoffe Can"
+    enchant:
+      - "protection 6"
+      - "unbreaking 4"
+      - "aqua affinity 1"
+      - "fire protection 4"
+      - "respiration 3"
+      - "mending 1"
+    lore:
+      - ""
+      - "&cGuns Resistance: &410%"
+      - ""
+    chance:
+      default: "-2.5%"
+      vip: "-2%"
+    amount:
+      min: "1"
+      max: "1"
   72:
     item: "diamond chestplate"
     name: "&eRoad Sign Vest"
@@ -654,7 +625,7 @@ airdrop:
       - "mending 1"
     lore:
       - ""
-      - "&cGuns Resistance: &48%"
+      - "&cGuns Resistance: &412%"
       - ""
     chance:
       default: "-2.5%"
@@ -673,7 +644,7 @@ airdrop:
       - "swift sneak 3"
     lore:
       - ""
-      - "&cGuns Resistance: &44%"
+      - "&cGuns Resistance: &45%"
       - ""
     chance:
       default: "-2.5%"
@@ -693,7 +664,7 @@ airdrop:
       - "depth strider 4"
     lore:
       - ""
-      - "&cGuns Resistance: &43%"
+      - "&cGuns Resistance: &44%"
       - ""
     chance:
       default: "-2.5%"
@@ -1182,7 +1153,7 @@ wb:
         price: "10000"
       price:
         gui:
-          - "&f30x &6Metal Wysokiej Jakosci"
+          - "&f50x &6Metal Wysokiej Jakosci"
           - "&f128x Iron Block"
           - "&f420x Oak Log"
           - "&f256x Obsidian"
@@ -1205,35 +1176,29 @@ wb:
           5:
             item: "red chiseled sandstone"
             name: "&6Metal Wysokiej Jakosci"
-            amount: "30"
+            amount: "50"
     9:
       item: "rabbit foot"
-      name: "&e7.62x39mm Ammo"
+      name: "&eRifle ammo"
       ctd: "4"
       lore:
-        - "&fAmunicja do &4&lAlien Red"
       amount: "16"
       price:
         gui:
-          - "&f6x Copper Block"
-          - "&f2x &6Metal Wysokiej Jakosci"
-          - "&f4x &eSiarki"
-          - "&f24x Gunpowder"
+          - "&f3x Copper Block"
+          - "&f1x &eSiarki"
+          - "&f15x Gunpowder"
         items:
           1:
             item: "copper block"
             amount: "6"
           2:
             item: "gunpowder"
-            amount: "24"
+            amount: "15"
           3:
             item: "smooth red sandstone"
             name: "&eSiarka"
-            amount: "4"
-          4:
-            item: "red chiseled sandstone"
-            name: "&6Metal Wysokiej Jakosci"
-            amount: "2"
+            amount: "1"
     10:
       item: "wooden sword"
       name: "&4&lL96"
@@ -1246,7 +1211,7 @@ wb:
         price: "10000"
       price:
         gui:
-          - "&f45x &6Metal Wysokiej Jakosci"
+          - "&f64x &6Metal Wysokiej Jakosci"
           - "&f128x Iron Block"
           - "&f12x Diamond Block"
           - "&f500x Obsidian"
@@ -1269,34 +1234,27 @@ wb:
           5:
             item: "red chiseled sandstone"
             name: "&6Metal Wysokiej Jakosci"
-            amount: "45"
+            amount: "64"
     11:
       item: "rabbit foot"
       name: "&e.308 Ammo"
       ctd: "5"
-      amount: "2"
-      lore:
-        - "&fAmunicja do &4&lL96"
+      amount: "4"
       price:
         gui:
           - "&f6x Copper Block"
-          - "&f2x &6Metal Wysokiej Jakosci"
-          - "&f4x &eSiarki"
-          - "&f24x Gunpowder"
+          - "&f2x &eSiarki"
+          - "&f300x Gunpowder"
         items:
           1:
             item: "copper block"
             amount: "6"
           2:
             item: "gunpowder"
-            amount: "24"
+            amount: "30"
           3:
             item: "smooth red sandstone"
             name: "&eSiarka"
-            amount: "4"
-          4:
-            item: "red chiseled sandstone"
-            name: "&6Metal Wysokiej Jakosci"
             amount: "2"
     12:
       item: "wooden sword"
@@ -1310,7 +1268,7 @@ wb:
         price: "10000"
       price:
         gui:
-          - "&f20x &6Metal Wysokiej Jakosci"
+          - "&f40x &6Metal Wysokiej Jakosci"
           - "&f128x Gold Block"
           - "&f600x cobblestone"
           - "&f256x Obsidian"
@@ -1333,35 +1291,27 @@ wb:
           5:
             item: "red chiseled sandstone"
             name: "&6Metal Wysokiej Jakosci"
-            amount: "20"
+            amount: "40"
     13:
       item: "rabbit foot"
-      name: "&e9x18mm Ammo"
-      ctd: "6"
-      lore:
-        - "&fAmunicja do &4&lMP5"
-      amount: "16"
+      name: "&ePistol Ammo"
+      ctd: "12"
+      amount: "8"
       price:
         gui:
-          - "&f6x Copper Block"
-          - "&f2x &6Metal Wysokiej Jakosci"
-          - "&f4x &eSiarki"
-          - "&f24x Gunpowder"
+          - "&f1x Iron Block"
+          - "&f1x Copper Block"
+          - "&f10x Gunpowder"
         items:
           1:
-            item: "copper block"
-            amount: "6"
+            item: "iron block"
+            amount: "1"
           2:
-            item: "gunpowder"
-            amount: "24"
+            item: "copper block"
+            amount: "1"
           3:
-            item: "smooth red sandstone"
-            name: "&eSiarka"
-            amount: "4"
-          4:
-            item: "red chiseled sandstone"
-            name: "&6Metal Wysokiej Jakosci"
-            amount: "2"
+            item: "gunpowder"
+            amount: "1"
     14:
       item: "wooden sword"
       name: "&4&lM4 Shotgun"
@@ -1374,7 +1324,7 @@ wb:
         - "&fLegendarny shotgun na daleko"
       price:
         gui:
-          - "&f20x &6Metal Wysokiej Jakosci"
+          - "&f45x &6Metal Wysokiej Jakosci"
           - "&f128x Gold Block"
           - "&f600x cobblestone"
           - "&f256x Obsidian"
@@ -1397,35 +1347,27 @@ wb:
           5:
             item: "red chiseled sandstone"
             name: "&6Metal Wysokiej Jakosci"
-            amount: "20"
+            amount: "45"
     15:
       item: "rabbit foot"
-      name: "&e12ga Buckshot"
-      ctd: "9"
+      name: "&eBuckshot"
+      ctd: "7"
       amount: "2"
-      lore:
-        - "&fAmunicja do &4&lM4"
       price:
         gui:
-          - "&f10x Copper Block"
-          - "&f2x &6Metal Wysokiej Jakosci"
-          - "&f4x &eSiarki"
-          - "&f24x Gunpowder"
+          - "&f1x Iron Block"
+          - "&f1x Coal Block"
+          - "&f10x Gunpowder"
         items:
           1:
-            item: "copper block"
-            amount: "10"
+            item: "iron block"
+            amount: "1"
           2:
-            item: "gunpowder"
-            amount: "24"
+            item: "coal block"
+            amount: "1"
           3:
-            item: "smooth red sandstone"
-            name: "&eSiarka"
-            amount: "4"
-          4:
-            item: "red chiseled sandstone"
-            name: "&6Metal Wysokiej Jakosci"
-            amount: "2"
+            item: "gunpowder"
+            amount: "10"
     16:
       item: "wooden sword"
       name: "&4&lPython"
@@ -1435,7 +1377,7 @@ wb:
       amount: "1"
       price:
         gui:
-          - "&f10x &6Metal Wysokiej Jakosci"
+          - "&f30x &6Metal Wysokiej Jakosci"
           - "&f64x Iron Block"
           - "&f128x Oak Log"
           - "&f256x Obsidian"
@@ -1458,35 +1400,29 @@ wb:
           5:
             item: "red chiseled sandstone"
             name: "&6Metal Wysokiej Jakosci"
-            amount: "10"
+            amount: "30"
     17:
       item: "rabbit foot"
       name: "&eMagnum .45"
       ctd: "11"
-      lore:
-        - "&fAmunicja do &4&lPython"
-      amount: "2"
+      amount: "6"
       price:
         gui:
-          - "&f2x Copper Block"
-          - "&f1x &6Metal Wysokiej Jakosci"
-          - "&f2x &eSiarki"
+          - "&f1x &eSiarki"
           - "&f10x Gunpowder"
+          - "&f3x Iron Block"
         items:
           1:
-            item: "copper block"
-            amount: "2"
-          2:
             item: "gunpowder"
             amount: "10"
-          3:
+          2:
             item: "smooth red sandstone"
             name: "&eSiarka"
-            amount: "2"
-          4:
-            item: "red chiseled sandstone"
-            name: "&6Metal Wysokiej Jakosci"
             amount: "1"
+          3: 
+            item: "iron block"
+            amount: "3"
+
     18:
       item: "wooden sword"
       name: "&4&lRocket Launcher"
@@ -1499,7 +1435,7 @@ wb:
         price: "50000"
       price:
         gui:
-          - "&f40x &6Metal Wysokiej Jakosci"
+          - "&f50x &6Metal Wysokiej Jakosci"
           - "&f128x Gold Block"
           - "&f16x Diamond Block"
           - "&f512x Obsidian"
@@ -1522,30 +1458,28 @@ wb:
           5:
             item: "red chiseled sandstone"
             name: "&6Metal Wysokiej Jakosci"
-            amount: "40"
+            amount: "50"
     19:
       item: "rabbit foot"
       name: "&eRakieta"
       ctd: "13"
-      lore:
-        - "&fAmunicja do &4&lRocket Launcher"
       amount: "1"
       bp: "rocket"
       bpbench:
         price: "50000"
       price:
         gui:
-          - "&f6x Gold block"
-          - "&f64x Gunpowder"
+          - "&f16x Gold block"
+          - "&f128x Gunpowder"
           - "&e10x &eSiarka"
           - "&e1x &6Metal Wysokiej Jakosci"
         items:
           1:
             item: "gold block"
-            amount: "6"
+            amount: "16"
           2:
             item: "gunpowder"
-            amount: "64"
+            amount: "128"
           4:
             item: "smooth red sandstone"
             name: "&eSiarka"
@@ -1626,7 +1560,7 @@ wb:
       amount: "1"
       price:
         gui:
-          - "&f12x Fragment talizmanu JackaPlacka"
+          - "&f9x Fragment talizmanu JackaPlacka"
         items:
           1:
             item: "amethyst shard"
@@ -1642,7 +1576,7 @@ wb:
       amount: "1"
       price:
         gui:
-          - "&f15x Fragment talizmanu JackaPlacka"
+          - "&f12x Fragment talizmanu JackaPlacka"
         items:
           1:
             item: "amethyst shard"
@@ -1678,55 +1612,6 @@ wb:
           3:
             item: "enchanted golden apple"
             amount: "1"
-    25:
-      item: "diamond chestplate"
-      name: "&e&lHazmat"
-      lore:
-        - ""
-        - "&cGuns Resistance: &410%"
-        - "&eRad Resistance: &6100%"
-        - ""
-      amount: "1"
-      bp: "hazmat"
-      repair:
-        price: "2000"
-      bpbench:
-        price: "10000"
-      enchant:
-        - "lure 10"
-        - "protection 5"
-        - "unbreaking 6"
-      price:
-        gui:
-          - "&f10x &6Metal Wysokiej Jakosci"
-          - "&f64x Iron Block"
-          - "&f128x White Wool"
-          - "&f128x Obsidian"
-          - "&f16x Diamond Block"
-          - "&f15x &eSiarki"
-          - "&e25 &6lvl XP"
-        xp: "25"
-        items:
-          1:
-            item: "iron block"
-            amount: "64"
-          2:
-            item: "white wool"
-            amount: "128"
-          3:
-            item: "obsidian"
-            amount: "128"
-          4:
-            item: "diamond block"
-            amount: "16"
-          5:
-            item: "red chiseled sandstone"
-            name: "&6Metal Wysokiej Jakosci"
-            amount: "10"
-          6:
-            item: "smooth red sandstone"
-            name: "&eSiarka"
-            amount: "15"
   t2:
     1:
       item: "diamond helmet"
@@ -2030,6 +1915,37 @@ wb:
             name: "&6Metal Wysokiej Jakosci"
             amount: "2"
     9:
+      item: "diamond axe"
+      name: "&eTopor Dariusa"
+      enchant:
+        - "sharpness 7"
+        - "unbreaking 5"
+        - "fire aspect 3"
+        - "looting 3"
+      amount: "1"
+      price:
+        gui:
+          - "&f3x &6Metal Wysokiej Jakosci"
+          - "&f10x Iron Block"
+          - "&f32x Oak Log"
+          - "&f1x Diamond Block"
+          - "&e15 &6lvl XP"
+        xp: "15"
+        items:
+          1:
+            item: "iron block"
+            amount: "10"
+          2:
+            item: "oak log"
+            amount: "32"
+          3:
+            item: "diamond block"
+            amount: "1"
+          4:
+            item: "red chiseled sandstone"
+            name: "&6Metal Wysokiej Jakosci"
+            amount: "3"
+    10:
       item: "diamond hoe"
       name: "&eKosa"
       enchant:
@@ -2060,7 +1976,7 @@ wb:
             item: "red chiseled sandstone"
             name: "&6Metal Wysokiej Jakosci"
             amount: "2"
-    10:
+    11:
       item: "bow"
       name: "&eJade Bow"
       enchant:
@@ -2091,7 +2007,7 @@ wb:
             item: "red chiseled sandstone"
             name: "&6Metal Wysokiej Jakosci"
             amount: "5"
-    11:
+    12:
       item: "wooden sword"
       name: "&c&lCustomSMG"
       ctd: "4"
@@ -2120,33 +2036,6 @@ wb:
             item: "red chiseled sandstone"
             name: "&6Metal Wysokiej Jakosci"
             amount: "8"
-    12:
-      item: "rabbit foot"
-      name: "&e9x19mm Ammo"
-      ctd: "2"
-      amount: "16"
-      lore:
-        - "&fAmunicja do &c&lCustomSMG"
-      price:
-        gui:
-          - "&f2x Iron Block"
-          - "&f4x Copper Block"
-          - "&f2x &eSiarki"
-          - "&f8x Gunpowder"
-        items:
-          1:
-            item: "iron block"
-            amount: "2"
-          2:
-            item: "copper block"
-            amount: "4"
-          3:
-            item: "gunpowder"
-            amount: "8"
-          4:
-            item: "smooth red sandstone"
-            name: "&eSiarka"
-            amount: "2"
     13:
       item: "wooden sword"
       name: "&c&lSemi Auto Rifle"
@@ -2159,53 +2048,47 @@ wb:
         price: "5000"
       price:
         gui:
-          - "&f12x &6Metal Wysokiej Jakosci"
-          - "&f40x Iron Block"
-          - "&f48x Oak Log"
+          - "&f15x &6Metal Wysokiej Jakosci"
+          - "&f128x Iron Block"
+          - "&f128x Oak Log"
           - "&f3x Diamond Block"
           - "&e15 &6lvl XP"
         xp: "15"
         items:
           1:
             item: "iron block"
-            amount: "40"
+            amount: "64"
           2:
             item: "oak log"
-            amount: "48"
+            amount: "128"
           3:
             item: "diamond block"
             amount: "3"
           4:
             item: "red chiseled sandstone"
             name: "&6Metal Wysokiej Jakosci"
-            amount: "12"
+            amount: "15"
     14:
       item: "rabbit foot"
-      name: "&e5.56 Ammo"
-      ctd: "3"
-      amount: "8"
-      lore:
-        - "&fAmunicja do &c&lSar'a"
+      name: "&eRifle Ammo"
+      ctd: "4"
+      amount: "16"
       price:
         gui:
-          - "&f3x Iron Block"
-          - "&f5x Copper Block"
-          - "&f3x &eSiarki"
-          - "&f10x Gunpowder"
+          - "&f6x Copper Block"
+          - "&f1x &eSiarki"
+          - "&f30x Gunpowder"
         items:
           1:
-            item: "iron block"
-            amount: "3"
-          2:
             item: "copper block"
-            amount: "5"
-          3:
+            amount: "6"
+          2:
             item: "gunpowder"
-            amount: "10"
-          4:
+            amount: "30"
+          3:
             item: "smooth red sandstone"
             name: "&eSiarka"
-            amount: "3"
+            amount: "1"
     15:
       item: "wooden sword"
       name: "&c&lM92 Pistol"
@@ -2215,53 +2098,46 @@ wb:
         - "&fProsto od Cobalt Corp."
       price:
         gui:
-          - "&f6x &6Metal Wysokiej Jakosci"
-          - "&f24x gold Block"
-          - "&f36x Oak Log"
-          - "&f4x Diamond Block"
+          - "&f16x &6Metal Wysokiej Jakosci"
+          - "&f32x gold Block"
+          - "&f128x Oak Log"
+          - "&f8x Diamond Block"
           - "&e10 &6lvl XP"
         xp: "10"
         items:
           1:
             item: "gold block"
-            amount: "24"
+            amount: "32"
           2:
             item: "oak log"
-            amount: "36"
+            amount: "128"
           3:
             item: "diamond block"
-            amount: "4"
+            amount: "8"
           4:
             item: "red chiseled sandstone"
             name: "&6Metal Wysokiej Jakosci"
-            amount: "6"
+            amount: "16"
     16:
       item: "rabbit foot"
-      name: "&e10x19mm Ammo"
+      name: "&ePistol Ammo"
       ctd: "12"
       amount: "8"
-      lore:
-        - "&fAmunicja do &c&lM92 Pistol"
       price:
         gui:
-          - "&f3x Iron Block"
-          - "&f4x Copper Block"
-          - "&f1x &eSiarki"
-          - "&f10x Gunpowder"
+          - "&f2x Iron Block"
+          - "&f2x Copper Block"
+          - "&f20x Gunpowder"
         items:
           1:
             item: "iron block"
-            amount: "3"
+            amount: "2"
           2:
             item: "copper block"
-            amount: "4"
+            amount: "2"
           3:
             item: "gunpowder"
-            amount: "10"
-          4:
-            item: "smooth red sandstone"
-            name: "&eSiarka"
-            amount: "1"
+            amount: "20"
     17:
       item: "wooden sword"
       name: "&c&lPump"
@@ -2293,31 +2169,24 @@ wb:
             amount: "6"
     18:
       item: "rabbit foot"
-      name: "&e8ga Buckshot"
+      name: "&eBuckshot"
       ctd: "7"
       amount: "2"
-      lore:
-        - "&fAmunicja do &c&lPump"
       price:
         gui:
           - "&f2x Iron Block"
-          - "&f6x Slime ball"
-          - "&f1x &eSiarki"
-          - "&f16x Gunpowder"
+          - "&f2x Coal Block"
+          - "&f20x Gunpowder"
         items:
           1:
             item: "iron block"
             amount: "2"
           2:
-            item: "slime ball"
-            amount: "6"
+            item: "coal block"
+            amount: "2"
           3:
             item: "gunpowder"
-            amount: "16"
-          4:
-            item: "smooth red sandstone"
-            name: "&eSiarka"
-            amount: "1"
+            amount: "20"
     19:
       item: "honey bottle"
       name: "&6&lAntyRad &7< &f&l10 &7>"
@@ -2523,7 +2392,7 @@ wb:
       amount: "1"
       price:
         gui:
-          - "&f6x &6Metal Wysokiej Jakosci"
+          - "&f2x &6Metal Wysokiej Jakosci"
           - "&f24x Iron Block"
           - "&f5x Diamond Block"
           - "&f4x Netherite ingot"
@@ -2539,7 +2408,7 @@ wb:
           3:
             item: "red chiseled sandstone"
             name: "&6Metal Wysokiej Jakosci"
-            amount: "6"
+            amount: "2"
           4:
             item: "netherite ingot"
             amount: "4"
@@ -2572,6 +2441,55 @@ wb:
           3:
             item: "golden apple"
             amount: "1"
+    28:
+      item: "diamond chestplate"
+      name: "&e&lHazmat"
+      lore:
+        - ""
+        - "&cGuns Resistance: &410%"
+        - "&eRad Resistance: &6100%"
+        - ""
+      amount: "1"
+      bp: "hazmat"
+      repair:
+        price: "2000"
+      bpbench:
+        price: "10000"
+      enchant:
+        - "lure 10"
+        - "protection 5"
+        - "unbreaking 6"
+      price:
+        gui:
+          - "&f5x &6Metal Wysokiej Jakosci"
+          - "&f32x Iron Block"
+          - "&f64x White Wool"
+          - "&f64x Obsidian"
+          - "&f8x Diamond Block"
+          - "&f5x &eSiarki"
+          - "&e25 &6lvl XP"
+        xp: "25"
+        items:
+          1:
+            item: "iron block"
+            amount: "32"
+          2:
+            item: "white wool"
+            amount: "64"
+          3:
+            item: "obsidian"
+            amount: "64"
+          4:
+            item: "diamond block"
+            amount: "8"
+          5:
+            item: "red chiseled sandstone"
+            name: "&6Metal Wysokiej Jakosci"
+            amount: "5"
+          6:
+            item: "smooth red sandstone"
+            name: "&eSiarka"
+            amount: "5"
   t1:
     1:
       item: "diamond helmet"
@@ -2583,7 +2501,7 @@ wb:
       amount: "1"
       lore:
         - ""
-        - "&cGuns Resistance: &43%"
+        - "&cGuns Resistance: &44%"
         - ""
       price:
         gui:
@@ -2935,26 +2853,25 @@ wb:
             amount: "1"
     12:
       item: "rabbit foot"
-      name: "&eMagnum .44"
-      ctd: "1"
-      lore:
-        - "&fAmunicja do &cRevolver'a"
+      name: "&ePistol Ammo"
+      ctd: "12"
       amount: "8"
+
       price:
         gui:
-          - "&f1x Iron Block"
-          - "&f4x Copper Block"
-          - "&f16x Gunpowder"
+          - "&f3x Iron Block"
+          - "&f3x Copper Block"
+          - "&f30x Gunpowder"
         items:
           1:
             item: "iron block"
-            amount: "1"
+            amount: "3"
           2:
             item: "copper block"
-            amount: "4"
+            amount: "3"
           3:
             item: "gunpowder"
-            amount: "16"
+            amount: "30"
     13:
       item: "wooden sword"
       name: "&c&lDouble Barrel"
@@ -2981,26 +2898,24 @@ wb:
             amount: "2"
     14:
       item: "rabbit foot"
-      name: "&eHomemade shell"
-      ctd: "8"
+      name: "&eBuckshot"
+      ctd: "7"
       amount: "2"
-      lore:
-        - "&fAmunicja do &cDouble Barrel"
       price:
         gui:
-          - "&f2x Iron Block"
-          - "&f2x Gold block"
-          - "&f16x Gunpowder"
+          - "&f3x Iron Block"
+          - "&f3x Coal Block"
+          - "&f30x Gunpowder"
         items:
           1:
             item: "iron block"
-            amount: "2"
+            amount: "3"
           2:
-            item: "gold block"
-            amount: "2"
+            item: "coal block"
+            amount: "3"
           3:
             item: "gunpowder"
-            amount: "16"
+            amount: "30"
     15:
       item: "wooden sword"
       name: "&c&lSemi Auto Pistol"
@@ -3011,8 +2926,8 @@ wb:
       price:
         gui:
           - "&f16x Emerald block"
-          - "&f32x Oak Log"
-          - "&f1x Diamond Block"
+          - "&f128x Oak Log"
+          - "&f5x Diamond Block"
           - "&e10 &6lvl XP"
         xp: "10"
         items:
@@ -3021,32 +2936,10 @@ wb:
             amount: "16"
           2:
             item: "oak log"
-            amount: "32"
+            amount: "128"
           3:
             item: "diamond block"
-            amount: "1"
-    16:
-      item: "rabbit foot"
-      name: "&e.22lr Ammo"
-      ctd: "10"
-      amount: "4"
-      lore:
-        - "&fAmunicja do &cSemi Auto Pistol"
-      price:
-        gui:
-          - "&f2x Iron Block"
-          - "&f2x Emerald block"
-          - "&f16x Gunpowder"
-        items:
-          1:
-            item: "iron block"
-            amount: "2"
-          2:
-            item: "emerald block"
-            amount: "2"
-          3:
-            item: "gunpowder"
-            amount: "8"
+            amount: "5"
     17:
       item: "honey bottle"
       name: "&6&lAntyRad &7< &f&l5 &7>"
@@ -3232,7 +3125,6 @@ locked:
     1:
       item: "amethyst shard"
       lore:
-        - ""
         - "&fJestes w stanie z fragmentow stworzyc"
         - "&fdowolna wersje sprawnego talizmanu"
       chance:
@@ -3303,8 +3195,9 @@ locked:
       name: "&eTopor Dariusa"
       enchant:
         - "sharpness 7"
-        - "unbreaking 4"
-        - "fire aspect 4"
+        - "unbreaking 5"
+        - "fire aspect 3"
+        - "looting 3"
       amount:
         min: "1"
         max: "1"
@@ -3359,7 +3252,7 @@ locked:
       name: "&ePoncho"
       lore:
         - ""
-        - "&cGuns Resistance: &43%"
+        - "&cGuns Resistance: &44%"
         - ""
       enchant:
         - "protection 5"
@@ -3566,16 +3459,14 @@ locked:
         max: "1"
     30:
       item: "rabbit foot"
-      name: "&eMagnum .44"
-      ctd: "1"
-      lore:
-        - "&fAmunicja do &cRevolver'a"
+      name: "&ePistol Ammo"
+      ctd: "12"
       chance:
         default: "5%"
         vip: "10%"
       amount:
-        min: "8"
-        max: "16"
+        min: "16"
+        max: "32"
     31:
       item: "rabbit hide"
       chance:
@@ -3659,9 +3550,9 @@ locked:
         vip: "25%"
       name: "&dButelka Wody"
       lore:
-        - "&fPół litra wody cristal  "
+        - "&fPół litra wody cristal"
         - "&fWoda służąca do napojenia się bądz"
-        - "&fZajebania przysaidu na nią "
+        - "&fZajebania przysaidu na nią"
       enchant:
         - "lure 5"
       amount:
@@ -3681,7 +3572,7 @@ locked:
       amount:
         min: "1"
         max: "1"
-    37:
+    38:
       item: "golden horse armor"
       name: "&eKarta wejścia"
       lore:
@@ -3707,6 +3598,16 @@ locked:
       amount:
         min: "1"
         max: "1"
+    40:
+      item: "rabbit foot"
+      name: "&eBuckshot"
+      ctd: "7"
+      chance:
+        default: "5%"
+        vip: "10%"
+      amount:
+        min: "16"
+        max: "32"
   t2:
     1:
       item: "amethyst shard"
@@ -3777,13 +3678,15 @@ locked:
     6:
       item: "diamond axe"
       chance:
-        default: "3%"
-        vip: "6%"
+        default: "2%"
+        vip: "4%"
       name: "&eTopor Dariusa"
       enchant:
-        - "sharpness 7"
-        - "unbreaking 4"
-        - "fire aspect 4"
+        - "sharpness 8"
+        - "unbreaking 5"
+        - "fire aspect 5"
+        - "looting 4"
+        - "mending 1"
       amount:
         min: "1"
         max: "1"
@@ -3838,7 +3741,7 @@ locked:
       name: "&ePoncho"
       lore:
         - ""
-        - "&cGuns Resistance: &43%"
+        - "&cGuns Resistance: &44%"
         - ""
       enchant:
         - "protection 5"
@@ -4043,7 +3946,7 @@ locked:
         - "mending 1"
       lore:
         - ""
-        - "&cGuns Resistance: &45%"
+        - "&cGuns Resistance: &410%"
         - ""
       chance:
         default: "3%"
@@ -4061,7 +3964,7 @@ locked:
         - "mending 1"
       lore:
         - ""
-        - "&cGuns Resistance: &48%"
+        - "&cGuns Resistance: &412%"
         - ""
       chance:
         default: "3%"
@@ -4080,7 +3983,7 @@ locked:
         - "swift sneak 3"
       lore:
         - ""
-        - "&cGuns Resistance: &44%"
+        - "&cGuns Resistance: &45%"
         - ""
       chance:
         default: "3%"
@@ -4100,7 +4003,7 @@ locked:
         - "depth strider 4"
       lore:
         - ""
-        - "&cGuns Resistance: &43%"
+        - "&cGuns Resistance: &44%"
         - ""
       chance:
         default: "3%"
@@ -4206,16 +4109,14 @@ locked:
         max: "1"
     41:
       item: "rabbit foot"
-      name: "&eMagnum .44"
+      name: "&ePistol Ammo"
       ctd: "1"
-      lore:
-        - "&fAmunicja do &cRevolver'a"
       chance:
         default: "7%"
         vip: "12%"
       amount:
-        min: "10"
-        max: "18"
+        min: "32"
+        max: "64"
     42:
       item: "wooden sword"
       name: "&c&lCustomSMG"
@@ -4229,18 +4130,6 @@ locked:
         min: "1"
         max: "1"
     43:
-      item: "rabbit foot"
-      name: "&e9x19mm Ammo"
-      ctd: "2"
-      lore:
-        - "&fAmunicja do &c&lCustomSMG"
-      chance:
-        default: "5%"
-        vip: "10%"
-      amount:
-        min: "8"
-        max: "16"
-    44:
       item: "wooden sword"
       name: "&c&lSemi Auto Rifle"
       ctd: "7"
@@ -4252,18 +4141,16 @@ locked:
       amount:
         min: "1"
         max: "1"
-    45:
+    44:
       item: "rabbit foot"
-      name: "&e5.56 Ammo"
-      ctd: "3"
-      lore:
-        - "&fAmunicja do &c&lSar'a"
+      name: "&eRifle Ammo"
+      ctd: "4"
       chance:
         default: "5%"
         vip: "10%"
       amount:
-        min: "8"
-        max: "16"
+        min: "16"
+        max: "32"
     46:
       item: "smooth red sandstone"
       name: "&eSiarka"
@@ -4356,9 +4243,9 @@ locked:
         vip: "25%"
       name: "&dButelka Wody"
       lore:
-        - "&fPół litra wody cristal  "
+        - "&fPół litra wody cristal"
         - "&fWoda służąca do napojenia się bądz"
-        - "&fZajebania przysaidu na nią "
+        - "&fZajebania przysaidu na nią"
       enchant:
         - "lure 5"
       amount:
@@ -4583,7 +4470,7 @@ locked:
         - "mending 1"
       lore:
         - ""
-        - "&cGuns Resistance: &45%"
+        - "&cGuns Resistance: &410%"
         - ""
       chance:
         default: "6%"
@@ -4601,7 +4488,7 @@ locked:
         - "mending 1"
       lore:
         - ""
-        - "&cGuns Resistance: &48%"
+        - "&cGuns Resistance: &412%"
         - ""
       chance:
         default: "6%"
@@ -4620,7 +4507,7 @@ locked:
         - "swift sneak 3"
       lore:
         - ""
-        - "&cGuns Resistance: &44%"
+        - "&cGuns Resistance: &45%"
         - ""
       chance:
         default: "6%"
@@ -4640,7 +4527,7 @@ locked:
         - "depth strider 4"
       lore:
         - ""
-        - "&cGuns Resistance: &43%"
+        - "&cGuns Resistance: &44%"
         - ""
       chance:
         default: "6%"
@@ -4746,16 +4633,14 @@ locked:
         max: "1"
     29:
       item: "rabbit foot"
-      name: "&eMagnum .44"
-      ctd: "1"
-      lore:
-        - "&fAmunicja do &cRevolver'a"
+      name: "&ePistol Ammo"
+      ctd: "12"
       chance:
         default: "7%"
         vip: "12%"
       amount:
-        min: "10"
-        max: "18"
+        min: "96"
+        max: "96"
     30:
       item: "wooden sword"
       name: "&c&lCustomSMG"
@@ -4769,18 +4654,6 @@ locked:
         min: "1"
         max: "1"
     31:
-      item: "rabbit foot"
-      name: "&e9x19mm Ammo"
-      ctd: "2"
-      lore:
-        - "&fAmunicja do &c&lCustomSMG"
-      chance:
-        default: "10%"
-        vip: "20%"
-      amount:
-        min: "8"
-        max: "16"
-    32:
       item: "wooden sword"
       name: "&c&lSemi Auto Rifle"
       ctd: "7"
@@ -4792,18 +4665,16 @@ locked:
       amount:
         min: "1"
         max: "1"
-    33:
+    32:
       item: "rabbit foot"
-      name: "&e5.56 Ammo"
-      ctd: "3"
-      lore:
-        - "&fAmunicja do &c&lSar'a"
+      name: "&eRifle Ammo"
+      ctd: "4"
       chance:
         default: "10%"
         vip: "20%"
       amount:
-        min: "8"
-        max: "16"
+        min: "64"
+        max: "64"
     34:
       item: "smooth red sandstone"
       name: "&eSiarka"
@@ -4923,9 +4794,9 @@ locked:
         vip: "25%"
       name: "&dButelka Wody"
       lore:
-        - "&fPół litra wody cristal  "
+        - "&fPół litra wody cristal"
         - "&fWoda służąca do napojenia się bądz"
-        - "&fZajebania przysaidu na nią "
+        - "&fZajebania przysaidu na nią"
       enchant:
         - "lure 5"
       amount:
@@ -5001,30 +4872,16 @@ locked:
       amount:
         min: "1"
         max: "1"
-    48:
-      item: "rabbit foot"
-      name: "&e7.62x39mm Ammo"
-      ctd: "4"
-      lore:
-        - "&fAmunicja do &4&lAlien Red"
-      chance:
-        default: "1%"
-        vip: "2%"
-      amount:
-        min: "8"
-        max: "16"
     49:
       item: "rabbit foot"
       name: "&e.308 Ammo"
       ctd: "5"
-      lore:
-        - "&fAmunicja do &4&lL96"
       chance:
         default: "1%"
         vip: "2%"
       amount:
-        min: "2"
-        max: "10"
+        min: "16"
+        max: "24"
     50:
       item: "elytra"
       name: "&f&lAngel Wings"
@@ -5085,6 +4942,21 @@ locked:
       amount:
         min: "1"
         max: "1"
+    54:
+      item: "diamond axe"
+      chance:
+        default: "6%"
+        vip: "10%"
+      name: "&eTopor Dariusa"
+      enchant:
+        - "sharpness 8"
+        - "unbreaking 5"
+        - "fire aspect 5"
+        - "looting 4"
+        - "mending 1"
+      amount:
+        min: "1"
+        max: "1"
 
 #                   #
 #   --NPCTRADER--   #
@@ -5108,9 +4980,39 @@ quest-drops:
         chance:
           default: "1%"
           vip: "3%"
+      2:
+        type: "skeleton"
+        name: "&eScav T1"
+        chance:
+          default: "2%"
+          vip: "4%"
+      3:
+        type: "skeleton"
+        name: "&eScav T2"
+        chance:
+          default: "3%"
+          vip: "5%"
+      4:
+        type: "skeleton"
+        name: "&eScav T3"
+        chance:
+          default: "4%"
+          vip: "6%"
+      5:
+        type: "skeleton"
+        name: "&eScav T4"
+        chance:
+          default: "5%"
+          vip: "7%"
+      6:
+        type: "skeleton"
+        name: "&eScav T5"
+        chance:
+          default: "6%"
+          vip: "8%"
   2:
     item: "rabbit hide"
-    name: "&dPaka Szlugów"
+    name: "&dPaka Szlogow"
     lore:
       - "&fPaczka papierosów Marlboro to"
       - "&fklasyczne opakowanie"
@@ -5128,6 +5030,36 @@ quest-drops:
         chance:
           default: "1%"
           vip: "3%"
+      2:
+        type: "skeleton"
+        name: "&eScav T1"
+        chance:
+          default: "2%"
+          vip: "4%"
+      3:
+        type: "skeleton"
+        name: "&eScav T2"
+        chance:
+          default: "3%"
+          vip: "5%"
+      4:
+        type: "skeleton"
+        name: "&eScav T3"
+        chance:
+          default: "4%"
+          vip: "6%"
+      5:
+        type: "skeleton"
+        name: "&eScav T4"
+        chance:
+          default: "5%"
+          vip: "7%"
+      6:
+        type: "skeleton"
+        name: "&eScav T5"
+        chance:
+          default: "6%"
+          vip: "8%"
   3:
     item: "rabbit hide"
     name: "&dJoint"
@@ -5147,6 +5079,36 @@ quest-drops:
         chance:
           default: "1%"
           vip: "3%"
+      2:
+        type: "skeleton"
+        name: "&eScav T1"
+        chance:
+          default: "2%"
+          vip: "4%"
+      3:
+        type: "skeleton"
+        name: "&eScav T2"
+        chance:
+          default: "3%"
+          vip: "5%"
+      4:
+        type: "skeleton"
+        name: "&eScav T3"
+        chance:
+          default: "4%"
+          vip: "6%"
+      5:
+        type: "skeleton"
+        name: "&eScav T4"
+        chance:
+          default: "5%"
+          vip: "7%"
+      6:
+        type: "skeleton"
+        name: "&eScav T5"
+        chance:
+          default: "6%"
+          vip: "8%"
   4:
     item: "rabbit hide"
     name: "&dJabol"
@@ -5165,6 +5127,36 @@ quest-drops:
         chance:
           default: "1%"
           vip: "3%"
+      2:
+        type: "skeleton"
+        name: "&eScav T1"
+        chance:
+          default: "2%"
+          vip: "4%"
+      3:
+        type: "skeleton"
+        name: "&eScav T2"
+        chance:
+          default: "3%"
+          vip: "5%"
+      4:
+        type: "skeleton"
+        name: "&eScav T3"
+        chance:
+          default: "4%"
+          vip: "6%"
+      5:
+        type: "skeleton"
+        name: "&eScav T4"
+        chance:
+          default: "5%"
+          vip: "7%"
+      6:
+        type: "skeleton"
+        name: "&eScav T5"
+        chance:
+          default: "6%"
+          vip: "8%"
   5:
     item: "rabbit hide"
     name: "&dAegis"
@@ -5182,13 +5174,43 @@ quest-drops:
         chance:
           default: "1%"
           vip: "3%"
+      2:
+        type: "skeleton"
+        name: "&eScav T1"
+        chance:
+          default: "2%"
+          vip: "4%"
+      3:
+        type: "skeleton"
+        name: "&eScav T2"
+        chance:
+          default: "3%"
+          vip: "5%"
+      4:
+        type: "skeleton"
+        name: "&eScav T3"
+        chance:
+          default: "4%"
+          vip: "6%"
+      5:
+        type: "skeleton"
+        name: "&eScav T4"
+        chance:
+          default: "5%"
+          vip: "7%"
+      6:
+        type: "skeleton"
+        name: "&eScav T5"
+        chance:
+          default: "6%"
+          vip: "8%"
   6:
     item: "rabbit hide"
     name: "&dButelka Wody"
     lore:
-      - "&fPół litra wody cristal  "
+      - "&fPół litra wody cristal"
       - "&fWoda służąca do napojenia się bądz"
-      - "&fZajebania przysaidu na nią "
+      - "&fZajebania przysaidu na nią"
     enchant:
       - "lure 5"
     amount:
@@ -5220,6 +5242,36 @@ quest-drops:
         chance:
           default: "0.5%"
           vip: "1.5%"
+      6:
+        type: "skeleton"
+        name: "&eScav T1"
+        chance:
+          default: "2%"
+          vip: "4%"
+      7:
+        type: "skeleton"
+        name: "&eScav T2"
+        chance:
+          default: "3%"
+          vip: "5%"
+      8:
+        type: "skeleton"
+        name: "&eScav T3"
+        chance:
+          default: "4%"
+          vip: "6%"
+      9:
+        type: "skeleton"
+        name: "&eScav T4"
+        chance:
+          default: "5%"
+          vip: "7%"
+      10:
+        type: "skeleton"
+        name: "&eScav T5"
+        chance:
+          default: "6%"
+          vip: "8%"
 
 #             #
 #   --Roll--  #
@@ -5566,8 +5618,8 @@ paid-roll:
         enchant:
           - "lure 11"
         amount:
-          min: "15"
-          max: "15"
+          min: "1"
+          max: "1"
       3:
         chance: "80%"
         item: "leather helmet"
@@ -7017,7 +7069,7 @@ paid-roll:
           min: "1"
           max: "1"
   21:
-    cost: "9999999999999999999999999999999"
+    cost: "100000000001"
     name: "&4&lBug Finder Case++"
     icon-customdata: "34"
     items:
@@ -7130,7 +7182,7 @@ paid-roll:
           min: "1"
           max: "1"
   22:
-    cost: "9999999999999999999999999999999"
+    cost: "100000000001"
     name: "&4&lBug Finder Case+"
     icon-customdata: "34"
     items:
@@ -7259,7 +7311,7 @@ paid-roll:
           min: "1"
           max: "1"
   23:
-    cost: "9999999999999999999999999999999"
+    cost: "100000000001"
     name: "&4&lBug Finder Case"
     icon-customdata: "34"
     items:
@@ -7368,6 +7420,239 @@ paid-roll:
           max: "5"
       10:
         chance: "13.25%"
+        item: "iron block"
+        amount:
+          min: "16"
+          max: "24"
+      11:
+        chance: "25%"
+        item: "diamond block"
+        amount:
+          min: "9"
+          max: "14"
+  24:
+    cost: "100000000001"
+    name: "&4&lSponsor Case+"
+    icon-customdata: "29"
+    items:
+      0:
+        chance: "0.1%"
+        item: "netherite helmet"
+        name: "&4&lBig Grin"
+        enchant:
+          - "protection 10"
+          - "unbreaking 10"
+          - "aqua affinity 1"
+          - "respiration 7"
+          - "fire protection 7"
+          - "projectile protection 7"
+          - "blast protection 7"
+          - "mending 1"
+        lore:
+          - ""
+          - "&cGuns Resistance: &420%"
+          - "&eRad Resistance: &65%"
+          - ""
+        amount:
+          min: "1"
+          max: "1"
+      1:
+        chance: "0.6%"
+        item: "red chiseled sandstone"
+        name: "&6Metal Wysokiej Jakosci"
+        amount:
+          min: "15"
+          max: "16"
+      2:
+        chance: "1%"
+        item: "smooth red sandstone"
+        name: "&eSiarka"
+        amount:
+          min: "32"
+          max: "36"
+      3:
+        chance: "1.5%"
+        item: "paper"
+        name: "&eCzek &f&l< 50000 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 11"
+        amount:
+          min: "1"
+          max: "1"
+      4:
+        chance: "2.5%"
+        item: "netherite pickaxe"
+        name: "&4&lJackhammer"
+        enchant:
+          - "efficiency 10"
+          - "unbreaking 10"
+          - "fortune 7"
+          - "mending 1"
+        amount:
+          min: "1"
+          max: "1"
+      5:
+        chance: "2.5%"
+        item: "wooden sword"
+        name: "&4&lAlien Red"
+        ctd: "10"
+        lore:
+          - "&fLegendarny karabin automatyczny z specjalnym malowaniem."
+        amount:
+          min: "1"
+          max: "1"
+      6:
+        chance: "2.5%"
+        item: "wooden sword"
+        name: "&4&lL96"
+        ctd: "13"
+        lore:
+          - "&fMust-have każdego roofcampera."
+        amount:
+          min: "1"
+          max: "1"
+      7:
+        chance: "10.5%"
+        item: "wooden sword"
+        name: "&c&lSemi Auto Rifle"
+        ctd: "7"
+        lore:
+          - "&fUlubiona broń Grubego Joe'a"
+        amount:
+          min: "1"
+          max: "1"
+      8:
+        chance: "15%"
+        item: "wooden sword"
+        name: "&c&lCustomSMG"
+        ctd: "4"
+        lore:
+          - "&fRozjebana MP5 sklejona taśmą"
+        amount:
+          min: "1"
+          max: "1"
+      9:
+        chance: "25%"
+        item: "wooden sword"
+        name: "&c&lRevolver"
+        ctd: "1"
+        lore:
+          - "&fKultowa replica revolveru z czasu Westernu"
+        amount:
+          min: "1"
+          max: "1"
+      10:
+        chance: "11%"
+        item: "netherite ingot"
+        amount:
+          min: "4"
+          max: "5"
+      11:
+        chance: "11.1%"
+        item: "iron block"
+        amount:
+          min: "16"
+          max: "24"
+      12:
+        chance: "14%"
+        item: "diamond block"
+        amount:
+          min: "9"
+          max: "14"
+  25:
+    cost: "100000000001"
+    name: "&4&lSponsor Case"
+    icon-customdata: "29"
+    items:
+      0:
+        chance: "0.5%"
+        item: "netherite pickaxe"
+        name: "&4&lJackhammer"
+        enchant:
+          - "efficiency 10"
+          - "unbreaking 10"
+          - "fortune 7"
+          - "mending 1"
+        amount:
+          min: "1"
+          max: "1"
+      1:
+        chance: "1%"
+        item: "red chiseled sandstone"
+        name: "&6Metal Wysokiej Jakosci"
+        amount:
+          min: "4"
+          max: "5"
+      2:
+        chance: "2%"
+        item: "smooth red sandstone"
+        name: "&eSiarka"
+        amount:
+          min: "6"
+          max: "10"
+      3:
+        chance: "2%"
+        item: "paper"
+        name: "&eCzek &f&l< 25000 >"
+        lore:
+          - ""
+          - "&fUzycie: &f&l<PPM>"
+        enchant:
+          - "lure 11"
+        amount:
+          min: "1"
+          max: "1"
+      5:
+        chance: "2%"
+        item: "wooden sword"
+        name: "&4&lAlien Red"
+        ctd: "10"
+        lore:
+          - "&fLegendarny karabin automatyczny z specjalnym malowaniem."
+        amount:
+          min: "1"
+          max: "1"
+      6:
+        chance: "2%"
+        item: "wooden sword"
+        name: "&4&lL96"
+        ctd: "13"
+        lore:
+          - "&fMust-have każdego roofcampera."
+        amount:
+          min: "1"
+          max: "1"
+      7:
+        chance: "8%"
+        item: "wooden sword"
+        name: "&c&lSemi Auto Rifle"
+        ctd: "7"
+        lore:
+          - "&fUlubiona broń Grubego Joe'a"
+        amount:
+          min: "1"
+          max: "1"
+      8:
+        chance: "25%"
+        item: "wooden sword"
+        name: "&c&lRevolver"
+        ctd: "1"
+        lore:
+          - "&fKultowa replica revolveru z czasu Westernu"
+        amount:
+          min: "1"
+          max: "1"
+      9:
+        chance: "7.5%"
+        item: "netherite ingot"
+        amount:
+          min: "4"
+          max: "5"
+      10:
+        chance: "25%"
         item: "iron block"
         amount:
           min: "16"
@@ -7687,13 +7972,11 @@ rust-crate:
         default: "3%"
         vip: "6%"
       item: "rabbit foot"
-      name: "&eMagnum .44"
-      ctd: "1"
-      lore:
-        - "&fAmunicja do &cRevolver'a"
+      name: "&ePistol Ammo"
+      ctd: "12"
       quantity:
-        min: "4"
-        max: "6"
+        min: "16"
+        max: "32"
     18:
       chance:
         default: "1%"
@@ -7711,13 +7994,11 @@ rust-crate:
         default: "3%"
         vip: "6%"
       item: "rabbit foot"
-      name: "&eHomemade shell"
-      ctd: "8"
-      lore:
-        - "&fAmunicja do &cDouble Barrel"
+      name: "&eBuckshot"
+      ctd: "7"
       quantity:
-        min: "1"
-        max: "2"
+        min: "16"
+        max: "16"
     20:
       chance:
         default: "1%"
@@ -7731,18 +8012,6 @@ rust-crate:
         min: "1"
         max: "1"
     21:
-      chance:
-        default: "3%"
-        vip: "6%"
-      item: "rabbit foot"
-      name: "&e.22lr Ammo"
-      ctd: "10"
-      lore:
-        - "&fAmunicja do &cSemi Auto Pistol"
-      quantity:
-        min: "4"
-        max: "6"
-    22:
       item: "totem of undying"
       typ: "random-bp"
       enchant:
@@ -7929,16 +8198,14 @@ rust-crate:
         max: "1"
     12:
       item: "rabbit foot"
-      name: "&e9x19mm Ammo"
-      ctd: "2"
-      lore:
-        - "&fAmunicja do &c&lCustomSMG"
+      name: "&ePistol Ammo"
+      ctd: "12"
       chance:
         default: "20%"
         vip: "30%"
       quantity:
-        min: "10"
-        max: "12"
+        min: "16"
+        max: "16"
     13:
       item: "wooden sword"
       name: "&c&lSemi Auto Rifle"
@@ -7953,16 +8220,14 @@ rust-crate:
         max: "1"
     14:
       item: "rabbit foot"
-      name: "&e5.56 Ammo"
-      ctd: "3"
-      lore:
-        - "&fAmunicja do &c&lSar'a"
+      name: "&eRifle Ammo"
+      ctd: "4"
       chance:
         default: "20%"
         vip: "30%"
       quantity:
-        min: "6"
-        max: "10"
+        min: "16"
+        max: "16"
     15:
       item: "wooden sword"
       name: "&c&lM92 Pistol"
@@ -7975,18 +8240,6 @@ rust-crate:
       quantity:
         min: "1"
         max: "1"
-    16:
-      item: "rabbit foot"
-      name: "&e10x19mm Ammo"
-      ctd: "12"
-      lore:
-        - "&fAmunicja do &c&lM92 Pistol"
-      chance:
-        default: "20%"
-        vip: "30%"
-      quantity:
-        min: "12"
-        max: "15"
     17:
       item: "wooden sword"
       name: "&c&lPump"
@@ -8001,16 +8254,14 @@ rust-crate:
         max: "1"
     18:
       item: "rabbit foot"
-      name: "&e8ga Buckshot"
+      name: "&eBuckshot"
       ctd: "7"
-      lore:
-        - "&fAmunicja do &c&lPump"
       chance:
         default: "20%"
         vip: "30%"
       quantity:
-        min: "2"
-        max: "3"
+        min: "12"
+        max: "12"
     19:
       item: "smooth red sandstone"
       name: "&eSiarka"
@@ -8059,14 +8310,12 @@ rust-crate:
       item: "rabbit foot"
       name: "&eMagnum .45"
       ctd: "11"
-      lore:
-        - "&fAmunicja do &4&lPython"
       chance:
         default: "15%"
         vip: "20%"
       quantity:
-        min: "4"
-        max: "6"
+        min: "12"
+        max: "12"
     24:
       item: "totem of undying"
       name: "&5Zrzut Mutanta"
@@ -8153,6 +8402,37 @@ rust-crate:
       enchant:
         - "fortune 4"
       quantity:
+        min: "1"
+        max: "1"
+    30:
+      item: "golden horse armor"
+      name: "&d&lPrzywołanie Barana Kanoniera"
+      lore:
+        - "&fPozwala zamienić zwykłą owce w"
+        - "&f&4Baranka Kanoniera"
+        - ""
+        - "&fUzycie: &f&l<PPM>"
+      enchant:
+        - "lure 10"
+      chance:
+        default: "0.5%"
+        vip: "1%"
+      quantity:
+        min: "1"
+        max: "2"
+    31:
+      item: "diamond axe"
+      chance:
+        default: "2%"
+        vip: "5%"
+      name: "&eTopor Dariusa"
+      enchant:
+        - "sharpness 8"
+        - "unbreaking 5"
+        - "fire aspect 5"
+        - "looting 4"
+        - "mending 1"
+      amount:
         min: "1"
         max: "1"
   elite:
@@ -8247,10 +8527,8 @@ rust-crate:
         max: "1"
     6:
       item: "rabbit foot"
-      name: "&e9x19mm Ammo"
-      ctd: "2"
-      lore:
-        - "&fAmunicja do &c&lCustomSMG"
+      name: "&ePistol Ammo"
+      ctd: "12"
       chance:
         default: "20%"
         vip: "30%"
@@ -8271,10 +8549,8 @@ rust-crate:
         max: "1"
     8:
       item: "rabbit foot"
-      name: "&e5.56 Ammo"
+      name: "&eRifle Ammo"
       ctd: "3"
-      lore:
-        - "&fAmunicja do &c&lSar'a"
       chance:
         default: "20%"
         vip: "30%"
@@ -8293,18 +8569,6 @@ rust-crate:
       quantity:
         min: "1"
         max: "1"
-    10:
-      item: "rabbit foot"
-      name: "&e10x19mm Ammo"
-      ctd: "12"
-      lore:
-        - "&fAmunicja do &c&lM92 Pistol"
-      chance:
-        default: "20%"
-        vip: "30%"
-      quantity:
-        min: "24"
-        max: "36"
     11:
       item: "wooden sword"
       name: "&c&lPump"
@@ -8319,10 +8583,8 @@ rust-crate:
         max: "1"
     12:
       item: "rabbit foot"
-      name: "&e8ga Buckshot"
+      name: "&eBuckshot"
       ctd: "7"
-      lore:
-        - "&fAmunicja do &c&lPump"
       chance:
         default: "20%"
         vip: "30%"
@@ -8377,8 +8639,6 @@ rust-crate:
       item: "rabbit foot"
       name: "&eMagnum .45"
       ctd: "11"
-      lore:
-        - "&fAmunicja do &4&lPython"
       chance:
         default: "20%"
         vip: "25%"
@@ -8510,18 +8770,6 @@ rust-crate:
       quantity:
         min: "1"
         max: "1"
-    25:
-      item: "rabbit foot"
-      name: "&e7.62x39mm Ammo"
-      ctd: "4"
-      lore:
-        - "&fAmunicja do &4&lAlien Red"
-      chance:
-        default: "30%"
-        vip: "45%"
-      quantity:
-        min: "12"
-        max: "24"
     26:
       item: "wooden sword"
       name: "&4&lL96"
@@ -8538,9 +8786,6 @@ rust-crate:
       item: "rabbit foot"
       name: "&e.308 Ammo"
       ctd: "5"
-      amount: "2"
-      lore:
-        - "&fAmunicja do &4&lL96"
       chance:
         default: "30%"
         vip: "45%"
@@ -8559,41 +8804,18 @@ rust-crate:
       quantity:
         min: "1"
         max: "1"
-    29:
-      item: "rabbit foot"
-      name: "&e9x18mm Ammo"
-      ctd: "6"
-      lore:
-        - "&fAmunicja do &4&lMP5"
-      chance:
-        default: "30%"
-        vip: "45%"
-      quantity:
-        min: "12"
-        max: "24"
     30:
       item: "wooden sword"
       name: "&4&lM4 Shotgun"
       ctd: "27"
+      lore: 
+        - "&fLegendarny shotgun na daleko"
       chance:
         default: "7%"
         vip: "9%"
       quantity:
         min: "1"
         max: "1"
-    31:
-      item: "rabbit foot"
-      name: "&e12ga Buckshot"
-      ctd: "9"
-      amount: "2"
-      lore:
-        - "&fAmunicja do &4&lM4"
-      chance:
-        default: "30%"
-        vip: "45%"
-      quantity:
-        min: "10"
-        max: "16"
     32:
       item: "wooden sword"
       name: "&4&lRocket Launcher"
@@ -8610,8 +8832,6 @@ rust-crate:
       item: "rabbit foot"
       name: "&eRakieta"
       ctd: "13"
-      lore:
-        - "&fAmunicja do &4&lRocket Launcher"
       chance:
         default: "2%"
         vip: "3%"
@@ -8647,10 +8867,8 @@ rust-crate:
         max: "1"
     36:
       item: "rabbit foot"
-      name: "&e7.62x522 Ammo"
+      name: "&e5.56 Ammo"
       ctd: "14"
-      lore:
-        - "&fAmunicja do &4&lM249"
       chance:
         default: "2%"
         vip: "3%"
@@ -8690,6 +8908,20 @@ rust-crate:
         min: "1"
         max: "1"
     39:
+      item: "honey bottle"
+      name: "&f&lSARS-27012"
+      lore:
+        - "&dDziwka strzykawka, zajebana z jakiegoś"
+        - "&dnieznanego laboratorium."
+      enchant:
+        - "power 10"
+      chance:
+        default: "4%"
+        vip: "6%"
+      quantity:
+        min: "1"
+        max: "1"
+    40:
       item: "totem of undying"
       typ: "random-bp"
       chance:
@@ -8700,6 +8932,38 @@ rust-crate:
       quantity:
         min: "1"
         max: "1"
+    41:
+      item: "golden horse armor"
+      name: "&d&lPrzywołanie Barana Kanoniera"
+      lore:
+        - "&fPozwala zamienić zwykłą owce w"
+        - "&f&4Baranka Kanoniera"
+        - ""
+        - "&fUzycie: &f&l<PPM>"
+      enchant:
+        - "lure 10"
+      chance:
+        default: "4%"
+        vip: "6%"
+      quantity:
+        min: "1"
+        max: "2"
+    42:
+      item: "diamond axe"
+      chance:
+        default: "10%"
+        vip: 18%"
+      name: "&eTopor Dariusa"
+      enchant:
+        - "sharpness 8"
+        - "unbreaking 5"
+        - "fire aspect 5"
+        - "looting 4"
+        - "mending 1"
+      quantity:
+        min: "1"
+        max: "1"
+    
   bradley:
     1:
       item: "smooth red sandstone"
@@ -8837,16 +9101,14 @@ rust-crate:
         max: "1"
     9:
       item: "rabbit foot"
-      name: "&e7.62x39mm Ammo"
+      name: "&eRifle Ammo"
       ctd: "4"
-      lore:
-        - "&fAmunicja do &4&lAlien Red"
       chance:
         default: "30%"
         vip: "45%"
       quantity:
-        min: "12"
-        max: "64"
+        min: "128"
+        max: "192"
     10:
       item: "wooden sword"
       name: "&4&lL96"
@@ -8863,15 +9125,12 @@ rust-crate:
       item: "rabbit foot"
       name: "&e.308 Ammo"
       ctd: "5"
-      amount: "2"
-      lore:
-        - "&fAmunicja do &4&lL96"
       chance:
         default: "30%"
         vip: "45%"
       quantity:
-        min: "4"
-        max: "20"
+        min: "20"
+        max: "24"
     12:
       item: "wooden sword"
       name: "&4&lMP5"
@@ -8886,20 +9145,20 @@ rust-crate:
         max: "1"
     13:
       item: "rabbit foot"
-      name: "&e9x18mm Ammo"
-      ctd: "6"
-      lore:
-        - "&fAmunicja do &4&lMP5"
+      name: "&ePistol Ammo"
+      ctd: "12"
       chance:
         default: "40%"
         vip: "55%"
       quantity:
-        min: "12"
-        max: "64"
+        min: "128"
+        max: "192"
     14:
       item: "wooden sword"
       name: "&4&lM4 Shotgun"
       ctd: "27"
+      lore: 
+        - "&fLegendarny shotgun na daleko"
       chance:
         default: "11%"
         vip: "15%"
@@ -8908,16 +9167,13 @@ rust-crate:
         max: "1"
     15:
       item: "rabbit foot"
-      name: "&e12ga Buckshot"
-      ctd: "9"
-      amount: "2"
-      lore:
-        - "&fAmunicja do &4&lM4"
+      name: "&eBuckshot"
+      ctd: "7"
       chance:
         default: "30%"
         vip: "45%"
       quantity:
-        min: "10"
+        min: "62"
         max: "64"
     16:
       item: "wooden sword"
@@ -8935,8 +9191,6 @@ rust-crate:
       item: "rabbit foot"
       name: "&eRakieta"
       ctd: "13"
-      lore:
-        - "&fAmunicja do &4&lRocket Launcher"
       chance:
         default: "4%"
         vip: "6%"
@@ -8972,10 +9226,8 @@ rust-crate:
         max: "1"
     20:
       item: "rabbit foot"
-      name: "&e7.62x522 Ammo"
+      name: "&e5.56 Ammo"
       ctd: "14"
-      lore:
-        - "&fAmunicja do &4&lM249"
       chance:
         default: "4%"
         vip: "6%"
@@ -9019,6 +9271,10 @@ rust-crate:
       name: "&f&lAngel Wings"
       lore:
         - "&fSkrzydła upadłego anioła."
+        - ""
+        - "&cGuns Resistance: &410%"
+        - "&eRad Resistance: &610%"
+        - ""
       enchant:
         - "protection 10"
         - "unbreaking 10"
@@ -9049,6 +9305,31 @@ rust-crate:
         min: "1"
         max: "2"
     25:
+      item: "honey bottle"
+      name: "&f&lSARS-27012"
+      lore:
+        - "&dDziwka strzykawka, zajebana z jakiegoś"
+        - "&dnieznanego laboratorium."
+      enchant:
+        - "power 10"
+      chance:
+        default: "8%"
+        vip: "12%"
+      quantity:
+        min: "1"
+        max: "1"
+    26:
+      item: "reinforced deepslate"
+      name: "&eWzmocnione HQM"
+      lore:
+        - "&cNiezwykle wytrzymały blok budowlany"
+      chance:
+        default: "1%"
+        vip: "2%"
+      quantity:
+        min: "1"
+        max: "1"
+    27:
       item: "totem of undying"
       typ: "random-bp"
       chance:
@@ -9059,7 +9340,7 @@ rust-crate:
       quantity:
         min: "1"
         max: "1"
-    26:
+    28:
       item: "totem of undying"
       typ: "random-bp"
       chance:
@@ -9076,8 +9357,8 @@ scav-death:
     1:
       item: "golden horse armor"
       chance:
-        default: "0.5%"
-        vip: "1%"
+        default: "0.01%"
+        vip: "0.05%"
       name: "&cCzerwona Karta"
       lore:
         - "&fKarta z wyższymi uprawnieniami."
@@ -9092,8 +9373,8 @@ scav-death:
     2:
       item: "golden horse armor"
       chance:
-        default: "3%"
-        vip: "4%"
+        default: "0.2%"
+        vip: "0.5%"
       name: "&eKarta wejścia"
       lore:
         - "&fPozwala na wejście do laboratorium"
@@ -9106,8 +9387,8 @@ scav-death:
         max: "1"
     3:
       chance:
-        default: "0.25%"
-        vip: "0.5%"
+        default: "0.2%"
+        vip: "0.2%"
       item: "wooden sword"
       name: "&4&lMP5"
       ctd: "17"
@@ -9173,20 +9454,17 @@ scav-death:
         default: "10%"
         vip: "15%"
       item: "rabbit foot"
-      name: "&e9x19mm Ammo"
-      ctd: "2"
-      amount: "16"
-      lore:
-        - "&fAmunicja do &c&lCustomSMG"
+      name: "&ePistol Ammo"
+      ctd: "12"
       quantity: 
-        min: "6"
+        min: "8"
         max: "10"
   Scav T2:
     1:
       item: "golden horse armor"
       chance:
-        default: "1%"
-        vip: "2%"
+        default: "0.05%"
+        vip: "0.1%"
       name: "&cCzerwona Karta"
       lore:
         - "&fKarta z wyższymi uprawnieniami."
@@ -9201,8 +9479,8 @@ scav-death:
     2:
       item: "golden horse armor"
       chance:
-        default: "5%"
-        vip: "6%"
+        default: "0.8%"
+        vip: "1.2%"
       name: "&eKarta wejścia"
       lore:
         - "&fPozwala na wejście do laboratorium"
@@ -9215,8 +9493,8 @@ scav-death:
         max: "1"
     3:
       chance:
-        default: "0.5%"
-        vip: "1%"
+        default: "0.2%"
+        vip: "0.2%"
       item: "wooden sword"
       name: "&4&lMP5"
       ctd: "17"
@@ -9282,19 +9560,17 @@ scav-death:
         default: "20%"
         vip: "45%"
       item: "rabbit foot"
-      name: "&e9x18mm Ammo"
-      ctd: "6"
-      lore:
-        - "&fAmunicja do &4&lMP5"
+      name: "&ePistol Ammo"
+      ctd: "12"
       quantity: 
-        min: "6"
-        max: "10"
+        min: "10"
+        max: "16"
   Scav T3:
     1:
       item: "golden horse armor"
       chance:
-        default: "2%"
-        vip: "3.5%"
+        default: "0.15%"
+        vip: "0.3%"
       name: "&cCzerwona Karta"
       lore:
         - "&fKarta z wyższymi uprawnieniami."
@@ -9309,8 +9585,8 @@ scav-death:
     2:
       item: "golden horse armor"
       chance:
-        default: "8%"
-        vip: "10%"
+        default: "2%"
+        vip: "3%"
       name: "&eKarta wejścia"
       lore:
         - "&fPozwala na wejście do laboratorium"
@@ -9323,8 +9599,8 @@ scav-death:
         max: "1"
     3:
       chance:
-        default: "1%"
-        vip: "2%"
+        default: "0.2%"
+        vip: "0.2%"
       item: "wooden sword"
       name: "&4&lMP5"
       ctd: "17"
@@ -9390,13 +9666,11 @@ scav-death:
         default: "20%"
         vip: "45%"
       item: "rabbit foot"
-      name: "&e7.62x39mm Ammo"
+      name: "&eRifle Ammo"
       ctd: "4"
-      lore:
-        - "&fAmunicja do &4&lAlien Red"
       quantity: 
-        min: "6"
-        max: "10"
+        min: "16"
+        max: "20"
   Scav T4:
     1:
       item: "golden horse armor"
@@ -9431,8 +9705,8 @@ scav-death:
         max: "1"
     3:
       chance:
-        default: "2%"
-        vip: "4%"
+        default: "0.2%"
+        vip: "0.2%"
       item: "wooden sword"
       name: "&4&lMP5"
       ctd: "17"
@@ -9498,13 +9772,11 @@ scav-death:
         default: "20%"
         vip: "45%"
       item: "rabbit foot"
-      name: "&e7.62x39mm Ammo"
+      name: "&eRifle Ammo"
       ctd: "4"
-      lore:
-        - "&fAmunicja do &4&lAlien Red"
       quantity: 
-        min: "6"
-        max: "10"
+        min: "16"
+        max: "32"
   Scav T5:
     1:
       item: "golden horse armor"
@@ -9539,8 +9811,8 @@ scav-death:
         max: "1"
     3:
       chance:
-        default: "10%"
-        vip: "15%"
+        default: "1%"
+        vip: "1%"
       item: "wooden sword"
       name: "&4&lMP5"
       ctd: "17"
@@ -9606,10 +9878,8 @@ scav-death:
         default: "10%"
         vip: "14%"
       item: "rabbit foot"
-      name: "&e7.62x522 Ammo"
+      name: "&e5.56 Ammo"
       ctd: "14"
-      lore:
-        - "&fAmunicja do &4&lM249"
       quantity: 
         min: "2"
         max: "4"
@@ -9646,10 +9916,8 @@ recycler:
         amount: "128"
   2:
     item: "rabbit foot"
-    name: "&e7.62x522 Ammo"
+    name: "&e5.56 Ammo"
     ctd: "14"
-    lore:
-      - "&fAmunicja do &4&lM249"
     amount: "1"
     items:
       1:
@@ -9666,6 +9934,24 @@ recycler:
         item: "smooth red sandstone"
         name: "&eSiarka"
         amount: "12"
+  3:
+    item: "diamond axe"
+    name: "&eTopor Dariusa"
+    enchant:
+      - "sharpness 8"
+      - "unbreaking 5"
+      - "fire aspect 5"
+      - "looting 4"
+      - "mending 1"
+    amount: "1"
+    items:
+      1:
+        item: "iron block"
+        amount: "32"
+      2:
+        item: "red chiseled sandstone"
+        name: "&6Metal Wysokiej Jakosci"
+        amount: "5"
 
 
 #-------------------------- End of lootable -------------------------------------#

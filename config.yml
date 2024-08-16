@@ -1,4 +1,5 @@
 #Config for Survival++ bundle by NiewiadomyYYXX
+#Config for Survival++ bundle by NiewiadomyYYXX
 #Default Config by NiewiadomyYYXX
 #Ver. 7.0
 
@@ -81,23 +82,56 @@ god-items:
   - "netherite boots named &e&lHazmat"
 
 txt:
-  download: "https://drive.google.com/uc?export=download&id=1ES2AtmoXKFcaoYQ_8KcL7-f5CrzA9WVS"
-  hash: "14dcd6b4de13d83e578eb3d83249e9a7654739e5"
+  download: "https://drive.google.com/uc?export=download&id=1VYtBthVFwk7zGX1_bVYOz8LOyKunsNXV"
+  hash: "2f24b1fca05cbc9d07ad76fabbf31233b90951a2"
 
 wipe:
-  start-mess: "26.07.2024r. (Piatek) o godz. 18:00"
+  start-mess: "23.08.2024r. (Piatek) o godz. 18:00"
   push: "30"
   push-tp: "40"
-  balance-team: "NiewiadomyYYXX, proDogePL"
+  balance-team: "kacuu"
   models: "proDogePL"
-  unix-data: "1722009600" #https://www.unixtimestamp.com
+  unix-data: "1724428800" #https://www.unixtimestamp.com
   block:
     tier: "24 hours"
     nether: "4 hours"
-    end: "48 hours"
+    end: "24 hours"
     raid: "24 hours"
     pvp: "6 hours"
     kit: "1 hour"
+
+free-coins:
+  cd: "2 hour" #min 1h
+  min: "100"
+  max: "1000"
+  day-buff: "1" #max x5
+  gen-create:
+    users:
+      - "463337200793419857" #mati
+      - "660105125112578078" #kacuu
+      # - "307554743608147968" #zychu
+    max: "2000"
+
+free-money:
+  dc-names:
+    czas: ":alarm_clock: CZAS :alarm_clock:"
+    czasv: 
+      - "1. 0 :money_with_wings:"
+      - "2. 0 :money_with_wings:"
+      - "3. 0 :money_with_wings:"
+      - "4. 0 :money_with_wings:"
+      - "5. 0 :money_with_wings:"
+    default: ":grey_question: INNE :grey_question: "
+    defaultv: "1. 00 :money_with_wings:"
+  default:
+    1: "0"
+  custom:
+    czas:
+      1: "0"
+      2: "0"
+      3: "0"
+      4: "0"
+      5: "0"
 
 pvp-block:
   time: "20 seconds"
@@ -120,7 +154,7 @@ hazmat:
 
 xp-blik:
   name: "&eKsięga XP'a"
-  max: "50" #max per item leveli
+  max: "100" #max per item leveli
 
 enderchest:
   easy:
@@ -341,6 +375,11 @@ stats:
 #   --Rad Town--   #
 #                  #
 
+turret:
+  too-close-spawn: "50" #od ilu od spawna mozna polozyc dopiero turreta
+  hp: "500" #hp turreta
+   
+
 junkpile:
   gen-chance: "0.3%"
   random-amount: "15" #ilosc roznych rodzaji junkpile
@@ -353,6 +392,7 @@ junkpile:
     1:
       name: "&eScav T1"
       hp: "30"
+      bow-r: "75%"
       weapon: "lure 21"
       gun-stats:
         dmg: "1"
@@ -369,6 +409,7 @@ junkpile:
     2:
       name: "&eScav T2"
       hp: "45"
+      bow-r: "90%"
       weapon: "lure 22"
       gun-stats:
         dmg: "2.5"
@@ -385,6 +426,7 @@ junkpile:
     3:
       name: "&eScav T3"
       hp: "60"
+      bow-r: "99%"
       weapon: "lure 20"
       gun-stats:
         dmg: "6.5"
@@ -401,6 +443,7 @@ junkpile:
     4:
       name: "&eScav T4"
       hp: "75"
+      bow-r: "99%"
       weapon: "lure 23"
       gun-stats:
         dmg: "7"
@@ -417,6 +460,7 @@ junkpile:
     5:
       name: "&eScav T5"
       hp: "100"
+      bow-r: "99%"
       weapon: "lure 24"
       gun-stats:
         dmg: "7"
@@ -434,7 +478,7 @@ junkpile:
 radtown:
   rad:
     dmg: "6"
-    warning: "100"
+    warning: "300"
   random-min: "30" #co ile szansa na dropa ma sie prokowac
   random-chance: "30%" #jak jest 0 graczy online <default wartosc>
   random-increase: "15%" #wartosc dodawana za kazdego gracza
@@ -443,14 +487,14 @@ radtown:
     random-chance: "30%" #jak jest 0 graczy online <default wartosc>
     random-increase: "15%" #wartosc dodawana za kazdego gracza
     hp: "800"    
-    attack-range: "50" 
+    attack-range: "75" 
     guns:
       rl:
         name: "&4&lRocket Launcher"
         dmg: "100" 
       m2:
         name: "&4&lM249"
-        dmg: "8"
+        dmg: "1.5"
     gun-stats:
       rl:
         cooldown: "20 seconds"
@@ -562,7 +606,7 @@ Custom-Ores:
       max: "6"
     vein:
       chance: "7.5%"
-      max: "4"
+      max: "4" 
     mining:
       time: "30 seconds"
       tools:
@@ -591,7 +635,7 @@ Custom-Ores:
     chance: "0.05%"
     turbo-chance: "0.1%"
     turbo-vein:
-      chance: "25%"
+      chance: "20%"
       max: "12"
     vein:
       chance: "20%"
@@ -641,7 +685,7 @@ airdrop:
 #           #
 
 tc:
-  SpawnBlock: "135"
+  SpawnBlock: "400"
   CloseTC: "135"
   min-y: "0"
   DropRaid: "2"
@@ -868,6 +912,9 @@ c4:
     15:
       item: "reinforced deepslate"
       hp: "5000"
+    16:
+      item: "flowing water"
+      hp: "0"
 
 captha:
   1:
@@ -922,8 +969,8 @@ guns:
     ammo:
       ammo-in-chamber: "8"
       item: "rabbit foot"
-      name: "&eMagnum .44"
-      ctd: "1"
+      name: "&e10x19mm Ammo"
+      ctd: "12"
     sound:
       empty-clip: "rev_empty-clip"
       shot: "rev_shot"
@@ -952,8 +999,8 @@ guns:
     ammo:
       ammo-in-chamber: "24"
       item: "rabbit foot"
-      name: "&e9x19mm Ammo"
-      ctd: "2"
+      name: "&e10x19mm Ammo"
+      ctd: "12"
     sound:
       empty-clip: "customsmg_empty-clip"
       shot: "customsmg_shot"
@@ -1027,8 +1074,8 @@ guns:
       recoil-horizontal: "0.6"
       recoil-vertical: "0.6"
       zoom:
-        recoil-horizontal: "0.15"
-        recoil-vertical: "0.15"
+        recoil-horizontal: "0.1"
+        recoil-vertical: "0.1"
       fire_rate: "2"
       reload_time: "4"
   L96:
@@ -1073,7 +1120,7 @@ guns:
     ammo:
       ammo-in-chamber: "30"
       item: "rabbit foot"
-      name: "&e9x18mm Ammo"
+      name: "&e10x19mm Ammo"
       ctd: "6"
     sound:
       empty-clip: "mp5_empty-clip"
@@ -1139,8 +1186,8 @@ guns:
     ammo:
       ammo-in-chamber: "2"
       item: "rabbit foot"
-      name: "&eHomemade shell"
-      ctd: "8"
+      name: "&e8ga Buckshot"
+      ctd: "7"
       LessTimeBasedForAmountOfAmmo: "40%"
       amount:
         min: "20"
@@ -1173,8 +1220,8 @@ guns:
     ammo:
       ammo-in-chamber: "8"
       item: "rabbit foot"
-      name: "&e12ga Buckshot"
-      ctd: "9"
+      name: "&e8ga Buckshot"
+      ctd: "7"
       amount:
         min: "14"
         max: "14"
@@ -1192,7 +1239,7 @@ guns:
       recoil-vertical: "0.4"
       zoom:
         recoil-horizontal: "0.1"
-        recoil-vertical: "0.05"
+        recoil-vertical: "0.1"
       fire_rate: "8"
       reload_time: "4"
   SAP:
@@ -1206,8 +1253,8 @@ guns:
     ammo:
       ammo-in-chamber: "10"
       item: "rabbit foot"
-      name: "&e.22lr Ammo"
-      ctd: "10"
+      name: "&e10x19mm Ammo"
+      ctd: "12"
     sound:
       empty-clip: "p2_empty-clip"
       shot: "p2_shot"
@@ -1221,8 +1268,8 @@ guns:
       recoil-horizontal: "0.1"
       recoil-vertical: "0.1"
       zoom:
-        recoil-horizontal: "0.05"
-        recoil-vertical: "0.05"
+        recoil-horizontal: "0.1"
+        recoil-vertical: "0.1"
       fire_rate: "7"
       reload_time: "4"
   PYTHON:
@@ -1253,7 +1300,7 @@ guns:
       zoom:
         recoil-horizontal: "0.1"
         recoil-vertical: "0.1"
-      fire_rate: "9"
+      fire_rate: "4"
       reload_time: "4"
   BERETA:
     name: "&c&lM92 Pistol"
@@ -1281,8 +1328,8 @@ guns:
       recoil-horizontal: "0.3"
       recoil-vertical: "0.3"
       zoom:
-        recoil-horizontal: "0.01"
-        recoil-vertical: "0.01"
+        recoil-horizontal: "0.1"
+        recoil-vertical: "0.1"
       fire_rate: "3"
       reload_time: "4"
   rl:
@@ -1349,6 +1396,40 @@ guns:
         recoil-vertical: "0.1"
       fire_rate: "0.05"
       reload_time: "4"
+  debug:
+    name: "&f&lDebug Gun"
+    type: "rocket"
+    repair-cost: "99999999"
+    ctd:
+      normal: "100"
+      zoom: "100"
+      reload: "100"
+    ammo:
+      ammo-in-chamber: "999"
+      item: "rabbit foot"
+      name: "&edebug-ammo"
+      ctd: "15"
+    sound:
+      empty-clip: "rl_empty-clip"
+      shot: "rl_shot"
+      reload: "rl_reload"
+      hit_mark: "hit_mark"
+    stats:
+      pvp: "999"
+      pve: "999"
+      durability: "999"
+      velocity: "3"
+      boom: "12" #moc wybuchu
+      boom-dmg: "75"
+      boom-range: "6"
+      bradley-aoe: "12.5"
+      recoil-horizontal: "0.02"
+      recoil-vertical: "0.02"
+      zoom:
+        recoil-horizontal: "0.01"
+        recoil-vertical: "0.01"
+      fire_rate: "1"
+      reload_time: "1"
 
 enchants:
   special:
@@ -1406,7 +1487,7 @@ enchants:
       12:
         name: "&ePoncho"
         stats:
-          armor: "0.03"
+          armor: "0.04"
       13:
         name: "&ePants"
         stats:
@@ -1415,6 +1496,11 @@ enchants:
         name: "&eKapcie"
         stats:
           armor: "0.01"
+      15:
+        name: "&f&lDebug Backpack"
+        stats:
+          armor: "100"
+          anty-rad: "100"
     tools:
       1:
         name: "&4&lJackhammer"
@@ -1430,6 +1516,9 @@ enchants:
       3:
         name: "&eLegacy Bow"
         dmg: "1.5"
+      4:
+        name: "&f&lDebug Sword"
+        dmg: "255"
   normal:
     1:
       name: "&eIce Pick"
@@ -2684,7 +2773,7 @@ bid:
       quantity: 
         min: "1"
         max: "1"
-      price: "15000"
+      price: "20000"
     2:
       item: "totem of undying"
       name: "&eSchemat &7< &f&lklatat3 &r&7>"
@@ -2700,7 +2789,7 @@ bid:
       quantity: 
         min: "1"
         max: "1"
-      price: "15000"
+      price: "20000"
     3:
       item: "totem of undying"
       name: "&eSchemat &7< &f&lspodniet3 &r&7>"
@@ -2716,8 +2805,8 @@ bid:
       quantity: 
         min: "1"
         max: "1"
-      price: "15000"
-    3:
+      price: "20000"
+    3a:
       item: "totem of undying"
       name: "&eSchemat &7< &f&lbutyt3 &r&7>"
       lore:
@@ -2732,7 +2821,7 @@ bid:
       quantity: 
         min: "1"
         max: "1"
-      price: "15000"
+      price: "20000"
     4:
       item: "totem of undying"
       name: "&eSchemat &7< &f&ltempered_sword &r&7>"
@@ -2748,7 +2837,7 @@ bid:
       quantity: 
         min: "1"
         max: "1"
-      price: "15000"
+      price: "20000"
     5:
       item: "totem of undying"
       name: "&eSchemat &7< &f&ljackhammer &r&7>"
@@ -2780,7 +2869,7 @@ bid:
       quantity: 
         min: "1"
         max: "1"
-      price: "24000"
+      price: "20000"
     7:
       item: "totem of undying"
       name: "&eSchemat &7< &f&ll9 &r&7>"
@@ -2796,7 +2885,7 @@ bid:
       quantity: 
         min: "1"
         max: "1"
-      price: "24000"
+      price: "20000"
     8:
       item: "totem of undying"
       name: "&eSchemat &7< &f&lmp5 &r&7>"
@@ -2812,7 +2901,7 @@ bid:
       quantity: 
         min: "1"
         max: "1"
-      price: "8000"
+      price: "14000"
     9:
       item: "totem of undying"
       name: "&eSchemat &7< &f&lm4 &r&7>"
@@ -2828,7 +2917,7 @@ bid:
       quantity: 
         min: "1"
         max: "1"
-      price: "24000"
+      price: "25000"
     10:
       item: "totem of undying"
       name: "&eSchemat &7< &f&lhazmat &r&7>"
@@ -3552,7 +3641,7 @@ quest:
         amount:
           min: "2"
           max: "4"
-    rewardgui: ";x czeki [10],;x bloki Zelaza"
+    rewardgui: ";x czeki [10], ;x bloki Zelaza"
     dialog:
       intro: "Zrobiła mi się dziura w dachu, weź mi przynieś trochę kamienia."
       complete: "Wreszcie nie będzie mi tak wiało."
@@ -3585,7 +3674,7 @@ quest:
         amount:
           min: "2"
           max: "2"
-    rewardgui: ";x czeki [10],;x bloki zlota"
+    rewardgui: ";x czeki [10], ;x bloki zlota"
     dialog:
       intro: "Zabrakło nam piasku na strzelnicy, ogranieś trochę?"
       complete: "Dzięki wielkie, to biorę się do roboty."
@@ -3624,7 +3713,7 @@ quest:
         amount:
           min: "20"
           max: "25"
-    rewardgui: ";x czeków[100],;x pieczonego miesa"
+    rewardgui: ";x czeków[100], ;x pieczonego miesa"
     dialog:
       intro: "Poszukaj mi nerki, wypadła mi."
       complete: "No i git."
@@ -3657,7 +3746,7 @@ quest:
         amount:
           min: "7"
           max: "8"
-    rewardgui: ";x czeki [20],;x bloków węgla"
+    rewardgui: ";x czeki [20], ;x bloków węgla"
     dialog:
       intro: "Nasza wioska głoduje, przynieś nam trochę pszenicy."
       complete: "Wykarmiłeś kilka głodnych pysków."
@@ -3690,7 +3779,7 @@ quest:
         amount:
           min: "10"
           max: "10"
-    rewardgui: ";x czeki [50],;x bloków lapisu"
+    rewardgui: ";x czeki [50], ;x bloków lapisu"
     dialog:
       intro: "Ostatnio rozjebało mi się kowadło, ogarnij trochę żelaza na jego naprawę."
       complete: "Zaraz to kowadło będzie jak nowe."
@@ -3723,7 +3812,7 @@ quest:
         amount:
           min: "10"
           max: "10"
-    rewardgui: ";x czeków [20],;x bloki miedzi"
+    rewardgui: ";x czeków [20], ;x bloki miedzi"
     dialog:
       intro: "W kuźni brakuje węgla do wypalania."
       complete: "Teraz będzie się grzało kurwa."
@@ -3756,7 +3845,7 @@ quest:
         amount:
           min: "2"
           max: "3"
-    rewardgui: ";x czeki [20],;x diamety"
+    rewardgui: ";x czeki [20], ;x diamety"
     dialog:
       intro: "Znajdź mi jakiś ładny kamień."
       complete: "Niezłe gówno."
@@ -3789,7 +3878,7 @@ quest:
         amount:
           min: "3"
           max: "4"
-    rewardgui: ";x czeków[10],;x bloki żelaza"
+    rewardgui: ";x czeków[10], ;x bloki żelaza"
     dialog:
       intro: "Dużo tego gówna rozniósłoby się po naszej wiosce. Zrób coś z tym."
       complete: "Od razu jakoś przestało śmierdzieć."
@@ -3822,7 +3911,7 @@ quest:
         amount:
           min: "3"
           max: "4"
-    rewardgui: ";x czeki [20],;x bloki żelaza"
+    rewardgui: ";x czeki [20], ;x bloki żelaza"
     dialog:
       intro: "Pewne skurwysyny wybiły mi okno, pogadaj z nimi."
       complete: "Świetnie, jeszcze okno muszę wymienić..."
@@ -3855,7 +3944,7 @@ quest:
         amount:
           min: "3"
           max: "4"
-    rewardgui: ";x czeków [20],;x bloki żelaza"
+    rewardgui: ";x czeków [20], ;x bloki żelaza"
     dialog:
       intro: "Co oni kurwa myślą, że są Spider-Manem?"
       complete: "Teraz to już został tylko jeden prawdziwy."
@@ -3944,7 +4033,7 @@ quest:
         amount:
           min: "3"
           max: "4"
-    rewardgui: ";x czeków [20],;x bloki żelaza"
+    rewardgui: ";x czeków [20], ;x bloki żelaza"
     dialog:
       intro: "Trochę talibów spadło w naszej okolicy."
       complete: "Creeper oh men."
@@ -4037,7 +4126,7 @@ quest:
         amount:
           min: "3"
           max: "4"
-    rewardgui: ";x czeki [100],;x bloki żelaza"
+    rewardgui: ";x czeki [100], ;x bloki żelaza"
     dialog:
       intro: "Siema, zgubiłem paczkę z zasobami, możesz ją znaleźć?"
       complete: "Dzięki wielkie, ciekawe co jest w środku, jak to kurwa pusta."
@@ -4102,7 +4191,7 @@ quest:
         amount:
           min: "3"
           max: "4"
-    rewardgui: ";x czeki [100],;x bloki żelaza"
+    rewardgui: ";x czeki [100], ;x bloki żelaza"
     dialog:
       intro: "Siema, zgubiłem paczkę z zasobami, możesz ją znaleźć?"
       complete: "Dzięki wielkie, ciekawe co jest w środku, jak to kurwa pusta."
@@ -4135,7 +4224,7 @@ quest:
         amount:
           min: "1"
           max: "1"
-    rewardgui: ";x czeków [100],;x blok diamentu"
+    rewardgui: ";x czeków [100], ;x blok diamentu"
     dialog:
       intro: "Zabrakło mi materiałów do kuźni."
       complete: "Teraz będę mógł wytwarzać bronie."
@@ -4168,7 +4257,7 @@ quest:
         amount:
           min: "5"
           max: "5"
-    rewardgui: ";x czeków [100],;x bloków złota"
+    rewardgui: ";x czeków [100], ;x bloków złota"
     dialog:
       intro: "Mamy deficyt drewna, pomożesz nam z tym?"
       complete: "Dzięki wielkie"
@@ -4209,7 +4298,7 @@ quest:
         amount:
           min: "1"
           max: "1"
-    rewardgui: ";x czeki [1000],;x blok diamentu"
+    rewardgui: ";x czeki [1000], ;x blok diamentu"
     dialog:
       intro: "Weź, kaj, pochytaj 2 skręty."
       complete: "No i bajka."
@@ -4242,7 +4331,7 @@ quest:
         amount:
           min: "5"
           max: "10"
-    rewardgui: ";x czeków [50],;x Złotych Jabłkek"
+    rewardgui: ";x czeków [50], ;x Złotych Jabłkek"
     dialog:
       intro: "Potrzebuje czegoś ciepłego."
       complete: "Dzięki teraz bedę miał ciepło w chacie"
@@ -4280,7 +4369,7 @@ quest:
         amount:
           min: "1"
           max: "1"
-    rewardgui: ";x czeków[20],;x blok diamentu"
+    rewardgui: ";x czeków[20], ;x blok diamentu"
     dialog:
       intro: "Na magazynie skończył nam się redstone i lapis, załatw trochę dla nas."
       complete: "Teraz już nie zabraknie."
@@ -4322,7 +4411,7 @@ quest:
         amount:
           min: "8"
           max: "9"
-    rewardgui: ";x czeków [1000],;x bloków żelaza"
+    rewardgui: ";x czeków [1000], ;x bloków żelaza"
     dialog:
       intro: "Siema zajarać musze bo sie udusze!"
       complete: "Dzięki może nie skończe jak Grzesiu."
@@ -4355,7 +4444,7 @@ quest:
         amount:
           min: "32"
           max: "48"
-    rewardgui: ";x czeków [20],;x Melonów"
+    rewardgui: ";x czeków [20], ;x Melonów"
     dialog:
       intro: "Siema potrzebujemy dyn do stworzenia golemów."
       complete: "Dzięki bardzo bratku."
@@ -4388,7 +4477,7 @@ quest:
         amount:
           min: "8"
           max: "9"
-    rewardgui: ";x czeków [50],;x bloków żelaza"
+    rewardgui: ";x czeków [50], ;x bloków żelaza"
     dialog:
       intro: "Dużo tego gówna rozniósłoby się po naszej wiosce. Zrób coś z tym."
       complete: "Od razu jakoś przestało śmierdzieć."
@@ -4421,7 +4510,7 @@ quest:
         amount:
           min: "8"
           max: "9"
-    rewardgui: ";x czeków [50],;x bloków żelaza"
+    rewardgui: ";x czeków [50], ;x bloków żelaza"
     dialog:
       intro: "Pewne skurwysyny wybiły mi okno, pogadaj z nimi."
       complete: "Świetnie, jeszcze okno muszę wymienić..."
@@ -4454,7 +4543,7 @@ quest:
         amount:
           min: "9"
           max: "10"
-    rewardgui: ";x czeków [50],;x bloków żelaza"
+    rewardgui: ";x czeków [50], ;x bloków żelaza"
     dialog:
       intro: "Co oni kurwa myślą, że są Spider-Manem z jaskin?"
       complete: "Teraz to już został tylko jeden prawdziwy."
@@ -4487,7 +4576,7 @@ quest:
         amount:
           min: "8"
           max: "9"
-    rewardgui: ";x czeków [50],;x bloków żelaza"
+    rewardgui: ";x czeków [50], ;x bloków żelaza"
     dialog:
       intro: "Bambiki nam sie ladderuja przez mury zrób coś z tym."
       complete: "Teraz czarnuchy mają swoją nauczkę."
@@ -4520,7 +4609,7 @@ quest:
         amount:
           min: "7"
           max: "7"
-    rewardgui: ";x czeków [50],;x bloków złota"
+    rewardgui: ";x czeków [50], ;x bloków złota"
     dialog:
       intro: "Brakuje nam bekonu weź pomóż."
       complete: "No i grill musi teraz oddać."
@@ -4553,7 +4642,7 @@ quest:
         amount:
           min: "6"
           max: "12"
-    rewardgui: ";x czeków [50],;x bloków żelaza"
+    rewardgui: ";x czeków [50], ;x bloków żelaza"
     dialog:
       intro: "Trochę talibów spadło w naszej okolicy."
       complete: "Creeper oh men."
@@ -4586,7 +4675,7 @@ quest:
         amount:
           min: "5"
           max: "9"
-    rewardgui: ";x czeków [50],;x bloków złota"
+    rewardgui: ";x czeków [50], ;x bloków złota"
     dialog:
       intro: "Potrzebujemy na szybko skóry z krowy."
       complete: "Enchant zaraz bedzię gotowy."
@@ -4651,7 +4740,7 @@ quest:
         amount:
           min: "7"
           max: "9"
-    rewardgui: ";x czeki [1000],;x Bloków Zelaza"
+    rewardgui: ";x czeki [1000], ;x Bloków Zelaza"
     dialog:
       intro: "Siema, zgubiłem paczkę z zasobami, możesz ją znaleźć?"
       complete: "Dzięki wielkie, ciekawe co jest w środku, jak to kurwa pusta."
@@ -4716,7 +4805,7 @@ quest:
         amount:
           min: "10"
           max: "12"
-    rewardgui: ";x czeki [1000],;x Bloków Zelaza"
+    rewardgui: ";x czeki [1000], ;x Bloków Zelaza"
     dialog:
       intro: "Siema, zgubiłem paczkę z zasobami, możesz ją znaleźć?"
       complete: "Dzięki wielkie, ciekawe co jest w środku, jak to kurwa pusta."
@@ -4756,7 +4845,7 @@ quest:
         amount:
           min: "5"
           max: "6"
-    rewardgui: ";x czeki [2500],;x bloków diamentów"
+    rewardgui: ";x czeki [2500], ;x bloków diamentów"
     dialog:
       intro: "Za niedługo bedę mieć impreze. Potrzebuje trochę alko."
       complete: "Ale sie najebiemy."
@@ -4795,7 +4884,7 @@ quest:
         amount:
           min: "5"
           max: "6"
-    rewardgui: ";x czeki [2500],;x bloków diamentów"
+    rewardgui: ";x czeki [2500], ;x bloków diamentów"
     dialog:
       intro: "Ostatnio zajebali mi ijust'a. Weź mi ogarnij coś w zamian."
       complete: "Ale to chmurzy, jo dupia."
@@ -4809,9 +4898,9 @@ quest:
         item: "rabbit hide"
         name: "&dButelka Wody"
         lore:
-          - "&fPół litra wody cristal  "
+          - "&fPół litra wody cristal"
           - "&fWoda służąca do napojenia się bądz"
-          - "&fZajebania przysaidu na nią "
+          - "&fZajebania przysaidu na nią"
         enchant:
           - "lure 5"
         amount:
@@ -4835,7 +4924,7 @@ quest:
         amount:
           min: "6"
           max: "6"
-    rewardgui: ";x czeki [2500],;x bloków diamentów"
+    rewardgui: ";x czeki [2500], ;x bloków diamentów"
     dialog:
       intro: "Moim czarnuchom zabrakło wody. Pomożesz?"
       complete: "Dzięki to więcej niz cała Afryka jest w stanie wygenerować przez rok."
@@ -4868,7 +4957,7 @@ quest:
         amount:
           min: "12"
           max: "16"
-    rewardgui: ";x czeki [1000],;x bloków złota"
+    rewardgui: ";x czeki [1000], ;x bloków złota"
     dialog:
       intro: "Potrzebujemy sporego zapasu melonów. Ogarnij tam troche."
       complete: "Dzięki teraz magazyn to sie nie domyka."
@@ -4901,7 +4990,7 @@ quest:
         amount:
           min: "20"
           max: "32"
-    rewardgui: ";x czeki [1000],;x bloków węgla"
+    rewardgui: ";x czeki [1000], ;x bloków węgla"
     dialog:
       intro: "Chcemy zrespić Wither'a, ale brakuje nam głow szkieletów. Ogarniesz temat?"
       complete: "Dzięki zaraz bedziemy go bić."
@@ -4934,7 +5023,7 @@ quest:
         amount:
           min: "8"
           max: "9"
-    rewardgui: ";x czeki [1000],;x bloków złota"
+    rewardgui: ";x czeki [1000], ;x bloków złota"
     dialog:
       intro: "Musisz pokonac kilka shulkerów. Nasza satelita wykrywa, że tych skurwesynów jest coraz więcej."
       complete: "Dzięki Wielkie Bratku."
@@ -4967,7 +5056,7 @@ quest:
         amount:
           min: "10"
           max: "12"
-    rewardgui: ";x czeki [1000],;x bloków żelaza"
+    rewardgui: ";x czeki [1000], ;x bloków żelaza"
     dialog:
       intro: "Blazy podpali mi chate ostatnio. Wez ich przekop."
       complete: "Dzięki Wielkie Bratku."
@@ -5015,7 +5104,7 @@ quest:
         amount:
           min: "1"
           max: "1"
-    rewardgui: ";x czeków [1000],;x blok netherytu"
+    rewardgui: ";x czeków [1000], ;x blok netherytu"
     dialog:
       intro: "Ostatnio duzo mobów tu chodzi. Daj im nauczkę."
       complete: "Dzięki Wielkie Bratku."
@@ -5048,7 +5137,7 @@ quest:
         amount:
           min: "5"
           max: "5"
-    rewardgui: ";x bloków diamentow,;x czeków [1000]"
+    rewardgui: ";x bloków diamentow, ;x czeków [1000]"
     dialog:
       intro: "smok nasrał mi na wycieraczke NO WAY zrob z nim porządek"
       complete: "dziena tera zaden petung mi nie nasra"
@@ -5081,7 +5170,7 @@ quest:
         amount:
           min: "12"
           max: "16"
-    rewardgui: ";x czeków [1000],;x bloków złota"
+    rewardgui: ";x czeków [1000], ;x bloków złota"
     dialog:
       intro: "Endermany zajebali mi blok diaxów ostatnio. Wez ich przekop."
       complete: "Dziena Maciuś."
@@ -5146,7 +5235,7 @@ quest:
         amount:
           min: "15"
           max: "20"
-    rewardgui: ";x czeków [1000],;x Bloków Zelaza"
+    rewardgui: ";x czeków [1000], ;x Bloków Zelaza"
     dialog:
       intro: "Siema, zgubiłem paczkę z zasobami, możesz ją znaleźć?"
       complete: "Dzięki wielkie, ciekawe co jest w środku, jak to kurwa pusta."
@@ -5211,7 +5300,7 @@ quest:
         amount:
           min: "22"
           max: "26"
-    rewardgui: ";x czeków [1000],;x Bloków Zelaza"
+    rewardgui: ";x czeków [1000], ;x Bloków Zelaza"
     dialog:
       intro: "Siema, zgubiłem paczkę z zasobami, możesz ją znaleźć?"
       complete: "Dzięki wielkie, ciekawe co jest w środku, jak to kurwa pusta."
@@ -5250,7 +5339,7 @@ quest:
         amount:
           min: "5"
           max: "5"
-    rewardgui: ";x block netheru,;x blokow diamentu,;x czeków [2500]"
+    rewardgui: ";x block netheru, ;x blokow diamentu, ;x czeków [2500]"
     dialog:
       intro: "Potrzebujemy HQM mozesz nam to zalatwic"
       complete: "Dobra teraz nasza baza jest git."
@@ -5277,7 +5366,7 @@ quest:
         lore:
           - "&fPół litra wody cristal"
           - "&fWoda służąca do napojenia się bądz"
-          - "&fZajebania przysaidu na nią "
+          - "&fZajebania przysaidu na nią"
         enchant:
           - "lure 5"
         amount:
@@ -5301,7 +5390,7 @@ quest:
         amount:
           min: "10"
           max: "12"
-    rewardgui: ";x czeków [2500],;x blocków diamentów"
+    rewardgui: ";x czeków [2500], ;x blocków diamentów"
     dialog:
       intro: "Ostatnio zajebali mi ijust'a. Weź mi ogarnij coś w zamian. + przyniesc troche wody"
       complete: "Ale to chmurzy, jo dupia."
@@ -5334,7 +5423,7 @@ quest:
         amount:
           min: "10"
           max: "12"
-    rewardgui: ";x czeków [2500],;x blocków diamentów"
+    rewardgui: ";x czeków [2500], ;x blocków diamentów"
     dialog:
       intro: "Potrzebujemy Beaconow mozesz nam to zalatwic"
       complete: "Dobra teraz baza bedzie sie swiecic jak psu jajca"
@@ -5442,7 +5531,7 @@ quest:
         amount:
           min: "40"
           max: "45"
-    rewardgui: ";x czeki [5000],;x blocków złota"
+    rewardgui: ";x czeki [5000], ;x bloków złota"
     dialog:
       intro: "Potrzebujemy Kolorowych wełn"
       complete: "Super Gratki za wytrwalosc"
@@ -5475,7 +5564,7 @@ quest:
         amount:
           min: "40"
           max: "48"
-    rewardgui: ";x czeki [5000],;x blocków diamentów"
+    rewardgui: ";x czeki [5000], ;x blocków diamentów"
     dialog:
       intro: "Chcemy zrespić Wither'ów na giga rida, ale brakuje nam głow szkieletów. Ogarniesz temat?"
       complete: "Dzięki zaraz bedziemy go bić."
@@ -5508,7 +5597,7 @@ quest:
         amount:
           min: "64"
           max: "64"
-    rewardgui: ";x czeki [5000],;x blocków emeraldów"
+    rewardgui: ";x czeki [5000], ;x blocków emeraldów"
     dialog:
       intro: "Zrajdowali mi wioske w coin master teraz zrajduj ich wioske irl."
       complete: "Mogles im odlaczyc kabel od internetu ale to tez bedzie dzialac."
@@ -5541,7 +5630,7 @@ quest:
         amount:
           min: "12"
           max: "20"
-    rewardgui: ";x czeki [5000],;x gąbek"
+    rewardgui: ";x czeki [5000], ;x gąbek"
     dialog:
       intro: "Mordo najeb skośno okich. Zajebali mi towar."
       complete: "Dzięki Wielkie, a masz towar?"
@@ -5557,7 +5646,6 @@ quest:
           min: "5"
           max: "5"
     targetgui: "Pokonaj ;x smoków endu"
-    reward:
     reward:
       1:
         item: "paper"
@@ -5575,7 +5663,7 @@ quest:
         amount:
           min: "64"
           max: "64"
-    rewardgui: ";x czeki [5000],;x blocków złota"
+    rewardgui: ";x czeki [5000], ;x bloków złota"
     dialog:
       intro: "Smoki nasrały mi na dywan. Wez ich przekop."
       complete: "Dzięki Wielkie Bratku."
@@ -5608,7 +5696,7 @@ quest:
         amount:
           min: "64"
           max: "64"
-    rewardgui: ";x czeki [5000],;x blocków emeraldów"
+    rewardgui: ";x czeki [5000], ;x blocków emeraldów"
     dialog:
       intro: "Golemy ojebaly mnie na ticketa. Wez ich przekop."
       complete: "Dzięki Wielkie Bratku."
@@ -5646,7 +5734,7 @@ quest:
         amount:
           min: "64"
           max: "64"
-    rewardgui: ";x czeki [5000],;x blocków lapisu,;x bloków redstone'a"
+    rewardgui: ";x czeki [5000], ;x blocków lapisu, ;x bloków redstone'a"
     dialog:
       intro: "Wardeny podpali mi chate ostatnio. Wez ich przekop."
       complete: "Dzięki Wielkie Bratku."
@@ -5716,7 +5804,7 @@ quest:
         amount:
           min: "64"
           max: "64"
-    rewardgui: ";x czeki [5000],;x blocków żelaza"
+    rewardgui: ";x czeki [5000], ;x blocków żelaza"
     dialog:
       intro: "Siema, zgubiłem paczkę z zasobami, możesz ją znaleźć?"
       complete: "Dzięki wielkie, ciekawe co jest w środku, jak to kurwa pusta."
@@ -5786,7 +5874,7 @@ quest:
         amount:
           min: "64"
           max: "64"
-    rewardgui: ";x czeki [5000],;x blocków żelaza"
+    rewardgui: ";x czeki [5000], ;x blocków żelaza"
     dialog:
       intro: "Siema, zgubiłem paczkę z zasobami, możesz ją znaleźć?"
       complete: "Dzięki wielkie, ciekawe co jest w środku, jak to kurwa pusta."
@@ -5893,7 +5981,7 @@ quest:
         lore:
           - "&fPół litra wody cristal"
           - "&fWoda służąca do napojenia się bądz"
-          - "&fZajebania przysaidu na nią "
+          - "&fZajebania przysaidu na nią"
         enchant:
           - "lure 5"
         amount:
@@ -5944,7 +6032,8 @@ quest:
           max: "1337"
       5:
         type: "skeleton"
-        name: "&eScav T5"
+        name: 
+          - "&eScav T5"
         amount:
           min: "50"
           max: "50"
@@ -5966,7 +6055,7 @@ quest:
         amount:
           min: "4"
           max: "4"
-    rewardgui: ";x bloków diamentów,;x czeków [250000]"
+    rewardgui: ";x bloków diamentów, ;x czeków [250000]"
     dialog:
       intro: "pomocy rajdują mnie giga zergi"
       complete: "ale stomp masz fuicy a zapłate"
@@ -5999,7 +6088,7 @@ quest:
         amount:
           min: "2"
           max: "2"
-    rewardgui: ";x czeki [20],;x bloki zelaza"
+    rewardgui: ";x czeki [20], ;x bloki zelaza"
     dialog:
       intro: "Ujebała mnie przczoła, musi ponieść kare"
       complete: "Teraz jest fair"
@@ -6037,7 +6126,7 @@ quest:
         amount:
           min: "2"
           max: "2"
-    rewardgui: ";x czeki [20],;x bloki złota"
+    rewardgui: ";x czeki [20], ;x bloki złota"
     dialog:
       intro: "Przynies mi pare grzybków do mojej grzybowej"
       complete: "Dzięki, te czerwone sobie ususze"
@@ -6070,7 +6159,7 @@ quest:
         amount:
           min: "2"
           max: "2"
-    rewardgui: ";x czeki [20],;x bloki emeraldu"
+    rewardgui: ";x czeki [20], ;x bloki emeraldu"
     dialog:
       intro: "Jebany kot zjadl mi łososia z stawu ogarni mi nowego"
       complete: "teraz rybka sobie pływa"
@@ -6103,7 +6192,7 @@ quest:
         amount:
           min: "2"
           max: "3"
-    rewardgui: ";x czeki [20],;x bloki złota"
+    rewardgui: ";x czeki [20], ;x bloki złota"
     dialog:
       intro: "podobno rosliny wodne są bardzo dobre, przynies mi trochu"
       complete: "dzieki w chuj"
@@ -6136,7 +6225,7 @@ quest:
         amount:
           min: "1"
           max: "1"
-    rewardgui: ";x czeków [100],;x blok diamentu"
+    rewardgui: ";x czeków [100], ;x blok diamentu"
     dialog:
       intro: "Gwiazdy akurat sie tak ułożyły że potrzebuje ametyst"
       complete: "Dzięki fanie świeci"
@@ -6169,7 +6258,7 @@ quest:
         amount:
           min: "20"
           max: "32"
-    rewardgui: ";x czeki [1000],;x bloków węgla"
+    rewardgui: ";x czeki [1000], ;x bloków węgla"
     dialog:
       intro: "Widzialem na tictoku ciekawe moby z jaskini ogarni mi pare"
       complete: "OMG ale cute"
@@ -6202,7 +6291,7 @@ quest:
         amount:
           min: "10"
           max: "12"
-    rewardgui: ";x czeki [1000],;x bloków złota"
+    rewardgui: ";x czeki [1000], ;x bloków złota"
     dialog:
       intro: "chce zostac pszczelarzem ale craftowane ule sa cringe, znajdz pare dzikich"
       complete: "tera moge wychodowac bzuumi!"
@@ -6214,7 +6303,8 @@ quest:
     entity:
       1:
         type: "skeleton"
-        name: "&eScav T1"
+        name: 
+          - "&eScav T1"
         amount:
           min: "3"
           max: "4"
@@ -6243,7 +6333,8 @@ quest:
     entity:
       1:
         type: "skeleton"
-        name: "&eScav T2"
+        name: 
+          - "&eScav T2"
         amount:
           min: "6"
           max: "8"
@@ -6272,7 +6363,8 @@ quest:
     entity:
       1:
         type: "skeleton"
-        name: "&eScav T3"
+        name: 
+          - "&eScav T3"
         amount:
           min: "12"
           max: "14"
@@ -6639,6 +6731,7 @@ cpun:
       price:
         buy: "200"
         sell: "100"
+      random: "4"
       name: "&f&lKacuu miks - mały"
       lore:
         - "&dMały miks różnego rodzaju dragów i innych zasobów kuchni."
@@ -6646,30 +6739,107 @@ cpun:
         - "infinity 10"
       effects:
         1:
-          effect: "Strength"
-          time: "30 seconds"
+          effect: "wither"
+          time: "180 seconds"
           power: "1"
         2:
-          effect: "resistance"
-          time: "5 seconds"
-          power: "3"
+          effect: "poison"
+          time: "180 seconds"
+          power: "1"
         3:
-          effect: "night vision"
-          time: "300 seconds"
-          power: "10"
+          effect: "nausea"
+          time: "180 seconds"
+          power: "1"
         4:
-          effect: "haste"
-          time: "60 seconds"
+          effect: "slowness"
+          time: "180 seconds"
           power: "1"
         5:
-          effect: "wither"
-          time: "60 seconds"
+          effect: "blindness"
+          time: "180 seconds"
+          power: "1"
+        6:
+          effect: "Glowing"
+          time: "180 seconds"
+          power: "1"
+        7:
+          effect: "hunger"
+          time: "180 seconds"
+          power: "1"
+        8:
+          effect: "mining fatigue"
+          time: "180 seconds"
+          power: "1"
+        9:
+          effect: "darkness"
+          time: "180 seconds"
+          power: "1"
+        10:
+          effect: "weakness"
+          time: "180 seconds"
+          power: "1"
+        11:
+          effect: "unluck"
+          time: "180 seconds"
+          power: "1"
+        12:
+          effect: "levitation"
+          time: "180 seconds"
+          power: "1"
+        13:
+          effect: "speed"
+          time: "180 seconds"
+          power: "1"
+        14:
+          effect: "haste"
+          time: "180 seconds"
+          power: "1"
+        15:
+          effect: "strength"
+          time: "180 seconds"
+          power: "1"
+        16:
+          effect: "jump boost"
+          time: "180 seconds"
+          power: "1"
+        17:
+          effect: "regenaration"
+          time: "180 seconds"
+          power: "1"
+        18:
+          effect: "resistance"
+          time: "180 seconds"
+          power: "1"
+        19:
+          effect: "fire resistance"
+          time: "180 seconds"
+          power: "1"
+        20:
+          effect: "water breathing"
+          time: "180 seconds"
+          power: "1"
+        21:
+          effect: "night vision"
+          time: "180 seconds"
+          power: "1"
+        22:
+          effect: "health boost"
+          time: "180 seconds"
+          power: "1"
+        23:
+          effect: "absorption"
+          time: "180 seconds"
+          power: "1"
+        24:
+          effect: "saturation"
+          time: "180 seconds"
           power: "1"
     16:
       item: "honey bottle"
       price:
         buy: "400"
         sell: "200"
+      random: "6"
       name: "&f&lKacuu miks - duży"
       lore:
         - "&dDuzy miks różnego rodzaju dragów i innych zasobów kuchni."
@@ -6677,30 +6847,75 @@ cpun:
         - "infinity 10"
       effects:
         1:
-          effect: "Strength"
-          time: "60 seconds"
-          power: "1"
+          effect: "nausea"
+          time: "360 seconds"
+          power: "3"
         2:
-          effect: "resistance"
-          time: "10 seconds"
+          effect: "Glowing"
+          time: "360 seconds"
           power: "3"
         3:
-          effect: "night vision"
-          time: "600 seconds"
-          power: "10"
+          effect: "darkness"
+          time: "360 seconds"
+          power: "3"
         4:
-          effect: "haste"
-          time: "120 seconds"
-          power: "2"
+          effect: "levitation"
+          time: "360 seconds"
+          power: "3"
         5:
-          effect: "wither"
-          time: "20 seconds"
-          power: "1"
+          effect: "speed"
+          time: "360 seconds"
+          power: "3"
+        6:
+          effect: "haste"
+          time: "360 seconds"
+          power: "3"
+        7:
+          effect: "strength"
+          time: "360 seconds"
+          power: "3"
+        8:
+          effect: "jump boost"
+          time: "360 seconds"
+          power: "3"
+        9:
+          effect: "regenaration"
+          time: "360 seconds"
+          power: "3"
+        10:
+          effect: "resistance"
+          time: "360 seconds"
+          power: "3"
+        11:
+          effect: "fire resistance"
+          time: "360 seconds"
+          power: "3"
+        12:
+          effect: "water breathing"
+          time: 360 seconds"
+          power: "3"
+        13:
+          effect: "night vision"
+          time: "360 seconds"
+          power: "3"
+        14:
+          effect: "health boost"
+          time: "360 seconds"
+          power: "3"
+        15:
+          effect: "absorption"
+          time: "360 seconds"
+          power: "3"
+        16:
+          effect: "saturation"
+          time: "360 seconds"
+          power: "3"
     17:
       item: "honey bottle"
       price:
         buy: "600"
         sell: "300"
+      random: "8"
       name: "&f&lKacuu miks - XXL"
       lore:
         - "&dMiks kacaa wersja kebab mieso mieszana mieszana"
@@ -6708,30 +6923,66 @@ cpun:
         - "infinity 10"
       effects:
         1:
-          effect: "Strength"
-          time: "60 seconds"
-          power: "2"
+          effect: "darkness"
+          time: "900 seconds"
+          power: "5"
         2:
-          effect: "resistance"
-          time: "10 seconds"
-          power: "3"
+          effect: "levitation"
+          time: "900 seconds"
+          power: "5"
         3:
-          effect: "night vision"
-          time: "600 seconds"
-          power: "10"
+          effect: "speed"
+          time: "900 seconds"
+          power: "5"
         4:
           effect: "haste"
-          time: "180 seconds"
-          power: "2"
+          time: "900 seconds"
+          power: "5"
         5:
-          effect: "wither"
-          time: "20 seconds"
-          power: "1"
+          effect: "strength"
+          time: "900 seconds"
+          power: "5"
+        6:
+          effect: "jump boost"
+          time: "900 seconds"
+          power: "5"
+        7:
+          effect: "regenaration"
+          time: "900 seconds"
+          power: "5"
+        8:
+          effect: "resistance"
+          time: "900 seconds"
+          power: "5"
+        9:
+          effect: "fire resistance"
+          time: "900 seconds"
+          power: "5"
+        10:
+          effect: "water breathing"
+          time: 900 seconds"
+          power: "5"
+        11:
+          effect: "night vision"
+          time: "900 seconds"
+          power: "5"
+        12:
+          effect: "health boost"
+          time: "900 seconds"
+          power: "5"
+        13:
+          effect: "absorption"
+          time: "900 seconds"
+          power: "5"
+        14:
+          effect: "saturation"
+          time: "900 seconds"
+          power: "5"
     18:
       item: "honey bottle"
       price:
-        buy: "4000"
-        sell: "2000"
+        buy: "20000"
+        sell: "5000"
       name: "&f&lSARS-27012"
       lore:
         - "&dDziwka strzykawka, zajebana z jakiegoś"
@@ -6761,7 +7012,7 @@ cpun:
           power: "15"
         6:
           effect: "regeneration"
-          time: "300 seconds"
+          time: "20 seconds"
           power: "4"
         7:
           effect: "wither"
@@ -6802,6 +7053,224 @@ cpun:
         - "&aZbióry konopii"
       enchant:
         - "unbreaking 9"
+    22:
+      item: "honey bottle"
+      price:
+        buy: "3000"
+        sell: "1500"
+      name: "&f&lMix Kopacza maly"
+      lore:
+        - "&dMix dla kopacza"
+        - "&dKopie jak skurwesyn."
+      enchant:
+        - "infinity 2"
+      effects:
+        1:
+          effect: "night vision"
+          time: "2000 seconds"
+          power: "10"
+        2:
+          effect: "speed"
+          time: "800 seconds"
+          power: "2"
+        3:
+          effect: "saturation"
+          time: "900 seconds"
+          power: "5"
+    23:
+      item: "honey bottle"
+      price:
+        buy: "5000"
+        sell: "2500"
+      name: "&f&lMix Kopacza duzy"
+      lore:
+        - "&dMix dla kopacza"
+        - "&dKopie jak skurwesyn."
+      enchant:
+        - "infinity 2"
+      effects:
+        1:
+          effect: "night vision"
+          time: "6000 seconds"
+          power: "9"
+        2:
+          effect: "speed"
+          time: "2400 seconds"
+          power: "3"
+        3:
+          effect: "saturation"
+          time: "2400 seconds"
+          power: "5"
+    24:
+      item: "honey bottle"
+      price:
+        buy: "3000"
+        sell: "1500"
+      name: "&f&lMix dla kuriera dpd maly"
+      lore:
+        - "&dMix dla kuriera"
+        - "&dMozna upierdalac iveco."
+      enchant:
+        - "infinity 6"
+      effects:
+        1:
+          effect: "night vision"
+          time: "800 seconds"
+          power: "10" 
+        2:
+          effect: "Dolphin's Grace"
+          time: "800 seconds"
+          power: "2"
+        3:
+          effect: "speed"
+          time: "800 seconds"
+          power: "3"
+        4:
+          effect: "Water Breathing"
+          time: "800 seconds"
+          power: "2"
+    25:
+      item: "honey bottle"
+      price:
+        buy: "5000"
+        sell: "2500"
+      name: "&f&lMix dla kuriera dpd duzy"
+      lore:
+        - "&dMix dla kuriera"
+        - "&dMozna upierdalac iveco."
+      enchant:
+        - "infinity 6"
+      effects:
+        1:
+          effect: "night vision"
+          time: "1600 seconds"
+          power: "10" 
+        2:
+          effect: "Dolphin's Grace"
+          time: "1600 seconds"
+          power: "3"
+        3:
+          effect: "speed"
+          time: "1600 seconds"
+          power: "4"
+        4:
+          effect: "Water Breathing"
+          time: "1600 seconds"
+          power: "3"
+    26:
+      item: "honey bottle"
+      price:
+        buy: "3000"
+        sell: "1500"
+      name: "&f&lMix dla fightera maly"
+      lore:
+        - "&dMix dla fightera"
+        - "&dCzuc moc w lapie."
+      enchant:
+        - "infinity 9"
+      effects:
+        2:
+          effect: "regeneration"
+          time: "900 seconds"
+          power: "2"
+        3:
+          effect: "saturation"
+          time: "900 seconds"
+          power: "5"
+        4:
+          effect: "resistance"
+          time: "900 seconds"
+          power: "3"
+    27:
+      item: "honey bottle"
+      price:
+        buy: "5000"
+        sell: "2500"
+      name: "&f&lMix dla fightera maly"
+      lore:
+        - "&dMix dla fightera"
+        - "&dCzuc moc w lapie."
+      enchant:
+        - "infinity 9"
+      effects:
+        2:
+          effect: "regeneration"
+          time: "2400 seconds"
+          power: "3"
+        3:
+          effect: "saturation"
+          time: "2400 seconds"
+          power: "5"
+        4:
+          effect: "resistance"
+          time: "2400 seconds"
+          power: "3"
+    28:
+      item: "honey bottle"
+      price:
+        buy: "50"
+        sell: "25"
+      rain: "true"
+      name: "&f&lZeus Mix"
+      lore:
+        - "&dMix do skakania po chatach"
+        - "&dTwoj stary pawel jumper."
+      enchant:
+        - "infinity 10"
+      effects:
+        2:
+          effect: "jump boost"
+          time: "120 seconds"
+          power: "100"
+    29:
+      item: "honey bottle"
+      price:
+        buy: "100000"
+        sell: "50000"
+      rain: "true"
+      name: "&f&lUltimate kacuu mix"
+      lore:
+        - "&dPetarda w plynie skurwesynie"
+      enchant:
+        - "power 10"
+      effects:
+        1:
+          effect: "speed"
+          time: "7200 seconds"
+          power: "10"
+        2:
+          effect: "fire resistance"
+          time: "7200 seconds"
+          power: "10"
+        3:
+          effect: "resistance"
+          time: "7200 seconds"
+          power: "4"
+        4:
+          effect: "regeneratwion"
+          time: "7200 seconds"
+          power: "4"
+        5:
+          effect: "Dolphin's Grace"
+          time: "7200 seconds"
+          power: "10"
+        6:
+          effect: "water Breathing"
+          time: "7200 seconds"
+          power: "10"
+        7:
+          effect: "saturation"
+          time: "7200 seconds"
+          power: "10"
+        8:
+          effect: "night vision"
+          time: "7200 seconds"
+          power: "10"
+        9:
+          effect: "absorption"
+          time: "7200 seconds"
+          power: "10"
+
 
 plants:
   drop-seeds:
@@ -6923,7 +7392,7 @@ joe:
       price: "0.1"
     10:
       item: "oak door"
-      price: "0.1"
+      price: "0"
     11:
       item: "oak trapdoor"
       price: "0.1"
@@ -7861,19 +8330,19 @@ joe:
       price: "2"
     295:
       item: "cut copper"
-      price: "5"
+      price: "1"
     296:
       item: "cut copper stairs"
-      price: "5"
+      price: "1"
     297:
       item: "cut copper slab"
-      price: "5"
+      price: "1"
     298:
       item: "waxed copper block"
-      price: "5"
+      price: "1"
     299:
       item: "oxidized copper"
-      price: "5"
+      price: "1"
     300:
       item: "white wool"
       price: "4"
@@ -8023,7 +8492,7 @@ joe:
           sell: "true"
         buy:
           buy: "true"
-    341:
+    341a:
       item: "ice"
       price: "1.5"
     342:
@@ -8813,7 +9282,7 @@ joe:
     528:
       item: "mangrove chest boat"
       price: "2.6"
-    527:
+    527a:
       item: "mangrove boat"
       price: "1"
     529:
@@ -8873,10 +9342,10 @@ joe:
     547:
       item: "music disc relic"
       price: "800"
-    547:
+    547a:
       item: "music disc 5"
       price: "800"
-    547:
+    547b:
       item: "music disc pigstep"
       price: "800"    
     548:
@@ -9014,7 +9483,7 @@ joe:
           buy: "true"
     583f:
       item: "golden apple"
-      price: "250"
+      price: "200"
       wyjatek:
         sell:
           sell: "true"
@@ -9274,13 +9743,13 @@ joe:
       price: "180"
     611:
       item: "copper block"
-      price: "45"
+      price: "9"
     612:
       item: "raw copper"
-      price: "4"
+      price: "0.2"
     613:
       item: "raw copper block"
-      price: "36"
+      price: "2"
     614:
       item: "gold block"
       price: "270"
@@ -9342,7 +9811,7 @@ joe:
           buy: "true"
     628:
       item: "copper ingot"
-      price: "5"
+      price: "1"
       wyjatek:
         sell:
           sell: "true"
@@ -9350,7 +9819,7 @@ joe:
           buy: "true"
     629:
       item: "gold ingot"
-      price: "30"
+      price: "15"
       wyjatek:
         sell:
           sell: "true"
@@ -9514,7 +9983,7 @@ joe:
       wyjatek:
         sell:
           sell: "true"
-    661:
+    661a:
       item: "redstone"
       price: "2"
       wyjatek:
@@ -9698,7 +10167,7 @@ joe:
       name: "&ePoncho"
       lore:
         - ""
-        - "&cGuns Resistance: &43%"
+        - "&cGuns Resistance: &44%"
         - ""
       enchant:
         - "protection 5"
@@ -10152,7 +10621,7 @@ joe:
       name: "&e&lNadajnik GPS"
       enchant:
         - "lure 10"
-      price: "500"
+      price: "1200"
       wyjatek:
         sell:
           sell: "true"
@@ -10257,9 +10726,9 @@ joe:
       item: "rabbit hide"
       name: "&dButelka Wody"
       lore:
-        - "&fPół litra wody cristal  "
+        - "&fPół litra wody cristal"
         - "&fWoda służąca do napojenia się bądz"
-        - "&fZajebania przysaidu na nią "
+        - "&fZajebania przysaidu na nią"
       enchant:
         - "lure 5"
       price: "1000"
@@ -10323,56 +10792,19 @@ joe:
       lore:
         - "&fUlubiona broń Grab'ów"
       price: "3500"
-    731:
-      item: "rabbit foot"
-      name: "&eHomemade shell"
-      ctd: "8"
-      lore:
-        - "&fAmunicja do &cDouble Barrel"
-      price: "80"
-    731a:
-      item: "rabbit foot"
-      name: "&eHomemade shell"
-      ctd: "8"
-      lore:
-        - "&fAmunicja do &c&lDouble Barrel"
-      price: "80"
     732:
       item: "wooden sword"
-      name: "&c&lSemi Auto Pistol"
-      ctd: "10"
-      lore:
-        - "&fSar tylko to pistolet"
-      price: "400"
-    733:
-      item: "rabbit foot"
-      name: "&e.22lr Ammo"
-      ctd: "10"
-      lore:
-        - "&fAmunicja do &cSemi Auto Pistol"
-      price: "60"
-    733a:
-      item: "rabbit foot"
-      name: "&e.22lr Ammo"
-      ctd: "10"
-      lore:
-        - "&fAmunicja do &c&lSemi Auto Pistol"
-      price: "60"
+      name: "&eRifle Ammo"
+      ctd: "4"
+      price: "50"
     734:
       item: "wooden sword"
       name: "&c&lM92 Pistol"
-      ctd: "36"
+      ctd: "6"
       amount: "1"
       lore:
         - "&fProsto od Cobalt Corp."
       price: "25000"
-    735:
-      item: "rabbit foot"
-      name: "&e10x19mm Ammo"
-      ctd: "12"
-      lore:
-        - "&fAmunicja do &c&lM92 Pistol"
-      price: "150"
     736:
       item: "wooden sword"
       name: "&c&lPump"
@@ -10381,14 +10813,6 @@ joe:
       lore:
         - "&fTypowa Pompa co tu dużo mówić"
       price: "30000"
-    737:
-      item: "rabbit foot"
-      name: "&e8ga Buckshot"
-      ctd: "7"
-      amount: "2"
-      lore:
-        - "&fAmunicja do &c&lPump"
-      price: "200"
     738:
       item: "diamond chestplate"
       name: "&e&lHazmat"
@@ -10407,7 +10831,7 @@ joe:
         - "lure 10"
         - "protection 5"
         - "unbreaking 6"
-      price: "90000"
+      price: "50000"
     739:
       item: "wooden sword"
       name: "&4&lMP5"
@@ -10421,12 +10845,12 @@ joe:
       price: "90000"
     740:
       item: "rabbit foot"
-      name: "&e9x18mm Ammo"
+      name: "&e9x19mm Ammo"
       ctd: "6"
       amount: "16"
       lore:
         - "&fAmunicja do &4&lMP5"
-      price: "400"
+      price: "50"
     741:
       item: "wooden sword"
       name: "&4&lM4 Shotgun"
@@ -10436,11 +10860,9 @@ joe:
       price: "90000"
     742:
       item: "rabbit foot"
-      name: "&e12ga Buckshot"
-      ctd: "9"
-      lore:
-        - "&fAmunicja do &4&lM4 Shotgun"
-      price: "600"
+      name: "&e8ga Buckshot"
+      ctd: "7"
+      price: "50"
     743:
       item: "wooden sword"
       name: "&4&lPython"
@@ -10455,7 +10877,7 @@ joe:
       ctd: "11"
       lore:
         - "&fAmunicja do &4&lPython"
-      price: "500"
+      price: "50"
     745:
       item: "wooden sword"
       name: "&4&lRocket Launcher"
@@ -10801,7 +11223,7 @@ totems:
             2:
               type: "skeleton"
               xp: "1.5"
-            2:
+            2a:
               type: "spider"
               xp: "1.3"
             4:
@@ -10996,7 +11418,7 @@ totems:
       xp:
         gain:
           money:
-            xp-transfer: "500"
+            xp-transfer: "1000"
             debuff:
               flee: "0" #kupno na flee, nie dziala jak sprzedajesz bo to by bylo chujowe fest
               przelej: "0"
@@ -11492,11 +11914,17 @@ help:
   30:
     icon:
       1:
+        icon: "ender eye"
+    name: "&aPowiadomienia Discord"
+    text: "Możesz otrzymywać powiadomienia na Discordzie, gdy ktoś cię zabije w trakcie snu lub gdy ktoś użyje C4/rakiety na terenie twojego TC. &cWiadomosci &cotrzymasz &cnawet &cgdy &cjesteś &coffline, &cpamietaj &caby &cmieć &cwlączone &cDM'y. &fAby wejść na Discorda, użyj komendy &e/info&f, następnie dołącz do naszego Discorda i wpisz w Minecraft komendę &e/auth&f. Na czacie pojawi się kod, który należy wpisać na Discordzie na kanale bot za pomocą komendy &e/auth &ekod&f. Możesz również odparować konto za pomocą &e/auth &eclear&f."
+  32:
+    icon:
+      1:
         icon: "cut red sandstone slab"
         ctd: "90"
     name: "&4Recycler"
     text: "Jest to maszyna, do której możesz włożyć przedmioty, aby otrzymać komponenty, z których te przedmioty były stworzone. Znajduje się gdzieś na miejscówce."
-  31:
+  33:
     icon:
       1:
         icon: "kelp"
@@ -11529,7 +11957,9 @@ help:
       - "&e/kit &7- &fZestawy dla graczy, które można odebrać co jakiś czas."
       - "&e/tc &7- &fPozwala sprawdzić, czy możesz postawić TC w miejscu, w którym się znajdujesz."
       - "&e/tip &7- &fZarządzanie wiadomościami na chacie [TIP]."
-  32:
+      - "&e/auth &7- &fZeby sparować konto MC z kontem Discord."
+      - "&e/auth clear &7- &fAby odparować konto MC z Discord"
+  34:
     icon:
       1:
         icon: "writable book"
@@ -11554,5 +11984,67 @@ Reg:
   12: "&cTC musi znajdować się w centrum twojej bazy (tam gdzie trzymasz swoję najlepsze itemy)"
   13: "&cJeśli twoja baza znajduje się pod ziemią musisz ją w jakiś sposób oznaczyć np. beacon, wieża"
   14: "&cJeśli planujesz zbudować coś ładnego i nie chcesz aby ta budowla została zniszczona, możesz się ubiegać o Złote TC (discord), które nie może zostać zrajdowane (Zasadą jest to ze w takiej bazie nie może znajdować się żaden loot)"
+
+#meme
+
+memebot:
+  bena:
+    - "Cute and Creepy - Mięta"
+    - "Cute and Creepy - Cola"
+    - "Cute and Creepy - Watermelon"
+    - "Cute and Creepy - Poziomka GG"
+    - "Cute and Creepy - energol"
+    - "Cute and Creepy - Cola"
+    - "Fruity Delight - Mango"
+    - "Cool Breeze - Mint"
+    - "Sweet Dreams - Vanilla Custard"
+    - "Summer Splash - Watermelon"
+    - "Tropical Twist - Pineapple Coconut"
+    - "Rich Blend - Coffee"
+    - "Berry Blast - Blueberry"
+    - "Exotic Escape - Dragonfruit"
+    - "Fresh Morning - Lemon Mint"
+    - "Silky Smooth - Chocolate"
+    - "Juicy Joy - Strawberry Kiwi"
+    - "Citrus Burst - Orange Lime"
+    - "Nutty Pleasure - Hazelnut"
+    - "Mystic Melon - Honeydew Melon"
+    - "Spicy Treat - Cinnamon Roll"
+    - "Classic Choice - Tobacco"
+    - "Gourmet Delight - Caramel"
+    - "Ocean Breeze - Sea Salt"
+    - "Tangy Twist - Raspberry Lemonade"
+    - "Winter Chill - Peppermint"
+    - "Sunset Bliss - Peach"
+    - "Bold Roast - Espresso"
+    - "Golden Harvest - Apple Pie"
+    - "Tropical Paradise - Passion Fruit"
+    - "Deep Forest - Blackberry"
+    - "Velvet Touch - Almond"
+    - "Midnight Magic - Black Currant"
+    - "Candy Crush - Bubblegum"
+    - "Caribbean Dream - Coconut Rum"
+    - "Berry Fusion - Mixed Berries"
+    - "Golden Sunshine - Pineapple"
+    - "Royal Treat - Butterscotch"
+    - "Crisp Delight - Green Apple"
+    - "Sweet Harmony - Maple Syrup"
+    - "Exotic Zing - Lychee"
+    - "Mellow Mood - Caramel Mocha"
+    - "Honey Hive - Honeydew"
+    - "Island Vibes - Guava"
+    - "Zesty Burst - Lemon Lime"
+    - "Smooth Bliss - Toffee"
+    - "Forest Berries - Wild Berries"
+    - "Fluffy Cloud - Marshmallow"
+    - "Elegant Essence - Rose"
+    - "Tropical Storm - Mango Passion"
+    - "Citrus Kiss - Grapefruit"
+    - "Dark Delight - Dark Chocolate"
+    - "Minty Fresh - Spearmint"
+    - "Summer Vibes - Melon Berry"
+    - "Lavender Dream - Lavender Vanilla"
+    - "Kacuu dziwko zrob yamala - kacuu cwel"
+
 
 #-------------------------- End of Config -------------------------------------
